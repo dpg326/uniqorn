@@ -33,31 +33,9 @@ async function loadRecentGames(): Promise<RecentGame[]> {
   }
 
   try {
-    // Use the fixed filename
+    // Use the correct path in public/data directory
     const exactFilename = 'Most_Recent_Games_Master.xlsx';
-    
-    // Try multiple possible paths for the Excel file
-    const possiblePaths = [
-      join(process.cwd(), '..', '..', exactFilename),
-      join(process.cwd(), '..', exactFilename),
-      join(process.cwd(), exactFilename),
-      'C:\\Users\\danie\\Documents\\Uniqorn\\' + exactFilename
-    ];
-    
-    let dataPath = '';
-    for (const path of possiblePaths) {
-      try {
-        await readFile(path);
-        dataPath = path;
-        break;
-      } catch (e) {
-        // Try next path
-      }
-    }
-    
-    if (!dataPath) {
-      throw new Error(`Excel file not found: ${exactFilename}`);
-    }
+    const dataPath = join(process.cwd(), 'public', 'data', exactFilename);
     
     console.log('Reading Excel file:', dataPath);
     

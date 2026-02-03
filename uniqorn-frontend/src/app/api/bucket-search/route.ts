@@ -27,29 +27,8 @@ async function loadBucketData() {
   }
 
   try {
-    // Try multiple possible paths for the bucket data file
-    const possiblePaths = [
-      join(process.cwd(), '..', '..', 'master_bucket_database.json'),
-      join(process.cwd(), '..', 'master_bucket_database.json'),
-      join(process.cwd(), 'master_bucket_database.json'),
-      'C:\\Users\\danie\\Documents\\Uniqorn\\master_bucket_database.json'
-    ];
-    
-    let dataPath = '';
-    for (const path of possiblePaths) {
-      try {
-        await readFile(path, 'utf-8');
-        dataPath = path;
-        break;
-      } catch (e) {
-        // Try next path
-      }
-    }
-    
-    if (!dataPath) {
-      throw new Error('Bucket data file not found in any expected location');
-    }
-    
+    // Use the correct path in public/data directory
+    const dataPath = join(process.cwd(), 'public', 'data', 'master_bucket_database.json');
     const fileContent = await readFile(dataPath, 'utf-8');
     bucketData = JSON.parse(fileContent);
     lastLoadTime = now;
@@ -62,7 +41,7 @@ async function loadBucketData() {
 
 export async function GET(request: NextRequest) {
   try {
-    const { searchParams } = new URL(request.url);
+    const searchParams = request.nextUrl.searchParams;
     const points_bin = parseInt(searchParams.get('points_bin') || '0');
     const assists_bin = parseInt(searchParams.get('assists_bin') || '0');
     const rebounds_bin = parseInt(searchParams.get('rebounds_bin') || '0');
