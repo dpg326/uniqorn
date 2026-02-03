@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Large data files (exclude from repo - these are generated/downloaded)
+PlayerStatistics.csv
+master_bucket_database.json
+master_bucket_summary.json
+*.xlsx
+
+# Chart folders (generated)
+uniqorn-frontend/public/season-charts/
+uniqorn-frontend/public/ultimate-charts/
+uniqorn-frontend/public/season-charts-master/
+uniqorn-frontend/public/ultimate-charts-master/
+
+# Archive folder
+archive/
+
+# Node.js
+node_modules/
+.next/
+out/
+.vercel/
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Temporary files
+*.tmp
+*.temp
