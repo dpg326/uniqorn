@@ -10,10 +10,54 @@ interface ChartData {
   blocks: number;
   steals: number;
   isUltimate?: boolean;
+  opponentteamName?: string;
 }
 
 function generateRadarChartHTML(data: ChartData): string {
-  const { firstName, lastName, game_date, points, assists, rebounds, blocks, steals } = data;
+  const { firstName, lastName, game_date, points, assists, rebounds, blocks, steals, isUltimate, opponentteamName } = data;
+  
+  // Use the same bucket definitions as the Python script
+  const points_bins = [0, 5, 10, 15, 20, 25, 30, 40, 50, Infinity];
+  const assists_bins = [0, 2, 5, 8, 12, 20, Infinity];
+  const rebounds_bins = [0, 2, 5, 10, 15, 20, Infinity];
+  const blocks_bins = [0, 1, 3, 5, 7, Infinity];
+  const steals_bins = [0, 1, 3, 5, 7, Infinity];
+  
+  // Convert raw stats to bucket indices (matching Python logic)
+  const getBucketIndex = (value: number, bins: number[]) => {
+    for (let i = 0; i < bins.length - 1; i++) {
+      if (value >= bins[i] && value < bins[i + 1]) {
+        return i;
+      }
+    }
+    return bins.length - 2; // Last valid bucket index
+  };
+  
+  const points_bin = getBucketIndex(points, points_bins);
+  const assists_bin = getBucketIndex(assists, assists_bins);
+  const rebounds_bin = getBucketIndex(rebounds, rebounds_bins);
+  const blocks_bin = getBucketIndex(blocks, blocks_bins);
+  const steals_bin = getBucketIndex(steals, steals_bins);
+  
+  const values = [points_bin, assists_bin, rebounds_bin, blocks_bin, steals_bin];
+  const values_closed = [...values, values[0]];
+  const labels = ["PTS", "AST", "REB", "BLK", "STL"];
+  const labels_closed = [...labels, labels[0]];
+  
+  const max_bucket = Math.max(
+    points_bins.length - 2,
+    assists_bins.length - 2,
+    rebounds_bins.length - 2,
+    blocks_bins.length - 2,
+    steals_bins.length - 2
+  );
+  
+  const accent = isUltimate ? "rgb(168, 85, 247)" : "rgb(56, 189, 248)";
+  const fillColor = isUltimate ? "rgba(168, 85, 247, 0.20)" : "rgba(56, 189, 248, 0.20)";
+  
+  const title = opponentteamName 
+    ? `${firstName} ${lastName} vs ${opponentteamName} (${game_date})`
+    : `${firstName} ${lastName} (${game_date})`;
   
   return `
 <!DOCTYPE html>
@@ -32,102 +76,61 @@ function generateRadarChartHTML(data: ChartData): string {
             align-items: center;
             min-height: 100vh;
         }
-        .chart-container {
-            background: #18181b;
-            border-radius: 16px;
-            border: 1px solid rgba(56, 189, 248, 0.2);
-            padding: 20px;
-            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
-        }
-        .title {
-            color: #e2e8f0;
-            text-align: center;
-            margin-bottom: 20px;
-            font-size: 18px;
-            font-weight: 600;
-        }
-        .subtitle {
-            color: #94a3b8;
-            text-align: center;
-            margin-bottom: 30px;
-            font-size: 14px;
-        }
     </style>
 </head>
 <body>
-    <div class="chart-container">
-        <div class="title">${firstName} ${lastName}</div>
-        <div class="subtitle">${game_date}</div>
-        <div id="radarChart" style="width: 500px; height: 500px;"></div>
-    </div>
+    <div id="radarChart" style="width: 700px; height: 700px;"></div>
 
     <script>
-        const stats = {
-            'Points': ${points},
-            'Assists': ${assists},
-            'Rebounds': ${rebounds},
-            'Blocks': ${blocks},
-            'Steals': ${steals}
-        };
-
-        const maxValues = {
-            'Points': 70,
-            'Assists': 25,
-            'Rebounds': 30,
-            'Blocks': 15,
-            'Steals': 10
-        };
-
-        const normalizedStats = Object.keys(stats).map(key => 
-            (stats[key] / maxValues[key]) * 100
-        );
-
         const trace1 = {
             type: 'scatterpolar',
-            r: normalizedStats,
-            theta: Object.keys(stats),
+            r: ${JSON.stringify(values_closed)},
+            theta: ${JSON.stringify(labels_closed)},
             fill: 'toself',
-            name: 'Player Stats',
+            fillcolor: '${fillColor}',
             line: {
-                color: '${data.isUltimate ? 'rgb(168, 85, 247)' : 'rgb(56, 189, 248)'}',
+                color: '${accent}',
                 width: 3
             },
-            fillcolor: '${data.isUltimate ? 'rgba(168, 85, 247, 0.3)' : 'rgba(56, 189, 248, 0.3)'}'
+            marker: {
+                color: '${accent}',
+                size: 6
+            }
         };
 
         const layout = {
+            template: 'plotly_dark',
+            title: {
+                text: '${title}',
+                x: 0.5,
+                xanchor: 'center',
+                font: {
+                    size: 14,
+                    color: 'rgba(224, 242, 254, 1)'
+                }
+            },
+            margin: {
+                l: 40,
+                r: 40,
+                t: 70,
+                b: 40
+            },
+            paper_bgcolor: 'rgba(0,0,0,0)',
+            plot_bgcolor: 'rgba(0,0,0,0)',
             polar: {
+                bgcolor: 'rgba(0,0,0,0)',
                 radialaxis: {
-                    visible: true,
-                    range: [0, 100],
-                    showgrid: true,
-                    gridcolor: 'rgba(156, 163, 175, 0.2)',
-                    linecolor: 'rgba(156, 163, 175, 0.3)',
-                    tickcolor: 'rgba(156, 163, 175, 0.5)',
+                    range: [0, ${max_bucket}],
+                    showticklabels: true,
                     tickfont: {
-                        color: 'rgba(156, 163, 175, 0.8)'
+                        color: 'rgba(228,228,231,1)'
                     }
                 },
                 angularaxis: {
-                    showgrid: false,
                     tickfont: {
-                        color: '#e2e8f0',
-                        size: 12
-                    },
-                    linecolor: 'rgba(156, 163, 175, 0.3)'
-                },
-                bgcolor: 'rgba(24, 24, 27, 0.5)'
-            },
-            paper_bgcolor: 'transparent',
-            plot_bgcolor: 'transparent',
-            font: {
-                color: '#e2e8f0'
-            },
-            margin: {
-                l: 50,
-                r: 50,
-                t: 50,
-                b: 50
+                        color: 'rgba(224,242,254,1)'
+                    }
+                }
             },
             showlegend: false
         };
@@ -155,6 +158,7 @@ export async function GET(request: NextRequest) {
   const blocks = parseInt(searchParams.get('blocks') || '0');
   const steals = parseInt(searchParams.get('steals') || '0');
   const isUltimate = searchParams.get('isUltimate') === 'true';
+  const opponentteamName = searchParams.get('opponentteamName') || '';
 
   if (!firstName || !lastName || !game_date) {
     return NextResponse.json(
@@ -172,7 +176,8 @@ export async function GET(request: NextRequest) {
     rebounds,
     blocks,
     steals,
-    isUltimate
+    isUltimate,
+    opponentteamName
   });
 
   return new Response(chartHTML, {

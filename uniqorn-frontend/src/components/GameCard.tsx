@@ -14,6 +14,7 @@ type Game = {
   rebounds: number;
   blocks: number;
   steals: number;
+  opponentteamName?: string;
 };
 
 export default function GameCard({ game, isUltimate = false }: { game: Game; isUltimate?: boolean }) {
@@ -39,7 +40,8 @@ export default function GameCard({ game, isUltimate = false }: { game: Game; isU
                 assists: game.assists,
                 rebounds: game.rebounds,
                 blocks: game.blocks,
-                steals: game.steals
+                steals: game.steals,
+                opponentteamName: game.opponentteamName
               }}
             />
           ) : (

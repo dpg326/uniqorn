@@ -14,6 +14,7 @@ export default function ChartImage({ file, isUltimate = false, gameData }: {
     rebounds: number;
     blocks: number;
     steals: number;
+    opponentteamName?: string;
   };
 }) {
   const isProduction = process.env.NODE_ENV === 'production';
@@ -31,7 +32,8 @@ export default function ChartImage({ file, isUltimate = false, gameData }: {
         rebounds: gameData.rebounds.toString(),
         blocks: gameData.blocks.toString(),
         steals: gameData.steals.toString(),
-        isUltimate: isUltimate.toString()
+        isUltimate: isUltimate.toString(),
+        ...(gameData.opponentteamName && { opponentteamName: gameData.opponentteamName })
       });
       return `/api/generate-chart?${params.toString()}`;
     } else {
