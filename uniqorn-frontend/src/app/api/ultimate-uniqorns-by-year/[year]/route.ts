@@ -9,7 +9,7 @@ export async function GET(
     const year = params.year;
     console.log('Fetching Ultimate games for year:', year);
     
-    const filePath = join(process.cwd(), '..', 'Ultimate_Uniqorn_Games_Master.xlsx');
+    const filePath = join(process.cwd(), 'public', 'data', 'Ultimate_Uniqorn_Games_Master.xlsx');
     
     const fileBuffer = await readFile(filePath);
     

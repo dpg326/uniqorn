@@ -3,7 +3,7 @@ import { join } from 'path';
 
 export async function GET() {
   try {
-    const filePath = join(process.cwd(), '..', 'Uniqorn_Master.xlsx');
+    const filePath = join(process.cwd(), 'public', 'data', 'Uniqorn_Master.xlsx');
     console.log('Reading Uniqorn_Master.xlsx for trends data');
     
     const fileBuffer = await readFile(filePath);
