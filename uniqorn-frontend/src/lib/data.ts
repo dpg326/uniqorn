@@ -50,7 +50,7 @@ async function readWorkbookSheet<T>(absPath: string, sheetName?: string): Promis
 }
 
 export async function getCurrentSeasonLeaders(limit = 25): Promise<LeaderRow[]> {
-  const uniqornXlsx = join(process.cwd(), '..', 'Uniqorn_Master.xlsx');
+  const uniqornXlsx = join(process.cwd(), 'public', 'data', 'Uniqorn_Master.xlsx');
   const wb = await readWorkbook(uniqornXlsx);
 
   const seasonSheets = wb.SheetNames.filter((s: string) => s.includes('-') && s !== 'AllTimeTop20');
@@ -64,13 +64,13 @@ export async function getCurrentSeasonLeaders(limit = 25): Promise<LeaderRow[]> 
 }
 
 export async function getAvailableSeasons(): Promise<string[]> {
-  const uniqornXlsx = join(process.cwd(), '..', 'Uniqorn_Master.xlsx');
+  const uniqornXlsx = join(process.cwd(), 'public', 'data', 'Uniqorn_Master.xlsx');
   const wb = await readWorkbook(uniqornXlsx);
   return wb.SheetNames.filter((s: string) => s.includes('-') && s !== 'AllTimeTop20').sort();
 }
 
 export async function getSeasonLeaders(season: string, limit = 50): Promise<LeaderRow[]> {
-  const uniqornXlsx = join(process.cwd(), '..', 'Uniqorn_Master.xlsx');
+  const uniqornXlsx = join(process.cwd(), 'public', 'data', 'Uniqorn_Master.xlsx');
   const wb = await readWorkbook(uniqornXlsx);
   const ws = wb.Sheets[season];
   if (!ws) return [];
@@ -79,7 +79,7 @@ export async function getSeasonLeaders(season: string, limit = 50): Promise<Lead
 }
 
 export async function getAllTimeLeaders(limit = 50): Promise<AllTimeRow[]> {
-  const uniqornXlsx = join(process.cwd(), '..', 'Uniqorn_Master.xlsx');
+  const uniqornXlsx = join(process.cwd(), 'public', 'data', 'Uniqorn_Master.xlsx');
   const allTime = await readWorkbookSheet<AllTimeRow>(uniqornXlsx, 'AllTimeTop20');
   if (allTime.length) return allTime.slice(0, limit);
 
@@ -154,7 +154,7 @@ export function safeChartFileName(firstName: string, lastName: string, rawDate: 
 }
 
 export async function getRecentUniqornGames(limit = 10): Promise<UniqornGameRow[]> {
-  const filePath = join(process.cwd(), '..', 'CurrentSeason_UniqornGames_Master.xlsx');
+  const filePath = join(process.cwd(), 'public', 'data', 'CurrentSeason_UniqornGames_Master.xlsx');
   const fileBuffer = await readFile(filePath);
   const workbook = XLSX.read(fileBuffer, { type: 'buffer' });
   const sheet = workbook.Sheets[workbook.SheetNames[0]];
@@ -212,7 +212,7 @@ type UltimateChanges = {
 };
 
 async function getUltimateChanges(): Promise<UltimateChanges> {
-  const changesPath = join(process.cwd(), '..', 'ultimate_changes_master.json');
+  const changesPath = join(process.cwd(), 'public', 'data', 'ultimate_changes_master.json');
   try {
     const fileBuffer = await readFile(changesPath, 'utf-8');
     return JSON.parse(fileBuffer);
@@ -222,7 +222,7 @@ async function getUltimateChanges(): Promise<UltimateChanges> {
 }
 
 export async function getMostRecentUltimateUniqorn() {
-  const filePath = join(process.cwd(), '..', 'Ultimate_Uniqorn_Games_Master.xlsx');
+  const filePath = join(process.cwd(), 'public', 'data', 'Ultimate_Uniqorn_Games_Master.xlsx');
   const fileBuffer = await readFile(filePath);
   const workbook = XLSX.read(fileBuffer, { type: 'buffer' });
   const sheet = workbook.Sheets[workbook.SheetNames[0]];

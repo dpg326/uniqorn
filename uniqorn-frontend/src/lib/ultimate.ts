@@ -24,7 +24,7 @@ export type PlayerEntry = {
 };
 
 export async function getUltimateData(): Promise<PlayerEntry[]> {
-  const filePath = join(process.cwd(), '..', 'Ultimate_Uniqorn_Games_Master.xlsx');
+  const filePath = join(process.cwd(), 'public', 'data', 'Ultimate_Uniqorn_Games_Master.xlsx');
   const fileBuffer = await readFile(filePath);
   const workbook = XLSX.read(fileBuffer, { type: 'buffer' });
   const sheet = workbook.Sheets[workbook.SheetNames[0]];

@@ -16,14 +16,10 @@ PlayerStatistics.csv
 master_bucket_database.json
 master_bucket_summary.json
 
-# Keep Master Excel files for frontend
-!Uniqorn_Master.xlsx
-!Most_Recent_Games_Master.xlsx
-!CurrentSeason_UniqornGames_Master.xlsx
-!Ultimate_Uniqorn_Games_Master.xlsx
-!Ultimate_Uniqorn_Leaderboard_Master.xlsx
-!Previous_Ultimate_Uniqorn_Games_Master.xlsx
-!ultimate_changes_master.json
+# Excel files - keep only in public/data, exclude from root
+*.xlsx
+!uniqorn-frontend/public/data/*.xlsx
+!uniqorn-frontend/public/data/*.json
 
 # Chart folders (generated)
 uniqorn-frontend/public/season-charts/
