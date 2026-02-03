@@ -28,7 +28,20 @@ export default function GameCard({ game, isUltimate = false }: { game: Game; isU
       <div className="relative w-full rounded overflow-hidden" style={{ paddingBottom: '100%' }}>
         <div className="absolute inset-0">
           {!imageError ? (
-            <ChartImage file={chartFileName} isUltimate={isUltimate} />
+            <ChartImage 
+              file={chartFileName} 
+              isUltimate={isUltimate}
+              gameData={{
+                firstName: game.firstName,
+                lastName: game.lastName,
+                game_date: game.game_date,
+                points: game.points,
+                assists: game.assists,
+                rebounds: game.rebounds,
+                blocks: game.blocks,
+                steals: game.steals
+              }}
+            />
           ) : (
             <div className="w-full h-full flex items-center justify-center text-zinc-500 text-xs">
               Chart not found

@@ -3,8 +3,34 @@ import ChartImage from '@/components/ChartImage';
 
 type Params = { file: string };
 
+// Extract game data from filename
+function parseGameDataFromFilename(filename: string) {
+  const baseName = filename.replace('.png', '');
+  const parts = baseName.split('_');
+  
+  if (parts.length >= 3) {
+    const date = parts[parts.length - 1];
+    const lastName = parts[parts.length - 2];
+    const firstName = parts.slice(0, parts.length - 2).join(' ');
+    
+    return {
+      firstName,
+      lastName,
+      game_date: date,
+      points: 0,
+      assists: 0,
+      rebounds: 0,
+      blocks: 0,
+      steals: 0
+    };
+  }
+  
+  return null;
+}
+
 export default function Page({ params }: { params: Params }) {
   const file = decodeURIComponent(params.file);
+  const gameData = parseGameDataFromFilename(file);
   
   // Parse the filename to extract player name and date
   const baseName = file.replace('.png', '');
@@ -20,6 +46,8 @@ export default function Page({ params }: { params: Params }) {
       }) 
     : '';
 
+  const isProduction = process.env.NODE_ENV === 'production';
+
   return (
     <div className="max-w-4xl mx-auto">
       <div className="rounded-2xl border border-sky-400/20 bg-zinc-900/60 backdrop-blur-sm overflow-hidden">
@@ -28,10 +56,18 @@ export default function Page({ params }: { params: Params }) {
           <p className="text-sm text-zinc-300 mt-1">
             Statistical performance visualization for {playerName} on {formattedDate}
           </p>
+          {isProduction && (
+            <p className="text-xs text-sky-300 mt-2">
+              🔄 Dynamically generated chart
+            </p>
+          )}
         </div>
         <div className="p-6">
-          <div className="overflow-hidden rounded-xl border border-sky-400/20 bg-zinc-950/40 p-4">
-            <ChartImage file={file} />
+          <div className={`overflow-hidden rounded-xl border border-sky-400/20 bg-zinc-950/40 p-4 ${isProduction ? 'h-[600px]' : ''}`}>
+            <ChartImage 
+              file={file} 
+              gameData={gameData || undefined}
+            />
           </div>
           <div className="mt-6 text-center">
             <Link 
