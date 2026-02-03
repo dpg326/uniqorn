@@ -1,6 +1,8 @@
 import Link from 'next/link';
 
 import { getCurrentSeasonLeaders, getRecentUniqornGames, getMostRecentUltimateUniqorn, safeChartFileName } from '@/lib/data';
+import UltimateChartCard from '@/components/UltimateChartCard';
+import RecentGameCard from '@/components/RecentGameCard';
 
 export default async function Page() {
   const [leaders, recent, mostRecentUltimate] = await Promise.all([
@@ -85,44 +87,17 @@ export default async function Page() {
                   </p>
                 </div>
                 <div className="p-6">
-                  <div className="group cursor-pointer">
-                    <Link href={`/charts/${safeChartFileName(mostRecentUltimate.firstName, mostRecentUltimate.lastName, mostRecentUltimate.game_date)}`}>
-                      <div className="space-y-3">
-                        <div className="text-center">
-                          <div className="text-xl font-bold text-zinc-50">
-                            {mostRecentUltimate.firstName} {mostRecentUltimate.lastName}
-                          </div>
-                          <div className="text-sm text-zinc-400">
-                            {mostRecentUltimate.game_date}
-                          </div>
-                        </div>
-                        
-                        <div className="flex flex-wrap justify-center gap-2">
-                          <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-purple-400/20 text-purple-200">
-                            {mostRecentUltimate.points} pts
-                          </span>
-                          <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-purple-400/20 text-purple-200">
-                            {mostRecentUltimate.assists} ast
-                          </span>
-                          <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-purple-400/20 text-purple-200">
-                            {mostRecentUltimate.rebounds} reb
-                          </span>
-                          <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-purple-400/20 text-purple-200">
-                            {mostRecentUltimate.blocks} blk
-                          </span>
-                          <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-purple-400/20 text-purple-200">
-                            {mostRecentUltimate.steals} stl
-                          </span>
-                        </div>
-                        
-                        <div className="text-center">
-                          <span className="inline-flex items-center text-xs text-purple-300 group-hover:text-purple-200 transition-colors">
-                            View Radar Chart →
-                          </span>
-                        </div>
-                      </div>
-                    </Link>
-                  </div>
+                  <UltimateChartCard
+                    firstName={mostRecentUltimate.firstName}
+                    lastName={mostRecentUltimate.lastName}
+                    game_date={mostRecentUltimate.game_date}
+                    points={mostRecentUltimate.points}
+                    assists={mostRecentUltimate.assists}
+                    rebounds={mostRecentUltimate.rebounds}
+                    blocks={mostRecentUltimate.blocks}
+                    steals={mostRecentUltimate.steals}
+                    opponentteamName={mostRecentUltimate.opponentteamName}
+                  />
                 </div>
               </div>
             )}
@@ -138,43 +113,18 @@ export default async function Page() {
               <div className="p-6">
                 <div className="space-y-4">
                   {recent.map((game) => (
-                    <div key={`${game.firstName}-${game.lastName}-${game.game_date}`} className="group">
-                      <Link href={`/charts/${game.chartFile}`}>
-                        <div className="block p-4 rounded-xl border border-zinc-700/50 hover:border-sky-400/50 hover:bg-sky-400/10 transition-all duration-200">
-                          <div className="flex items-start justify-between">
-                            <div className="flex-1">
-                              <div className="font-medium text-zinc-50 group-hover:text-sky-200 transition-colors">
-                                {game.firstName} {game.lastName}
-                              </div>
-                              <div className="text-sm text-zinc-400 mt-1">
-                                {game.game_date}
-                              </div>
-                            </div>
-                            <div className="flex items-center text-xs text-sky-200 opacity-0 group-hover:opacity-100 transition-opacity">
-                              Chart →
-                            </div>
-                          </div>
-                          
-                          <div className="mt-3 flex flex-wrap gap-1">
-                            <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-sky-400/20 text-sky-200">
-                              {game.points} pts
-                            </span>
-                            <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-sky-400/20 text-sky-200">
-                              {game.assists} ast
-                            </span>
-                            <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-sky-400/20 text-sky-200">
-                              {game.rebounds} reb
-                            </span>
-                            <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-sky-400/20 text-sky-200">
-                              {game.blocks} blk
-                            </span>
-                            <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-sky-400/20 text-sky-200">
-                              {game.steals} stl
-                            </span>
-                          </div>
-                        </div>
-                      </Link>
-                    </div>
+                    <RecentGameCard
+                      key={`${game.firstName}-${game.lastName}-${game.game_date}`}
+                      firstName={game.firstName}
+                      lastName={game.lastName}
+                      game_date={game.game_date}
+                      points={game.points}
+                      assists={game.assists}
+                      rebounds={game.rebounds}
+                      blocks={game.blocks}
+                      steals={game.steals}
+                      opponentteamName={game.opponentteamName}
+                    />
                   ))}
                 </div>
               </div>

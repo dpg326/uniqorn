@@ -79,7 +79,7 @@ function generateRadarChartHTML(data: ChartData): string {
     </style>
 </head>
 <body>
-    <div id="radarChart" style="width: 700px; height: 700px;"></div>
+    <div id="radarChart" style="width: 100%; height: 100%; min-width: 400px; min-height: 400px; max-width: 500px; max-height: 500px;"></div>
 
     <script>
         const trace1 = {
@@ -137,7 +137,8 @@ function generateRadarChartHTML(data: ChartData): string {
 
         const config = {
             responsive: true,
-            displayModeBar: false
+            displayModeBar: false,
+            staticPlot: false
         };
 
         Plotly.newPlot('radarChart', [trace1], layout, config);
