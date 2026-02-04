@@ -188,7 +188,7 @@ export default function BucketSearch() {
                 </div>
               </div>
 
-              {result.count <= 10 && result.games.length > 0 && (
+              {result.count <= 10 && result.count > 0 && result.games.length > 0 && (
                 <div className="mt-6">
                   <h3 className="text-lg font-semibold text-zinc-200 mb-4">Game Details</h3>
                   <div className="space-y-3">
