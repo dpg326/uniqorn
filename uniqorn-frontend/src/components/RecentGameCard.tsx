@@ -36,7 +36,7 @@ export default function RecentGameCard({
       isUltimate: 'false',
       ...(opponentteamName && { opponentteamName })
     });
-    window.open(`/api/generate-chart?${params.toString()}`, '_blank', 'width=500,height=500');
+    window.open(`/api/generate-chart?${params.toString()}`, '_blank', 'width=550,height=550');
   };
 
   return (
