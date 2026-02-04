@@ -1,0 +1,2814 @@
+{
+  "(5, 0, 4, 0, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Dominick Barlow",
+        "date": 46055,
+        "stats": "26 PTS / 2 AST / 16 REB / 1 BLK / 2 STL",
+        "team": "76ers",
+        "opponent": "Clippers"
+      }
+    ]
+  },
+  "(1, 1, 3, 2, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Donovan Clingan",
+        "date": 46054,
+        "stats": "8 PTS / 5 AST / 12 REB / 4 BLK / 0 STL",
+        "team": "Trail Blazers",
+        "opponent": "Cavaliers"
+      }
+    ]
+  },
+  "(3, 3, 1, 1, 2)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Cade Cunningham",
+        "date": 46054,
+        "stats": "18 PTS / 12 AST / 4 REB / 3 BLK / 4 STL",
+        "team": "Pistons",
+        "opponent": "Nets"
+      }
+    ]
+  },
+  "(6, 4, 1, 0, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Shai Gilgeous-Alexander",
+        "date": 46054,
+        "stats": "34 PTS / 13 AST / 5 REB / 1 BLK / 2 STL",
+        "team": "Thunder",
+        "opponent": "Nuggets"
+      }
+    ]
+  },
+  "(0, 3, 1, 1, 2)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Craig Porter Jr.",
+        "date": 46054,
+        "stats": "3 PTS / 12 AST / 4 REB / 2 BLK / 5 STL",
+        "team": "Cavaliers",
+        "opponent": "Trail Blazers"
+      }
+    ]
+  },
+  "(6, 1, 4, 2, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Jarrett Allen",
+        "date": 46054,
+        "stats": "40 PTS / 5 AST / 17 REB / 4 BLK / 2 STL",
+        "team": "Cavaliers",
+        "opponent": "Trail Blazers"
+      }
+    ]
+  },
+  "(1, 0, 4, 1, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Rudy Gobert",
+        "date": 46053,
+        "stats": "9 PTS / 0 AST / 16 REB / 2 BLK / 2 STL",
+        "team": "Timberwolves",
+        "opponent": "Grizzlies"
+      }
+    ]
+  },
+  "(1, 1, 2, 2, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Yves Missi",
+        "date": 46053,
+        "stats": "7 PTS / 3 AST / 8 REB / 4 BLK / 0 STL",
+        "team": "Pelicans",
+        "opponent": "76ers"
+      }
+    ]
+  },
+  "(1, 0, 2, 0, 3)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Ausar Thompson",
+        "date": 46052,
+        "stats": "7 PTS / 2 AST / 8 REB / 0 BLK / 6 STL",
+        "team": "Pistons",
+        "opponent": "Warriors"
+      }
+    ]
+  },
+  "(3, 0, 3, 1, 3)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Jaren Jackson Jr.",
+        "date": 46052,
+        "stats": "16 PTS / 2 AST / 9 REB / 2 BLK / 6 STL",
+        "team": "Grizzlies",
+        "opponent": "Pelicans"
+      }
+    ]
+  },
+  "(1, 3, 0, 1, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Derrick White",
+        "date": 46052,
+        "stats": "7 PTS / 9 AST / 2 REB / 2 BLK / 1 STL",
+        "team": "Celtics",
+        "opponent": "Kings"
+      }
+    ]
+  },
+  "(4, 0, 4, 3, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Myles Turner",
+        "date": 46051,
+        "stats": "21 PTS / 1 AST / 14 REB / 6 BLK / 0 STL",
+        "team": "Bucks",
+        "opponent": "Wizards"
+      }
+    ]
+  },
+  "(2, 3, 2, 0, 2)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Dyson Daniels",
+        "date": 46050,
+        "stats": "15 PTS / 9 AST / 6 REB / 1 BLK / 5 STL",
+        "team": "Hawks",
+        "opponent": "Celtics"
+      }
+    ]
+  },
+  "(1, 0, 5, 0, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Karl-Anthony Towns",
+        "date": 46050,
+        "stats": "8 PTS / 2 AST / 22 REB / 1 BLK / 0 STL",
+        "team": "Knicks",
+        "opponent": "Raptors"
+      }
+    ]
+  },
+  "(5, 1, 1, 1, 3)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "OG Anunoby",
+        "date": 46050,
+        "stats": "26 PTS / 5 AST / 3 REB / 2 BLK / 6 STL",
+        "team": "Knicks",
+        "opponent": "Raptors"
+      }
+    ]
+  },
+  "(0, 1, 1, 2, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Collin Murray-Boyles",
+        "date": 46050,
+        "stats": "4 PTS / 4 AST / 5 REB / 4 BLK / 0 STL",
+        "team": "Raptors",
+        "opponent": "Knicks"
+      }
+    ]
+  },
+  "(0, 2, 0, 1, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Draymond Green",
+        "date": 46050,
+        "stats": "0 PTS / 6 AST / 2 REB / 2 BLK / 1 STL",
+        "team": "Warriors",
+        "opponent": "Jazz"
+      }
+    ]
+  },
+  "(5, 1, 4, 2, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Victor Wembanyama",
+        "date": 46050,
+        "stats": "28 PTS / 3 AST / 16 REB / 5 BLK / 2 STL",
+        "team": "Spurs",
+        "opponent": "Rockets"
+      }
+    ]
+  },
+  "(5, 1, 2, 1, 2)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Anthony Black",
+        "date": 46050,
+        "stats": "26 PTS / 5 AST / 7 REB / 2 BLK / 4 STL",
+        "team": "Magic",
+        "opponent": "Heat"
+      }
+    ]
+  },
+  "(3, 3, 1, 0, 2)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "James Harden",
+        "date": 46049,
+        "stats": "16 PTS / 10 AST / 3 REB / 0 BLK / 4 STL",
+        "team": "Clippers",
+        "opponent": "Jazz"
+      }
+    ]
+  },
+  "(3, 1, 4, 2, 0)": {
+    "count": 2,
+    "games": [
+      {
+        "player": "Chet Holmgren",
+        "date": 46049,
+        "stats": "20 PTS / 3 AST / 14 REB / 5 BLK / 0 STL",
+        "team": "Thunder",
+        "opponent": "Pelicans"
+      },
+      {
+        "player": "Rudy Gobert",
+        "date": 46008,
+        "stats": "16 PTS / 4 AST / 16 REB / 4 BLK / 1 STL",
+        "team": "Timberwolves",
+        "opponent": "Grizzlies"
+      }
+    ]
+  },
+  "(5, 1, 3, 3, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Alex Sarr",
+        "date": 46049,
+        "stats": "29 PTS / 3 AST / 12 REB / 6 BLK / 2 STL",
+        "team": "Wizards",
+        "opponent": "Trail Blazers"
+      }
+    ]
+  },
+  "(0, 2, 1, 1, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Bilal Coulibaly",
+        "date": 46049,
+        "stats": "5 PTS / 6 AST / 5 REB / 2 BLK / 2 STL",
+        "team": "Wizards",
+        "opponent": "Trail Blazers"
+      }
+    ]
+  },
+  "(0, 1, 0, 0, 3)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Will Richard",
+        "date": 46048,
+        "stats": "4 PTS / 3 AST / 2 REB / 0 BLK / 6 STL",
+        "team": "Warriors",
+        "opponent": "Timberwolves"
+      }
+    ]
+  },
+  "(0, 4, 1, 0, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Cam Spencer",
+        "date": 46048,
+        "stats": "5 PTS / 13 AST / 5 REB / 1 BLK / 1 STL",
+        "team": "Grizzlies",
+        "opponent": "Rockets"
+      }
+    ]
+  },
+  "(3, 0, 4, 2, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Victor Wembanyama",
+        "date": 46047,
+        "stats": "16 PTS / 0 AST / 16 REB / 4 BLK / 0 STL",
+        "team": "Spurs",
+        "opponent": "Pelicans"
+      }
+    ]
+  },
+  "(1, 2, 3, 1, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Scottie Barnes",
+        "date": 46047,
+        "stats": "10 PTS / 8 AST / 11 REB / 3 BLK / 1 STL",
+        "team": "Raptors",
+        "opponent": "Thunder"
+      }
+    ]
+  },
+  "(2, 1, 3, 3, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Scottie Barnes",
+        "date": 46045,
+        "stats": "15 PTS / 4 AST / 9 REB / 6 BLK / 0 STL",
+        "team": "Raptors",
+        "opponent": "Trail Blazers"
+      }
+    ]
+  },
+  "(5, 2, 4, 2, 0)": {
+    "count": 2,
+    "games": [
+      {
+        "player": "Evan Mobley",
+        "date": 46045,
+        "stats": "29 PTS / 7 AST / 13 REB / 4 BLK / 0 STL",
+        "team": "Cavaliers",
+        "opponent": "Kings"
+      },
+      {
+        "player": "Victor Wembanyama",
+        "date": 45960,
+        "stats": "27 PTS / 6 AST / 18 REB / 5 BLK / 1 STL",
+        "team": "Spurs",
+        "opponent": "Heat"
+      }
+    ]
+  },
+  "(2, 0, 4, 0, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Donovan Clingan",
+        "date": 46045,
+        "stats": "13 PTS / 2 AST / 16 REB / 0 BLK / 3 STL",
+        "team": "Trail Blazers",
+        "opponent": "Raptors"
+      }
+    ]
+  },
+  "(1, 0, 1, 2, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Jake LaRavia",
+        "date": 46044,
+        "stats": "7 PTS / 1 AST / 5 REB / 4 BLK / 3 STL",
+        "team": "Lakers",
+        "opponent": "Clippers"
+      }
+    ]
+  },
+  "(6, 1, 2, 2, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Peyton Watson",
+        "date": 46044,
+        "stats": "35 PTS / 3 AST / 8 REB / 4 BLK / 2 STL",
+        "team": "Nuggets",
+        "opponent": "Wizards"
+      }
+    ]
+  },
+  "(0, 1, 4, 2, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Dylan Cardwell",
+        "date": 46043,
+        "stats": "2 PTS / 3 AST / 13 REB / 4 BLK / 1 STL",
+        "team": "Kings",
+        "opponent": "Raptors"
+      }
+    ]
+  },
+  "(4, 3, 0, 1, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Ja Morant",
+        "date": 46043,
+        "stats": "23 PTS / 12 AST / 2 REB / 3 BLK / 1 STL",
+        "team": "Grizzlies",
+        "opponent": "Hawks"
+      }
+    ]
+  },
+  "(3, 3, 4, 1, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Alperen Sengun",
+        "date": 46042,
+        "stats": "20 PTS / 9 AST / 13 REB / 2 BLK / 0 STL",
+        "team": "Rockets",
+        "opponent": "Spurs"
+      }
+    ]
+  },
+  "(3, 4, 1, 1, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Cade Cunningham",
+        "date": 46041,
+        "stats": "16 PTS / 14 AST / 3 REB / 2 BLK / 1 STL",
+        "team": "Pistons",
+        "opponent": "Celtics"
+      }
+    ]
+  },
+  "(5, 2, 1, 0, 4)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Tyrese Maxey",
+        "date": 46041,
+        "stats": "29 PTS / 8 AST / 4 REB / 1 BLK / 8 STL",
+        "team": "76ers",
+        "opponent": "Pacers"
+      }
+    ]
+  },
+  "(5, 2, 4, 0, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Jalen Johnson",
+        "date": 46041,
+        "stats": "28 PTS / 6 AST / 16 REB / 1 BLK / 0 STL",
+        "team": "Hawks",
+        "opponent": "Bucks"
+      }
+    ]
+  },
+  "(7, 2, 1, 1, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Jamal Murray",
+        "date": 46039,
+        "stats": "42 PTS / 6 AST / 3 REB / 2 BLK / 2 STL",
+        "team": "Nuggets",
+        "opponent": "Wizards"
+      }
+    ]
+  },
+  "(8, 1, 1, 0, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Anthony Edwards",
+        "date": 46039,
+        "stats": "55 PTS / 3 AST / 4 REB / 0 BLK / 0 STL",
+        "team": "Timberwolves",
+        "opponent": "Spurs"
+      }
+    ]
+  },
+  "(3, 2, 0, 0, 2)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Jordan Miller",
+        "date": 46038,
+        "stats": "19 PTS / 6 AST / 2 REB / 0 BLK / 4 STL",
+        "team": "Clippers",
+        "opponent": "Raptors"
+      }
+    ]
+  },
+  "(4, 3, 1, 1, 2)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Tyrese Maxey",
+        "date": 46038,
+        "stats": "22 PTS / 9 AST / 5 REB / 2 BLK / 5 STL",
+        "team": "76ers",
+        "opponent": "Cavaliers"
+      }
+    ]
+  },
+  "(5, 0, 1, 1, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Jaren Jackson Jr.",
+        "date": 46037,
+        "stats": "30 PTS / 1 AST / 3 REB / 2 BLK / 2 STL",
+        "team": "Grizzlies",
+        "opponent": "Magic"
+      }
+    ]
+  },
+  "(5, 1, 4, 0, 2)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Paolo Banchero",
+        "date": 46037,
+        "stats": "26 PTS / 4 AST / 13 REB / 0 BLK / 4 STL",
+        "team": "Magic",
+        "opponent": "Grizzlies"
+      }
+    ]
+  },
+  "(1, 0, 1, 0, 3)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Oso Ighodaro",
+        "date": 46037,
+        "stats": "10 PTS / 0 AST / 3 REB / 1 BLK / 6 STL",
+        "team": "Suns",
+        "opponent": "Pistons"
+      }
+    ]
+  },
+  "(5, 4, 2, 0, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Scottie Barnes",
+        "date": 46036,
+        "stats": "26 PTS / 13 AST / 7 REB / 1 BLK / 2 STL",
+        "team": "Raptors",
+        "opponent": "Pacers"
+      }
+    ]
+  },
+  "(1, 2, 1, 0, 2)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Gui Santos",
+        "date": 46035,
+        "stats": "6 PTS / 6 AST / 4 REB / 0 BLK / 4 STL",
+        "team": "Warriors",
+        "opponent": "Trail Blazers"
+      }
+    ]
+  },
+  "(0, 0, 1, 0, 2)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Mouhamed Gueye",
+        "date": 46035,
+        "stats": "5 PTS / 1 AST / 4 REB / 0 BLK / 5 STL",
+        "team": "Hawks",
+        "opponent": "Lakers"
+      }
+    ]
+  },
+  "(6, 1, 1, 2, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Shai Gilgeous-Alexander",
+        "date": 46035,
+        "stats": "34 PTS / 5 AST / 5 REB / 4 BLK / 0 STL",
+        "team": "Thunder",
+        "opponent": "Spurs"
+      }
+    ]
+  },
+  "(2, 1, 4, 1, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Jusuf Nurkic",
+        "date": 46034,
+        "stats": "11 PTS / 3 AST / 17 REB / 2 BLK / 3 STL",
+        "team": "Jazz",
+        "opponent": "Cavaliers"
+      }
+    ]
+  },
+  "(3, 1, 4, 1, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Collin Murray-Boyles",
+        "date": 46033,
+        "stats": "17 PTS / 3 AST / 15 REB / 3 BLK / 3 STL",
+        "team": "Raptors",
+        "opponent": "76ers"
+      }
+    ]
+  },
+  "(2, 0, 4, 1, 1)": {
+    "count": 2,
+    "games": [
+      {
+        "player": "Goga Bitadze",
+        "date": 46033,
+        "stats": "14 PTS / 1 AST / 13 REB / 2 BLK / 3 STL",
+        "team": "Magic",
+        "opponent": "Pelicans"
+      },
+      {
+        "player": "Rudy Gobert",
+        "date": 46014,
+        "stats": "11 PTS / 2 AST / 16 REB / 3 BLK / 2 STL",
+        "team": "Timberwolves",
+        "opponent": "Knicks"
+      }
+    ]
+  },
+  "(5, 0, 2, 0, 2)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Kawhi Leonard",
+        "date": 46032,
+        "stats": "26 PTS / 1 AST / 8 REB / 0 BLK / 4 STL",
+        "team": "Clippers",
+        "opponent": "Pistons"
+      }
+    ]
+  },
+  "(0, 2, 0, 0, 2)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Kris Dunn",
+        "date": 46032,
+        "stats": "2 PTS / 6 AST / 1 REB / 0 BLK / 4 STL",
+        "team": "Clippers",
+        "opponent": "Pistons"
+      }
+    ]
+  },
+  "(5, 3, 0, 1, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Stephen Curry",
+        "date": 46031,
+        "stats": "27 PTS / 10 AST / 0 REB / 2 BLK / 1 STL",
+        "team": "Warriors",
+        "opponent": "Kings"
+      }
+    ]
+  },
+  "(3, 3, 3, 0, 2)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Dyson Daniels",
+        "date": 46031,
+        "stats": "17 PTS / 10 AST / 11 REB / 0 BLK / 4 STL",
+        "team": "Hawks",
+        "opponent": "Nuggets"
+      }
+    ]
+  },
+  "(2, 3, 4, 1, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Derik Queen",
+        "date": 46031,
+        "stats": "14 PTS / 12 AST / 16 REB / 2 BLK / 0 STL",
+        "team": "Pelicans",
+        "opponent": "Wizards"
+      }
+    ]
+  },
+  "(0, 4, 2, 0, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Daniss Jenkins",
+        "date": 46029,
+        "stats": "2 PTS / 15 AST / 6 REB / 0 BLK / 1 STL",
+        "team": "Pistons",
+        "opponent": "Bulls"
+      }
+    ]
+  },
+  "(1, 2, 3, 1, 2)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Mouhamed Gueye",
+        "date": 46029,
+        "stats": "10 PTS / 6 AST / 11 REB / 2 BLK / 4 STL",
+        "team": "Hawks",
+        "opponent": "Pelicans"
+      }
+    ]
+  },
+  "(3, 0, 4, 2, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Victor Wembanyama",
+        "date": 46029,
+        "stats": "16 PTS / 2 AST / 14 REB / 4 BLK / 2 STL",
+        "team": "Spurs",
+        "opponent": "Lakers"
+      }
+    ]
+  },
+  "(1, 1, 3, 1, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Steven Adams",
+        "date": 46029,
+        "stats": "7 PTS / 4 AST / 11 REB / 2 BLK / 2 STL",
+        "team": "Rockets",
+        "opponent": "Trail Blazers"
+      }
+    ]
+  },
+  "(5, 3, 0, 0, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Luka Doncic",
+        "date": 46028,
+        "stats": "30 PTS / 10 AST / 2 REB / 1 BLK / 2 STL",
+        "team": "Lakers",
+        "opponent": "Pelicans"
+      }
+    ]
+  },
+  "(1, 3, 3, 1, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Craig Porter Jr.",
+        "date": 46028,
+        "stats": "8 PTS / 9 AST / 9 REB / 3 BLK / 2 STL",
+        "team": "Cavaliers",
+        "opponent": "Pacers"
+      }
+    ]
+  },
+  "(5, 2, 2, 1, 2)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Tyrese Maxey",
+        "date": 46027,
+        "stats": "28 PTS / 6 AST / 6 REB / 2 BLK / 4 STL",
+        "team": "76ers",
+        "opponent": "Nuggets"
+      }
+    ]
+  },
+  "(3, 1, 3, 0, 2)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Onyeka Okongwu",
+        "date": 46027,
+        "stats": "17 PTS / 3 AST / 12 REB / 0 BLK / 4 STL",
+        "team": "Hawks",
+        "opponent": "Raptors"
+      }
+    ]
+  },
+  "(5, 4, 1, 1, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Cade Cunningham",
+        "date": 46027,
+        "stats": "29 PTS / 13 AST / 3 REB / 2 BLK / 1 STL",
+        "team": "Pistons",
+        "opponent": "Knicks"
+      }
+    ]
+  },
+  "(4, 1, 2, 1, 2)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Russell Westbrook",
+        "date": 46026,
+        "stats": "21 PTS / 3 AST / 6 REB / 3 BLK / 4 STL",
+        "team": "Kings",
+        "opponent": "Bucks"
+      }
+    ]
+  },
+  "(5, 3, 1, 2, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Anthony Black",
+        "date": 46026,
+        "stats": "27 PTS / 10 AST / 3 REB / 4 BLK / 1 STL",
+        "team": "Magic",
+        "opponent": "Pacers"
+      }
+    ]
+  },
+  "(4, 1, 2, 2, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Luke Kornet",
+        "date": 46025,
+        "stats": "23 PTS / 3 AST / 8 REB / 5 BLK / 0 STL",
+        "team": "Spurs",
+        "opponent": "Trail Blazers"
+      }
+    ]
+  },
+  "(5, 1, 0, 1, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "VJ Edgecombe",
+        "date": 46025,
+        "stats": "26 PTS / 4 AST / 2 REB / 2 BLK / 2 STL",
+        "team": "76ers",
+        "opponent": "Knicks"
+      }
+    ]
+  },
+  "(3, 3, 1, 1, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Dyson Daniels",
+        "date": 46025,
+        "stats": "20 PTS / 12 AST / 5 REB / 2 BLK / 2 STL",
+        "team": "Hawks",
+        "opponent": "Raptors"
+      }
+    ]
+  },
+  "(2, 2, 3, 1, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Sandro Mamukelashvili",
+        "date": 46025,
+        "stats": "13 PTS / 8 AST / 12 REB / 3 BLK / 1 STL",
+        "team": "Raptors",
+        "opponent": "Hawks"
+      }
+    ]
+  },
+  "(1, 1, 4, 2, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Ariel Hukporti",
+        "date": 46024,
+        "stats": "8 PTS / 4 AST / 16 REB / 4 BLK / 1 STL",
+        "team": "Knicks",
+        "opponent": "Hawks"
+      }
+    ]
+  },
+  "(0, 0, 4, 1, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Kel'el Ware",
+        "date": 46023,
+        "stats": "4 PTS / 0 AST / 13 REB / 2 BLK / 2 STL",
+        "team": "Heat",
+        "opponent": "Pistons"
+      }
+    ]
+  },
+  "(7, 1, 2, 1, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Kawhi Leonard",
+        "date": 46023,
+        "stats": "45 PTS / 3 AST / 7 REB / 2 BLK / 2 STL",
+        "team": "Clippers",
+        "opponent": "Jazz"
+      }
+    ]
+  },
+  "(2, 0, 3, 3, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Chet Holmgren",
+        "date": 46022,
+        "stats": "12 PTS / 1 AST / 10 REB / 6 BLK / 2 STL",
+        "team": "Thunder",
+        "opponent": "Trail Blazers"
+      }
+    ]
+  },
+  "(1, 1, 2, 2, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Derik Queen",
+        "date": 46022,
+        "stats": "9 PTS / 4 AST / 7 REB / 5 BLK / 2 STL",
+        "team": "Pelicans",
+        "opponent": "Bulls"
+      }
+    ]
+  },
+  "(5, 2, 2, 3, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Derrick White",
+        "date": 46021,
+        "stats": "27 PTS / 6 AST / 7 REB / 7 BLK / 0 STL",
+        "team": "Celtics",
+        "opponent": "Jazz"
+      }
+    ]
+  },
+  "(5, 1, 4, 0, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Cedric Coward",
+        "date": 46021,
+        "stats": "28 PTS / 4 AST / 16 REB / 0 BLK / 0 STL",
+        "team": "Grizzlies",
+        "opponent": "76ers"
+      }
+    ]
+  },
+  "(3, 4, 1, 0, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Julius Randle",
+        "date": 46020,
+        "stats": "17 PTS / 14 AST / 5 REB / 0 BLK / 1 STL",
+        "team": "Timberwolves",
+        "opponent": "Bulls"
+      }
+    ]
+  },
+  "(8, 0, 3, 1, 2)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Kawhi Leonard",
+        "date": 46019,
+        "stats": "55 PTS / 2 AST / 11 REB / 3 BLK / 5 STL",
+        "team": "Clippers",
+        "opponent": "Pistons"
+      }
+    ]
+  },
+  "(3, 0, 3, 3, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Alex Sarr",
+        "date": 46019,
+        "stats": "20 PTS / 1 AST / 9 REB / 6 BLK / 2 STL",
+        "team": "Wizards",
+        "opponent": "Grizzlies"
+      }
+    ]
+  },
+  "(5, 1, 0, 0, 2)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Tyrese Maxey",
+        "date": 46019,
+        "stats": "28 PTS / 5 AST / 2 REB / 0 BLK / 4 STL",
+        "team": "76ers",
+        "opponent": "Thunder"
+      }
+    ]
+  },
+  "(5, 0, 3, 2, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Chet Holmgren",
+        "date": 46019,
+        "stats": "29 PTS / 1 AST / 9 REB / 4 BLK / 0 STL",
+        "team": "Thunder",
+        "opponent": "76ers"
+      }
+    ]
+  },
+  "(4, 3, 5, 0, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Scottie Barnes",
+        "date": 46019,
+        "stats": "23 PTS / 10 AST / 25 REB / 1 BLK / 3 STL",
+        "team": "Raptors",
+        "opponent": "Warriors"
+      }
+    ]
+  },
+  "(6, 3, 5, 0, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Nikola Jokic",
+        "date": 46018,
+        "stats": "34 PTS / 12 AST / 21 REB / 0 BLK / 1 STL",
+        "team": "Nuggets",
+        "opponent": "Magic"
+      }
+    ]
+  },
+  "(0, 0, 2, 2, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Yves Missi",
+        "date": 46018,
+        "stats": "4 PTS / 1 AST / 8 REB / 4 BLK / 2 STL",
+        "team": "Pelicans",
+        "opponent": "Suns"
+      }
+    ]
+  },
+  "(1, 3, 2, 0, 2)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Kevin Porter Jr.",
+        "date": 46018,
+        "stats": "8 PTS / 9 AST / 6 REB / 0 BLK / 4 STL",
+        "team": "Bucks",
+        "opponent": "Bulls"
+      }
+    ]
+  },
+  "(6, 1, 2, 2, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Victor Wembanyama",
+        "date": 46018,
+        "stats": "32 PTS / 3 AST / 7 REB / 5 BLK / 0 STL",
+        "team": "Spurs",
+        "opponent": "Jazz"
+      }
+    ]
+  },
+  "(5, 4, 1, 1, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Cade Cunningham",
+        "date": 46017,
+        "stats": "29 PTS / 17 AST / 5 REB / 2 BLK / 2 STL",
+        "team": "Pistons",
+        "opponent": "Jazz"
+      }
+    ]
+  },
+  "(5, 1, 1, 0, 2)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Jaylen Brown",
+        "date": 46017,
+        "stats": "30 PTS / 4 AST / 3 REB / 0 BLK / 4 STL",
+        "team": "Celtics",
+        "opponent": "Pacers"
+      }
+    ]
+  },
+  "(8, 4, 4, 1, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Nikola Jokic",
+        "date": 46016,
+        "stats": "56 PTS / 15 AST / 16 REB / 2 BLK / 0 STL",
+        "team": "Nuggets",
+        "opponent": "Timberwolves"
+      }
+    ]
+  },
+  "(1, 0, 3, 3, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Rudy Gobert",
+        "date": 46016,
+        "stats": "9 PTS / 0 AST / 12 REB / 6 BLK / 0 STL",
+        "team": "Timberwolves",
+        "opponent": "Nuggets"
+      }
+    ]
+  },
+  "(4, 4, 2, 0, 2)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Cade Cunningham",
+        "date": 46014,
+        "stats": "23 PTS / 14 AST / 7 REB / 0 BLK / 5 STL",
+        "team": "Pistons",
+        "opponent": "Kings"
+      }
+    ]
+  },
+  "(4, 1, 1, 1, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Desmond Bane",
+        "date": 46014,
+        "stats": "23 PTS / 5 AST / 4 REB / 3 BLK / 3 STL",
+        "team": "Magic",
+        "opponent": "Trail Blazers"
+      }
+    ]
+  },
+  "(0, 3, 1, 0, 2)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Dylan Harper",
+        "date": 46014,
+        "stats": "4 PTS / 10 AST / 3 REB / 0 BLK / 5 STL",
+        "team": "Spurs",
+        "opponent": "Thunder"
+      }
+    ]
+  },
+  "(5, 4, 2, 0, 2)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Nikola Jokic",
+        "date": 46014,
+        "stats": "29 PTS / 14 AST / 7 REB / 0 BLK / 4 STL",
+        "team": "Nuggets",
+        "opponent": "Mavericks"
+      }
+    ]
+  },
+  "(6, 0, 0, 0, 2)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Anthony Edwards",
+        "date": 46014,
+        "stats": "38 PTS / 2 AST / 2 REB / 1 BLK / 4 STL",
+        "team": "Timberwolves",
+        "opponent": "Knicks"
+      }
+    ]
+  },
+  "(4, 4, 0, 0, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Trae Young",
+        "date": 46014,
+        "stats": "22 PTS / 15 AST / 1 REB / 0 BLK / 2 STL",
+        "team": "Hawks",
+        "opponent": "Bulls"
+      }
+    ]
+  },
+  "(3, 0, 1, 1, 2)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Paul George",
+        "date": 46014,
+        "stats": "19 PTS / 2 AST / 4 REB / 2 BLK / 4 STL",
+        "team": "76ers",
+        "opponent": "Nets"
+      }
+    ]
+  },
+  "(6, 0, 4, 0, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Anthony Davis",
+        "date": 46013,
+        "stats": "35 PTS / 2 AST / 17 REB / 1 BLK / 1 STL",
+        "team": "Mavericks",
+        "opponent": "Pelicans"
+      }
+    ]
+  },
+  "(0, 0, 4, 0, 3)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Moussa Diabate",
+        "date": 46013,
+        "stats": "5 PTS / 2 AST / 14 REB / 0 BLK / 6 STL",
+        "team": "Hornets",
+        "opponent": "Cavaliers"
+      }
+    ]
+  },
+  "(0, 3, 0, 0, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Isaiah Collier",
+        "date": 46013,
+        "stats": "2 PTS / 9 AST / 2 REB / 0 BLK / 2 STL",
+        "team": "Jazz",
+        "opponent": "Nuggets"
+      }
+    ]
+  },
+  "(2, 4, 4, 1, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Nikola Jokic",
+        "date": 46013,
+        "stats": "14 PTS / 13 AST / 13 REB / 3 BLK / 2 STL",
+        "team": "Nuggets",
+        "opponent": "Jazz"
+      }
+    ]
+  },
+  "(4, 3, 3, 0, 2)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Kevin Porter Jr.",
+        "date": 46012,
+        "stats": "24 PTS / 9 AST / 10 REB / 1 BLK / 4 STL",
+        "team": "Bucks",
+        "opponent": "Timberwolves"
+      }
+    ]
+  },
+  "(5, 0, 4, 0, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Kel'el Ware",
+        "date": 46012,
+        "stats": "28 PTS / 0 AST / 19 REB / 0 BLK / 1 STL",
+        "team": "Heat",
+        "opponent": "Knicks"
+      }
+    ]
+  },
+  "(6, 1, 0, 1, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Devin Booker",
+        "date": 46011,
+        "stats": "38 PTS / 5 AST / 1 REB / 2 BLK / 3 STL",
+        "team": "Suns",
+        "opponent": "Warriors"
+      }
+    ]
+  },
+  "(2, 0, 1, 2, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Ausar Thompson",
+        "date": 46011,
+        "stats": "14 PTS / 2 AST / 4 REB / 4 BLK / 3 STL",
+        "team": "Pistons",
+        "opponent": "Hornets"
+      }
+    ]
+  },
+  "(1, 2, 0, 1, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "LaMelo Ball",
+        "date": 46011,
+        "stats": "8 PTS / 6 AST / 1 REB / 2 BLK / 2 STL",
+        "team": "Hornets",
+        "opponent": "Pistons"
+      }
+    ]
+  },
+  "(5, 2, 0, 1, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Reed Sheppard",
+        "date": 46011,
+        "stats": "28 PTS / 6 AST / 2 REB / 2 BLK / 3 STL",
+        "team": "Rockets",
+        "opponent": "Nuggets"
+      }
+    ]
+  },
+  "(6, 2, 1, 1, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Shai Gilgeous-Alexander",
+        "date": 46010,
+        "stats": "35 PTS / 7 AST / 5 REB / 2 BLK / 2 STL",
+        "team": "Thunder",
+        "opponent": "Timberwolves"
+      }
+    ]
+  },
+  "(6, 2, 1, 2, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Derrick White",
+        "date": 46010,
+        "stats": "33 PTS / 6 AST / 5 REB / 4 BLK / 0 STL",
+        "team": "Celtics",
+        "opponent": "Heat"
+      }
+    ]
+  },
+  "(5, 4, 1, 0, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "LaMelo Ball",
+        "date": 46009,
+        "stats": "28 PTS / 13 AST / 4 REB / 0 BLK / 1 STL",
+        "team": "Hornets",
+        "opponent": "Hawks"
+      }
+    ]
+  },
+  "(7, 3, 3, 0, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Jalen Johnson",
+        "date": 46009,
+        "stats": "43 PTS / 9 AST / 11 REB / 1 BLK / 1 STL",
+        "team": "Hawks",
+        "opponent": "Hornets"
+      }
+    ]
+  },
+  "(1, 0, 4, 1, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Bam Adebayo",
+        "date": 46009,
+        "stats": "8 PTS / 1 AST / 17 REB / 3 BLK / 1 STL",
+        "team": "Heat",
+        "opponent": "Nets"
+      }
+    ]
+  },
+  "(4, 0, 3, 1, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Scottie Barnes",
+        "date": 46009,
+        "stats": "24 PTS / 2 AST / 11 REB / 2 BLK / 2 STL",
+        "team": "Raptors",
+        "opponent": "Bucks"
+      }
+    ]
+  },
+  "(3, 1, 1, 0, 4)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Herbert Jones",
+        "date": 46009,
+        "stats": "18 PTS / 3 AST / 3 REB / 1 BLK / 8 STL",
+        "team": "Pelicans",
+        "opponent": "Rockets"
+      }
+    ]
+  },
+  "(5, 2, 3, 1, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Alperen Sengun",
+        "date": 46009,
+        "stats": "28 PTS / 8 AST / 11 REB / 2 BLK / 2 STL",
+        "team": "Rockets",
+        "opponent": "Pelicans"
+      }
+    ]
+  },
+  "(6, 2, 2, 1, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Shai Gilgeous-Alexander",
+        "date": 46009,
+        "stats": "32 PTS / 6 AST / 7 REB / 2 BLK / 2 STL",
+        "team": "Thunder",
+        "opponent": "Clippers"
+      }
+    ]
+  },
+  "(0, 0, 4, 0, 2)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Oso Ighodaro",
+        "date": 46009,
+        "stats": "2 PTS / 0 AST / 13 REB / 1 BLK / 5 STL",
+        "team": "Suns",
+        "opponent": "Warriors"
+      }
+    ]
+  },
+  "(3, 0, 1, 2, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Keegan Murray",
+        "date": 46009,
+        "stats": "17 PTS / 2 AST / 3 REB / 4 BLK / 2 STL",
+        "team": "Kings",
+        "opponent": "Trail Blazers"
+      }
+    ]
+  },
+  "(5, 3, 4, 0, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Paolo Banchero",
+        "date": 46009,
+        "stats": "26 PTS / 10 AST / 16 REB / 0 BLK / 1 STL",
+        "team": "Magic",
+        "opponent": "Nuggets"
+      }
+    ]
+  },
+  "(7, 4, 3, 0, 2)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Luka Doncic",
+        "date": 46009,
+        "stats": "45 PTS / 14 AST / 11 REB / 0 BLK / 5 STL",
+        "team": "Lakers",
+        "opponent": "Jazz"
+      }
+    ]
+  },
+  "(6, 1, 1, 2, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Jaren Jackson Jr.",
+        "date": 46006,
+        "stats": "31 PTS / 4 AST / 4 REB / 5 BLK / 2 STL",
+        "team": "Grizzlies",
+        "opponent": "Clippers"
+      }
+    ]
+  },
+  "(4, 2, 1, 2, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Kevin Durant",
+        "date": 46006,
+        "stats": "25 PTS / 7 AST / 5 REB / 5 BLK / 1 STL",
+        "team": "Rockets",
+        "opponent": "Nuggets"
+      }
+    ]
+  },
+  "(6, 1, 4, 0, 2)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Lauri Markkanen",
+        "date": 46006,
+        "stats": "33 PTS / 5 AST / 16 REB / 1 BLK / 4 STL",
+        "team": "Jazz",
+        "opponent": "Mavericks"
+      }
+    ]
+  },
+  "(3, 2, 2, 1, 2)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Donte DiVincenzo",
+        "date": 46005,
+        "stats": "18 PTS / 6 AST / 6 REB / 2 BLK / 4 STL",
+        "team": "Timberwolves",
+        "opponent": "Kings"
+      }
+    ]
+  },
+  "(2, 2, 4, 0, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Jusuf Nurkic",
+        "date": 46003,
+        "stats": "13 PTS / 7 AST / 17 REB / 1 BLK / 1 STL",
+        "team": "Jazz",
+        "opponent": "Grizzlies"
+      }
+    ]
+  },
+  "(2, 2, 0, 1, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Cade Cunningham",
+        "date": 46003,
+        "stats": "15 PTS / 6 AST / 1 REB / 2 BLK / 2 STL",
+        "team": "Pistons",
+        "opponent": "Hawks"
+      }
+    ]
+  },
+  "(4, 1, 4, 0, 2)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Alperen Sengun",
+        "date": 46002,
+        "stats": "22 PTS / 5 AST / 15 REB / 0 BLK / 4 STL",
+        "team": "Rockets",
+        "opponent": "Clippers"
+      }
+    ]
+  },
+  "(3, 2, 4, 1, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "LeBron James",
+        "date": 46001,
+        "stats": "19 PTS / 8 AST / 15 REB / 3 BLK / 0 STL",
+        "team": "Lakers",
+        "opponent": "Spurs"
+      }
+    ]
+  },
+  "(6, 3, 3, 2, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Derik Queen",
+        "date": 45999,
+        "stats": "33 PTS / 10 AST / 10 REB / 4 BLK / 0 STL",
+        "team": "Pelicans",
+        "opponent": "Spurs"
+      }
+    ]
+  },
+  "(6, 3, 4, 1, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Luka Doncic",
+        "date": 45998,
+        "stats": "31 PTS / 11 AST / 15 REB / 2 BLK / 0 STL",
+        "team": "Lakers",
+        "opponent": "76ers"
+      }
+    ]
+  },
+  "(7, 0, 1, 0, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Zach LaVine",
+        "date": 45997,
+        "stats": "42 PTS / 1 AST / 5 REB / 0 BLK / 1 STL",
+        "team": "Kings",
+        "opponent": "Heat"
+      }
+    ]
+  },
+  "(2, 3, 3, 1, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Nic Claxton",
+        "date": 45997,
+        "stats": "14 PTS / 10 AST / 11 REB / 3 BLK / 0 STL",
+        "team": "Nets",
+        "opponent": "Pelicans"
+      }
+    ]
+  },
+  "(2, 3, 0, 0, 2)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Russell Westbrook",
+        "date": 45997,
+        "stats": "12 PTS / 10 AST / 1 REB / 0 BLK / 4 STL",
+        "team": "Kings",
+        "opponent": "Heat"
+      }
+    ]
+  },
+  "(4, 0, 0, 1, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Kristaps Porzingis",
+        "date": 45996,
+        "stats": "25 PTS / 1 AST / 2 REB / 2 BLK / 1 STL",
+        "team": "Hawks",
+        "opponent": "Nuggets"
+      }
+    ]
+  },
+  "(4, 4, 4, 0, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Jalen Johnson",
+        "date": 45996,
+        "stats": "21 PTS / 16 AST / 18 REB / 0 BLK / 2 STL",
+        "team": "Hawks",
+        "opponent": "Nuggets"
+      }
+    ]
+  },
+  "(7, 3, 1, 0, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Austin Reaves",
+        "date": 45995,
+        "stats": "44 PTS / 10 AST / 5 REB / 0 BLK / 0 STL",
+        "team": "Lakers",
+        "opponent": "Raptors"
+      }
+    ]
+  },
+  "(6, 1, 4, 0, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Karl-Anthony Towns",
+        "date": 45994,
+        "stats": "35 PTS / 5 AST / 18 REB / 0 BLK / 2 STL",
+        "team": "Knicks",
+        "opponent": "Hornets"
+      }
+    ]
+  },
+  "(8, 1, 2, 0, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Jamal Murray",
+        "date": 45994,
+        "stats": "52 PTS / 4 AST / 6 REB / 0 BLK / 1 STL",
+        "team": "Nuggets",
+        "opponent": "Pacers"
+      }
+    ]
+  },
+  "(1, 2, 2, 1, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "VJ Edgecombe",
+        "date": 45993,
+        "stats": "9 PTS / 6 AST / 6 REB / 2 BLK / 2 STL",
+        "team": "76ers",
+        "opponent": "Wizards"
+      }
+    ]
+  },
+  "(5, 4, 4, 1, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Nikola Jokic",
+        "date": 45992,
+        "stats": "29 PTS / 13 AST / 20 REB / 2 BLK / 1 STL",
+        "team": "Nuggets",
+        "opponent": "Mavericks"
+      }
+    ]
+  },
+  "(6, 4, 2, 2, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Alperen Sengun",
+        "date": 45992,
+        "stats": "31 PTS / 14 AST / 8 REB / 5 BLK / 2 STL",
+        "team": "Rockets",
+        "opponent": "Jazz"
+      }
+    ]
+  },
+  "(1, 1, 1, 2, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Goga Bitadze",
+        "date": 45992,
+        "stats": "8 PTS / 3 AST / 5 REB / 4 BLK / 1 STL",
+        "team": "Magic",
+        "opponent": "Bulls"
+      }
+    ]
+  },
+  "(2, 4, 1, 1, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "LaMelo Ball",
+        "date": 45992,
+        "stats": "12 PTS / 14 AST / 5 REB / 2 BLK / 0 STL",
+        "team": "Hornets",
+        "opponent": "Nets"
+      }
+    ]
+  },
+  "(3, 2, 2, 1, 3)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Cade Cunningham",
+        "date": 45992,
+        "stats": "18 PTS / 8 AST / 8 REB / 3 BLK / 6 STL",
+        "team": "Pistons",
+        "opponent": "Hawks"
+      }
+    ]
+  },
+  "(6, 3, 4, 0, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Deni Avdija",
+        "date": 45991,
+        "stats": "31 PTS / 10 AST / 19 REB / 0 BLK / 1 STL",
+        "team": "Trail Blazers",
+        "opponent": "Thunder"
+      }
+    ]
+  },
+  "(6, 0, 4, 2, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Zach Edey",
+        "date": 45991,
+        "stats": "32 PTS / 0 AST / 17 REB / 5 BLK / 0 STL",
+        "team": "Grizzlies",
+        "opponent": "Kings"
+      }
+    ]
+  },
+  "(2, 0, 0, 1, 2)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Keegan Murray",
+        "date": 45991,
+        "stats": "12 PTS / 1 AST / 2 REB / 3 BLK / 5 STL",
+        "team": "Kings",
+        "opponent": "Grizzlies"
+      }
+    ]
+  },
+  "(3, 4, 3, 0, 2)": {
+    "count": 2,
+    "games": [
+      {
+        "player": "Russell Westbrook",
+        "date": 45989,
+        "stats": "16 PTS / 14 AST / 12 REB / 0 BLK / 4 STL",
+        "team": "Kings",
+        "opponent": "Jazz"
+      },
+      {
+        "player": "Jrue Holiday",
+        "date": 45969,
+        "stats": "18 PTS / 13 AST / 9 REB / 0 BLK / 4 STL",
+        "team": "Trail Blazers",
+        "opponent": "Heat"
+      }
+    ]
+  },
+  "(3, 1, 0, 0, 2)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Tre Jones",
+        "date": 45989,
+        "stats": "16 PTS / 4 AST / 1 REB / 1 BLK / 5 STL",
+        "team": "Bulls",
+        "opponent": "Hornets"
+      }
+    ]
+  },
+  "(0, 0, 4, 1, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Zach Edey",
+        "date": 45989,
+        "stats": "5 PTS / 2 AST / 19 REB / 3 BLK / 0 STL",
+        "team": "Grizzlies",
+        "opponent": "Clippers"
+      }
+    ]
+  },
+  "(4, 1, 4, 0, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Mark Williams",
+        "date": 45987,
+        "stats": "21 PTS / 4 AST / 16 REB / 1 BLK / 3 STL",
+        "team": "Suns",
+        "opponent": "Kings"
+      }
+    ]
+  },
+  "(7, 4, 3, 0, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Luka Doncic",
+        "date": 45986,
+        "stats": "43 PTS / 13 AST / 9 REB / 1 BLK / 1 STL",
+        "team": "Lakers",
+        "opponent": "Clippers"
+      }
+    ]
+  },
+  "(0, 3, 1, 1, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Jalen Suggs",
+        "date": 45986,
+        "stats": "4 PTS / 11 AST / 5 REB / 2 BLK / 2 STL",
+        "team": "Magic",
+        "opponent": "76ers"
+      }
+    ]
+  },
+  "(5, 0, 3, 1, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Alex Sarr",
+        "date": 45986,
+        "stats": "27 PTS / 0 AST / 11 REB / 2 BLK / 2 STL",
+        "team": "Wizards",
+        "opponent": "Hawks"
+      }
+    ]
+  },
+  "(1, 2, 3, 1, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Josh Hart",
+        "date": 45985,
+        "stats": "7 PTS / 7 AST / 12 REB / 2 BLK / 2 STL",
+        "team": "Knicks",
+        "opponent": "Nets"
+      }
+    ]
+  },
+  "(3, 1, 2, 2, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Scottie Barnes",
+        "date": 45984,
+        "stats": "17 PTS / 4 AST / 7 REB / 4 BLK / 2 STL",
+        "team": "Raptors",
+        "opponent": "Nets"
+      }
+    ]
+  },
+  "(2, 0, 5, 1, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Andre Drummond",
+        "date": 45984,
+        "stats": "14 PTS / 1 AST / 24 REB / 2 BLK / 0 STL",
+        "team": "76ers",
+        "opponent": "Heat"
+      }
+    ]
+  },
+  "(8, 2, 1, 0, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "James Harden",
+        "date": 45983,
+        "stats": "55 PTS / 7 AST / 3 REB / 0 BLK / 1 STL",
+        "team": "Clippers",
+        "opponent": "Hornets"
+      }
+    ]
+  },
+  "(0, 3, 1, 1, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Brandon Williams",
+        "date": 45982,
+        "stats": "5 PTS / 12 AST / 5 REB / 2 BLK / 1 STL",
+        "team": "Mavericks",
+        "opponent": "Pelicans"
+      }
+    ]
+  },
+  "(2, 0, 0, 2, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Jalen Smith",
+        "date": 45982,
+        "stats": "14 PTS / 2 AST / 2 REB / 5 BLK / 0 STL",
+        "team": "Bulls",
+        "opponent": "Heat"
+      }
+    ]
+  },
+  "(7, 1, 1, 0, 2)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Anthony Edwards",
+        "date": 45982,
+        "stats": "41 PTS / 4 AST / 5 REB / 1 BLK / 4 STL",
+        "team": "Timberwolves",
+        "opponent": "Suns"
+      }
+    ]
+  },
+  "(8, 3, 1, 1, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Tyrese Maxey",
+        "date": 45981,
+        "stats": "54 PTS / 9 AST / 5 REB / 3 BLK / 3 STL",
+        "team": "76ers",
+        "opponent": "Bucks"
+      }
+    ]
+  },
+  "(4, 2, 1, 1, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Jalen Suggs",
+        "date": 45981,
+        "stats": "23 PTS / 7 AST / 3 REB / 2 BLK / 2 STL",
+        "team": "Magic",
+        "opponent": "Clippers"
+      }
+    ]
+  },
+  "(3, 1, 5, 1, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Donovan Clingan",
+        "date": 45980,
+        "stats": "17 PTS / 4 AST / 21 REB / 2 BLK / 1 STL",
+        "team": "Trail Blazers",
+        "opponent": "Bulls"
+      }
+    ]
+  },
+  "(6, 4, 4, 1, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Nikola Jokic",
+        "date": 45978,
+        "stats": "36 PTS / 13 AST / 18 REB / 2 BLK / 1 STL",
+        "team": "Nuggets",
+        "opponent": "Bulls"
+      }
+    ]
+  },
+  "(4, 1, 1, 2, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Mikal Bridges",
+        "date": 45978,
+        "stats": "23 PTS / 4 AST / 3 REB / 4 BLK / 2 STL",
+        "team": "Knicks",
+        "opponent": "Heat"
+      }
+    ]
+  },
+  "(6, 2, 0, 0, 2)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Keyonte George",
+        "date": 45977,
+        "stats": "33 PTS / 6 AST / 2 REB / 0 BLK / 4 STL",
+        "team": "Jazz",
+        "opponent": "Bulls"
+      }
+    ]
+  },
+  "(0, 1, 4, 0, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Jusuf Nurkic",
+        "date": 45977,
+        "stats": "5 PTS / 5 AST / 14 REB / 1 BLK / 3 STL",
+        "team": "Jazz",
+        "opponent": "Bulls"
+      }
+    ]
+  },
+  "(7, 0, 2, 1, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Lauri Markkanen",
+        "date": 45977,
+        "stats": "47 PTS / 2 AST / 7 REB / 2 BLK / 2 STL",
+        "team": "Jazz",
+        "opponent": "Bulls"
+      }
+    ]
+  },
+  "(5, 4, 4, 1, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Josh Giddey",
+        "date": 45977,
+        "stats": "26 PTS / 13 AST / 13 REB / 2 BLK / 2 STL",
+        "team": "Bulls",
+        "opponent": "Jazz"
+      }
+    ]
+  },
+  "(5, 2, 3, 1, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Alperen Sengun",
+        "date": 45977,
+        "stats": "30 PTS / 8 AST / 12 REB / 2 BLK / 0 STL",
+        "team": "Rockets",
+        "opponent": "Magic"
+      }
+    ]
+  },
+  "(5, 2, 2, 1, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Anthony Edwards",
+        "date": 45976,
+        "stats": "26 PTS / 6 AST / 8 REB / 2 BLK / 3 STL",
+        "team": "Timberwolves",
+        "opponent": "Nuggets"
+      }
+    ]
+  },
+  "(2, 3, 3, 0, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Josh Hart",
+        "date": 45975,
+        "stats": "12 PTS / 10 AST / 12 REB / 0 BLK / 1 STL",
+        "team": "Knicks",
+        "opponent": "Heat"
+      }
+    ]
+  },
+  "(2, 1, 1, 1, 3)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Mikal Bridges",
+        "date": 45975,
+        "stats": "15 PTS / 5 AST / 5 REB / 2 BLK / 7 STL",
+        "team": "Knicks",
+        "opponent": "Heat"
+      }
+    ]
+  },
+  "(7, 3, 4, 1, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "James Harden",
+        "date": 45975,
+        "stats": "41 PTS / 11 AST / 14 REB / 2 BLK / 1 STL",
+        "team": "Clippers",
+        "opponent": "Mavericks"
+      }
+    ]
+  },
+  "(4, 3, 3, 1, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Alperen Sengun",
+        "date": 45975,
+        "stats": "25 PTS / 9 AST / 10 REB / 3 BLK / 3 STL",
+        "team": "Rockets",
+        "opponent": "Trail Blazers"
+      }
+    ]
+  },
+  "(3, 1, 1, 0, 3)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Jeremiah Fears",
+        "date": 45975,
+        "stats": "19 PTS / 3 AST / 4 REB / 0 BLK / 7 STL",
+        "team": "Pelicans",
+        "opponent": "Lakers"
+      }
+    ]
+  },
+  "(6, 4, 4, 0, 3)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Jalen Johnson",
+        "date": 45974,
+        "stats": "31 PTS / 14 AST / 18 REB / 0 BLK / 7 STL",
+        "team": "Hawks",
+        "opponent": "Jazz"
+      }
+    ]
+  },
+  "(6, 0, 3, 1, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Onyeka Okongwu",
+        "date": 45974,
+        "stats": "32 PTS / 2 AST / 11 REB / 3 BLK / 2 STL",
+        "team": "Hawks",
+        "opponent": "Jazz"
+      }
+    ]
+  },
+  "(5, 2, 3, 2, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Scottie Barnes",
+        "date": 45974,
+        "stats": "28 PTS / 8 AST / 10 REB / 5 BLK / 1 STL",
+        "team": "Raptors",
+        "opponent": "Cavaliers"
+      }
+    ]
+  },
+  "(8, 2, 3, 0, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Nikola Jokic",
+        "date": 45973,
+        "stats": "55 PTS / 6 AST / 12 REB / 1 BLK / 1 STL",
+        "team": "Nuggets",
+        "opponent": "Clippers"
+      }
+    ]
+  },
+  "(3, 3, 1, 2, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Craig Porter Jr.",
+        "date": 45973,
+        "stats": "19 PTS / 9 AST / 4 REB / 4 BLK / 3 STL",
+        "team": "Cavaliers",
+        "opponent": "Heat"
+      }
+    ]
+  },
+  "(5, 2, 4, 0, 2)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Paul Reed",
+        "date": 45973,
+        "stats": "28 PTS / 6 AST / 13 REB / 1 BLK / 4 STL",
+        "team": "Pistons",
+        "opponent": "Bulls"
+      }
+    ]
+  },
+  "(3, 2, 1, 1, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Derrick White",
+        "date": 45972,
+        "stats": "18 PTS / 7 AST / 5 REB / 2 BLK / 0 STL",
+        "team": "Celtics",
+        "opponent": "76ers"
+      }
+    ]
+  },
+  "(6, 1, 3, 2, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Victor Wembanyama",
+        "date": 45971,
+        "stats": "38 PTS / 5 AST / 12 REB / 5 BLK / 1 STL",
+        "team": "Spurs",
+        "opponent": "Bulls"
+      }
+    ]
+  },
+  "(2, 2, 1, 0, 3)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Marcus Smart",
+        "date": 45971,
+        "stats": "13 PTS / 6 AST / 4 REB / 0 BLK / 7 STL",
+        "team": "Lakers",
+        "opponent": "Hornets"
+      }
+    ]
+  },
+  "(7, 3, 3, 1, 2)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Cade Cunningham",
+        "date": 45971,
+        "stats": "46 PTS / 11 AST / 12 REB / 2 BLK / 5 STL",
+        "team": "Pistons",
+        "opponent": "Wizards"
+      }
+    ]
+  },
+  "(4, 0, 4, 1, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Jalen Duren",
+        "date": 45970,
+        "stats": "21 PTS / 1 AST / 16 REB / 2 BLK / 2 STL",
+        "team": "Pistons",
+        "opponent": "76ers"
+      }
+    ]
+  },
+  "(3, 0, 0, 0, 2)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Reed Sheppard",
+        "date": 45970,
+        "stats": "16 PTS / 2 AST / 0 REB / 1 BLK / 4 STL",
+        "team": "Rockets",
+        "opponent": "Bucks"
+      }
+    ]
+  },
+  "(4, 0, 0, 0, 2)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Aaron Nesmith",
+        "date": 45969,
+        "stats": "25 PTS / 0 AST / 1 REB / 0 BLK / 4 STL",
+        "team": "Pacers",
+        "opponent": "Nuggets"
+      }
+    ]
+  },
+  "(2, 4, 0, 0, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "James Harden",
+        "date": 45969,
+        "stats": "13 PTS / 13 AST / 0 REB / 0 BLK / 0 STL",
+        "team": "Clippers",
+        "opponent": "Suns"
+      }
+    ]
+  },
+  "(6, 4, 4, 0, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Nikola Jokic",
+        "date": 45969,
+        "stats": "32 PTS / 14 AST / 14 REB / 0 BLK / 1 STL",
+        "team": "Nuggets",
+        "opponent": "Pacers"
+      }
+    ]
+  },
+  "(6, 1, 4, 1, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Isaiah Hartenstein",
+        "date": 45968,
+        "stats": "33 PTS / 3 AST / 19 REB / 3 BLK / 1 STL",
+        "team": "Thunder",
+        "opponent": "Kings"
+      }
+    ]
+  },
+  "(7, 3, 4, 1, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Giannis Antetokounmpo",
+        "date": 45968,
+        "stats": "41 PTS / 9 AST / 15 REB / 2 BLK / 2 STL",
+        "team": "Bucks",
+        "opponent": "Bulls"
+      }
+    ]
+  },
+  "(5, 1, 1, 2, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Moses Moody",
+        "date": 45966,
+        "stats": "28 PTS / 3 AST / 3 REB / 4 BLK / 2 STL",
+        "team": "Warriors",
+        "opponent": "Kings"
+      }
+    ]
+  },
+  "(2, 0, 4, 0, 2)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Kel'el Ware",
+        "date": 45966,
+        "stats": "13 PTS / 0 AST / 13 REB / 1 BLK / 4 STL",
+        "team": "Heat",
+        "opponent": "Nuggets"
+      }
+    ]
+  },
+  "(3, 2, 4, 0, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Alperen Sengun",
+        "date": 45966,
+        "stats": "20 PTS / 7 AST / 16 REB / 1 BLK / 1 STL",
+        "team": "Rockets",
+        "opponent": "Grizzlies"
+      }
+    ]
+  },
+  "(1, 1, 4, 0, 2)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Jusuf Nurkic",
+        "date": 45966,
+        "stats": "6 PTS / 4 AST / 17 REB / 1 BLK / 4 STL",
+        "team": "Jazz",
+        "opponent": "Pistons"
+      }
+    ]
+  },
+  "(4, 1, 5, 0, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Jalen Duren",
+        "date": 45966,
+        "stats": "22 PTS / 3 AST / 22 REB / 1 BLK / 0 STL",
+        "team": "Pistons",
+        "opponent": "Jazz"
+      }
+    ]
+  },
+  "(5, 3, 1, 1, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Shai Gilgeous-Alexander",
+        "date": 45965,
+        "stats": "30 PTS / 12 AST / 4 REB / 3 BLK / 0 STL",
+        "team": "Thunder",
+        "opponent": "Clippers"
+      }
+    ]
+  },
+  "(4, 2, 1, 1, 2)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Scottie Barnes",
+        "date": 45965,
+        "stats": "23 PTS / 6 AST / 3 REB / 2 BLK / 4 STL",
+        "team": "Raptors",
+        "opponent": "Bucks"
+      }
+    ]
+  },
+  "(1, 0, 1, 1, 2)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Ausar Thompson",
+        "date": 45964,
+        "stats": "9 PTS / 1 AST / 4 REB / 2 BLK / 4 STL",
+        "team": "Pistons",
+        "opponent": "Grizzlies"
+      }
+    ]
+  },
+  "(5, 2, 3, 0, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Russell Westbrook",
+        "date": 45964,
+        "stats": "26 PTS / 6 AST / 12 REB / 0 BLK / 2 STL",
+        "team": "Kings",
+        "opponent": "Nuggets"
+      }
+    ]
+  },
+  "(5, 1, 1, 1, 2)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Kawhi Leonard",
+        "date": 45964,
+        "stats": "27 PTS / 4 AST / 4 REB / 2 BLK / 4 STL",
+        "team": "Clippers",
+        "opponent": "Heat"
+      }
+    ]
+  },
+  "(0, 0, 1, 2, 2)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Ryan Kalkbrenner",
+        "date": 45963,
+        "stats": "2 PTS / 0 AST / 4 REB / 4 BLK / 4 STL",
+        "team": "Hornets",
+        "opponent": "Jazz"
+      }
+    ]
+  },
+  "(5, 4, 0, 0, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Devin Booker",
+        "date": 45963,
+        "stats": "28 PTS / 13 AST / 2 REB / 0 BLK / 1 STL",
+        "team": "Suns",
+        "opponent": "Spurs"
+      }
+    ]
+  },
+  "(6, 1, 1, 0, 3)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Kawhi Leonard",
+        "date": 45961,
+        "stats": "34 PTS / 5 AST / 5 REB / 0 BLK / 6 STL",
+        "team": "Clippers",
+        "opponent": "Pelicans"
+      }
+    ]
+  },
+  "(5, 4, 2, 1, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Tyrese Maxey",
+        "date": 45961,
+        "stats": "26 PTS / 14 AST / 8 REB / 2 BLK / 2 STL",
+        "team": "76ers",
+        "opponent": "Celtics"
+      }
+    ]
+  },
+  "(3, 0, 3, 0, 2)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Mark Williams",
+        "date": 45959,
+        "stats": "20 PTS / 1 AST / 12 REB / 1 BLK / 4 STL",
+        "team": "Suns",
+        "opponent": "Grizzlies"
+      }
+    ]
+  },
+  "(5, 4, 0, 0, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Austin Reaves",
+        "date": 45959,
+        "stats": "28 PTS / 16 AST / 1 REB / 0 BLK / 2 STL",
+        "team": "Lakers",
+        "opponent": "Timberwolves"
+      }
+    ]
+  },
+  "(0, 0, 0, 2, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Jay Huff",
+        "date": 45959,
+        "stats": "5 PTS / 2 AST / 2 REB / 4 BLK / 0 STL",
+        "team": "Pacers",
+        "opponent": "Mavericks"
+      }
+    ]
+  },
+  "(4, 3, 4, 0, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Nikola Jokic",
+        "date": 45957,
+        "stats": "25 PTS / 10 AST / 19 REB / 1 BLK / 2 STL",
+        "team": "Nuggets",
+        "opponent": "Timberwolves"
+      }
+    ]
+  },
+  "(4, 0, 1, 2, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Jaden McDaniels",
+        "date": 45957,
+        "stats": "25 PTS / 1 AST / 3 REB / 4 BLK / 0 STL",
+        "team": "Timberwolves",
+        "opponent": "Nuggets"
+      }
+    ]
+  },
+  "(8, 1, 4, 0, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Lauri Markkanen",
+        "date": 45957,
+        "stats": "51 PTS / 3 AST / 14 REB / 0 BLK / 0 STL",
+        "team": "Jazz",
+        "opponent": "Suns"
+      }
+    ]
+  },
+  "(3, 3, 4, 0, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Nikola Vucevic",
+        "date": 45957,
+        "stats": "17 PTS / 9 AST / 17 REB / 0 BLK / 2 STL",
+        "team": "Bulls",
+        "opponent": "Hawks"
+      }
+    ]
+  },
+  "(0, 1, 2, 1, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Neemias Queta",
+        "date": 45956,
+        "stats": "4 PTS / 3 AST / 6 REB / 3 BLK / 2 STL",
+        "team": "Celtics",
+        "opponent": "Pistons"
+      }
+    ]
+  },
+  "(6, 1, 4, 3, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Victor Wembanyama",
+        "date": 45956,
+        "stats": "31 PTS / 4 AST / 14 REB / 6 BLK / 3 STL",
+        "team": "Spurs",
+        "opponent": "Nets"
+      }
+    ]
+  },
+  "(8, 3, 3, 0, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Austin Reaves",
+        "date": 45956,
+        "stats": "51 PTS / 9 AST / 11 REB / 0 BLK / 2 STL",
+        "team": "Lakers",
+        "opponent": "Kings"
+      }
+    ]
+  },
+  "(6, 3, 4, 1, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Giannis Antetokounmpo",
+        "date": 45956,
+        "stats": "40 PTS / 9 AST / 14 REB / 2 BLK / 2 STL",
+        "team": "Bucks",
+        "opponent": "Cavaliers"
+      }
+    ]
+  },
+  "(2, 4, 4, 0, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Nikola Jokic",
+        "date": 45955,
+        "stats": "14 PTS / 15 AST / 14 REB / 0 BLK / 3 STL",
+        "team": "Nuggets",
+        "opponent": "Suns"
+      }
+    ]
+  },
+  "(6, 0, 3, 0, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Chet Holmgren",
+        "date": 45955,
+        "stats": "31 PTS / 1 AST / 11 REB / 1 BLK / 3 STL",
+        "team": "Thunder",
+        "opponent": "Hawks"
+      }
+    ]
+  },
+  "(5, 0, 3, 4, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Victor Wembanyama",
+        "date": 45954,
+        "stats": "29 PTS / 2 AST / 11 REB / 9 BLK / 1 STL",
+        "team": "Spurs",
+        "opponent": "Pelicans"
+      }
+    ]
+  },
+  "(6, 2, 4, 0, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Giannis Antetokounmpo",
+        "date": 45954,
+        "stats": "31 PTS / 7 AST / 20 REB / 1 BLK / 0 STL",
+        "team": "Bucks",
+        "opponent": "Raptors"
+      }
+    ]
+  },
+  "(7, 2, 2, 0, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Stephen Curry",
+        "date": 45953,
+        "stats": "42 PTS / 7 AST / 6 REB / 1 BLK / 3 STL",
+        "team": "Warriors",
+        "opponent": "Nuggets"
+      }
+    ]
+  },
+  "(8, 1, 2, 0, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Shai Gilgeous-Alexander",
+        "date": 45953,
+        "stats": "55 PTS / 5 AST / 8 REB / 1 BLK / 2 STL",
+        "team": "Thunder",
+        "opponent": "Pacers"
+      }
+    ]
+  },
+  "(0, 0, 1, 2, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Drew Eubanks",
+        "date": 45952,
+        "stats": "4 PTS / 0 AST / 4 REB / 4 BLK / 2 STL",
+        "team": "Kings",
+        "opponent": "Suns"
+      }
+    ]
+  },
+  "(6, 0, 4, 1, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Victor Wembanyama",
+        "date": 45952,
+        "stats": "40 PTS / 1 AST / 15 REB / 3 BLK / 1 STL",
+        "team": "Spurs",
+        "opponent": "Mavericks"
+      }
+    ]
+  },
+  "(1, 3, 2, 1, 0)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Draymond Green",
+        "date": 45951,
+        "stats": "8 PTS / 9 AST / 7 REB / 2 BLK / 1 STL",
+        "team": "Warriors",
+        "opponent": "Lakers"
+      }
+    ]
+  },
+  "(7, 3, 3, 0, 1)": {
+    "count": 1,
+    "games": [
+      {
+        "player": "Luka Doncic",
+        "date": 45951,
+        "stats": "43 PTS / 9 AST / 12 REB / 1 BLK / 2 STL",
+        "team": "Lakers",
+        "opponent": "Warriors"
+      }
+    ]
+  }
+}
