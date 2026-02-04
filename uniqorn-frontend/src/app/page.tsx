@@ -22,27 +22,27 @@ export default async function Page() {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
+      <div className="grid grid-cols-1 gap-6 md:gap-8 lg:grid-cols-3">
           {/* Main Content - League Leaders */}
           <section className="lg:col-span-2 space-y-6">
             <div className="rounded-2xl border border-sky-400/20 bg-zinc-900/60 backdrop-blur-sm overflow-hidden">
-              <div className="bg-gradient-to-r from-sky-400/20 to-sky-300/20 px-6 py-4">
-                <h2 className="text-xl font-semibold text-sky-200">League Leaders (Season Uniqorn)</h2>
-                <p className="text-sm text-zinc-300 mt-1">
+              <div className="bg-gradient-to-r from-sky-400/20 to-sky-300/20 px-4 md:px-6 py-4">
+                <h2 className="text-lg md:text-xl font-semibold text-sky-200">League Leaders (Season Uniqorn)</h2>
+                <p className="text-xs md:text-sm text-zinc-300 mt-1">
                   Highest average weighted uniqueness by season
                 </p>
               </div>
               
-              <div className="p-6">
-                <div className="overflow-x-auto">
-                  <table className="w-full text-sm">
+              <div className="p-4 md:p-6">
+                <div className="overflow-x-auto -mx-4 md:mx-0">
+                  <table className="w-full text-xs md:text-sm">
                     <thead className="border-b border-zinc-700">
                       <tr className="text-left text-zinc-200">
-                        <th className="px-4 py-3 font-medium">Rank</th>
-                        <th className="px-4 py-3 font-medium">Player</th>
-                        <th className="px-4 py-3 font-medium">Season</th>
-                        <th className="px-4 py-3 font-medium text-right">Games</th>
-                        <th className="px-4 py-3 font-medium text-right">Avg Uniqorn</th>
+                        <th className="px-2 md:px-4 py-3 font-medium">Rank</th>
+                        <th className="px-2 md:px-4 py-3 font-medium">Player</th>
+                        <th className="px-2 md:px-4 py-3 font-medium hidden sm:table-cell">Season</th>
+                        <th className="px-2 md:px-4 py-3 font-medium text-right hidden md:table-cell">Games</th>
+                        <th className="px-2 md:px-4 py-3 font-medium text-right">Avg</th>
                       </tr>
                     </thead>
                     <tbody className="divide-y divide-zinc-800">
@@ -51,19 +51,20 @@ export default async function Page() {
                           key={`${row.personId}-${row.season}`}
                           className="hover:bg-sky-400/10 transition-colors"
                         >
-                          <td className="px-4 py-3">
+                          <td className="px-2 md:px-4 py-3">
                             <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-sky-400/20 text-sky-200 text-xs font-medium">
                               {i + 1}
                             </span>
                           </td>
-                          <td className="px-4 py-3">
+                          <td className="px-2 md:px-4 py-3">
                             <div className="font-medium text-zinc-50">
                               {row.firstName} {row.lastName}
                             </div>
+                            <div className="text-xs text-zinc-400 sm:hidden">{row.season}</div>
                           </td>
-                          <td className="px-4 py-3 text-zinc-300">{row.season}</td>
-                          <td className="px-4 py-3 text-right text-zinc-300">{row.games}</td>
-                          <td className="px-4 py-3 text-right font-semibold text-sky-300">
+                          <td className="px-2 md:px-4 py-3 text-zinc-300 hidden sm:table-cell">{row.season}</td>
+                          <td className="px-2 md:px-4 py-3 text-right text-zinc-300 hidden md:table-cell">{row.games}</td>
+                          <td className="px-2 md:px-4 py-3 text-right font-semibold text-sky-300">
                             {Number(row.avg_weighted_uniqueness).toFixed(4)}
                           </td>
                         </tr>
@@ -80,13 +81,13 @@ export default async function Page() {
             {/* Most Recent Ultimate Uniqorn */}
             {mostRecentUltimate && (
               <div className="rounded-2xl border border-sky-400/20 bg-zinc-900/60 backdrop-blur-sm overflow-hidden">
-                <div className="bg-gradient-to-r from-purple-400/20 to-pink-400/20 px-6 py-4">
-                  <h3 className="text-lg font-semibold text-purple-200">Most Recent Ultimate Uniqorn</h3>
+                <div className="bg-gradient-to-r from-purple-400/20 to-pink-400/20 px-4 md:px-6 py-4">
+                  <h3 className="text-base md:text-lg font-semibold text-purple-200">Most Recent Ultimate Uniqorn</h3>
                   <p className="text-xs text-zinc-300 mt-1">
                     Rarest statistical combination in NBA history
                   </p>
                 </div>
-                <div className="p-6">
+                <div className="p-4 md:p-6">
                   <UltimateChartCard
                     firstName={mostRecentUltimate.firstName}
                     lastName={mostRecentUltimate.lastName}
@@ -104,13 +105,13 @@ export default async function Page() {
 
             {/* Recent Uniqorn Games */}
             <div className="rounded-2xl border border-sky-400/20 bg-zinc-900/60 backdrop-blur-sm overflow-hidden">
-              <div className="bg-gradient-to-r from-sky-400/20 to-sky-300/20 px-6 py-4">
-                <h3 className="text-lg font-semibold text-sky-200">Recent Uniqorn Games</h3>
+              <div className="bg-gradient-to-r from-sky-400/20 to-sky-300/20 px-4 md:px-6 py-4">
+                <h3 className="text-base md:text-lg font-semibold text-sky-200">Recent Uniqorn Games</h3>
                 <p className="text-xs text-zinc-300 mt-1">
                   Latest unique statistical performances this season
                 </p>
               </div>
-              <div className="p-6">
+              <div className="p-4 md:p-6">
                 <div className="space-y-4">
                   {recent.map((game) => (
                     <RecentGameCard

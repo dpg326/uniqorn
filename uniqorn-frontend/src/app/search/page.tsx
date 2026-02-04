@@ -89,7 +89,7 @@ export default function BucketSearch() {
   );
 
   return (
-    <div className="max-w-4xl mx-auto space-y-8">
+    <div className="max-w-4xl mx-auto space-y-6 md:space-y-8">
       <style jsx>{`
         .slider::-webkit-slider-thumb {
           appearance: none;
@@ -120,20 +120,20 @@ export default function BucketSearch() {
       `}</style>
       {/* Header */}
       <div className="text-center">
-        <h1 className="text-3xl font-bold text-zinc-50 mb-4">Bucket Search</h1>
-        <p className="text-zinc-400">
+        <h1 className="text-2xl md:text-3xl font-bold text-zinc-50 mb-4">Bucket Search</h1>
+        <p className="text-sm md:text-base text-zinc-400 px-4">
           Explore statistical combinations and see how rare they are in the current season
         </p>
       </div>
 
       {/* Search Controls */}
       <div className="rounded-2xl border border-sky-400/20 bg-zinc-900/60 backdrop-blur-sm overflow-hidden">
-        <div className="bg-gradient-to-r from-sky-400/20 to-sky-300/20 px-6 py-4">
-          <h2 className="text-xl font-semibold text-sky-200">Adjust Stat Ranges</h2>
-          <p className="text-sm text-zinc-300 mt-1">Move the sliders to select your bucket</p>
+        <div className="bg-gradient-to-r from-sky-400/20 to-sky-300/20 px-4 md:px-6 py-4">
+          <h2 className="text-lg md:text-xl font-semibold text-sky-200">Adjust Stat Ranges</h2>
+          <p className="text-xs md:text-sm text-zinc-300 mt-1">Move the sliders to select your bucket</p>
         </div>
         
-        <div className="p-6 space-y-6">
+        <div className="p-4 md:p-6 space-y-6">
           <StatSlider 
             label="Points" 
             value={pointsBin} 
@@ -169,12 +169,12 @@ export default function BucketSearch() {
 
       {/* Results */}
       <div className="rounded-2xl border border-sky-400/20 bg-zinc-900/60 backdrop-blur-sm overflow-hidden">
-        <div className="bg-gradient-to-r from-sky-400/20 to-sky-300/20 px-6 py-4">
-          <h2 className="text-xl font-semibold text-sky-200">Results</h2>
-          <p className="text-sm text-zinc-300 mt-1">{bucketDescription}</p>
+        <div className="bg-gradient-to-r from-sky-400/20 to-sky-300/20 px-4 md:px-6 py-4">
+          <h2 className="text-lg md:text-xl font-semibold text-sky-200">Results</h2>
+          <p className="text-xs md:text-sm text-zinc-300 mt-1 break-words">{bucketDescription}</p>
         </div>
         
-        <div className="p-6">
+        <div className="p-4 md:p-6">
           {loading ? (
             <div className="text-center text-zinc-400">Searching...</div>
           ) : result ? (
