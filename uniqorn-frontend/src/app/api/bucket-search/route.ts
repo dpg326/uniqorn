@@ -71,7 +71,11 @@ export async function GET(request: NextRequest) {
       );
     }
 
+    console.log('Available bucket keys:', Object.keys(data).slice(0, 5)); // Show first 5 keys
+    console.log('Total buckets:', Object.keys(data).length);
+
     const bucketStr = `(${bucket_key.join(', ')})`;
+    console.log('Looking for bucket key:', bucketStr); // Debug log
     const bucketInfo = data[bucketStr];
 
     const result: BucketSearchResult = {
