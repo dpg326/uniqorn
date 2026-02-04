@@ -36,7 +36,7 @@ export default function UltimateChartCard({
       isUltimate: 'true',
       ...(opponentteamName && { opponentteamName })
     });
-    window.open(`/api/generate-chart?${params.toString()}`, '_blank', 'width=600,height=650');
+    window.open(`/api/generate-chart?${params.toString()}`, '_blank', 'width=500,height=500');
   };
 
   return (

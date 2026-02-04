@@ -105,7 +105,7 @@ function generateRadarChartHTML(data: ChartData): string {
     </style>
 </head>
 <body>
-    <div id="radarChart" style="width: 100%; height: 100%; min-width: 400px; min-height: 400px; max-width: 500px; max-height: 500px;"></div>
+    <div id="radarChart" style="width: 100%; height: 100%; min-width: 300px; min-height: 300px; max-width: 400px; max-height: 400px;"></div>
 
     <script>
         const trace1 = {
