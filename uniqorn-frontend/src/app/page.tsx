@@ -13,13 +13,47 @@ export default async function Page() {
 
   return (
     <div className="space-y-8">
-      {/* Header Section */}
-      <div className="text-center">
-        <p className="text-sm text-zinc-400 max-w-4xl mx-auto">
-          The Uniqorn Index measures how statistically unique a player's performance is by bucketing 
-          points, assists, rebounds, blocks, and steals into ranges, then calculating how rare that combination 
-          occurs within a season. Higher values indicate rarer statistical performances.
-        </p>
+      {/* Hero Section */}
+      <div className="text-center space-y-6 py-8 md:py-12">
+        <div className="space-y-4">
+          <h1 className="text-4xl md:text-6xl font-black tracking-tight">
+            <span className="bg-gradient-to-r from-sky-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
+              Discover the Rarest
+            </span>
+            <br />
+            <span className="text-zinc-50">
+              Performances in NBA History
+            </span>
+          </h1>
+          <p className="text-lg md:text-xl text-zinc-300 max-w-3xl mx-auto">
+            The Uniqorn Index reveals how statistically unique each NBA game truly is—celebrating 
+            the strange, the extreme, and the once-in-a-lifetime performances.
+          </p>
+        </div>
+        
+        <div className="flex flex-wrap justify-center gap-4 pt-4">
+          <Link 
+            href="/ultimate" 
+            className="px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white font-semibold rounded-lg transition-all shadow-lg hover:shadow-xl"
+          >
+            Explore Ultimate Uniqorns
+          </Link>
+          <Link 
+            href="/about" 
+            className="px-6 py-3 bg-zinc-800 hover:bg-zinc-700 text-sky-200 font-semibold rounded-lg transition-all border border-sky-400/30"
+          >
+            How It Works
+          </Link>
+        </div>
+      </div>
+
+      {/* Quick Explainer */}
+      <div className="max-w-4xl mx-auto">
+        <div className="rounded-xl border border-sky-400/20 bg-zinc-900/60 backdrop-blur-sm p-4 md:p-6">
+          <p className="text-sm md:text-base text-zinc-300 text-center">
+            <span className="font-semibold text-sky-300">How it works:</span> We bucket every NBA game by points, assists, rebounds, blocks, and steals—then measure how rare that exact combination is within its season. Higher scores = rarer performances.
+          </p>
+        </div>
       </div>
 
       <div className="grid grid-cols-1 gap-6 md:gap-8 lg:grid-cols-3">
