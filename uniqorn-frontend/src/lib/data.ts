@@ -80,9 +80,8 @@ export async function getSeasonLeaders(season: string, limit = 50): Promise<Lead
 
 export async function getAllTimeLeaders(limit = 50): Promise<AllTimeRow[]> {
   const uniqornXlsx = join(process.cwd(), 'public', 'data', 'Uniqorn_Master.xlsx');
-  const allTime = await readWorkbookSheet<AllTimeRow>(uniqornXlsx, 'AllTimeTop20');
-  if (allTime.length) return allTime.slice(0, limit);
-
+  
+  // Always recalculate to ensure games column is populated correctly
   const wb = await readWorkbook(uniqornXlsx);
   const seasonSheets = wb.SheetNames.filter((s: string) => s.includes('-'));
 
