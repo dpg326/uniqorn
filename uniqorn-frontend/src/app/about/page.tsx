@@ -40,11 +40,93 @@ export default function Page() {
         </p>
       </div>
 
-      <h2 className="text-sky-200">How the score is built</h2>
+      <h2 className="text-sky-200">The Mathematics Behind the Index</h2>
+      
+      <h3 className="text-sky-300">Step 1: Bucketing</h3>
+      <p>
+        Each stat is grouped into ranges (buckets) to create meaningful categories while reducing noise:
+      </p>
+      <ul>
+        <li><strong>Points:</strong> 0-5, 6-10, 11-15, 16-20, 21-25, 26-30, 31-40, 41-50, 51+</li>
+        <li><strong>Assists:</strong> 0-2, 3-5, 6-8, 9-12, 13-20, 21+</li>
+        <li><strong>Rebounds:</strong> 0-2, 3-5, 6-10, 11-15, 16-20, 21+</li>
+        <li><strong>Blocks:</strong> 0-1, 2-3, 4-5, 6-7, 8+</li>
+        <li><strong>Steals:</strong> 0-1, 2-3, 4-5, 6-7, 8+</li>
+      </ul>
+      <p>
+        A game with 23 points, 8 assists, 11 rebounds, 2 blocks, and 3 steals becomes the bucket: <code>(21-25, 6-8, 11-15, 2-3, 2-3)</code>
+      </p>
+
+      <h3 className="text-sky-300">Step 2: Counting Frequency</h3>
+      <p>
+        For each season, we count how many times each unique bucket combination appears across all games played. We also track how many times each player personally contributes to each bucket (for self-exclusion).
+      </p>
+
+      <h3 className="text-sky-300">Step 3: Weighted Uniqueness Score (The Key Formula)</h3>
+      <p>
+        Each game receives a score using an <strong>exponential decay formula</strong> with a self-exclusion mechanism:
+      </p>
+      <div className="bg-zinc-800/60 border border-sky-500/20 rounded-lg p-4 my-4 font-mono text-sm">
+        <p className="text-center mb-3">
+          <strong>effective_count = max(total_bucket_count - player_bucket_count, 1)</strong>
+        </p>
+        <p className="text-center">
+          <strong>Game Score = e<sup>-α × effective_count</sup></strong>
+        </p>
+        <p className="text-center text-zinc-400 text-xs mt-2">
+          where α (alpha) = 0.10
+        </p>
+      </div>
+      <p>
+        <strong>Self-exclusion:</strong> We subtract the player's own contribution to avoid inflating their score when they repeatedly produce the same bucket.
+      </p>
+      <p>
+        <strong>Example:</strong> If a bucket appears 5 times total, and the player contributed 2 of those:
+      </p>
+      <ul>
+        <li>effective_count = max(5 - 2, 1) = 3</li>
+        <li>Game Score = e<sup>-0.10 × 3</sup> = e<sup>-0.30</sup> ≈ 0.7408</li>
+      </ul>
+      <p>
+        This exponential formula means:
+      </p>
+      <ul>
+        <li><strong>Score near 1.0:</strong> Extremely unique (effective_count = 1)</li>
+        <li><strong>Score ~0.74:</strong> Moderately unique (effective_count = 3)</li>
+        <li><strong>Score ~0.37:</strong> Common (effective_count = 10)</li>
+        <li><strong>Score near 0.0:</strong> Very common (effective_count → ∞)</li>
+      </ul>
+
+      <h3 className="text-sky-300">Step 4: Player Season Average</h3>
+      <p>
+        A player's Uniqorn Index for a season is the <strong>average</strong> of all their game scores. This rewards both having unique games <em>and</em> doing it consistently.
+      </p>
+      <div className="bg-zinc-800/60 border border-sky-500/20 rounded-lg p-4 my-4 font-mono text-sm">
+        <p className="text-center">
+          <strong>Season Uniqorn Index = (Σ Game Scores) / Games Played</strong>
+        </p>
+      </div>
+      <p>
+        The exponential decay with α=0.10 provides a good balance: it dramatically rewards truly unique performances while still distinguishing between moderately rare and common buckets.
+      </p>
+
+      <h3 className="text-sky-300">Understanding the Scale</h3>
+      <div className="bg-gradient-to-r from-sky-900/40 to-purple-900/40 border border-sky-500/30 rounded-lg p-4 my-4">
+        <ul className="space-y-2 my-0">
+          <li><strong>0.65+:</strong> Elite uniqueness — Top 1% of all seasons</li>
+          <li><strong>0.55-0.64:</strong> Exceptional — Top 5% of seasons</li>
+          <li><strong>0.45-0.54:</strong> Very Good — Top 20% of seasons</li>
+          <li><strong>0.35-0.44:</strong> Above Average — Top 50% of seasons</li>
+          <li><strong>Below 0.35:</strong> Common statistical profile</li>
+        </ul>
+      </div>
+
+      <h2 className="text-sky-200">Quick Summary</h2>
       <ul>
         <li>Each game is bucketed by points, assists, rebounds, blocks, and steals.</li>
         <li>Within a season, we count how often each bucketed stat shape appears league-wide.</li>
-        <li>Every game receives a weighted uniqueness score based on that season’s frequencies.</li>
+        <li>Every game receives a weighted uniqueness score: <code>e<sup>-0.10 × effective_count</sup></code></li>
+        <li>Self-exclusion prevents players from inflating their own scores.</li>
         <li>Players are ranked by their average weighted uniqueness over the season.</li>
       </ul>
 
