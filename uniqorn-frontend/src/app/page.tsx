@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { getCurrentSeasonLeaders, getRecentUniqornGames, getMostRecentUltimateUniqorn, safeChartFileName } from '@/lib/data';
 import UltimateChartCard from '@/components/UltimateChartCard';
 import RecentGameCard from '@/components/RecentGameCard';
-import UniqornTooltip from '@/components/UniqornTooltip';
+import UniqornScore from '@/components/UniqornTooltip';
 
 export default async function Page() {
   const [leaders, recent, mostRecentUltimate] = await Promise.all([
@@ -155,10 +155,8 @@ export default async function Page() {
                           </td>
                           <td className="px-2 md:px-4 py-3 text-zinc-300 hidden sm:table-cell">{row.season}</td>
                           <td className="px-2 md:px-4 py-3 text-right text-zinc-300 hidden md:table-cell">{row.games}</td>
-                          <td className="px-2 md:px-4 py-3 text-right font-semibold text-sky-300">
-                            <UniqornTooltip score={Number(row.avg_weighted_uniqueness)}>
-                              <span>{Number(row.avg_weighted_uniqueness).toFixed(4)}</span>
-                            </UniqornTooltip>
+                          <td className="px-2 md:px-4 py-3">
+                            <UniqornScore score={Number(row.avg_weighted_uniqueness)} />
                           </td>
                         </tr>
                       ))}
