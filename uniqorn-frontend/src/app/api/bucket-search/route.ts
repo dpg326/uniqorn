@@ -23,14 +23,20 @@ const CACHE_DURATION = 5 * 60 * 1000; // 5 minutes
 async function loadBucketData() {
   const now = Date.now();
   if (bucketData && (now - lastLoadTime) < CACHE_DURATION) {
+    console.log('Using cached bucket data');
     return bucketData;
   }
 
   try {
     // Use the correct path in public/data directory
     const dataPath = join(process.cwd(), 'public', 'data', 'master_bucket_database.json');
+    console.log('Loading bucket data from:', dataPath);
+    
     const fileContent = await readFile(dataPath, 'utf-8');
+    console.log('File content length:', fileContent.length);
+    
     bucketData = JSON.parse(fileContent);
+    console.log('Parsed bucket data, keys:', Object.keys(bucketData).length);
     lastLoadTime = now;
     return bucketData;
   } catch (error) {
