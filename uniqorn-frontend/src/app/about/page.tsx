@@ -26,19 +26,17 @@ export default function Page() {
       </p>
 
       <div className="my-6 flex flex-col items-center gap-2">
-        <p className="text-sm text-zinc-400 italic">Example: Hakeem Olajuwon’s 1990-03-26 Ultimate Uniqorn</p>
-        <div className="relative w-80 h-80 rounded-lg overflow-hidden border border-sky-500/20 bg-zinc-900/40">
-          <Image
-            src="/api/ultimate-charts/Hakeem_Olajuwon_1990-03-26.png"
-            alt="Hakeem Olajuwon Ultimate Uniqorn radar chart"
-            fill
-            className="object-contain"
-            unoptimized
+        <p className="text-sm text-zinc-400 italic">Example: Hakeem Olajuwon's 1990-03-26 Ultimate Uniqorn</p>
+        <div className="relative w-full max-w-md aspect-square rounded-lg overflow-hidden border border-sky-500/20 bg-zinc-900/40">
+          <iframe
+            src="/api/generate-chart?firstName=Hakeem&lastName=Olajuwon&game_date=1990-03-26&points=27&assists=3&rebounds=18&blocks=6&steals=4&isUltimate=true"
+            title="Hakeem Olajuwon Ultimate Uniqorn radar chart"
+            className="w-full h-full border-none"
           />
         </div>
         <p className="text-xs text-zinc-400 max-w-prose text-center">
           Statline: 27 PTS / 3 AST / 18 REB / 6 BLK / 4 STL<br />
-          This bucket shape has only ever occurred once in NBA history (1973–present). Hakeem’s blend of scoring, rebounding, shot-blocking, and steals on this night occupies a region of stat space that no other player has ever matched.
+          This bucket shape has only ever occurred once in NBA history (1973–present). Hakeem's blend of scoring, rebounding, shot-blocking, and steals on this night occupies a region of stat space that no other player has ever matched.
         </p>
       </div>
 
