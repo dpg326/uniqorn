@@ -23,14 +23,40 @@ function generateRadarChartHTML(data: ChartData): string {
   const blocks_bins = [0, 1, 3, 5, 7, Infinity];
   const steals_bins = [0, 1, 3, 5, 7, Infinity];
   
-  // Convert raw stats to bucket indices (matching Python logic)
+  // Convert raw stats to bucket indices (matching the exact bucket ranges from Python)
   const getBucketIndex = (value: number, bins: number[]) => {
-    for (let i = 0; i < bins.length - 1; i++) {
-      if (value >= bins[i] && value < bins[i + 1]) {
-        return i;
-      }
+    // Based on the ranges in get_bucket_description:
+    // Points: "0-5"=0, "6-10"=1, "11-15"=2, "16-20"=3, "21-25"=4, "26-30"=5, "31-40"=6, "41-50"=7, "51+"=8
+    // Assists: "0-2"=0, "3-5"=1, "6-8"=2, "9-12"=3, "13-20"=4, "21+"=5
+    // Rebounds: "0-2"=0, "3-5"=1, "6-10"=2, "11-15"=3, "16-20"=4, "21+"=5
+    // Blocks: "0-1"=0, "2-3"=1, "4-5"=2, "6-7"=3, "8+"=4
+    // Steals: "0-1"=0, "2-3"=1, "4-5"=2, "6-7"=3, "8+"=4
+    
+    if (bins.length === 10) { // Points bins
+      if (value >= 0 && value <= 5) return 0;
+      else if (value >= 6 && value <= 10) return 1;
+      else if (value >= 11 && value <= 15) return 2;
+      else if (value >= 16 && value <= 20) return 3;
+      else if (value >= 21 && value <= 25) return 4;
+      else if (value >= 26 && value <= 30) return 5;
+      else if (value >= 31 && value <= 40) return 6;
+      else if (value >= 41 && value <= 50) return 7;
+      else return 8;
+    } else if (bins.length === 7) { // Assists, Rebounds bins
+      if (value >= 0 && value <= 2) return 0;
+      else if (value >= 3 && value <= 5) return 1;
+      else if (value >= 6 && value <= 8) return 2;
+      else if (value >= 9 && value <= 12) return 3;
+      else if (value >= 13 && value <= 20) return 4;
+      else return 5;
+    } else if (bins.length === 6) { // Blocks, Steals bins
+      if (value >= 0 && value <= 1) return 0;
+      else if (value >= 2 && value <= 3) return 1;
+      else if (value >= 4 && value <= 5) return 2;
+      else if (value >= 6 && value <= 7) return 3;
+      else return 4;
     }
-    return bins.length - 2; // Last valid bucket index
+    return 0;
   };
   
   const points_bin = getBucketIndex(points, points_bins);
