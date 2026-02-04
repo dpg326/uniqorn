@@ -76,9 +76,9 @@ export default async function Page() {
             </span>
           </h1>
           <p className="text-lg md:text-xl text-zinc-300 max-w-3xl mx-auto">
-            Discover which players have the most distinctive statistical profiles in NBA history. 
-            The Uniqorn Index ranks players by how unique their performances are—celebrating 
-            the rare, the extreme, and the truly one-of-a-kind.
+            A statistical framework for measuring how unusual NBA performances are. 
+            The Uniqorn Index ranks players by how often their stat combinations occur—identifying 
+            the distinctive profiles that stand out from typical basketball patterns.
           </p>
         </div>
         

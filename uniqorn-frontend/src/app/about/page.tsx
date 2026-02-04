@@ -14,15 +14,15 @@ export default function Page() {
         The Uniqorn Index is a season-relative measure of statistical uniqueness. It evaluates how unique a player’s overall statline profile is within the context of a specific NBA season. Rather than assuming every box score is unique by default, the index groups performances into discrete buckets across points, assists, rebounds, blocks, and steals.
       </p>
       <p>
-        Each game is then weighted by how frequently that exact bucketed profile appears league-wide during the season. Unique profiles contribute more to a player's score, while common ones contribute less. Over time, this captures both the uniqueness <em>and</em> the consistency of distinctive performances. Crucially, the index is era-aware — a triple-double in a season full of triple-doubles simply does not mean the same thing as one in a season where they are scarce.
+        Each game is weighted by how frequently that bucketed profile appears league-wide during the season. Less common profiles score higher, while frequent ones score lower. This captures both uniqueness and consistency. The index is era-aware — a triple-double in a season full of triple-doubles doesn't score the same as one in a season where they're scarce.
       </p>
 
       <h2 className="text-sky-200">What is a Uniqorn Game?</h2>
       <p>
-        A Uniqorn game is a single performance whose bucketed statline occurs exactly once within a given season. Because the buckets are season-specific and intentionally constrained, a Uniqorn game reflects something genuinely distinct relative to that year’s statistical environment, not an accident of overly precise metrics.
+        A Uniqorn game is a performance whose bucketed statline occurs exactly once within a given season. Because the buckets are season-specific and intentionally constrained, a Uniqorn game reflects something distinct relative to that year's statistical environment.
       </p>
       <p>
-        These games tend to live in rarely visited regions of stat space — whether through extreme production, strange combinations of numbers, or unlikely intersections of skills that the league almost never produces at the same time.
+        These games typically involve unusual combinations of production across multiple categories — whether through high volume in one area paired with moderate output in others, or balanced contributions across all five stats that rarely align.
       </p>
 
       <div className="my-6 flex flex-col items-center gap-2">
@@ -36,7 +36,7 @@ export default function Page() {
         </div>
         <p className="text-xs text-zinc-400 max-w-prose text-center">
           Statline: 27 PTS / 3 AST / 18 REB / 6 BLK / 4 STL<br />
-          This bucket shape has only ever occurred once in NBA history (1973–present). Hakeem's blend of scoring, rebounding, shot-blocking, and steals on this night occupies a region of stat space that no other player has ever matched.
+          This bucket combination has occurred once in NBA history (1973–present). No other game has matched this specific blend of scoring, rebounding, blocks, and steals.
         </p>
       </div>
 
@@ -132,12 +132,12 @@ export default function Page() {
 
       <h2 className="text-sky-200">Why buckets?</h2>
       <p>
-        Buckets smooth out minor statistical noise while preserving meaningful differences. A 23/8/7 game and a 24/8/7 game fall into the same bucket, ensuring the index rewards overall shape rather than tiny fluctuations. This keeps the metric stable while still surfacing truly rare combinations.
+        Buckets smooth out minor statistical noise while preserving meaningful differences. A 23/8/7 game and a 24/8/7 game fall into the same bucket, ensuring the index rewards overall shape rather than tiny fluctuations. This keeps the metric stable while still surfacing unique combinations.
       </p>
 
       <h2 className="text-sky-200">Ultimate Uniqorn</h2>
       <p>
-        Beyond single-season Uniqorn games, we also track <strong>Ultimate Uniqorn</strong> performances — statline buckets that have occurred exactly once across all seasons from 1973 to the present. These games are historically singular, representing the rarest intersections of skills the NBA has ever seen.
+        Beyond single-season Uniqorn games, we also track <strong>Ultimate Uniqorn</strong> performances — statline buckets that have occurred exactly once across all seasons from 1973 to the present. These represent the rarest statistical combinations in modern NBA history.
       </p>
 
       <h2 className="text-sky-200">How we use it</h2>
@@ -150,7 +150,7 @@ export default function Page() {
 
       <h2 className="text-sky-200">Credits</h2>
       <p>
-        Built using NBA box-score data and modern data science techniques. The Uniqorn Index is bucket-driven, era-aware, and designed to celebrate the truly distinct corners of basketball history.
+        Built using NBA box-score data and exponential decay algorithms. The Uniqorn Index is bucket-driven, era-aware, and designed to surface unusual statistical profiles across basketball history.
       </p>
 
       <h2 className="text-sky-200">Important Considerations</h2>
@@ -182,7 +182,7 @@ export default function Page() {
 
         <h4 className="text-sky-200 font-medium mb-1">The Value Proposition</h4>
         <p className="text-zinc-300">
-          Used alongside traditional stats, the Uniqorn Index excels at highlighting diverse skill sets, uncovering strange and beautiful outliers, and showing how the league’s statistical shape changes over time. It’s not a definitive ranking — it’s a celebration of how many different ways basketball can look.
+          Used alongside traditional stats, the Uniqorn Index highlights diverse skill sets, identifies statistical outliers, and tracks how the league's statistical patterns change over time. It's not a definitive ranking — it's a tool for exploring the variety of ways basketball performance can manifest.
         </p>
       </div>
     </div>
