@@ -39,11 +39,11 @@ export default function UniqornScore({ score }: UniqornScoreProps) {
   const occurrenceRange = getOccurrenceFromScore(score);
 
   return (
-    <div className="relative inline-block">
+    <div className="relative text-right">
       <div
         onMouseEnter={() => setIsVisible(true)}
         onMouseLeave={() => setIsVisible(false)}
-        className="cursor-help text-right"
+        className="cursor-help inline-block"
       >
         <span className="font-semibold text-sky-300">
           {score.toFixed(4)}
