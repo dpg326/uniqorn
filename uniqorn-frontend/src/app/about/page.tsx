@@ -11,10 +11,10 @@ export default function Page() {
 
       <h2 className="text-sky-200">What is the Uniqorn Index?</h2>
       <p>
-        The Uniqorn Index is a season-relative measure of statistical uniqueness. It evaluates how rare a player’s overall statline profile is within the context of a specific NBA season. Rather than assuming every box score is unique by default, the index groups performances into discrete buckets across points, assists, rebounds, blocks, and steals.
+        The Uniqorn Index is a season-relative measure of statistical uniqueness. It evaluates how unique a player’s overall statline profile is within the context of a specific NBA season. Rather than assuming every box score is unique by default, the index groups performances into discrete buckets across points, assists, rebounds, blocks, and steals.
       </p>
       <p>
-        Each game is then weighted by how frequently that exact bucketed profile appears league-wide during the season. Rare profiles contribute more to a player’s score, while common ones contribute less. Over time, this captures both the rarity <em>and</em> the consistency of distinctive performances. Crucially, the index is era-aware — a triple-double in a season full of triple-doubles simply does not mean the same thing as one in a season where they are scarce.
+        Each game is then weighted by how frequently that exact bucketed profile appears league-wide during the season. Unique profiles contribute more to a player's score, while common ones contribute less. Over time, this captures both the uniqueness <em>and</em> the consistency of distinctive performances. Crucially, the index is era-aware — a triple-double in a season full of triple-doubles simply does not mean the same thing as one in a season where they are scarce.
       </p>
 
       <h2 className="text-sky-200">What is a Uniqorn Game?</h2>

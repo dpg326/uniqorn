@@ -14,29 +14,85 @@ export default async function Page() {
   return (
     <div className="space-y-8">
       {/* Hero Section */}
-      <div className="text-center space-y-6 py-8 md:py-12">
-        <div className="space-y-4">
+      <div className="relative text-center space-y-6 py-8 md:py-12 overflow-hidden">
+        {/* Decorative Background Chart */}
+        <div className="absolute inset-0 flex items-center justify-center pointer-events-none opacity-[0.03]">
+          <svg viewBox="0 0 400 400" className="w-full max-w-2xl h-auto">
+            {/* Radar chart grid */}
+            <g>
+              {[0, 1, 2, 3, 4, 5, 6, 7, 8].map((i) => (
+                <circle
+                  key={i}
+                  cx="200"
+                  cy="200"
+                  r={20 + i * 20}
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="1"
+                  className="text-sky-400"
+                />
+              ))}
+              {/* Axes */}
+              {[0, 72, 144, 216, 288].map((angle) => {
+                const rad = (angle * Math.PI) / 180;
+                const x = 200 + Math.cos(rad - Math.PI / 2) * 180;
+                const y = 200 + Math.sin(rad - Math.PI / 2) * 180;
+                return (
+                  <line
+                    key={angle}
+                    x1="200"
+                    y1="200"
+                    x2={x}
+                    y2={y}
+                    stroke="currentColor"
+                    strokeWidth="1"
+                    className="text-sky-400"
+                  />
+                );
+              })}
+              {/* Example data polygon */}
+              <polygon
+                points="200,80 280,140 260,280 140,280 120,140"
+                fill="currentColor"
+                fillOpacity="0.3"
+                stroke="currentColor"
+                strokeWidth="2"
+                className="text-purple-400"
+              />
+            </g>
+          </svg>
+        </div>
+
+        {/* Content */}
+        <div className="relative z-10 space-y-4">
           <h1 className="text-4xl md:text-6xl font-black tracking-tight">
             <span className="bg-gradient-to-r from-sky-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
-              Discover the Rarest
+              The Uniqorn Index
             </span>
             <br />
             <span className="text-zinc-50">
-              Performances in NBA History
+              Measuring Statistical Uniqueness
             </span>
           </h1>
           <p className="text-lg md:text-xl text-zinc-300 max-w-3xl mx-auto">
-            The Uniqorn Index reveals how statistically unique each NBA game truly is—celebrating 
-            the strange, the extreme, and the once-in-a-lifetime performances.
+            Discover which players have the most distinctive statistical profiles in NBA history. 
+            The Uniqorn Index ranks players by how unique their performances are—celebrating 
+            the rare, the extreme, and the truly one-of-a-kind.
           </p>
         </div>
         
-        <div className="flex flex-wrap justify-center gap-4 pt-4">
+        <div className="relative z-10 flex flex-wrap justify-center gap-4 pt-4">
           <Link 
-            href="/ultimate" 
+            href="/search" 
             className="px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white font-semibold rounded-lg transition-all shadow-lg hover:shadow-xl"
           >
-            Explore Ultimate Uniqorns
+            Search Stat Combinations
+          </Link>
+          <Link 
+            href="/career" 
+            className="px-6 py-3 bg-sky-600 hover:bg-sky-700 text-white font-semibold rounded-lg transition-all shadow-lg"
+          >
+            Top 50 All-Time
           </Link>
           <Link 
             href="/about" 
@@ -51,7 +107,7 @@ export default async function Page() {
       <div className="max-w-4xl mx-auto">
         <div className="rounded-xl border border-sky-400/20 bg-zinc-900/60 backdrop-blur-sm p-4 md:p-6">
           <p className="text-sm md:text-base text-zinc-300 text-center">
-            <span className="font-semibold text-sky-300">How it works:</span> We bucket every NBA game by points, assists, rebounds, blocks, and steals—then measure how rare that exact combination is within its season. Higher scores = rarer performances.
+            <span className="font-semibold text-sky-300">How it works:</span> We bucket every NBA game by points, assists, rebounds, blocks, and steals—then measure how unique that exact combination is within its season. Higher scores = more unique performances.
           </p>
         </div>
       </div>
@@ -63,7 +119,7 @@ export default async function Page() {
               <div className="bg-gradient-to-r from-sky-400/20 to-sky-300/20 px-4 md:px-6 py-4">
                 <h2 className="text-lg md:text-xl font-semibold text-sky-200">League Leaders (Season Uniqorn)</h2>
                 <p className="text-xs md:text-sm text-zinc-300 mt-1">
-                  Highest average weighted uniqueness by season
+                  Players with the most unique statistical profiles this season
                 </p>
               </div>
               
@@ -118,7 +174,7 @@ export default async function Page() {
                 <div className="bg-gradient-to-r from-purple-400/20 to-pink-400/20 px-4 md:px-6 py-4">
                   <h3 className="text-base md:text-lg font-semibold text-purple-200">Most Recent Ultimate Uniqorn</h3>
                   <p className="text-xs text-zinc-300 mt-1">
-                    Rarest statistical combination in NBA history
+                    Most unique statistical combination in NBA history
                   </p>
                 </div>
                 <div className="p-4 md:p-6">

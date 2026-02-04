@@ -122,7 +122,7 @@ export default function BucketSearch() {
       <div className="text-center">
         <h1 className="text-2xl md:text-3xl font-bold text-zinc-50 mb-4">Bucket Search</h1>
         <p className="text-sm md:text-base text-zinc-400 px-4">
-          Explore statistical combinations and see how rare they are in the current season
+          Explore statistical combinations and see how unique they are in the current season
         </p>
       </div>
 
