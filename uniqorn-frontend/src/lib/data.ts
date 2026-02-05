@@ -52,13 +52,13 @@ async function readWorkbookSheet<T>(absPath: string, sheetName?: string): Promis
 export async function getMostRecentGameDate(): Promise<string> {
   try {
     const recentGamesPath = join(process.cwd(), 'public', 'data', 'Most_Recent_Games_Master.xlsx');
-    const rows = await readWorkbookSheet<{ game_date: string }>(recentGamesPath);
+    const rows = await readWorkbookSheet<{ date: string }>(recentGamesPath);
     
     if (rows.length === 0) return 'Unknown';
     
     // Find the most recent date
     const dates = rows
-      .map(row => row.game_date)
+      .map(row => row.date)
       .filter(date => date && typeof date === 'string')
       .sort()
       .reverse();
