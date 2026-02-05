@@ -310,36 +310,6 @@ export default function Scoreboard() {
 
                         return (
                           <div key={gameIndex} className="rounded-2xl border border-zinc-700/50 bg-zinc-950/20 p-5">
-                            {/* Game Header - Clickable to toggle */}
-                            <div
-                              className="group text-center mb-5 cursor-pointer rounded-xl border border-zinc-700/50 bg-zinc-950/10 hover:border-sky-400/30 hover:bg-sky-400/5 p-4 transition-all"
-                              onClick={() => {
-                                // If this game is already selected, close it. Otherwise, open it.
-                                if (selectedGame && selectedGame.team1 === game.team1 && selectedGame.team2 === game.team2) {
-                                  setSelectedGame(null);
-                                } else {
-                                  setSelectedGame(game);
-                                }
-                              }}
-                            >
-                              <div className="flex items-center justify-center gap-3">
-                                <h3 className="text-xl font-bold text-zinc-50 group-hover:text-sky-200 transition-colors">
-                                  {game.team1} vs {game.team2}
-                                </h3>
-                                <svg
-                                  className={`h-5 w-5 text-sky-300 transition-transform duration-200 ${isSelected ? 'rotate-180' : ''}`}
-                                  fill="none"
-                                  viewBox="0 0 24 24"
-                                  stroke="currentColor"
-                                >
-                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                                </svg>
-                              </div>
-                              <p className="text-sm text-zinc-400 mt-1">
-                                {isSelected ? 'Click to close' : 'Click for team Uniqorn scores'}
-                              </p>
-                            </div>
-
                             {/* Team Uniqorn Scores Summary */}
                             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
                               <div className="text-center p-4 rounded-2xl border border-zinc-700/50 bg-zinc-950/10">
@@ -368,6 +338,36 @@ export default function Scoreboard() {
                                   })()}
                                 </div>
                               </div>
+                            </div>
+
+                            {/* Game Header - Clickable to toggle */}
+                            <div
+                              className="group text-center mb-5 cursor-pointer rounded-xl border border-zinc-700/50 bg-zinc-950/10 hover:border-sky-400/30 hover:bg-sky-400/5 p-4 transition-all"
+                              onClick={() => {
+                                // If this game is already selected, close it. Otherwise, open it.
+                                if (selectedGame && selectedGame.team1 === game.team1 && selectedGame.team2 === game.team2) {
+                                  setSelectedGame(null);
+                                } else {
+                                  setSelectedGame(game);
+                                }
+                              }}
+                            >
+                              <div className="flex items-center justify-center gap-3">
+                                <h3 className="text-xl font-bold text-zinc-50 group-hover:text-sky-200 transition-colors">
+                                  {game.team1} vs {game.team2}
+                                </h3>
+                                <svg
+                                  className={`h-5 w-5 text-sky-300 transition-transform duration-200 ${isSelected ? 'rotate-180' : ''}`}
+                                  fill="none"
+                                  viewBox="0 0 24 24"
+                                  stroke="currentColor"
+                                >
+                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                                </svg>
+                              </div>
+                              <p className="text-sm text-zinc-400 mt-1">
+                                {isSelected ? 'Click to close' : 'Click for player details'}
+                              </p>
                             </div>
 
                             {/* Selected Game Details */}
