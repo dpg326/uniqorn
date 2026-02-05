@@ -176,11 +176,34 @@ export default function Scoreboard() {
           )}
         </div>
 
-        {/* Refresh Button Only */}
-        <div className="px-6 py-4 flex justify-end">
+        {/* View Toggle and Refresh */}
+        <div className="px-6 py-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+          <div className="inline-flex rounded-xl border border-sky-400/20 bg-zinc-950/20 p-1 w-fit">
+            <button
+              onClick={() => setView('ranked')}
+              className={`px-4 py-2 rounded-lg text-sm transition-colors ${
+                view === 'ranked'
+                  ? 'bg-sky-400/20 text-sky-200'
+                  : 'text-zinc-300 hover:text-zinc-50'
+              }`}
+            >
+              Ranked
+            </button>
+            <button
+              onClick={() => setView('games')}
+              className={`px-4 py-2 rounded-lg text-sm transition-colors ${
+                view === 'games'
+                  ? 'bg-sky-400/20 text-sky-200'
+                  : 'text-zinc-300 hover:text-zinc-50'
+              }`}
+            >
+              Games
+            </button>
+          </div>
+
           <button
             onClick={fetchRecentGames}
-            className="inline-flex items-center justify-center px-4 py-2 rounded-xl border border-sky-400/20 bg-sky-400/10 text-sky-200 hover:bg-sky-400/20 transition-colors"
+            className="inline-flex items-center justify-center px-4 py-2 rounded-xl border border-sky-400/20 bg-sky-400/10 text-sky-200 hover:bg-sky-400/20 transition-colors w-fit"
           >
             Refresh
           </button>
@@ -269,24 +292,6 @@ export default function Scoreboard() {
         {/* Games View */}
         {view === 'games' && (
           <div className="space-y-8">
-            {/* View Toggle - At top of Games view */}
-            <div className="flex justify-center">
-              <div className="inline-flex rounded-xl border border-sky-400/20 bg-zinc-950/20 p-1">
-                <button
-                  onClick={() => setView('ranked')}
-                  className="px-4 py-2 rounded-lg text-sm transition-colors text-zinc-300 hover:text-zinc-50"
-                >
-                  Ranked
-                </button>
-                <button
-                  onClick={() => setView('games')}
-                  className="px-4 py-2 rounded-lg text-sm transition-colors bg-sky-400/20 text-sky-200"
-                >
-                  Games
-                </button>
-              </div>
-            </div>
-
             {gameGroups.length === 0 ? (
               <div className="rounded-2xl border border-sky-400/20 bg-zinc-900/60 backdrop-blur-sm p-12 text-center">
                 <p className="text-zinc-300">No recent games found</p>
