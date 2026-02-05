@@ -76,6 +76,9 @@ def incremental_update():
     new_games_count = 0
     updated_buckets = 0
     
+    # Determine rebounds column name (NBA API uses reboundsTotal, Kaggle might use either)
+    rebounds_col = 'reboundsTotal' if 'reboundsTotal' in new_df.columns else 'rebounds'
+    
     for _, new_game in new_df.iterrows():
         bucket_key = new_game['bucket_key']
         bucket_str = f"({', '.join(map(str, bucket_key))})"
@@ -84,7 +87,7 @@ def incremental_update():
         game_record = {
             "player": f"{new_game['firstName']} {new_game['lastName']}",
             "date": new_game['gameDateTimeEst'].strftime('%Y-%m-%d'),
-            "stats": f"{int(new_game['points'])}/{int(new_game['assists'])}/{int(new_game['reboundsTotal'])}/{int(new_game['blocks'])}/{int(new_game['steals'])}",
+            "stats": f"{int(new_game['points'])}/{int(new_game['assists'])}/{int(new_game[rebounds_col])}/{int(new_game['blocks'])}/{int(new_game['steals'])}",
             "team": new_game['playerteamName'],
             "opponent": new_game['opponentteamName'],
             "season": new_game['season'],
@@ -105,7 +108,12 @@ def incremental_update():
                 master_data[bucket_str]['games'].insert(0, game_record)  # Insert at front (most recent)
                 master_data[bucket_str]['count'] += 1
                 
-                # Update seasons and players
+                # Update seasons and players (handle missing keys for older database formats)
+                if 'seasons' not in master_data[bucket_str]:
+                    master_data[bucket_str]['seasons'] = []
+                if 'players' not in master_data[bucket_str]:
+                    master_data[bucket_str]['players'] = []
+                    
                 if game_record['season'] not in master_data[bucket_str]['seasons']:
                     master_data[bucket_str]['seasons'].append(game_record['season'])
                 if game_record['player'] not in master_data[bucket_str]['players']:
@@ -134,10 +142,15 @@ def incremental_update():
     
     # Update summary statistics
     print("Updating summary statistics...")
+    all_seasons = set()
+    for bucket in master_data.values():
+        if 'seasons' in bucket:
+            all_seasons.update(bucket['seasons'])
+    
     summary = {
         "total_games": sum(bucket['count'] for bucket in master_data.values()),
         "total_buckets": len(master_data),
-        "total_seasons": len(set().union(*[bucket['seasons'] for bucket in master_data.values()])),
+        "total_seasons": len(all_seasons),
         "date_range": {
             "start": min(bucket['games'][-1]['date'] for bucket in master_data.values() if bucket['games']),
             "end": max(bucket['games'][0]['date'] for bucket in master_data.values() if bucket['games'])

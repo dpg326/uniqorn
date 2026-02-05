@@ -264,12 +264,13 @@ def generate_master_outputs():
         most_recent_date = max(game.get("date") for _, game in season_games)
         recent_games = [(bk, g) for bk, g in season_games if g.get("date") == most_recent_date]
         games_analysis = []
+        ALPHA = 0.10
         for bucket_key, game in recent_games:
             pid = int(game.get("personId", 0))
             total = season_bucket_counts.get(bucket_key, 1)
-            self_count = player_bucket_counts.get((pid, bucket_key), 0)
-            effective_count = max(total - self_count, 1)
-            uniqueness_score = float(1 / np.sqrt(effective_count))
+            # Use (total - 1) so that bucket_count=1 gives score 1.0
+            # bucket_count=2 gives exp(-0.1*1)=0.9048, etc.
+            uniqueness_score = float(np.exp(-ALPHA * (total - 1)))
             games_analysis.append({
                 "player": game.get("player"),
                 "date": most_recent_date,
@@ -288,10 +289,9 @@ def generate_master_outputs():
     else:
         print(f"⚠️  No season games found for {CURRENT_SEASON}")
 
-    print("\n🦄 Writing current-season Uniqorn games + charts (Master)...")
+    print("\n🦄 Writing current-season Uniqorn games (Master)...")
     uniqorn_season_games = [(bk, g) for bk, g in season_games if season_bucket_counts.get(bk, 0) == 1]
     uniqorn_export_rows = []
-    expected_files = set()
     for bucket_key, game in uniqorn_season_games:
         pts, ast, reb, blk, stl = (int(x) for x in str(game.get("stats", "0/0/0/0/0")).split("/"))
         fn, ln = _split_player_name(game.get("player", ""))
@@ -309,34 +309,14 @@ def generate_master_outputs():
             "steals": stl,
         })
 
-        filename = f"{fn}_{ln}_{dt.date()}.png"
-        expected_files.add(filename)
-
     uniqorn_export_df = pd.DataFrame(uniqorn_export_rows)
     if not uniqorn_export_df.empty and "game_date" in uniqorn_export_df.columns:
         uniqorn_export_df = uniqorn_export_df.sort_values("game_date", ascending=False)
     uniqorn_export_df.to_excel(CURRENT_SEASON_UNIQORN_GAMES_MASTER_FILE, index=False)
-
-    os.makedirs(SEASON_CHART_FOLDER_MASTER, exist_ok=True)
-    existing_chart_files = set(f for f in os.listdir(SEASON_CHART_FOLDER_MASTER) if f.lower().endswith(".png"))
-    for f in existing_chart_files - expected_files:
-        os.remove(os.path.join(SEASON_CHART_FOLDER_MASTER, f))
-
-    for bucket_key, game in uniqorn_season_games:
-        fn, ln = _split_player_name(game.get("player", ""))
-        dt = pd.to_datetime(game.get("date"))
-        filename = f"{fn}_{ln}_{dt.date()}.png"
-        out_path = os.path.join(SEASON_CHART_FOLDER_MASTER, filename)
-        if os.path.exists(out_path):
-            continue
-        title = f"{fn} {ln} vs {game.get('opponent')} ({dt.date()})"
-        _render_radar_chart(out_path, title, list(bucket_key))
-
     print(f"✅ Wrote {len(uniqorn_export_df)} rows to {CURRENT_SEASON_UNIQORN_GAMES_MASTER_FILE}")
 
-    print("\n🏆 Writing Ultimate Uniqorns + charts (Master)...")
+    print("\n🏆 Writing Ultimate Uniqorns (Master)...")
     ultimate_rows = []
-    ultimate_expected_files = set()
 
     for bucket_str, bucket_info in db.data.items():
         if int(bucket_info.get("count", 0)) != 1:
@@ -363,46 +343,10 @@ def generate_master_outputs():
             "steals": stl,
         })
 
-        filename = f"{fn}_{ln}_{dt.date()}.png"
-        ultimate_expected_files.add(filename)
-
     ultimate_df = pd.DataFrame(ultimate_rows)
     if not ultimate_df.empty and "game_date" in ultimate_df.columns:
         ultimate_df = ultimate_df.sort_values("game_date", ascending=False)
     ultimate_df.to_excel(ULTIMATE_UNIQORN_GAMES_MASTER_FILE, index=False)
-
-    os.makedirs(ULTIMATE_CHART_FOLDER_MASTER, exist_ok=True)
-    existing_files = set(f for f in os.listdir(ULTIMATE_CHART_FOLDER_MASTER) if f.lower().endswith(".png"))
-    for f in existing_files - ultimate_expected_files:
-        os.remove(os.path.join(ULTIMATE_CHART_FOLDER_MASTER, f))
-
-    for _, row in ultimate_df.iterrows():
-        fn = row["firstName"]
-        ln = row["lastName"]
-        dt = row["game_date"]
-        filename = f"{fn}_{ln}_{pd.to_datetime(dt).date()}.png"
-        out_path = os.path.join(ULTIMATE_CHART_FOLDER_MASTER, filename)
-        if os.path.exists(out_path):
-            continue
-        opponent = row["opponentteamName"]
-        title = f"{fn} {ln} vs {opponent} ({pd.to_datetime(dt).date()})"
-
-        bucket_key = None
-        for bucket_str, bucket_info in db.data.items():
-            if int(bucket_info.get("count", 0)) != 1:
-                continue
-            games = bucket_info.get("games", [])
-            if not games:
-                continue
-            g = games[0]
-            if g.get("player") == f"{fn} {ln}" and g.get("date") == pd.to_datetime(dt).strftime("%Y-%m-%d"):
-                bucket_key = _parse_bucket_str(bucket_str)
-                break
-        if bucket_key is None:
-            continue
-
-        _render_radar_chart(out_path, title, list(bucket_key))
-
     print(f"✅ Wrote {len(ultimate_df)} rows to {ULTIMATE_UNIQORN_GAMES_MASTER_FILE}")
 
     print("\n🔁 Writing Ultimate changes (Master)...")
@@ -460,6 +404,7 @@ def generate_master_outputs():
 
 def main():
     print("🚀 Starting FAST Daily Pipeline (Master Bucket System)")
+    print("📡 Data Source: NBA API (Official)")
     print(f"⏰ Started at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     
     # Check if master database exists
@@ -474,9 +419,11 @@ def main():
         print(f"❌ Master database not found! Run master_bucket_precompute.py first: {e}")
         return
     
+    # Pipeline steps - now using NBA API instead of Kaggle
+    # Removed: ("incremental_update.py", "Incremental data update (Kaggle -> PlayerStatistics.csv)", None)
+    # The incremental_update_new.py now fetches directly from NBA API via data_utils
     pipeline_steps = [
-        ("incremental_update.py", "Incremental data update (Kaggle -> PlayerStatistics.csv)", None),
-        ("incremental_update_new.py", "Incremental update (Master DB)", None),
+        ("incremental_update_new.py", "Incremental update from NBA API (Master DB)", None),
         ("generate_master_outputs", "Generate Master outputs", None),
     ]
     

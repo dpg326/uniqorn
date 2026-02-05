@@ -1,6 +1,10 @@
 import pandas as pd
 import numpy as np
 
+# Flag to control data source for incremental updates
+# Historical data always comes from CSV, this only affects incremental updates
+USE_NBA_API = True  # Set to True to use NBA API for incremental updates
+
 def standardize_deduplication(df, source="unknown"):
     """
     Standard deduplication logic for all scripts.
@@ -28,9 +32,47 @@ def standardize_deduplication(df, source="unknown"):
     
     return df_deduped
 
-def load_and_clean_data(input_file="PlayerStatistics.csv", filter_season=None, min_date=None):
+def load_from_nba_api(min_date=None):
     """
-    Standard data loading and cleaning for all scripts.
+    Load game data from NBA API.
+    Returns DataFrame with same structure as PlayerStatistics.csv.
+    """
+    from nba_api_data import fetch_games_since_date
+    from datetime import datetime, timedelta
+    
+    if min_date is None:
+        # Default to last 7 days
+        min_date = (datetime.now() - timedelta(days=7)).strftime('%Y-%m-%d')
+    
+    print(f"Loading data from NBA API (since {min_date})...")
+    df = fetch_games_since_date(min_date)
+    
+    if df.empty:
+        print("No data retrieved from NBA API")
+        return df
+    
+    # Ensure date column is datetime
+    df["gameDateTimeEst"] = pd.to_datetime(df["gameDateTimeEst"], errors="coerce")
+    df = df.dropna(subset=["gameDateTimeEst"])
+    
+    # Fill missing values
+    if "blocks" in df.columns:
+        df["blocks"] = df["blocks"].fillna(0)
+    if "steals" in df.columns:
+        df["steals"] = df["steals"].fillna(0)
+    
+    # Ensure numeric columns
+    numeric_cols = [c for c in ["points", "assists", "reboundsTotal", "blocks", "steals"] if c in df.columns]
+    if numeric_cols:
+        df[numeric_cols] = df[numeric_cols].apply(pd.to_numeric, errors="coerce")
+    
+    print(f"Loaded {len(df)} rows from NBA API")
+    return df
+
+
+def load_from_csv(input_file="PlayerStatistics.csv", min_date=None):
+    """
+    Load game data from CSV file (original Kaggle source).
     """
     print(f"Loading data from {input_file}")
     df = pd.read_csv(input_file, low_memory=False)
@@ -54,6 +96,23 @@ def load_and_clean_data(input_file="PlayerStatistics.csv", filter_season=None, m
     if min_date:
         df = df[df["gameDateTimeEst"] >= pd.Timestamp(min_date)]
         print(f"Filtered to dates >= {min_date}: {len(df)} rows")
+    
+    return df
+
+
+def load_and_clean_data(input_file="PlayerStatistics.csv", filter_season=None, min_date=None):
+    """
+    Standard data loading and cleaning for all scripts.
+    Uses NBA API if USE_NBA_API is True, otherwise uses CSV file.
+    """
+    # Choose data source based on flag
+    if USE_NBA_API:
+        df = load_from_nba_api(min_date=min_date)
+    else:
+        df = load_from_csv(input_file=input_file, min_date=min_date)
+    
+    if df.empty:
+        return df
     
     # Assign season if needed
     if filter_season:

@@ -84,11 +84,17 @@ export async function GET(request: NextRequest) {
     console.log('Looking for bucket key:', bucketStr); // Debug log
     const bucketInfo = data[bucketStr];
 
+    // Filter games to current season only
+    const CURRENT_SEASON = '2025-26';
+    const currentSeasonGames = bucketInfo 
+      ? bucketInfo.games.filter((g: any) => g.season === CURRENT_SEASON)
+      : [];
+
     const result: BucketSearchResult = {
       bucket: bucket_key,
       description: description,
-      count: bucketInfo ? bucketInfo.count : 0,
-      games: bucketInfo ? bucketInfo.games : []
+      count: currentSeasonGames.length,
+      games: currentSeasonGames
     };
 
     return NextResponse.json(result);

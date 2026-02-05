@@ -21,6 +21,9 @@ master_bucket_summary.json
 !uniqorn-frontend/public/data/*.xlsx
 !uniqorn-frontend/public/data/*.json
 
+# Large JSON files (too big for GitHub - 194MB)
+uniqorn-frontend/public/data/master_bucket_database.json
+
 # Chart folders (generated)
 uniqorn-frontend/public/season-charts/
 uniqorn-frontend/public/ultimate-charts/

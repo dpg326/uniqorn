@@ -7,25 +7,26 @@ A system that tracks statistically unique NBA performances using bucket-based an
 ### Core Components
 
 #### Data Pipeline
-- **`fast_daily_pipeline.py`** - Main daily pipeline (replaces legacy incremental pipeline)
-  - Updates master bucket database with new games
+- **`fast_daily_pipeline.py`** - Main daily pipeline
+  - Fetches new games from NBA API
+  - Updates master bucket database
   - Generates all frontend data files
-  - Creates charts and leaderboards
+  - Copies files to frontend
   - **Run daily during NBA season**
 
 - **`master_bucket_precompute.py`** - Rebuilds entire master database
-  - Processes all historical games since 1973
+  - Processes all historical games since 1973 from `PlayerStatistics.csv`
   - Creates `master_bucket_database.json`
   - **Run once on initial setup or if database is corrupted**
 
-- **`incremental_update.py`** - Updates raw PlayerStatistics.csv from Kaggle
-  - Fetches latest game data
-  - **Run daily before main pipeline**
+- **`nba_api_data.py`** - NBA API data fetching module
+  - Fetches player game logs from official NBA API
+  - Used by `fast_daily_pipeline.py` for daily updates
 
 #### Utilities
 - **`data_utils.py`** - Data loading, cleaning, and bucket creation
 - **`master_bucket_utils.py`** - Interface for querying master bucket database
-- **`ultimate_uniqorn.py`** - Calculates Ultimate Uniqorn games (all-time)
+- **`incremental_update_new.py`** - Incremental database updates (called by pipeline)
 - **`generate_seasonal_uniqorn_index.py`** - Creates seasonal Uniqorn index
 
 #### Frontend
@@ -59,7 +60,7 @@ A system that tracks statistically unique NBA performances using bucket-based an
 ### First Time Setup
 ```bash
 # 1. Install Python dependencies
-pip install pandas numpy openpyxl plotly kagglehub
+pip install pandas numpy openpyxl nba-api
 
 # 2. Build master database (takes 10-20 minutes)
 python master_bucket_precompute.py
@@ -79,32 +80,51 @@ npm run dev
 
 ### Daily Operations (During NBA Season)
 ```bash
-# 1. Update raw data from Kaggle
-python incremental_update.py
-
-# 2. Run main pipeline (generates all frontend data)
+# 1. Run the daily pipeline (fetches from NBA API, updates database, generates files)
 python fast_daily_pipeline.py
 
-# 3. Restart frontend to see latest data
-# (if running in dev mode)
+# 2. Copy updated files to frontend
+copy Most_Recent_Games_Master.xlsx uniqorn-frontend\public\data\
+copy master_bucket_database.json uniqorn-frontend\public\data\
+copy CurrentSeason_UniqornGames_Master.xlsx uniqorn-frontend\public\data\
+copy Ultimate_Uniqorn_Games_Master.xlsx uniqorn-frontend\public\data\
+copy Uniqorn_Master.xlsx uniqorn-frontend\public\data\
+
+# 3. Restart frontend to see latest data (if running in dev mode)
+cd uniqorn-frontend
+npm run dev
+```
+
+**One-liner for daily update:**
+```bash
+python fast_daily_pipeline.py && copy *.xlsx uniqorn-frontend\public\data\ && copy *.json uniqorn-frontend\public\data\
 ```
 
 ## 📊 Pipeline Flow
 
 ```
-Kaggle Data → PlayerStatistics.csv
-    ↓
-incremental_update.py (daily)
+NBA API (Official)
     ↓
 fast_daily_pipeline.py (daily)
+    ├── Fetches new games via nba_api_data.py
     ├── Updates master_bucket_database.json
     ├── Generates *_Master.xlsx files
-    ├── Creates charts in public/*-master/
     └── Updates ultimate_changes_master.json
     ↓
-Frontend reads *_Master files
+Copy files to uniqorn-frontend/public/data/
+    ↓
+Frontend reads updated files
     ↓
 Web displays updated data
+```
+
+**Historical Data Flow (one-time setup):**
+```
+PlayerStatistics.csv (Kaggle historical data)
+    ↓
+master_bucket_precompute.py
+    ↓
+master_bucket_database.json (1.2M+ games since 1973)
 ```
 
 ##  Key Concepts
@@ -130,32 +150,32 @@ Web displays updated data
 ### Database Recovery
 If `master_bucket_database.json` is lost or corrupted:
 ```bash
-python rebuild_master_complete.py
+python master_bucket_precompute.py
 ```
 
 ### Season Updates
-Update season date ranges in:
-- `incremental_update_new.py`
-- `master_bucket_precompute.py`
-- `generate_seasonal_uniqorn_index.py`
+Update `CURRENT_SEASON` and season date ranges in:
+- `nba_api_data.py` - CURRENT_SEASON constant
+- `fast_daily_pipeline.py` - CURRENT_SEASON constant
+- `master_bucket_precompute.py` - REGULAR_SEASONS dict
+- `generate_seasonal_uniqorn_index.py` - CURRENT_SEASON constant
 
 ### Archive
 Old pipeline files and outputs are stored in `archive/` for reference.
 
 ##  Performance
 
-- **Legacy Pipeline**: 10-20 minutes daily
-- **Fast Pipeline**: 2-3 minutes daily
-- **Master Database**: 2.6M games, 2.6K buckets
-- **Update Speed**: 10-100x faster than legacy
+- **Daily Pipeline**: ~2-3 minutes (NBA API fetch + processing)
+- **Master Database**: 1.2M+ games, 2.6K buckets
+- **NBA API Fetch**: ~15-20 seconds (single API call for all players)
 
 ##  Troubleshooting
 
 ### Common Issues
-1. **UnicodeEncodeError** - Fixed in `incremental_update_new.py`
-2. **Missing master database** - Run `master_bucket_precompute.py`
-3. **Frontend not updating** - Check `*_Master.xlsx` files exist
-4. **Chart errors** - Ensure `kaleido` is installed for Plotly
+1. **Missing master database** - Run `master_bucket_precompute.py`
+2. **Frontend not updating** - Copy files to `uniqorn-frontend/public/data/` and restart dev server
+3. **NBA API timeout** - Wait a few seconds and retry (rate limiting)
+4. **Corrupted JSON** - Restore from `uniqorn-frontend/public/data/` backup or rebuild
 
 ### Logs
 - Pipeline output shows detailed progress and statistics
