@@ -85,19 +85,21 @@ python fast_daily_pipeline.py
 
 # 2. Copy updated files to frontend
 copy Most_Recent_Games_Master.xlsx uniqorn-frontend\public\data\
-copy master_bucket_database.json uniqorn-frontend\public\data\
 copy CurrentSeason_UniqornGames_Master.xlsx uniqorn-frontend\public\data\
 copy Ultimate_Uniqorn_Games_Master.xlsx uniqorn-frontend\public\data\
 copy Uniqorn_Master.xlsx uniqorn-frontend\public\data\
 
-# 3. Restart frontend to see latest data (if running in dev mode)
+# 3. Generate bucket search database (shortened version for frontend)
 cd uniqorn-frontend
+node scripts/generate-comprehensive-buckets.js
+
+# 4. Restart frontend to see latest data (if running in dev mode)
 npm run dev
 ```
 
 **One-liner for daily update:**
 ```bash
-python fast_daily_pipeline.py && copy *.xlsx uniqorn-frontend\public\data\ && copy *.json uniqorn-frontend\public\data\
+python fast_daily_pipeline.py && copy *.xlsx uniqorn-frontend\public\data\ && cd uniqorn-frontend && node scripts/generate-comprehensive-buckets.js
 ```
 
 ## 📊 Pipeline Flow
