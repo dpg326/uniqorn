@@ -33,11 +33,17 @@ interface PlayerProfileData {
 
 async function getPlayerProfile(name: string): Promise<PlayerProfileData | null> {
   try {
-    const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3000'}/api/player/${encodeURIComponent(name)}`, {
+    // Construct the full URL for server-side fetching
+    const protocol = process.env.NODE_ENV === 'production' ? 'https' : 'http';
+    const host = process.env.VERCEL_URL || 'localhost:3000';
+    const baseUrl = `${protocol}://${host}`;
+    
+    const response = await fetch(`${baseUrl}/api/player/${encodeURIComponent(name)}`, {
       cache: 'no-store'
     });
     
     if (!response.ok) {
+      console.error(`Failed to fetch player profile: ${response.status} ${response.statusText}`);
       return null;
     }
     
