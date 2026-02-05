@@ -28,14 +28,20 @@ export async function GET(
       let formattedDate: string;
       
       if (typeof gameDate === 'string') {
+        // Handle string dates (YYYY-MM-DD or ISO format)
         gameYear = gameDate.includes('T') ? gameDate.split('T')[0].split('-')[0] : gameDate.split('-')[0];
         formattedDate = gameDate.includes('T') ? gameDate.split('T')[0] : gameDate;
       } else if (typeof gameDate === 'number') {
-        // Excel serial date conversion
+        // Excel serial date conversion (days since 1900-01-01, with 1900 incorrectly treated as leap year)
         const date = new Date((gameDate - 25569) * 86400 * 1000);
         gameYear = date.getFullYear().toString();
         formattedDate = date.toISOString().split('T')[0];
+      } else if (gameDate instanceof Date) {
+        // Handle Date objects
+        gameYear = gameDate.getFullYear().toString();
+        formattedDate = gameDate.toISOString().split('T')[0];
       } else {
+        console.log('Unhandled date format:', typeof gameDate, gameDate);
         return false;
       }
       

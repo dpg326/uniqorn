@@ -24,13 +24,17 @@ export async function GET() {
       let year: string;
       
       if (typeof gameDate === 'string') {
+        // Handle string dates (YYYY-MM-DD or ISO format)
         year = gameDate.includes('T') ? gameDate.split('T')[0].split('-')[0] : gameDate.split('-')[0];
       } else if (typeof gameDate === 'number') {
-        // Excel serial date conversion
+        // Excel serial date conversion (days since 1900-01-01, with 1900 incorrectly treated as leap year)
         const date = new Date((gameDate - 25569) * 86400 * 1000);
         year = date.getFullYear().toString();
+      } else if (gameDate instanceof Date) {
+        // Handle Date objects
+        year = gameDate.getFullYear().toString();
       } else {
-        console.log('Invalid date format:', gameDate);
+        console.log('Invalid date format:', typeof gameDate, gameDate);
         return;
       }
       

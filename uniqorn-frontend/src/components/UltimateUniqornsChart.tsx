@@ -59,7 +59,7 @@ export default function UltimateUniqornsChart() {
       const pointY = maxCount > 0 ? 256 - (item.count / maxCount) * 230 : 256;
       const distance = Math.sqrt(Math.pow(x - pointX, 2) + Math.pow(y - pointY, 2));
       
-      if (distance < minDistance && distance < 20) { // 20px threshold
+      if (distance < minDistance && distance < 40) { // Increased to 40px threshold for easier interaction
         minDistance = distance;
         closestPoint = {
           x: (pointX / 800) * rect.width,
@@ -155,22 +155,32 @@ export default function UltimateUniqornsChart() {
                   }).join(' ')} 800,256`}
                 />
                 
-                {/* Data points */}
+                {/* Data points with larger hit areas */}
                 {data.map((item, index) => {
                   const maxCount = Math.max(...data.map(d => d.count));
                   const x = (index / (data.length - 1)) * 800;
                   const y = maxCount > 0 ? 256 - (item.count / maxCount) * 230 : 256;
                   
                   return (
-                    <circle
-                      key={item.year}
-                      cx={x}
-                      cy={y}
-                      r="4"
-                      fill="rgb(56, 189, 248)"
-                      className="cursor-pointer hover:fill-sky-300 transition-colors"
-                      onClick={() => handlePointClick(item.year)}
-                    />
+                    <g key={item.year}>
+                      {/* Invisible larger circle for easier clicking */}
+                      <circle
+                        cx={x}
+                        cy={y}
+                        r="12"
+                        fill="transparent"
+                        className="cursor-pointer"
+                        onClick={() => handlePointClick(item.year)}
+                      />
+                      {/* Visible data point */}
+                      <circle
+                        cx={x}
+                        cy={y}
+                        r="5"
+                        fill="rgb(56, 189, 248)"
+                        className="cursor-pointer hover:fill-sky-300 transition-colors pointer-events-none"
+                      />
+                    </g>
                   );
                 })}
                 
@@ -187,15 +197,16 @@ export default function UltimateUniqornsChart() {
                 </defs>
               </svg>
               
-              {/* Tooltip */}
+              {/* Tooltip - now clickable */}
               {tooltip && (
                 <div 
-                  className="absolute bg-zinc-800 text-white px-2 py-1 rounded text-xs pointer-events-none z-50 border border-sky-400/30"
+                  className="absolute bg-zinc-800 text-white px-3 py-2 rounded text-xs z-50 border border-sky-400/30 cursor-pointer hover:bg-zinc-700 transition-colors"
                   style={{ 
                     left: `${tooltip.x}px`, 
-                    top: `${tooltip.y - 30}px`,
+                    top: `${tooltip.y - 40}px`,
                     transform: 'translateX(-50%)'
                   }}
+                  onClick={() => handlePointClick(tooltip.year)}
                 >
                   <div className="font-semibold">{tooltip.year}</div>
                   <div>{tooltip.count} Ultimate Uniqorn{tooltip.count !== 1 ? 's' : ''}</div>
