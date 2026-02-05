@@ -3,9 +3,11 @@ import { join } from 'path';
 import { NextRequest } from 'next/server';
 
 export async function GET(request: NextRequest) {
+  console.log('Player search API route called');
   try {
     const { searchParams } = request.nextUrl;
     const query = searchParams.get('q')?.toLowerCase() || '';
+    console.log('Search query:', query);
     
     if (query.length < 2) {
       return Response.json([]);

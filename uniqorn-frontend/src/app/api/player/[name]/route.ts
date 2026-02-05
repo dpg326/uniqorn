@@ -34,6 +34,7 @@ export async function GET(
   request: NextRequest,
   { params }: { params: { name: string } }
 ) {
+  console.log('Player API route called');
   try {
     const playerName = decodeURIComponent(params.name);
     console.log('Fetching player profile for:', playerName);
