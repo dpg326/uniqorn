@@ -116,6 +116,19 @@ export default async function Page() {
       <div className="grid grid-cols-1 gap-6 md:gap-8 lg:grid-cols-3">
           {/* Main Content - League Leaders */}
           <section className="lg:col-span-2 space-y-6">
+            {/* Data Freshness Warning */}
+            <div className="rounded-lg border border-amber-400/30 bg-amber-400/10 backdrop-blur-sm p-3 md:p-4">
+              <div className="flex items-start gap-2">
+                <svg className="w-5 h-5 text-amber-400 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <div className="text-xs md:text-sm text-amber-200">
+                  <span className="font-semibold">Data last updated: February 3, 2026</span>
+                  <span className="text-amber-300/80"> • Updates may be delayed 1-2 days as we rely on external data sources.</span>
+                </div>
+              </div>
+            </div>
+
             <div className="rounded-2xl border border-sky-400/20 bg-zinc-900/60 backdrop-blur-sm overflow-hidden">
               <div className="bg-gradient-to-r from-sky-400/20 to-sky-300/20 px-4 md:px-6 py-4">
                 <h2 className="text-lg md:text-xl font-semibold text-sky-200">League Leaders (Season Uniqorn)</h2>

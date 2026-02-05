@@ -184,6 +184,20 @@ export default function Page() {
         <p className="text-zinc-300">
           Used alongside traditional stats, the Uniqorn Index highlights diverse skill sets, identifies statistical outliers, and tracks how the league's statistical patterns change over time. It's not a definitive ranking — it's a tool for exploring the variety of ways basketball performance can manifest.
         </p>
+
+        <h4 className="text-sky-200 font-medium mb-1 mt-4">Data Source</h4>
+        <p className="text-zinc-300">
+          All NBA game data is sourced from the{' '}
+          <a 
+            href="https://www.kaggle.com/datasets/eoinamoore/historical-nba-data-and-player-box-scores" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-sky-400 hover:text-sky-300 underline"
+          >
+            Historical NBA Data and Player Box Scores dataset
+          </a>
+          {' '}on Kaggle. Data updates may be delayed 1-2 days depending on when the dataset is refreshed.
+        </p>
       </div>
     </div>
   );

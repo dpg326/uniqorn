@@ -5,6 +5,16 @@ Write-Host "🚀 Starting Daily Uniqorn Update Pipeline" -ForegroundColor Cyan
 Write-Host "⏰ Started at: $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')" -ForegroundColor Gray
 Write-Host ""
 
+# Activate conda environment
+Write-Host "🐍 Activating conda environment..." -ForegroundColor Yellow
+conda activate cityshape
+if ($LASTEXITCODE -ne 0) {
+    Write-Host "❌ Failed to activate conda environment!" -ForegroundColor Red
+    exit 1
+}
+Write-Host "✅ Conda environment activated" -ForegroundColor Green
+Write-Host ""
+
 # Step 1: Run Fast Daily Pipeline
 Write-Host "📊 Step 1/5: Running fast daily pipeline..." -ForegroundColor Yellow
 python fast_daily_pipeline.py

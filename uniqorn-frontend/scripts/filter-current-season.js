@@ -16,9 +16,9 @@ function filterCurrentSeason() {
     // Filter each bucket to only include 2025-26 games
     for (const [bucketKey, bucketData] of Object.entries(data)) {
       const currentSeasonGames = (bucketData.games || []).filter(game => {
-        const dateStr = game.date;
-        // Look for 2025 or 2026 dates (current season)
-        return dateStr && (dateStr.includes('2025') || dateStr.includes('2026'));
+        // Use the season field to correctly filter games
+        // Games from Jan-Apr 2025 are part of 2024-25 season, not 2025-26
+        return game.season === '2025-26';
       });
       
       data[bucketKey] = {
