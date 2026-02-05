@@ -274,21 +274,13 @@ export default function Scoreboard() {
               <div className="inline-flex rounded-xl border border-sky-400/20 bg-zinc-950/20 p-1">
                 <button
                   onClick={() => setView('ranked')}
-                  className={`px-4 py-2 rounded-lg text-sm transition-colors ${
-                    view === 'ranked'
-                      ? 'bg-sky-400/20 text-sky-200'
-                      : 'text-zinc-300 hover:text-zinc-50'
-                  }`}
+                  className="px-4 py-2 rounded-lg text-sm transition-colors text-zinc-300 hover:text-zinc-50"
                 >
                   Ranked
                 </button>
                 <button
                   onClick={() => setView('games')}
-                  className={`px-4 py-2 rounded-lg text-sm transition-colors ${
-                    view === 'games'
-                      ? 'bg-sky-400/20 text-sky-200'
-                      : 'text-zinc-300 hover:text-zinc-50'
-                  }`}
+                  className="px-4 py-2 rounded-lg text-sm transition-colors bg-sky-400/20 text-sky-200"
                 >
                   Games
                 </button>
