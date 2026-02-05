@@ -6,8 +6,8 @@ export async function GET(
   { params }: { params: { year: string } }
 ) {
   try {
-    const year = params.year;
-    console.log('Fetching Ultimate games for year:', year);
+    const seasonParam = params.year; // This is actually a season like "2024-25"
+    console.log('Fetching Ultimate games for season:', seasonParam);
     
     const filePath = join(process.cwd(), 'public', 'data', 'Ultimate_Uniqorn_Games_Master.xlsx');
     
@@ -21,39 +21,27 @@ export async function GET(
 
     console.log('Total rows in Excel:', rows.length);
 
-    // Filter by year and convert dates
+    // Filter by season and format dates
     const filteredGames = rows.filter((row) => {
-      const gameDate = row.game_date;
-      let gameYear: string;
-      let formattedDate: string;
+      const season = row.season;
       
-      if (typeof gameDate === 'string') {
-        // Handle string dates (YYYY-MM-DD or ISO format)
-        gameYear = gameDate.includes('T') ? gameDate.split('T')[0].split('-')[0] : gameDate.split('-')[0];
-        formattedDate = gameDate.includes('T') ? gameDate.split('T')[0] : gameDate;
-      } else if (typeof gameDate === 'number') {
-        // Excel serial date conversion (days since 1900-01-01, with 1900 incorrectly treated as leap year)
-        const date = new Date((gameDate - 25569) * 86400 * 1000);
-        gameYear = date.getFullYear().toString();
-        formattedDate = date.toISOString().split('T')[0];
-      } else if (gameDate instanceof Date) {
-        // Handle Date objects
-        gameYear = gameDate.getFullYear().toString();
-        formattedDate = gameDate.toISOString().split('T')[0];
-      } else {
-        console.log('Unhandled date format:', typeof gameDate, gameDate);
-        return false;
-      }
-      
-      if (gameYear === year) {
-        // Update the row with the formatted date
-        row.game_date = formattedDate;
+      if (season === seasonParam) {
+        // Format the game_date for display
+        const gameDate = row.game_date;
+        if (typeof gameDate === 'string') {
+          row.game_date = gameDate.includes('T') ? gameDate.split('T')[0] : gameDate;
+        } else if (typeof gameDate === 'number') {
+          const date = new Date((gameDate - 25569) * 86400 * 1000);
+          row.game_date = date.toISOString().split('T')[0];
+        } else if (gameDate instanceof Date) {
+          row.game_date = gameDate.toISOString().split('T')[0];
+        }
         return true;
       }
       return false;
     });
 
-    console.log(`Found ${filteredGames.length} games for year ${year}`);
+    console.log(`Found ${filteredGames.length} games for season ${seasonParam}`);
     if (filteredGames.length > 0) {
       console.log('Sample game:', filteredGames[0]);
     }

@@ -197,16 +197,15 @@ export default function UltimateUniqornsChart() {
                 </defs>
               </svg>
               
-              {/* Tooltip - now clickable */}
+              {/* Tooltip */}
               {tooltip && (
                 <div 
-                  className="absolute bg-zinc-800 text-white px-3 py-2 rounded text-xs z-50 border border-sky-400/30 cursor-pointer hover:bg-zinc-700 transition-colors"
+                  className="absolute bg-zinc-800 text-white px-3 py-2 rounded text-xs z-50 border border-sky-400/30 pointer-events-none"
                   style={{ 
                     left: `${tooltip.x}px`, 
                     top: `${tooltip.y - 40}px`,
                     transform: 'translateX(-50%)'
                   }}
-                  onClick={() => handlePointClick(tooltip.year)}
                 >
                   <div className="font-semibold">{tooltip.year}</div>
                   <div>{tooltip.count} Ultimate Uniqorn{tooltip.count !== 1 ? 's' : ''}</div>

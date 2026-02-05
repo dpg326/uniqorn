@@ -16,37 +16,34 @@ export async function GET() {
 
     console.log('Total rows:', rows.length);
 
-    // Group by year and count
-    const yearCounts: { [year: string]: number } = {};
+    // Group by season and count
+    const seasonCounts: { [season: string]: number } = {};
     
     rows.forEach((row) => {
-      const gameDate = row.game_date;
-      let year: string;
+      const season = row.season;
       
-      if (typeof gameDate === 'string') {
-        // Handle string dates (YYYY-MM-DD or ISO format)
-        year = gameDate.includes('T') ? gameDate.split('T')[0].split('-')[0] : gameDate.split('-')[0];
-      } else if (typeof gameDate === 'number') {
-        // Excel serial date conversion (days since 1900-01-01, with 1900 incorrectly treated as leap year)
-        const date = new Date((gameDate - 25569) * 86400 * 1000);
-        year = date.getFullYear().toString();
-      } else if (gameDate instanceof Date) {
-        // Handle Date objects
-        year = gameDate.getFullYear().toString();
+      if (season && typeof season === 'string') {
+        seasonCounts[season] = (seasonCounts[season] || 0) + 1;
       } else {
-        console.log('Invalid date format:', typeof gameDate, gameDate);
-        return;
+        console.log('Invalid season:', season);
       }
-      
-      yearCounts[year] = (yearCounts[year] || 0) + 1;
     });
 
-    console.log('Year counts:', yearCounts);
+    console.log('Season counts:', seasonCounts);
 
-    // Convert to array and sort by year
-    const data = Object.entries(yearCounts)
-      .map(([year, count]) => ({ year: parseInt(year), count }))
-      .sort((a, b) => a.year - b.year);
+    // Convert to array and sort by season (e.g., "2023-24", "2024-25")
+    const data = Object.entries(seasonCounts)
+      .map(([season, count]) => ({ 
+        year: season, // Keep 'year' key for backwards compatibility with chart
+        season: season,
+        count 
+      }))
+      .sort((a, b) => {
+        // Sort by the starting year of the season
+        const aYear = parseInt(a.season.split('-')[0]);
+        const bYear = parseInt(b.season.split('-')[0]);
+        return aYear - bYear;
+      });
 
     console.log('Final data:', data);
 

@@ -35,23 +35,23 @@ async function getUltimateGamesByYear(year: string): Promise<UltimateGame[]> {
 }
 
 export default async function UltimateByYearPage({ params }: { params: { year: string } }) {
-  const year = params.year;
+  const season = params.year; // This is actually a season like "2024-25"
   
-  // Validate year format
-  if (!/^\d{4}$/.test(year)) {
+  // Validate season format (YYYY-YY)
+  if (!/^\d{4}-\d{2}$/.test(season)) {
     notFound();
   }
 
-  const games = await getUltimateGamesByYear(year);
+  const games = await getUltimateGamesByYear(season);
 
   return (
     <div className="max-w-6xl mx-auto space-y-8">
       <div className="text-center">
         <h1 className="text-3xl font-bold text-sky-200 mb-4">
-          Ultimate Uniqorns - {year}
+          Ultimate Uniqorns - {season} Season
         </h1>
         <p className="text-lg text-zinc-300 max-w-3xl mx-auto">
-          {games.length} unique statistical performance{games.length !== 1 ? 's' : ''} from {year}
+          {games.length} unique statistical performance{games.length !== 1 ? 's' : ''} from the {season} season
         </p>
       </div>
 
@@ -66,7 +66,7 @@ export default async function UltimateByYearPage({ params }: { params: { year: s
 
       {games.length === 0 ? (
         <div className="text-center py-12">
-          <p className="text-zinc-400">No Ultimate Uniqorn games found for {year}</p>
+          <p className="text-zinc-400">No Ultimate Uniqorn games found for the {season} season</p>
         </div>
       ) : (
         <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4">
