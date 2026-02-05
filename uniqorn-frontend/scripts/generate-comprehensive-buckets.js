@@ -92,9 +92,10 @@ function generateComprehensiveBucketDatabase() {
         bucketDatabase[bucket_key].games.push({
           player: `${row.firstName} ${row.lastName}`,
           date: row.game_date || new Date(row.gameDateTimeEst).toLocaleDateString(),
-          stats: `${points} PTS / ${assists} AST / ${rebounds} REB / ${blocks} BLK / ${steals} STL`,
+          stats: `${points}/${assists}/${rebounds}/${blocks}/${steals}`,
           team: row.playerteamName || 'Unknown',
-          opponent: row.opponentteamName || 'Unknown'
+          opponent: row.opponentteamName || 'Unknown',
+          season: '2025-26'
         });
       }
       

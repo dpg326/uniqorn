@@ -45,9 +45,10 @@
       {
         "player": "Jay Huff",
         "date": 45959,
-        "stats": "5 PTS / 2 AST / 2 REB / 4 BLK / 0 STL",
+        "stats": "5/2/2/4/0",
         "team": "Pacers",
-        "opponent": "Mavericks"
+        "opponent": "Mavericks",
+        "season": "2025-26"
       }
     ]
   },
@@ -121,9 +122,10 @@
       {
         "player": "Mouhamed Gueye",
         "date": 46035,
-        "stats": "5 PTS / 1 AST / 4 REB / 0 BLK / 5 STL",
+        "stats": "5/1/4/0/5",
         "team": "Hawks",
-        "opponent": "Lakers"
+        "opponent": "Lakers",
+        "season": "2025-26"
       }
     ]
   },
@@ -165,9 +167,10 @@
       {
         "player": "Drew Eubanks",
         "date": 45952,
-        "stats": "4 PTS / 0 AST / 4 REB / 4 BLK / 2 STL",
+        "stats": "4/0/4/4/2",
         "team": "Kings",
-        "opponent": "Suns"
+        "opponent": "Suns",
+        "season": "2025-26"
       }
     ]
   },
@@ -177,9 +180,10 @@
       {
         "player": "Ryan Kalkbrenner",
         "date": 45963,
-        "stats": "2 PTS / 0 AST / 4 REB / 4 BLK / 4 STL",
+        "stats": "2/0/4/4/4",
         "team": "Hornets",
-        "opponent": "Jazz"
+        "opponent": "Jazz",
+        "season": "2025-26"
       }
     ]
   },
@@ -281,9 +285,10 @@
       {
         "player": "Yves Missi",
         "date": 46018,
-        "stats": "4 PTS / 1 AST / 8 REB / 4 BLK / 2 STL",
+        "stats": "4/1/8/4/2",
         "team": "Pelicans",
-        "opponent": "Suns"
+        "opponent": "Suns",
+        "season": "2025-26"
       }
     ]
   },
@@ -453,9 +458,10 @@
       {
         "player": "Oso Ighodaro",
         "date": 46009,
-        "stats": "2 PTS / 0 AST / 13 REB / 1 BLK / 5 STL",
+        "stats": "2/0/13/1/5",
         "team": "Suns",
-        "opponent": "Warriors"
+        "opponent": "Warriors",
+        "season": "2025-26"
       }
     ]
   },
@@ -465,9 +471,10 @@
       {
         "player": "Moussa Diabate",
         "date": 46013,
-        "stats": "5 PTS / 2 AST / 14 REB / 0 BLK / 6 STL",
+        "stats": "5/2/14/0/6",
         "team": "Hornets",
-        "opponent": "Cavaliers"
+        "opponent": "Cavaliers",
+        "season": "2025-26"
       }
     ]
   },
@@ -481,9 +488,10 @@
       {
         "player": "Zach Edey",
         "date": 45989,
-        "stats": "5 PTS / 2 AST / 19 REB / 3 BLK / 0 STL",
+        "stats": "5/2/19/3/0",
         "team": "Grizzlies",
-        "opponent": "Clippers"
+        "opponent": "Clippers",
+        "season": "2025-26"
       }
     ]
   },
@@ -493,9 +501,10 @@
       {
         "player": "Kel'el Ware",
         "date": 46023,
-        "stats": "4 PTS / 0 AST / 13 REB / 2 BLK / 2 STL",
+        "stats": "4/0/13/2/2",
         "team": "Heat",
-        "opponent": "Pistons"
+        "opponent": "Pistons",
+        "season": "2025-26"
       }
     ]
   },
@@ -689,9 +698,10 @@
       {
         "player": "Will Richard",
         "date": 46048,
-        "stats": "4 PTS / 3 AST / 2 REB / 0 BLK / 6 STL",
+        "stats": "4/3/2/0/6",
         "team": "Warriors",
-        "opponent": "Timberwolves"
+        "opponent": "Timberwolves",
+        "season": "2025-26"
       }
     ]
   },
@@ -825,9 +835,10 @@
       {
         "player": "Collin Murray-Boyles",
         "date": 46050,
-        "stats": "4 PTS / 4 AST / 5 REB / 4 BLK / 0 STL",
+        "stats": "4/4/5/4/0",
         "team": "Raptors",
-        "opponent": "Knicks"
+        "opponent": "Knicks",
+        "season": "2025-26"
       }
     ]
   },
@@ -917,9 +928,10 @@
       {
         "player": "Neemias Queta",
         "date": 45956,
-        "stats": "4 PTS / 3 AST / 6 REB / 3 BLK / 2 STL",
+        "stats": "4/3/6/3/2",
         "team": "Celtics",
-        "opponent": "Pistons"
+        "opponent": "Pistons",
+        "season": "2025-26"
       }
     ]
   },
@@ -1105,9 +1117,10 @@
       {
         "player": "Jusuf Nurkic",
         "date": 45977,
-        "stats": "5 PTS / 5 AST / 14 REB / 1 BLK / 3 STL",
+        "stats": "5/5/14/1/3",
         "team": "Jazz",
-        "opponent": "Bulls"
+        "opponent": "Bulls",
+        "season": "2025-26"
       }
     ]
   },
@@ -1149,9 +1162,10 @@
       {
         "player": "Dylan Cardwell",
         "date": 46043,
-        "stats": "2 PTS / 3 AST / 13 REB / 4 BLK / 1 STL",
+        "stats": "2/3/13/4/1",
         "team": "Kings",
-        "opponent": "Raptors"
+        "opponent": "Raptors",
+        "season": "2025-26"
       }
     ]
   },
@@ -1325,9 +1339,10 @@
       {
         "player": "Kris Dunn",
         "date": 46032,
-        "stats": "2 PTS / 6 AST / 1 REB / 0 BLK / 4 STL",
+        "stats": "2/6/1/0/4",
         "team": "Clippers",
-        "opponent": "Pistons"
+        "opponent": "Pistons",
+        "season": "2025-26"
       }
     ]
   },
@@ -1345,9 +1360,10 @@
       {
         "player": "Draymond Green",
         "date": 46050,
-        "stats": "0 PTS / 6 AST / 2 REB / 2 BLK / 1 STL",
+        "stats": "0/6/2/2/1",
         "team": "Warriors",
-        "opponent": "Jazz"
+        "opponent": "Jazz",
+        "season": "2025-26"
       }
     ]
   },
@@ -1457,9 +1473,10 @@
       {
         "player": "Bilal Coulibaly",
         "date": 46049,
-        "stats": "5 PTS / 6 AST / 5 REB / 2 BLK / 2 STL",
+        "stats": "5/6/5/2/2",
         "team": "Wizards",
-        "opponent": "Trail Blazers"
+        "opponent": "Trail Blazers",
+        "season": "2025-26"
       }
     ]
   },
@@ -1945,9 +1962,10 @@
       {
         "player": "Isaiah Collier",
         "date": 46013,
-        "stats": "2 PTS / 9 AST / 2 REB / 0 BLK / 2 STL",
+        "stats": "2/9/2/0/2",
         "team": "Jazz",
-        "opponent": "Nuggets"
+        "opponent": "Nuggets",
+        "season": "2025-26"
       }
     ]
   },
@@ -2057,9 +2075,10 @@
       {
         "player": "Dylan Harper",
         "date": 46014,
-        "stats": "4 PTS / 10 AST / 3 REB / 0 BLK / 5 STL",
+        "stats": "4/10/3/0/5",
         "team": "Spurs",
-        "opponent": "Thunder"
+        "opponent": "Thunder",
+        "season": "2025-26"
       }
     ]
   },
@@ -2077,9 +2096,10 @@
       {
         "player": "Brandon Williams",
         "date": 45982,
-        "stats": "5 PTS / 12 AST / 5 REB / 2 BLK / 1 STL",
+        "stats": "5/12/5/2/1",
         "team": "Mavericks",
-        "opponent": "Pelicans"
+        "opponent": "Pelicans",
+        "season": "2025-26"
       }
     ]
   },
@@ -2089,9 +2109,10 @@
       {
         "player": "Jalen Suggs",
         "date": 45986,
-        "stats": "4 PTS / 11 AST / 5 REB / 2 BLK / 2 STL",
+        "stats": "4/11/5/2/2",
         "team": "Magic",
-        "opponent": "76ers"
+        "opponent": "76ers",
+        "season": "2025-26"
       }
     ]
   },
@@ -2101,9 +2122,10 @@
       {
         "player": "Craig Porter Jr.",
         "date": 46054,
-        "stats": "3 PTS / 12 AST / 4 REB / 2 BLK / 5 STL",
+        "stats": "3/12/4/2/5",
         "team": "Cavaliers",
-        "opponent": "Trail Blazers"
+        "opponent": "Trail Blazers",
+        "season": "2025-26"
       }
     ]
   },
@@ -2681,9 +2703,10 @@
       {
         "player": "Cam Spencer",
         "date": 46048,
-        "stats": "5 PTS / 13 AST / 5 REB / 1 BLK / 1 STL",
+        "stats": "5/13/5/1/1",
         "team": "Grizzlies",
-        "opponent": "Rockets"
+        "opponent": "Rockets",
+        "season": "2025-26"
       }
     ]
   },
@@ -2789,9 +2812,10 @@
       {
         "player": "Daniss Jenkins",
         "date": 46029,
-        "stats": "2 PTS / 15 AST / 6 REB / 0 BLK / 1 STL",
+        "stats": "2/15/6/0/1",
         "team": "Pistons",
-        "opponent": "Bulls"
+        "opponent": "Bulls",
+        "season": "2025-26"
       }
     ]
   },
@@ -3909,9 +3933,10 @@
       {
         "player": "Oso Ighodaro",
         "date": 46037,
-        "stats": "10 PTS / 0 AST / 3 REB / 1 BLK / 6 STL",
+        "stats": "10/0/3/1/6",
         "team": "Suns",
-        "opponent": "Pistons"
+        "opponent": "Pistons",
+        "season": "2025-26"
       }
     ]
   },
@@ -3933,9 +3958,10 @@
       {
         "player": "Ausar Thompson",
         "date": 45964,
-        "stats": "9 PTS / 1 AST / 4 REB / 2 BLK / 4 STL",
+        "stats": "9/1/4/2/4",
         "team": "Pistons",
-        "opponent": "Grizzlies"
+        "opponent": "Grizzlies",
+        "season": "2025-26"
       }
     ]
   },
@@ -3957,9 +3983,10 @@
       {
         "player": "Jake LaRavia",
         "date": 46044,
-        "stats": "7 PTS / 1 AST / 5 REB / 4 BLK / 3 STL",
+        "stats": "7/1/5/4/3",
         "team": "Lakers",
-        "opponent": "Clippers"
+        "opponent": "Clippers",
+        "season": "2025-26"
       }
     ]
   },
@@ -4033,9 +4060,10 @@
       {
         "player": "Ausar Thompson",
         "date": 46052,
-        "stats": "7 PTS / 2 AST / 8 REB / 0 BLK / 6 STL",
+        "stats": "7/2/8/0/6",
         "team": "Pistons",
-        "opponent": "Warriors"
+        "opponent": "Warriors",
+        "season": "2025-26"
       }
     ]
   },
@@ -4189,9 +4217,10 @@
       {
         "player": "Rudy Gobert",
         "date": 46016,
-        "stats": "9 PTS / 0 AST / 12 REB / 6 BLK / 0 STL",
+        "stats": "9/0/12/6/0",
         "team": "Timberwolves",
-        "opponent": "Nuggets"
+        "opponent": "Nuggets",
+        "season": "2025-26"
       }
     ]
   },
@@ -4257,9 +4286,10 @@
       {
         "player": "Bam Adebayo",
         "date": 46009,
-        "stats": "8 PTS / 1 AST / 17 REB / 3 BLK / 1 STL",
+        "stats": "8/1/17/3/1",
         "team": "Heat",
-        "opponent": "Nets"
+        "opponent": "Nets",
+        "season": "2025-26"
       }
     ]
   },
@@ -4269,9 +4299,10 @@
       {
         "player": "Rudy Gobert",
         "date": 46053,
-        "stats": "9 PTS / 0 AST / 16 REB / 2 BLK / 2 STL",
+        "stats": "9/0/16/2/2",
         "team": "Timberwolves",
-        "opponent": "Grizzlies"
+        "opponent": "Grizzlies",
+        "season": "2025-26"
       }
     ]
   },
@@ -4297,9 +4328,10 @@
       {
         "player": "Neemias Queta",
         "date": 46057,
-        "stats": "10 PTS / 2 AST / 19 REB / 5 BLK / 2 STL",
+        "stats": "10/2/19/5/2",
         "team": "BOS",
-        "opponent": "HOU"
+        "opponent": "HOU",
+        "season": "2025-26"
       }
     ]
   },
@@ -4361,9 +4393,10 @@
       {
         "player": "Karl-Anthony Towns",
         "date": 46050,
-        "stats": "8 PTS / 2 AST / 22 REB / 1 BLK / 0 STL",
+        "stats": "8/2/22/1/0",
         "team": "Knicks",
-        "opponent": "Raptors"
+        "opponent": "Raptors",
+        "season": "2025-26"
       }
     ]
   },
@@ -4609,9 +4642,10 @@
       {
         "player": "Goga Bitadze",
         "date": 45992,
-        "stats": "8 PTS / 3 AST / 5 REB / 4 BLK / 1 STL",
+        "stats": "8/3/5/4/1",
         "team": "Magic",
-        "opponent": "Bulls"
+        "opponent": "Bulls",
+        "season": "2025-26"
       }
     ]
   },
@@ -4717,9 +4751,10 @@
       {
         "player": "Yves Missi",
         "date": 46053,
-        "stats": "7 PTS / 3 AST / 8 REB / 4 BLK / 0 STL",
+        "stats": "7/3/8/4/0",
         "team": "Pelicans",
-        "opponent": "76ers"
+        "opponent": "76ers",
+        "season": "2025-26"
       }
     ]
   },
@@ -4729,9 +4764,10 @@
       {
         "player": "Derik Queen",
         "date": 46022,
-        "stats": "9 PTS / 4 AST / 7 REB / 5 BLK / 2 STL",
+        "stats": "9/4/7/5/2",
         "team": "Pelicans",
-        "opponent": "Bulls"
+        "opponent": "Bulls",
+        "season": "2025-26"
       }
     ]
   },
@@ -4817,9 +4853,10 @@
       {
         "player": "Steven Adams",
         "date": 46029,
-        "stats": "7 PTS / 4 AST / 11 REB / 2 BLK / 2 STL",
+        "stats": "7/4/11/2/2",
         "team": "Rockets",
-        "opponent": "Trail Blazers"
+        "opponent": "Trail Blazers",
+        "season": "2025-26"
       }
     ]
   },
@@ -4841,9 +4878,10 @@
       {
         "player": "Donovan Clingan",
         "date": 46054,
-        "stats": "8 PTS / 5 AST / 12 REB / 4 BLK / 0 STL",
+        "stats": "8/5/12/4/0",
         "team": "Trail Blazers",
-        "opponent": "Cavaliers"
+        "opponent": "Cavaliers",
+        "season": "2025-26"
       }
     ]
   },
@@ -4917,9 +4955,10 @@
       {
         "player": "Jusuf Nurkic",
         "date": 45966,
-        "stats": "6 PTS / 4 AST / 17 REB / 1 BLK / 4 STL",
+        "stats": "6/4/17/1/4",
         "team": "Jazz",
-        "opponent": "Pistons"
+        "opponent": "Pistons",
+        "season": "2025-26"
       }
     ]
   },
@@ -4957,9 +4996,10 @@
       {
         "player": "Ariel Hukporti",
         "date": 46024,
-        "stats": "8 PTS / 4 AST / 16 REB / 4 BLK / 1 STL",
+        "stats": "8/4/16/4/1",
         "team": "Knicks",
-        "opponent": "Hawks"
+        "opponent": "Hawks",
+        "season": "2025-26"
       }
     ]
   },
@@ -5149,9 +5189,10 @@
       {
         "player": "LaMelo Ball",
         "date": 46011,
-        "stats": "8 PTS / 6 AST / 1 REB / 2 BLK / 2 STL",
+        "stats": "8/6/1/2/2",
         "team": "Hornets",
-        "opponent": "Pistons"
+        "opponent": "Pistons",
+        "season": "2025-26"
       }
     ]
   },
@@ -5241,9 +5282,10 @@
       {
         "player": "Gui Santos",
         "date": 46035,
-        "stats": "6 PTS / 6 AST / 4 REB / 0 BLK / 4 STL",
+        "stats": "6/6/4/0/4",
         "team": "Warriors",
-        "opponent": "Trail Blazers"
+        "opponent": "Trail Blazers",
+        "season": "2025-26"
       }
     ]
   },
@@ -5365,9 +5407,10 @@
       {
         "player": "VJ Edgecombe",
         "date": 45993,
-        "stats": "9 PTS / 6 AST / 6 REB / 2 BLK / 2 STL",
+        "stats": "9/6/6/2/2",
         "team": "76ers",
-        "opponent": "Wizards"
+        "opponent": "Wizards",
+        "season": "2025-26"
       }
     ]
   },
@@ -5469,9 +5512,10 @@
       {
         "player": "Scottie Barnes",
         "date": 46047,
-        "stats": "10 PTS / 8 AST / 11 REB / 3 BLK / 1 STL",
+        "stats": "10/8/11/3/1",
         "team": "Raptors",
-        "opponent": "Thunder"
+        "opponent": "Thunder",
+        "season": "2025-26"
       }
     ]
   },
@@ -5481,9 +5525,10 @@
       {
         "player": "Josh Hart",
         "date": 45985,
-        "stats": "7 PTS / 7 AST / 12 REB / 2 BLK / 2 STL",
+        "stats": "7/7/12/2/2",
         "team": "Knicks",
-        "opponent": "Nets"
+        "opponent": "Nets",
+        "season": "2025-26"
       }
     ]
   },
@@ -5493,9 +5538,10 @@
       {
         "player": "Mouhamed Gueye",
         "date": 46029,
-        "stats": "10 PTS / 6 AST / 11 REB / 2 BLK / 4 STL",
+        "stats": "10/6/11/2/4",
         "team": "Hawks",
-        "opponent": "Pelicans"
+        "opponent": "Pelicans",
+        "season": "2025-26"
       }
     ]
   },
@@ -5793,9 +5839,10 @@
       {
         "player": "Derrick White",
         "date": 46052,
-        "stats": "7 PTS / 9 AST / 2 REB / 2 BLK / 1 STL",
+        "stats": "7/9/2/2/1",
         "team": "Celtics",
-        "opponent": "Kings"
+        "opponent": "Kings",
+        "season": "2025-26"
       }
     ]
   },
@@ -5989,9 +6036,10 @@
       {
         "player": "Kevin Porter Jr.",
         "date": 46018,
-        "stats": "8 PTS / 9 AST / 6 REB / 0 BLK / 4 STL",
+        "stats": "8/9/6/0/4",
         "team": "Bucks",
-        "opponent": "Bulls"
+        "opponent": "Bulls",
+        "season": "2025-26"
       }
     ]
   },
@@ -6009,9 +6057,10 @@
       {
         "player": "Draymond Green",
         "date": 45951,
-        "stats": "8 PTS / 9 AST / 7 REB / 2 BLK / 1 STL",
+        "stats": "8/9/7/2/1",
         "team": "Warriors",
-        "opponent": "Lakers"
+        "opponent": "Lakers",
+        "season": "2025-26"
       }
     ]
   },
@@ -6121,9 +6170,10 @@
       {
         "player": "Craig Porter Jr.",
         "date": 46028,
-        "stats": "8 PTS / 9 AST / 9 REB / 3 BLK / 2 STL",
+        "stats": "8/9/9/3/2",
         "team": "Cavaliers",
-        "opponent": "Pacers"
+        "opponent": "Pacers",
+        "season": "2025-26"
       }
     ]
   },
@@ -7633,9 +7683,10 @@
       {
         "player": "Keegan Murray",
         "date": 45991,
-        "stats": "12 PTS / 1 AST / 2 REB / 3 BLK / 5 STL",
+        "stats": "12/1/2/3/5",
         "team": "Kings",
-        "opponent": "Grizzlies"
+        "opponent": "Grizzlies",
+        "season": "2025-26"
       }
     ]
   },
@@ -7653,9 +7704,10 @@
       {
         "player": "Jalen Smith",
         "date": 45982,
-        "stats": "14 PTS / 2 AST / 2 REB / 5 BLK / 0 STL",
+        "stats": "14/2/2/5/0",
         "team": "Bulls",
-        "opponent": "Heat"
+        "opponent": "Heat",
+        "season": "2025-26"
       }
     ]
   },
@@ -7765,9 +7817,10 @@
       {
         "player": "Ausar Thompson",
         "date": 46011,
-        "stats": "14 PTS / 2 AST / 4 REB / 4 BLK / 3 STL",
+        "stats": "14/2/4/4/3",
         "team": "Pistons",
-        "opponent": "Hornets"
+        "opponent": "Hornets",
+        "season": "2025-26"
       }
     ]
   },
@@ -7993,9 +8046,10 @@
       {
         "player": "Chet Holmgren",
         "date": 46022,
-        "stats": "12 PTS / 1 AST / 10 REB / 6 BLK / 2 STL",
+        "stats": "12/1/10/6/2",
         "team": "Thunder",
-        "opponent": "Trail Blazers"
+        "opponent": "Trail Blazers",
+        "season": "2025-26"
       }
     ]
   },
@@ -8041,9 +8095,10 @@
       {
         "player": "Donovan Clingan",
         "date": 46045,
-        "stats": "13 PTS / 2 AST / 16 REB / 0 BLK / 3 STL",
+        "stats": "13/2/16/0/3",
         "team": "Trail Blazers",
-        "opponent": "Raptors"
+        "opponent": "Raptors",
+        "season": "2025-26"
       }
     ]
   },
@@ -8053,9 +8108,10 @@
       {
         "player": "Kel'el Ware",
         "date": 45966,
-        "stats": "13 PTS / 0 AST / 13 REB / 1 BLK / 4 STL",
+        "stats": "13/0/13/1/4",
         "team": "Heat",
-        "opponent": "Nuggets"
+        "opponent": "Nuggets",
+        "season": "2025-26"
       }
     ]
   },
@@ -8077,16 +8133,18 @@
       {
         "player": "Goga Bitadze",
         "date": 46033,
-        "stats": "14 PTS / 1 AST / 13 REB / 2 BLK / 3 STL",
+        "stats": "14/1/13/2/3",
         "team": "Magic",
-        "opponent": "Pelicans"
+        "opponent": "Pelicans",
+        "season": "2025-26"
       },
       {
         "player": "Rudy Gobert",
         "date": 46014,
-        "stats": "11 PTS / 2 AST / 16 REB / 3 BLK / 2 STL",
+        "stats": "11/2/16/3/2",
         "team": "Timberwolves",
-        "opponent": "Knicks"
+        "opponent": "Knicks",
+        "season": "2025-26"
       }
     ]
   },
@@ -8188,9 +8246,10 @@
       {
         "player": "Andre Drummond",
         "date": 45984,
-        "stats": "14 PTS / 1 AST / 24 REB / 2 BLK / 0 STL",
+        "stats": "14/1/24/2/0",
         "team": "76ers",
-        "opponent": "Heat"
+        "opponent": "Heat",
+        "season": "2025-26"
       }
     ]
   },
@@ -8408,9 +8467,10 @@
       {
         "player": "Mikal Bridges",
         "date": 45975,
-        "stats": "15 PTS / 5 AST / 5 REB / 2 BLK / 7 STL",
+        "stats": "15/5/5/2/7",
         "team": "Knicks",
-        "opponent": "Heat"
+        "opponent": "Heat",
+        "season": "2025-26"
       }
     ]
   },
@@ -8644,9 +8704,10 @@
       {
         "player": "Scottie Barnes",
         "date": 46045,
-        "stats": "15 PTS / 4 AST / 9 REB / 6 BLK / 0 STL",
+        "stats": "15/4/9/6/0",
         "team": "Raptors",
-        "opponent": "Trail Blazers"
+        "opponent": "Trail Blazers",
+        "season": "2025-26"
       }
     ]
   },
@@ -8716,9 +8777,10 @@
       {
         "player": "Jusuf Nurkic",
         "date": 46034,
-        "stats": "11 PTS / 3 AST / 17 REB / 2 BLK / 3 STL",
+        "stats": "11/3/17/2/3",
         "team": "Jazz",
-        "opponent": "Cavaliers"
+        "opponent": "Cavaliers",
+        "season": "2025-26"
       }
     ]
   },
@@ -8924,9 +8986,10 @@
       {
         "player": "Cade Cunningham",
         "date": 46003,
-        "stats": "15 PTS / 6 AST / 1 REB / 2 BLK / 2 STL",
+        "stats": "15/6/1/2/2",
         "team": "Pistons",
-        "opponent": "Hawks"
+        "opponent": "Hawks",
+        "season": "2025-26"
       }
     ]
   },
@@ -9020,9 +9083,10 @@
       {
         "player": "Marcus Smart",
         "date": 45971,
-        "stats": "13 PTS / 6 AST / 4 REB / 0 BLK / 7 STL",
+        "stats": "13/6/4/0/7",
         "team": "Lakers",
-        "opponent": "Hornets"
+        "opponent": "Hornets",
+        "season": "2025-26"
       }
     ]
   },
@@ -9236,9 +9300,10 @@
       {
         "player": "Sandro Mamukelashvili",
         "date": 46025,
-        "stats": "13 PTS / 8 AST / 12 REB / 3 BLK / 1 STL",
+        "stats": "13/8/12/3/1",
         "team": "Raptors",
-        "opponent": "Hawks"
+        "opponent": "Hawks",
+        "season": "2025-26"
       }
     ]
   },
@@ -9324,9 +9389,10 @@
       {
         "player": "Jusuf Nurkic",
         "date": 46003,
-        "stats": "13 PTS / 7 AST / 17 REB / 1 BLK / 1 STL",
+        "stats": "13/7/17/1/1",
         "team": "Jazz",
-        "opponent": "Grizzlies"
+        "opponent": "Grizzlies",
+        "season": "2025-26"
       }
     ]
   },
@@ -9540,9 +9606,10 @@
       {
         "player": "Russell Westbrook",
         "date": 45997,
-        "stats": "12 PTS / 10 AST / 1 REB / 0 BLK / 4 STL",
+        "stats": "12/10/1/0/4",
         "team": "Kings",
-        "opponent": "Heat"
+        "opponent": "Heat",
+        "season": "2025-26"
       }
     ]
   },
@@ -9748,9 +9815,10 @@
       {
         "player": "Dyson Daniels",
         "date": 46050,
-        "stats": "15 PTS / 9 AST / 6 REB / 1 BLK / 5 STL",
+        "stats": "15/9/6/1/5",
         "team": "Hawks",
-        "opponent": "Celtics"
+        "opponent": "Celtics",
+        "season": "2025-26"
       }
     ]
   },
@@ -9848,9 +9916,10 @@
       {
         "player": "Josh Hart",
         "date": 45975,
-        "stats": "12 PTS / 10 AST / 12 REB / 0 BLK / 1 STL",
+        "stats": "12/10/12/0/1",
         "team": "Knicks",
-        "opponent": "Heat"
+        "opponent": "Heat",
+        "season": "2025-26"
       }
     ]
   },
@@ -9876,9 +9945,10 @@
       {
         "player": "Nic Claxton",
         "date": 45997,
-        "stats": "14 PTS / 10 AST / 11 REB / 3 BLK / 0 STL",
+        "stats": "14/10/11/3/0",
         "team": "Nets",
-        "opponent": "Pelicans"
+        "opponent": "Pelicans",
+        "season": "2025-26"
       }
     ]
   },
@@ -9984,9 +10054,10 @@
       {
         "player": "Derik Queen",
         "date": 46031,
-        "stats": "14 PTS / 12 AST / 16 REB / 2 BLK / 0 STL",
+        "stats": "14/12/16/2/0",
         "team": "Pelicans",
-        "opponent": "Wizards"
+        "opponent": "Wizards",
+        "season": "2025-26"
       }
     ]
   },
@@ -10172,9 +10243,10 @@
       {
         "player": "James Harden",
         "date": 45969,
-        "stats": "13 PTS / 13 AST / 0 REB / 0 BLK / 0 STL",
+        "stats": "13/13/0/0/0",
         "team": "Clippers",
-        "opponent": "Suns"
+        "opponent": "Suns",
+        "season": "2025-26"
       }
     ]
   },
@@ -10300,9 +10372,10 @@
       {
         "player": "LaMelo Ball",
         "date": 45992,
-        "stats": "12 PTS / 14 AST / 5 REB / 2 BLK / 0 STL",
+        "stats": "12/14/5/2/0",
         "team": "Hornets",
-        "opponent": "Nets"
+        "opponent": "Nets",
+        "season": "2025-26"
       }
     ]
   },
@@ -10592,9 +10665,10 @@
       {
         "player": "Nikola Jokic",
         "date": 45955,
-        "stats": "14 PTS / 15 AST / 14 REB / 0 BLK / 3 STL",
+        "stats": "14/15/14/0/3",
         "team": "Nuggets",
-        "opponent": "Suns"
+        "opponent": "Suns",
+        "season": "2025-26"
       }
     ]
   },
@@ -10620,9 +10694,10 @@
       {
         "player": "Nikola Jokic",
         "date": 46013,
-        "stats": "14 PTS / 13 AST / 13 REB / 3 BLK / 2 STL",
+        "stats": "14/13/13/3/2",
         "team": "Nuggets",
-        "opponent": "Jazz"
+        "opponent": "Jazz",
+        "season": "2025-26"
       }
     ]
   },
@@ -11412,9 +11487,10 @@
       {
         "player": "Reed Sheppard",
         "date": 45970,
-        "stats": "16 PTS / 2 AST / 0 REB / 1 BLK / 4 STL",
+        "stats": "16/2/0/1/4",
         "team": "Rockets",
-        "opponent": "Bucks"
+        "opponent": "Bucks",
+        "season": "2025-26"
       }
     ]
   },
@@ -11540,9 +11616,10 @@
       {
         "player": "Paul George",
         "date": 46014,
-        "stats": "19 PTS / 2 AST / 4 REB / 2 BLK / 4 STL",
+        "stats": "19/2/4/2/4",
         "team": "76ers",
-        "opponent": "Nets"
+        "opponent": "Nets",
+        "season": "2025-26"
       }
     ]
   },
@@ -11564,9 +11641,10 @@
       {
         "player": "Keegan Murray",
         "date": 46009,
-        "stats": "17 PTS / 2 AST / 3 REB / 4 BLK / 2 STL",
+        "stats": "17/2/3/4/2",
         "team": "Kings",
-        "opponent": "Trail Blazers"
+        "opponent": "Trail Blazers",
+        "season": "2025-26"
       }
     ]
   },
@@ -11736,9 +11814,10 @@
       {
         "player": "Mark Williams",
         "date": 45959,
-        "stats": "20 PTS / 1 AST / 12 REB / 1 BLK / 4 STL",
+        "stats": "20/1/12/1/4",
         "team": "Suns",
-        "opponent": "Grizzlies"
+        "opponent": "Grizzlies",
+        "season": "2025-26"
       }
     ]
   },
@@ -11768,9 +11847,10 @@
       {
         "player": "Jaren Jackson Jr.",
         "date": 46052,
-        "stats": "16 PTS / 2 AST / 9 REB / 2 BLK / 6 STL",
+        "stats": "16/2/9/2/6",
         "team": "Grizzlies",
-        "opponent": "Pelicans"
+        "opponent": "Pelicans",
+        "season": "2025-26"
       }
     ]
   },
@@ -11808,9 +11888,10 @@
       {
         "player": "Alex Sarr",
         "date": 46019,
-        "stats": "20 PTS / 1 AST / 9 REB / 6 BLK / 2 STL",
+        "stats": "20/1/9/6/2",
         "team": "Wizards",
-        "opponent": "Grizzlies"
+        "opponent": "Grizzlies",
+        "season": "2025-26"
       }
     ]
   },
@@ -11892,9 +11973,10 @@
       {
         "player": "Victor Wembanyama",
         "date": 46047,
-        "stats": "16 PTS / 0 AST / 16 REB / 4 BLK / 0 STL",
+        "stats": "16/0/16/4/0",
         "team": "Spurs",
-        "opponent": "Pelicans"
+        "opponent": "Pelicans",
+        "season": "2025-26"
       }
     ]
   },
@@ -11904,9 +11986,10 @@
       {
         "player": "Victor Wembanyama",
         "date": 46029,
-        "stats": "16 PTS / 2 AST / 14 REB / 4 BLK / 2 STL",
+        "stats": "16/2/14/4/2",
         "team": "Spurs",
-        "opponent": "Lakers"
+        "opponent": "Lakers",
+        "season": "2025-26"
       }
     ]
   },
@@ -12076,9 +12159,10 @@
       {
         "player": "Tre Jones",
         "date": 45989,
-        "stats": "16 PTS / 4 AST / 1 REB / 1 BLK / 5 STL",
+        "stats": "16/4/1/1/5",
         "team": "Bulls",
-        "opponent": "Hornets"
+        "opponent": "Hornets",
+        "season": "2025-26"
       }
     ]
   },
@@ -12188,9 +12272,10 @@
       {
         "player": "Jeremiah Fears",
         "date": 45975,
-        "stats": "19 PTS / 3 AST / 4 REB / 0 BLK / 7 STL",
+        "stats": "19/3/4/0/7",
         "team": "Pelicans",
-        "opponent": "Lakers"
+        "opponent": "Lakers",
+        "season": "2025-26"
       }
     ]
   },
@@ -12200,9 +12285,10 @@
       {
         "player": "Herbert Jones",
         "date": 46009,
-        "stats": "18 PTS / 3 AST / 3 REB / 1 BLK / 8 STL",
+        "stats": "18/3/3/1/8",
         "team": "Pelicans",
-        "opponent": "Rockets"
+        "opponent": "Rockets",
+        "season": "2025-26"
       }
     ]
   },
@@ -12336,9 +12422,10 @@
       {
         "player": "Scottie Barnes",
         "date": 45984,
-        "stats": "17 PTS / 4 AST / 7 REB / 4 BLK / 2 STL",
+        "stats": "17/4/7/4/2",
         "team": "Raptors",
-        "opponent": "Nets"
+        "opponent": "Nets",
+        "season": "2025-26"
       }
     ]
   },
@@ -12408,9 +12495,10 @@
       {
         "player": "Onyeka Okongwu",
         "date": 46027,
-        "stats": "17 PTS / 3 AST / 12 REB / 0 BLK / 4 STL",
+        "stats": "17/3/12/0/4",
         "team": "Hawks",
-        "opponent": "Raptors"
+        "opponent": "Raptors",
+        "season": "2025-26"
       }
     ]
   },
@@ -12512,9 +12600,10 @@
       {
         "player": "Kyle Filipowski",
         "date": 46056,
-        "stats": "16 PTS / 5 AST / 16 REB / 1 BLK / 3 STL",
+        "stats": "16/5/16/1/3",
         "team": "Jazz",
-        "opponent": "Pacers"
+        "opponent": "Pacers",
+        "season": "2025-26"
       }
     ]
   },
@@ -12540,9 +12629,10 @@
       {
         "player": "Collin Murray-Boyles",
         "date": 46033,
-        "stats": "17 PTS / 3 AST / 15 REB / 3 BLK / 3 STL",
+        "stats": "17/3/15/3/3",
         "team": "Raptors",
-        "opponent": "76ers"
+        "opponent": "76ers",
+        "season": "2025-26"
       }
     ]
   },
@@ -12564,16 +12654,18 @@
       {
         "player": "Chet Holmgren",
         "date": 46049,
-        "stats": "20 PTS / 3 AST / 14 REB / 5 BLK / 0 STL",
+        "stats": "20/3/14/5/0",
         "team": "Thunder",
-        "opponent": "Pelicans"
+        "opponent": "Pelicans",
+        "season": "2025-26"
       },
       {
         "player": "Rudy Gobert",
         "date": 46008,
-        "stats": "16 PTS / 4 AST / 16 REB / 4 BLK / 1 STL",
+        "stats": "16/4/16/4/1",
         "team": "Timberwolves",
-        "opponent": "Grizzlies"
+        "opponent": "Grizzlies",
+        "season": "2025-26"
       }
     ]
   },
@@ -12659,9 +12751,10 @@
       {
         "player": "Donovan Clingan",
         "date": 45980,
-        "stats": "17 PTS / 4 AST / 21 REB / 2 BLK / 1 STL",
+        "stats": "17/4/21/2/1",
         "team": "Trail Blazers",
-        "opponent": "Bulls"
+        "opponent": "Bulls",
+        "season": "2025-26"
       }
     ]
   },
@@ -12755,9 +12848,10 @@
       {
         "player": "Jordan Miller",
         "date": 46038,
-        "stats": "19 PTS / 6 AST / 2 REB / 0 BLK / 4 STL",
+        "stats": "19/6/2/0/4",
         "team": "Clippers",
-        "opponent": "Raptors"
+        "opponent": "Raptors",
+        "season": "2025-26"
       }
     ]
   },
@@ -12875,9 +12969,10 @@
       {
         "player": "Derrick White",
         "date": 45972,
-        "stats": "18 PTS / 7 AST / 5 REB / 2 BLK / 0 STL",
+        "stats": "18/7/5/2/0",
         "team": "Celtics",
-        "opponent": "76ers"
+        "opponent": "76ers",
+        "season": "2025-26"
       }
     ]
   },
@@ -12991,9 +13086,10 @@
       {
         "player": "Donte DiVincenzo",
         "date": 46005,
-        "stats": "18 PTS / 6 AST / 6 REB / 2 BLK / 4 STL",
+        "stats": "18/6/6/2/4",
         "team": "Timberwolves",
-        "opponent": "Kings"
+        "opponent": "Kings",
+        "season": "2025-26"
       }
     ]
   },
@@ -13003,9 +13099,10 @@
       {
         "player": "Cade Cunningham",
         "date": 45992,
-        "stats": "18 PTS / 8 AST / 8 REB / 3 BLK / 6 STL",
+        "stats": "18/8/8/3/6",
         "team": "Pistons",
-        "opponent": "Hawks"
+        "opponent": "Hawks",
+        "season": "2025-26"
       }
     ]
   },
@@ -13179,9 +13276,10 @@
       {
         "player": "Alperen Sengun",
         "date": 45966,
-        "stats": "20 PTS / 7 AST / 16 REB / 1 BLK / 1 STL",
+        "stats": "20/7/16/1/1",
         "team": "Rockets",
-        "opponent": "Grizzlies"
+        "opponent": "Grizzlies",
+        "season": "2025-26"
       }
     ]
   },
@@ -13207,9 +13305,10 @@
       {
         "player": "LeBron James",
         "date": 46001,
-        "stats": "19 PTS / 8 AST / 15 REB / 3 BLK / 0 STL",
+        "stats": "19/8/15/3/0",
         "team": "Lakers",
-        "opponent": "Spurs"
+        "opponent": "Spurs",
+        "season": "2025-26"
       }
     ]
   },
@@ -13503,9 +13602,10 @@
       {
         "player": "James Harden",
         "date": 46049,
-        "stats": "16 PTS / 10 AST / 3 REB / 0 BLK / 4 STL",
+        "stats": "16/10/3/0/4",
         "team": "Clippers",
-        "opponent": "Jazz"
+        "opponent": "Jazz",
+        "season": "2025-26"
       }
     ]
   },
@@ -13527,9 +13627,10 @@
       {
         "player": "Dyson Daniels",
         "date": 46025,
-        "stats": "20 PTS / 12 AST / 5 REB / 2 BLK / 2 STL",
+        "stats": "20/12/5/2/2",
         "team": "Hawks",
-        "opponent": "Raptors"
+        "opponent": "Raptors",
+        "season": "2025-26"
       }
     ]
   },
@@ -13539,9 +13640,10 @@
       {
         "player": "Cade Cunningham",
         "date": 46054,
-        "stats": "18 PTS / 12 AST / 4 REB / 3 BLK / 4 STL",
+        "stats": "18/12/4/3/4",
         "team": "Pistons",
-        "opponent": "Nets"
+        "opponent": "Nets",
+        "season": "2025-26"
       }
     ]
   },
@@ -13563,9 +13665,10 @@
       {
         "player": "Craig Porter Jr.",
         "date": 45973,
-        "stats": "19 PTS / 9 AST / 4 REB / 4 BLK / 3 STL",
+        "stats": "19/9/4/4/3",
         "team": "Cavaliers",
-        "opponent": "Heat"
+        "opponent": "Heat",
+        "season": "2025-26"
       }
     ]
   },
@@ -13635,9 +13738,10 @@
       {
         "player": "Kevin Porter Jr.",
         "date": 46057,
-        "stats": "18 PTS / 9 AST / 6 REB / 0 BLK / 5 STL",
+        "stats": "18/9/6/0/5",
         "team": "MIL",
-        "opponent": "NOP"
+        "opponent": "NOP",
+        "season": "2025-26"
       }
     ]
   },
@@ -13743,9 +13847,10 @@
       {
         "player": "Dyson Daniels",
         "date": 46031,
-        "stats": "17 PTS / 10 AST / 11 REB / 0 BLK / 4 STL",
+        "stats": "17/10/11/0/4",
         "team": "Hawks",
-        "opponent": "Nuggets"
+        "opponent": "Nuggets",
+        "season": "2025-26"
       }
     ]
   },
@@ -13847,9 +13952,10 @@
       {
         "player": "Nikola Vucevic",
         "date": 45957,
-        "stats": "17 PTS / 9 AST / 17 REB / 0 BLK / 2 STL",
+        "stats": "17/9/17/0/2",
         "team": "Bulls",
-        "opponent": "Hawks"
+        "opponent": "Hawks",
+        "season": "2025-26"
       }
     ]
   },
@@ -13871,9 +13977,10 @@
       {
         "player": "Alperen Sengun",
         "date": 46042,
-        "stats": "20 PTS / 9 AST / 13 REB / 2 BLK / 0 STL",
+        "stats": "20/9/13/2/0",
         "team": "Rockets",
-        "opponent": "Spurs"
+        "opponent": "Spurs",
+        "season": "2025-26"
       }
     ]
   },
@@ -14159,9 +14266,10 @@
       {
         "player": "Julius Randle",
         "date": 46020,
-        "stats": "17 PTS / 14 AST / 5 REB / 0 BLK / 1 STL",
+        "stats": "17/14/5/0/1",
         "team": "Timberwolves",
-        "opponent": "Bulls"
+        "opponent": "Bulls",
+        "season": "2025-26"
       }
     ]
   },
@@ -14187,9 +14295,10 @@
       {
         "player": "Cade Cunningham",
         "date": 46041,
-        "stats": "16 PTS / 14 AST / 3 REB / 2 BLK / 1 STL",
+        "stats": "16/14/3/2/1",
         "team": "Pistons",
-        "opponent": "Celtics"
+        "opponent": "Celtics",
+        "season": "2025-26"
       }
     ]
   },
@@ -14383,16 +14492,18 @@
       {
         "player": "Russell Westbrook",
         "date": 45989,
-        "stats": "16 PTS / 14 AST / 12 REB / 0 BLK / 4 STL",
+        "stats": "16/14/12/0/4",
         "team": "Kings",
-        "opponent": "Jazz"
+        "opponent": "Jazz",
+        "season": "2025-26"
       },
       {
         "player": "Jrue Holiday",
         "date": 45969,
-        "stats": "18 PTS / 13 AST / 9 REB / 0 BLK / 4 STL",
+        "stats": "18/13/9/0/4",
         "team": "Trail Blazers",
-        "opponent": "Heat"
+        "opponent": "Heat",
+        "season": "2025-26"
       }
     ]
   },
@@ -14794,9 +14905,10 @@
       {
         "player": "Isaiah Collier",
         "date": 46056,
-        "stats": "17 PTS / 22 AST / 5 REB / 0 BLK / 3 STL",
+        "stats": "17/22/5/0/3",
         "team": "Jazz",
-        "opponent": "Pacers"
+        "opponent": "Pacers",
+        "season": "2025-26"
       }
     ]
   },
@@ -15306,9 +15418,10 @@
       {
         "player": "Aaron Nesmith",
         "date": 45969,
-        "stats": "25 PTS / 0 AST / 1 REB / 0 BLK / 4 STL",
+        "stats": "25/0/1/0/4",
         "team": "Pacers",
-        "opponent": "Nuggets"
+        "opponent": "Nuggets",
+        "season": "2025-26"
       }
     ]
   },
@@ -15326,9 +15439,10 @@
       {
         "player": "Kristaps Porzingis",
         "date": 45996,
-        "stats": "25 PTS / 1 AST / 2 REB / 2 BLK / 1 STL",
+        "stats": "25/1/2/2/1",
         "team": "Hawks",
-        "opponent": "Nuggets"
+        "opponent": "Nuggets",
+        "season": "2025-26"
       }
     ]
   },
@@ -15354,9 +15468,10 @@
       {
         "player": "Matas Buzelis",
         "date": 46056,
-        "stats": "22 PTS / 1 AST / 2 REB / 5 BLK / 0 STL",
+        "stats": "22/1/2/5/0",
         "team": "Bulls",
-        "opponent": "Bucks"
+        "opponent": "Bucks",
+        "season": "2025-26"
       }
     ]
   },
@@ -15462,9 +15577,10 @@
       {
         "player": "Jaden McDaniels",
         "date": 45957,
-        "stats": "25 PTS / 1 AST / 3 REB / 4 BLK / 0 STL",
+        "stats": "25/1/3/4/0",
         "team": "Timberwolves",
-        "opponent": "Nuggets"
+        "opponent": "Nuggets",
+        "season": "2025-26"
       }
     ]
   },
@@ -15654,9 +15770,10 @@
       {
         "player": "Scottie Barnes",
         "date": 46009,
-        "stats": "24 PTS / 2 AST / 11 REB / 2 BLK / 2 STL",
+        "stats": "24/2/11/2/2",
         "team": "Raptors",
-        "opponent": "Bucks"
+        "opponent": "Bucks",
+        "season": "2025-26"
       }
     ]
   },
@@ -15762,9 +15879,10 @@
       {
         "player": "Jalen Duren",
         "date": 45970,
-        "stats": "21 PTS / 1 AST / 16 REB / 2 BLK / 2 STL",
+        "stats": "21/1/16/2/2",
         "team": "Pistons",
-        "opponent": "76ers"
+        "opponent": "76ers",
+        "season": "2025-26"
       }
     ]
   },
@@ -15806,9 +15924,10 @@
       {
         "player": "Myles Turner",
         "date": 46051,
-        "stats": "21 PTS / 1 AST / 14 REB / 6 BLK / 0 STL",
+        "stats": "21/1/14/6/0",
         "team": "Bucks",
-        "opponent": "Wizards"
+        "opponent": "Wizards",
+        "season": "2025-26"
       }
     ]
   },
@@ -16078,9 +16197,10 @@
       {
         "player": "Desmond Bane",
         "date": 46014,
-        "stats": "23 PTS / 5 AST / 4 REB / 3 BLK / 3 STL",
+        "stats": "23/5/4/3/3",
         "team": "Magic",
-        "opponent": "Trail Blazers"
+        "opponent": "Trail Blazers",
+        "season": "2025-26"
       }
     ]
   },
@@ -16106,9 +16226,10 @@
       {
         "player": "Mikal Bridges",
         "date": 45978,
-        "stats": "23 PTS / 4 AST / 3 REB / 4 BLK / 2 STL",
+        "stats": "23/4/3/4/2",
         "team": "Knicks",
-        "opponent": "Heat"
+        "opponent": "Heat",
+        "season": "2025-26"
       }
     ]
   },
@@ -16198,9 +16319,10 @@
       {
         "player": "Russell Westbrook",
         "date": 46026,
-        "stats": "21 PTS / 3 AST / 6 REB / 3 BLK / 4 STL",
+        "stats": "21/3/6/3/4",
         "team": "Kings",
-        "opponent": "Bucks"
+        "opponent": "Bucks",
+        "season": "2025-26"
       }
     ]
   },
@@ -16218,9 +16340,10 @@
       {
         "player": "Luke Kornet",
         "date": 46025,
-        "stats": "23 PTS / 3 AST / 8 REB / 5 BLK / 0 STL",
+        "stats": "23/3/8/5/0",
         "team": "Spurs",
-        "opponent": "Trail Blazers"
+        "opponent": "Trail Blazers",
+        "season": "2025-26"
       }
     ]
   },
@@ -16390,9 +16513,10 @@
       {
         "player": "Mark Williams",
         "date": 45987,
-        "stats": "21 PTS / 4 AST / 16 REB / 1 BLK / 3 STL",
+        "stats": "21/4/16/1/3",
         "team": "Suns",
-        "opponent": "Kings"
+        "opponent": "Kings",
+        "season": "2025-26"
       }
     ]
   },
@@ -16402,9 +16526,10 @@
       {
         "player": "Alperen Sengun",
         "date": 46002,
-        "stats": "22 PTS / 5 AST / 15 REB / 0 BLK / 4 STL",
+        "stats": "22/5/15/0/4",
         "team": "Rockets",
-        "opponent": "Clippers"
+        "opponent": "Clippers",
+        "season": "2025-26"
       }
     ]
   },
@@ -16502,9 +16627,10 @@
       {
         "player": "Jalen Duren",
         "date": 45966,
-        "stats": "22 PTS / 3 AST / 22 REB / 1 BLK / 0 STL",
+        "stats": "22/3/22/1/0",
         "team": "Pistons",
-        "opponent": "Jazz"
+        "opponent": "Jazz",
+        "season": "2025-26"
       }
     ]
   },
@@ -16734,9 +16860,10 @@
       {
         "player": "Jalen Suggs",
         "date": 45981,
-        "stats": "23 PTS / 7 AST / 3 REB / 2 BLK / 2 STL",
+        "stats": "23/7/3/2/2",
         "team": "Magic",
-        "opponent": "Clippers"
+        "opponent": "Clippers",
+        "season": "2025-26"
       }
     ]
   },
@@ -16746,9 +16873,10 @@
       {
         "player": "Scottie Barnes",
         "date": 45965,
-        "stats": "23 PTS / 6 AST / 3 REB / 2 BLK / 4 STL",
+        "stats": "23/6/3/2/4",
         "team": "Raptors",
-        "opponent": "Bucks"
+        "opponent": "Bucks",
+        "season": "2025-26"
       }
     ]
   },
@@ -16766,9 +16894,10 @@
       {
         "player": "Kevin Durant",
         "date": 46006,
-        "stats": "25 PTS / 7 AST / 5 REB / 5 BLK / 1 STL",
+        "stats": "25/7/5/5/1",
         "team": "Rockets",
-        "opponent": "Nuggets"
+        "opponent": "Nuggets",
+        "season": "2025-26"
       }
     ]
   },
@@ -17254,9 +17383,10 @@
       {
         "player": "Ja Morant",
         "date": 46043,
-        "stats": "23 PTS / 12 AST / 2 REB / 3 BLK / 1 STL",
+        "stats": "23/12/2/3/1",
         "team": "Grizzlies",
-        "opponent": "Hawks"
+        "opponent": "Hawks",
+        "season": "2025-26"
       }
     ]
   },
@@ -17370,9 +17500,10 @@
       {
         "player": "Tyrese Maxey",
         "date": 46038,
-        "stats": "22 PTS / 9 AST / 5 REB / 2 BLK / 5 STL",
+        "stats": "22/9/5/2/5",
         "team": "76ers",
-        "opponent": "Cavaliers"
+        "opponent": "Cavaliers",
+        "season": "2025-26"
       }
     ]
   },
@@ -17558,9 +17689,10 @@
       {
         "player": "Kevin Porter Jr.",
         "date": 46012,
-        "stats": "24 PTS / 9 AST / 10 REB / 1 BLK / 4 STL",
+        "stats": "24/9/10/1/4",
         "team": "Bucks",
-        "opponent": "Timberwolves"
+        "opponent": "Timberwolves",
+        "season": "2025-26"
       }
     ]
   },
@@ -17582,9 +17714,10 @@
       {
         "player": "Alperen Sengun",
         "date": 45975,
-        "stats": "25 PTS / 9 AST / 10 REB / 3 BLK / 3 STL",
+        "stats": "25/9/10/3/3",
         "team": "Rockets",
-        "opponent": "Trail Blazers"
+        "opponent": "Trail Blazers",
+        "season": "2025-26"
       }
     ]
   },
@@ -17670,9 +17803,10 @@
       {
         "player": "Nikola Jokic",
         "date": 45957,
-        "stats": "25 PTS / 10 AST / 19 REB / 1 BLK / 2 STL",
+        "stats": "25/10/19/1/2",
         "team": "Nuggets",
-        "opponent": "Timberwolves"
+        "opponent": "Timberwolves",
+        "season": "2025-26"
       }
     ]
   },
@@ -17778,9 +17912,10 @@
       {
         "player": "Scottie Barnes",
         "date": 46019,
-        "stats": "23 PTS / 10 AST / 25 REB / 1 BLK / 3 STL",
+        "stats": "23/10/25/1/3",
         "team": "Raptors",
-        "opponent": "Warriors"
+        "opponent": "Warriors",
+        "season": "2025-26"
       }
     ]
   },
@@ -17886,9 +18021,10 @@
       {
         "player": "Trae Young",
         "date": 46014,
-        "stats": "22 PTS / 15 AST / 1 REB / 0 BLK / 2 STL",
+        "stats": "22/15/1/0/2",
         "team": "Hawks",
-        "opponent": "Bulls"
+        "opponent": "Bulls",
+        "season": "2025-26"
       }
     ]
   },
@@ -18098,9 +18234,10 @@
       {
         "player": "Cade Cunningham",
         "date": 46014,
-        "stats": "23 PTS / 14 AST / 7 REB / 0 BLK / 5 STL",
+        "stats": "23/14/7/0/5",
         "team": "Pistons",
-        "opponent": "Kings"
+        "opponent": "Kings",
+        "season": "2025-26"
       }
     ]
   },
@@ -18302,9 +18439,10 @@
       {
         "player": "Jalen Johnson",
         "date": 45996,
-        "stats": "21 PTS / 16 AST / 18 REB / 0 BLK / 2 STL",
+        "stats": "21/16/18/0/2",
         "team": "Hawks",
-        "opponent": "Nuggets"
+        "opponent": "Nuggets",
+        "season": "2025-26"
       }
     ]
   },
@@ -19230,9 +19368,10 @@
       {
         "player": "Jaren Jackson Jr.",
         "date": 46037,
-        "stats": "30 PTS / 1 AST / 3 REB / 2 BLK / 2 STL",
+        "stats": "30/1/3/2/2",
         "team": "Grizzlies",
-        "opponent": "Magic"
+        "opponent": "Magic",
+        "season": "2025-26"
       }
     ]
   },
@@ -19322,9 +19461,10 @@
       {
         "player": "Kawhi Leonard",
         "date": 46032,
-        "stats": "26 PTS / 1 AST / 8 REB / 0 BLK / 4 STL",
+        "stats": "26/1/8/0/4",
         "team": "Clippers",
-        "opponent": "Pistons"
+        "opponent": "Pistons",
+        "season": "2025-26"
       }
     ]
   },
@@ -19446,9 +19586,10 @@
       {
         "player": "Alex Sarr",
         "date": 45986,
-        "stats": "27 PTS / 0 AST / 11 REB / 2 BLK / 2 STL",
+        "stats": "27/0/11/2/2",
         "team": "Wizards",
-        "opponent": "Hawks"
+        "opponent": "Hawks",
+        "season": "2025-26"
       }
     ]
   },
@@ -19470,9 +19611,10 @@
       {
         "player": "Chet Holmgren",
         "date": 46019,
-        "stats": "29 PTS / 1 AST / 9 REB / 4 BLK / 0 STL",
+        "stats": "29/1/9/4/0",
         "team": "Thunder",
-        "opponent": "76ers"
+        "opponent": "76ers",
+        "season": "2025-26"
       }
     ]
   },
@@ -19518,9 +19660,10 @@
       {
         "player": "Victor Wembanyama",
         "date": 45954,
-        "stats": "29 PTS / 2 AST / 11 REB / 9 BLK / 1 STL",
+        "stats": "29/2/11/9/1",
         "team": "Spurs",
-        "opponent": "Pelicans"
+        "opponent": "Pelicans",
+        "season": "2025-26"
       }
     ]
   },
@@ -19546,9 +19689,10 @@
       {
         "player": "Kel'el Ware",
         "date": 46012,
-        "stats": "28 PTS / 0 AST / 19 REB / 0 BLK / 1 STL",
+        "stats": "28/0/19/0/1",
         "team": "Heat",
-        "opponent": "Knicks"
+        "opponent": "Knicks",
+        "season": "2025-26"
       }
     ]
   },
@@ -19558,9 +19702,10 @@
       {
         "player": "Dominick Barlow",
         "date": 46055,
-        "stats": "26 PTS / 2 AST / 16 REB / 1 BLK / 2 STL",
+        "stats": "26/2/16/1/2",
         "team": "76ers",
-        "opponent": "Clippers"
+        "opponent": "Clippers",
+        "season": "2025-26"
       }
     ]
   },
@@ -19770,9 +19915,10 @@
       {
         "player": "Tyrese Maxey",
         "date": 46019,
-        "stats": "28 PTS / 5 AST / 2 REB / 0 BLK / 4 STL",
+        "stats": "28/5/2/0/4",
         "team": "76ers",
-        "opponent": "Thunder"
+        "opponent": "Thunder",
+        "season": "2025-26"
       }
     ]
   },
@@ -19794,9 +19940,10 @@
       {
         "player": "VJ Edgecombe",
         "date": 46025,
-        "stats": "26 PTS / 4 AST / 2 REB / 2 BLK / 2 STL",
+        "stats": "26/4/2/2/2",
         "team": "76ers",
-        "opponent": "Knicks"
+        "opponent": "Knicks",
+        "season": "2025-26"
       }
     ]
   },
@@ -19886,9 +20033,10 @@
       {
         "player": "Jaylen Brown",
         "date": 46017,
-        "stats": "30 PTS / 4 AST / 3 REB / 0 BLK / 4 STL",
+        "stats": "30/4/3/0/4",
         "team": "Celtics",
-        "opponent": "Pacers"
+        "opponent": "Pacers",
+        "season": "2025-26"
       }
     ]
   },
@@ -19914,9 +20062,10 @@
       {
         "player": "Kawhi Leonard",
         "date": 45964,
-        "stats": "27 PTS / 4 AST / 4 REB / 2 BLK / 4 STL",
+        "stats": "27/4/4/2/4",
         "team": "Clippers",
-        "opponent": "Heat"
+        "opponent": "Heat",
+        "season": "2025-26"
       }
     ]
   },
@@ -19926,9 +20075,10 @@
       {
         "player": "OG Anunoby",
         "date": 46050,
-        "stats": "26 PTS / 5 AST / 3 REB / 2 BLK / 6 STL",
+        "stats": "26/5/3/2/6",
         "team": "Knicks",
-        "opponent": "Raptors"
+        "opponent": "Raptors",
+        "season": "2025-26"
       }
     ]
   },
@@ -19946,9 +20096,10 @@
       {
         "player": "Moses Moody",
         "date": 45966,
-        "stats": "28 PTS / 3 AST / 3 REB / 4 BLK / 2 STL",
+        "stats": "28/3/3/4/2",
         "team": "Warriors",
-        "opponent": "Kings"
+        "opponent": "Kings",
+        "season": "2025-26"
       }
     ]
   },
@@ -20038,9 +20189,10 @@
       {
         "player": "Anthony Black",
         "date": 46050,
-        "stats": "26 PTS / 5 AST / 7 REB / 2 BLK / 4 STL",
+        "stats": "26/5/7/2/4",
         "team": "Magic",
-        "opponent": "Heat"
+        "opponent": "Heat",
+        "season": "2025-26"
       }
     ]
   },
@@ -20182,9 +20334,10 @@
       {
         "player": "Alex Sarr",
         "date": 46049,
-        "stats": "29 PTS / 3 AST / 12 REB / 6 BLK / 2 STL",
+        "stats": "29/3/12/6/2",
         "team": "Wizards",
-        "opponent": "Trail Blazers"
+        "opponent": "Trail Blazers",
+        "season": "2025-26"
       }
     ]
   },
@@ -20226,9 +20379,10 @@
       {
         "player": "Cedric Coward",
         "date": 46021,
-        "stats": "28 PTS / 4 AST / 16 REB / 0 BLK / 0 STL",
+        "stats": "28/4/16/0/0",
         "team": "Grizzlies",
-        "opponent": "76ers"
+        "opponent": "76ers",
+        "season": "2025-26"
       }
     ]
   },
@@ -20242,9 +20396,10 @@
       {
         "player": "Paolo Banchero",
         "date": 46037,
-        "stats": "26 PTS / 4 AST / 13 REB / 0 BLK / 4 STL",
+        "stats": "26/4/13/0/4",
         "team": "Magic",
-        "opponent": "Grizzlies"
+        "opponent": "Grizzlies",
+        "season": "2025-26"
       }
     ]
   },
@@ -20286,9 +20441,10 @@
       {
         "player": "Victor Wembanyama",
         "date": 46050,
-        "stats": "28 PTS / 3 AST / 16 REB / 5 BLK / 2 STL",
+        "stats": "28/3/16/5/2",
         "team": "Spurs",
-        "opponent": "Rockets"
+        "opponent": "Rockets",
+        "season": "2025-26"
       }
     ]
   },
@@ -20474,9 +20630,10 @@
       {
         "player": "Reed Sheppard",
         "date": 46011,
-        "stats": "28 PTS / 6 AST / 2 REB / 2 BLK / 3 STL",
+        "stats": "28/6/2/2/3",
         "team": "Rockets",
-        "opponent": "Nuggets"
+        "opponent": "Nuggets",
+        "season": "2025-26"
       }
     ]
   },
@@ -20574,9 +20731,10 @@
       {
         "player": "Tyrese Maxey",
         "date": 46041,
-        "stats": "29 PTS / 8 AST / 4 REB / 1 BLK / 8 STL",
+        "stats": "29/8/4/1/8",
         "team": "76ers",
-        "opponent": "Pacers"
+        "opponent": "Pacers",
+        "season": "2025-26"
       }
     ]
   },
@@ -20690,9 +20848,10 @@
       {
         "player": "Anthony Edwards",
         "date": 45976,
-        "stats": "26 PTS / 6 AST / 8 REB / 2 BLK / 3 STL",
+        "stats": "26/6/8/2/3",
         "team": "Timberwolves",
-        "opponent": "Nuggets"
+        "opponent": "Nuggets",
+        "season": "2025-26"
       }
     ]
   },
@@ -20702,9 +20861,10 @@
       {
         "player": "Tyrese Maxey",
         "date": 46027,
-        "stats": "28 PTS / 6 AST / 6 REB / 2 BLK / 4 STL",
+        "stats": "28/6/6/2/4",
         "team": "76ers",
-        "opponent": "Nuggets"
+        "opponent": "Nuggets",
+        "season": "2025-26"
       }
     ]
   },
@@ -20742,9 +20902,10 @@
       {
         "player": "Derrick White",
         "date": 46021,
-        "stats": "27 PTS / 6 AST / 7 REB / 7 BLK / 0 STL",
+        "stats": "27/6/7/7/0",
         "team": "Celtics",
-        "opponent": "Jazz"
+        "opponent": "Jazz",
+        "season": "2025-26"
       }
     ]
   },
@@ -20794,9 +20955,10 @@
       {
         "player": "Russell Westbrook",
         "date": 45964,
-        "stats": "26 PTS / 6 AST / 12 REB / 0 BLK / 2 STL",
+        "stats": "26/6/12/0/2",
         "team": "Kings",
-        "opponent": "Nuggets"
+        "opponent": "Nuggets",
+        "season": "2025-26"
       }
     ]
   },
@@ -20818,9 +20980,10 @@
       {
         "player": "Alperen Sengun",
         "date": 45977,
-        "stats": "30 PTS / 8 AST / 12 REB / 2 BLK / 0 STL",
+        "stats": "30/8/12/2/0",
         "team": "Rockets",
-        "opponent": "Magic"
+        "opponent": "Magic",
+        "season": "2025-26"
       }
     ]
   },
@@ -20830,9 +20993,10 @@
       {
         "player": "Alperen Sengun",
         "date": 46009,
-        "stats": "28 PTS / 8 AST / 11 REB / 2 BLK / 2 STL",
+        "stats": "28/8/11/2/2",
         "team": "Rockets",
-        "opponent": "Pelicans"
+        "opponent": "Pelicans",
+        "season": "2025-26"
       }
     ]
   },
@@ -20854,9 +21018,10 @@
       {
         "player": "Scottie Barnes",
         "date": 45974,
-        "stats": "28 PTS / 8 AST / 10 REB / 5 BLK / 1 STL",
+        "stats": "28/8/10/5/1",
         "team": "Raptors",
-        "opponent": "Cavaliers"
+        "opponent": "Cavaliers",
+        "season": "2025-26"
       }
     ]
   },
@@ -20922,9 +21087,10 @@
       {
         "player": "Jalen Johnson",
         "date": 46041,
-        "stats": "28 PTS / 6 AST / 16 REB / 1 BLK / 0 STL",
+        "stats": "28/6/16/1/0",
         "team": "Hawks",
-        "opponent": "Bucks"
+        "opponent": "Bucks",
+        "season": "2025-26"
       }
     ]
   },
@@ -20938,9 +21104,10 @@
       {
         "player": "Paul Reed",
         "date": 45973,
-        "stats": "28 PTS / 6 AST / 13 REB / 1 BLK / 4 STL",
+        "stats": "28/6/13/1/4",
         "team": "Pistons",
-        "opponent": "Bulls"
+        "opponent": "Bulls",
+        "season": "2025-26"
       }
     ]
   },
@@ -20978,16 +21145,18 @@
       {
         "player": "Evan Mobley",
         "date": 46045,
-        "stats": "29 PTS / 7 AST / 13 REB / 4 BLK / 0 STL",
+        "stats": "29/7/13/4/0",
         "team": "Cavaliers",
-        "opponent": "Kings"
+        "opponent": "Kings",
+        "season": "2025-26"
       },
       {
         "player": "Victor Wembanyama",
         "date": 45960,
-        "stats": "27 PTS / 6 AST / 18 REB / 5 BLK / 1 STL",
+        "stats": "27/6/18/5/1",
         "team": "Spurs",
-        "opponent": "Heat"
+        "opponent": "Heat",
+        "season": "2025-26"
       }
     ]
   },
@@ -21157,9 +21326,10 @@
       {
         "player": "Luka Doncic",
         "date": 46028,
-        "stats": "30 PTS / 10 AST / 2 REB / 1 BLK / 2 STL",
+        "stats": "30/10/2/1/2",
         "team": "Lakers",
-        "opponent": "Pelicans"
+        "opponent": "Pelicans",
+        "season": "2025-26"
       }
     ]
   },
@@ -21181,9 +21351,10 @@
       {
         "player": "Stephen Curry",
         "date": 46031,
-        "stats": "27 PTS / 10 AST / 0 REB / 2 BLK / 1 STL",
+        "stats": "27/10/0/2/1",
         "team": "Warriors",
-        "opponent": "Kings"
+        "opponent": "Kings",
+        "season": "2025-26"
       }
     ]
   },
@@ -21277,9 +21448,10 @@
       {
         "player": "Donovan Mitchell",
         "date": 46057,
-        "stats": "29 PTS / 9 AST / 5 REB / 0 BLK / 4 STL",
+        "stats": "29/9/5/0/4",
         "team": "CLE",
-        "opponent": "LAC"
+        "opponent": "LAC",
+        "season": "2025-26"
       }
     ]
   },
@@ -21297,9 +21469,10 @@
       {
         "player": "Shai Gilgeous-Alexander",
         "date": 45965,
-        "stats": "30 PTS / 12 AST / 4 REB / 3 BLK / 0 STL",
+        "stats": "30/12/4/3/0",
         "team": "Thunder",
-        "opponent": "Clippers"
+        "opponent": "Clippers",
+        "season": "2025-26"
       }
     ]
   },
@@ -21325,9 +21498,10 @@
       {
         "player": "Anthony Black",
         "date": 46026,
-        "stats": "27 PTS / 10 AST / 3 REB / 4 BLK / 1 STL",
+        "stats": "27/10/3/4/1",
         "team": "Magic",
-        "opponent": "Pacers"
+        "opponent": "Pacers",
+        "season": "2025-26"
       }
     ]
   },
@@ -21593,9 +21767,10 @@
       {
         "player": "Paolo Banchero",
         "date": 46009,
-        "stats": "26 PTS / 10 AST / 16 REB / 0 BLK / 1 STL",
+        "stats": "26/10/16/0/1",
         "team": "Magic",
-        "opponent": "Nuggets"
+        "opponent": "Nuggets",
+        "season": "2025-26"
       }
     ]
   },
@@ -21801,9 +21976,10 @@
       {
         "player": "Devin Booker",
         "date": 45963,
-        "stats": "28 PTS / 13 AST / 2 REB / 0 BLK / 1 STL",
+        "stats": "28/13/2/0/1",
         "team": "Suns",
-        "opponent": "Spurs"
+        "opponent": "Spurs",
+        "season": "2025-26"
       }
     ]
   },
@@ -21813,9 +21989,10 @@
       {
         "player": "Austin Reaves",
         "date": 45959,
-        "stats": "28 PTS / 16 AST / 1 REB / 0 BLK / 2 STL",
+        "stats": "28/16/1/0/2",
         "team": "Lakers",
-        "opponent": "Timberwolves"
+        "opponent": "Timberwolves",
+        "season": "2025-26"
       }
     ]
   },
@@ -21917,9 +22094,10 @@
       {
         "player": "LaMelo Ball",
         "date": 46009,
-        "stats": "28 PTS / 13 AST / 4 REB / 0 BLK / 1 STL",
+        "stats": "28/13/4/0/1",
         "team": "Hornets",
-        "opponent": "Hawks"
+        "opponent": "Hawks",
+        "season": "2025-26"
       }
     ]
   },
@@ -21945,9 +22123,10 @@
       {
         "player": "Cade Cunningham",
         "date": 46027,
-        "stats": "29 PTS / 13 AST / 3 REB / 2 BLK / 1 STL",
+        "stats": "29/13/3/2/1",
         "team": "Pistons",
-        "opponent": "Knicks"
+        "opponent": "Knicks",
+        "season": "2025-26"
       }
     ]
   },
@@ -21957,9 +22136,10 @@
       {
         "player": "Cade Cunningham",
         "date": 46017,
-        "stats": "29 PTS / 17 AST / 5 REB / 2 BLK / 2 STL",
+        "stats": "29/17/5/2/2",
         "team": "Pistons",
-        "opponent": "Jazz"
+        "opponent": "Jazz",
+        "season": "2025-26"
       }
     ]
   },
@@ -22045,9 +22225,10 @@
       {
         "player": "Scottie Barnes",
         "date": 46036,
-        "stats": "26 PTS / 13 AST / 7 REB / 1 BLK / 2 STL",
+        "stats": "26/13/7/1/2",
         "team": "Raptors",
-        "opponent": "Pacers"
+        "opponent": "Pacers",
+        "season": "2025-26"
       }
     ]
   },
@@ -22057,9 +22238,10 @@
       {
         "player": "Nikola Jokic",
         "date": 46014,
-        "stats": "29 PTS / 14 AST / 7 REB / 0 BLK / 4 STL",
+        "stats": "29/14/7/0/4",
         "team": "Nuggets",
-        "opponent": "Mavericks"
+        "opponent": "Mavericks",
+        "season": "2025-26"
       }
     ]
   },
@@ -22081,9 +22263,10 @@
       {
         "player": "Tyrese Maxey",
         "date": 45961,
-        "stats": "26 PTS / 14 AST / 8 REB / 2 BLK / 2 STL",
+        "stats": "26/14/8/2/2",
         "team": "76ers",
-        "opponent": "Celtics"
+        "opponent": "Celtics",
+        "season": "2025-26"
       }
     ]
   },
@@ -22285,9 +22468,10 @@
       {
         "player": "Nikola Jokic",
         "date": 45992,
-        "stats": "29 PTS / 13 AST / 20 REB / 2 BLK / 1 STL",
+        "stats": "29/13/20/2/1",
         "team": "Nuggets",
-        "opponent": "Mavericks"
+        "opponent": "Mavericks",
+        "season": "2025-26"
       }
     ]
   },
@@ -22297,9 +22481,10 @@
       {
         "player": "Josh Giddey",
         "date": 45977,
-        "stats": "26 PTS / 13 AST / 13 REB / 2 BLK / 2 STL",
+        "stats": "26/13/13/2/2",
         "team": "Bulls",
-        "opponent": "Jazz"
+        "opponent": "Jazz",
+        "season": "2025-26"
       }
     ]
   },
@@ -23089,9 +23274,10 @@
       {
         "player": "Anthony Edwards",
         "date": 46014,
-        "stats": "38 PTS / 2 AST / 2 REB / 1 BLK / 4 STL",
+        "stats": "38/2/2/1/4",
         "team": "Timberwolves",
-        "opponent": "Knicks"
+        "opponent": "Knicks",
+        "season": "2025-26"
       }
     ]
   },
@@ -23393,9 +23579,10 @@
       {
         "player": "Chet Holmgren",
         "date": 45955,
-        "stats": "31 PTS / 1 AST / 11 REB / 1 BLK / 3 STL",
+        "stats": "31/1/11/1/3",
         "team": "Thunder",
-        "opponent": "Hawks"
+        "opponent": "Hawks",
+        "season": "2025-26"
       }
     ]
   },
@@ -23421,9 +23608,10 @@
       {
         "player": "Onyeka Okongwu",
         "date": 45974,
-        "stats": "32 PTS / 2 AST / 11 REB / 3 BLK / 2 STL",
+        "stats": "32/2/11/3/2",
         "team": "Hawks",
-        "opponent": "Jazz"
+        "opponent": "Jazz",
+        "season": "2025-26"
       }
     ]
   },
@@ -23505,9 +23693,10 @@
       {
         "player": "Anthony Davis",
         "date": 46013,
-        "stats": "35 PTS / 2 AST / 17 REB / 1 BLK / 1 STL",
+        "stats": "35/2/17/1/1",
         "team": "Mavericks",
-        "opponent": "Pelicans"
+        "opponent": "Pelicans",
+        "season": "2025-26"
       }
     ]
   },
@@ -23533,9 +23722,10 @@
       {
         "player": "Victor Wembanyama",
         "date": 45952,
-        "stats": "40 PTS / 1 AST / 15 REB / 3 BLK / 1 STL",
+        "stats": "40/1/15/3/1",
         "team": "Spurs",
-        "opponent": "Mavericks"
+        "opponent": "Mavericks",
+        "season": "2025-26"
       }
     ]
   },
@@ -23561,9 +23751,10 @@
       {
         "player": "Zach Edey",
         "date": 45991,
-        "stats": "32 PTS / 0 AST / 17 REB / 5 BLK / 0 STL",
+        "stats": "32/0/17/5/0",
         "team": "Grizzlies",
-        "opponent": "Kings"
+        "opponent": "Kings",
+        "season": "2025-26"
       }
     ]
   },
@@ -23753,9 +23944,10 @@
       {
         "player": "Devin Booker",
         "date": 46011,
-        "stats": "38 PTS / 5 AST / 1 REB / 2 BLK / 3 STL",
+        "stats": "38/5/1/2/3",
         "team": "Suns",
-        "opponent": "Warriors"
+        "opponent": "Warriors",
+        "season": "2025-26"
       }
     ]
   },
@@ -23849,9 +24041,10 @@
       {
         "player": "Kawhi Leonard",
         "date": 45961,
-        "stats": "34 PTS / 5 AST / 5 REB / 0 BLK / 6 STL",
+        "stats": "34/5/5/0/6",
         "team": "Clippers",
-        "opponent": "Pelicans"
+        "opponent": "Pelicans",
+        "season": "2025-26"
       }
     ]
   },
@@ -23885,9 +24078,10 @@
       {
         "player": "Shai Gilgeous-Alexander",
         "date": 46035,
-        "stats": "34 PTS / 5 AST / 5 REB / 4 BLK / 0 STL",
+        "stats": "34/5/5/4/0",
         "team": "Thunder",
-        "opponent": "Spurs"
+        "opponent": "Spurs",
+        "season": "2025-26"
       }
     ]
   },
@@ -23897,9 +24091,10 @@
       {
         "player": "Jaren Jackson Jr.",
         "date": 46006,
-        "stats": "31 PTS / 4 AST / 4 REB / 5 BLK / 2 STL",
+        "stats": "31/4/4/5/2",
         "team": "Grizzlies",
-        "opponent": "Clippers"
+        "opponent": "Clippers",
+        "season": "2025-26"
       }
     ]
   },
@@ -24001,9 +24196,10 @@
       {
         "player": "Victor Wembanyama",
         "date": 46018,
-        "stats": "32 PTS / 3 AST / 7 REB / 5 BLK / 0 STL",
+        "stats": "32/3/7/5/0",
         "team": "Spurs",
-        "opponent": "Jazz"
+        "opponent": "Jazz",
+        "season": "2025-26"
       }
     ]
   },
@@ -24013,9 +24209,10 @@
       {
         "player": "Peyton Watson",
         "date": 46044,
-        "stats": "35 PTS / 3 AST / 8 REB / 4 BLK / 2 STL",
+        "stats": "35/3/8/4/2",
         "team": "Nuggets",
-        "opponent": "Wizards"
+        "opponent": "Wizards",
+        "season": "2025-26"
       }
     ]
   },
@@ -24117,9 +24314,10 @@
       {
         "player": "Victor Wembanyama",
         "date": 45971,
-        "stats": "38 PTS / 5 AST / 12 REB / 5 BLK / 1 STL",
+        "stats": "38/5/12/5/1",
         "team": "Spurs",
-        "opponent": "Bulls"
+        "opponent": "Bulls",
+        "season": "2025-26"
       }
     ]
   },
@@ -24189,9 +24387,10 @@
       {
         "player": "Karl-Anthony Towns",
         "date": 45994,
-        "stats": "35 PTS / 5 AST / 18 REB / 0 BLK / 2 STL",
+        "stats": "35/5/18/0/2",
         "team": "Knicks",
-        "opponent": "Hornets"
+        "opponent": "Hornets",
+        "season": "2025-26"
       }
     ]
   },
@@ -24201,9 +24400,10 @@
       {
         "player": "Lauri Markkanen",
         "date": 46006,
-        "stats": "33 PTS / 5 AST / 16 REB / 1 BLK / 4 STL",
+        "stats": "33/5/16/1/4",
         "team": "Jazz",
-        "opponent": "Mavericks"
+        "opponent": "Mavericks",
+        "season": "2025-26"
       }
     ]
   },
@@ -24221,9 +24421,10 @@
       {
         "player": "Isaiah Hartenstein",
         "date": 45968,
-        "stats": "33 PTS / 3 AST / 19 REB / 3 BLK / 1 STL",
+        "stats": "33/3/19/3/1",
         "team": "Thunder",
-        "opponent": "Kings"
+        "opponent": "Kings",
+        "season": "2025-26"
       }
     ]
   },
@@ -24253,9 +24454,10 @@
       {
         "player": "Jarrett Allen",
         "date": 46054,
-        "stats": "40 PTS / 5 AST / 17 REB / 4 BLK / 2 STL",
+        "stats": "40/5/17/4/2",
         "team": "Cavaliers",
-        "opponent": "Trail Blazers"
+        "opponent": "Trail Blazers",
+        "season": "2025-26"
       }
     ]
   },
@@ -24281,9 +24483,10 @@
       {
         "player": "Victor Wembanyama",
         "date": 45956,
-        "stats": "31 PTS / 4 AST / 14 REB / 6 BLK / 3 STL",
+        "stats": "31/4/14/6/3",
         "team": "Spurs",
-        "opponent": "Nets"
+        "opponent": "Nets",
+        "season": "2025-26"
       }
     ]
   },
@@ -24433,9 +24636,10 @@
       {
         "player": "Keyonte George",
         "date": 45977,
-        "stats": "33 PTS / 6 AST / 2 REB / 0 BLK / 4 STL",
+        "stats": "33/6/2/0/4",
         "team": "Jazz",
-        "opponent": "Bulls"
+        "opponent": "Bulls",
+        "season": "2025-26"
       }
     ]
   },
@@ -24453,9 +24657,10 @@
       {
         "player": "Jamal Murray",
         "date": 46056,
-        "stats": "32 PTS / 8 AST / 1 REB / 2 BLK / 0 STL",
+        "stats": "32/8/1/2/0",
         "team": "Nuggets",
-        "opponent": "Pistons"
+        "opponent": "Pistons",
+        "season": "2025-26"
       }
     ]
   },
@@ -24565,9 +24770,10 @@
       {
         "player": "Shai Gilgeous-Alexander",
         "date": 46010,
-        "stats": "35 PTS / 7 AST / 5 REB / 2 BLK / 2 STL",
+        "stats": "35/7/5/2/2",
         "team": "Thunder",
-        "opponent": "Timberwolves"
+        "opponent": "Timberwolves",
+        "season": "2025-26"
       }
     ]
   },
@@ -24589,9 +24795,10 @@
       {
         "player": "Derrick White",
         "date": 46010,
-        "stats": "33 PTS / 6 AST / 5 REB / 4 BLK / 0 STL",
+        "stats": "33/6/5/4/0",
         "team": "Celtics",
-        "opponent": "Heat"
+        "opponent": "Heat",
+        "season": "2025-26"
       }
     ]
   },
@@ -24681,9 +24888,10 @@
       {
         "player": "Shai Gilgeous-Alexander",
         "date": 46009,
-        "stats": "32 PTS / 6 AST / 7 REB / 2 BLK / 2 STL",
+        "stats": "32/6/7/2/2",
         "team": "Thunder",
-        "opponent": "Clippers"
+        "opponent": "Clippers",
+        "season": "2025-26"
       }
     ]
   },
@@ -24865,9 +25073,10 @@
       {
         "player": "Giannis Antetokounmpo",
         "date": 45954,
-        "stats": "31 PTS / 7 AST / 20 REB / 1 BLK / 0 STL",
+        "stats": "31/7/20/1/0",
         "team": "Bucks",
-        "opponent": "Raptors"
+        "opponent": "Raptors",
+        "season": "2025-26"
       }
     ]
   },
@@ -25413,9 +25622,10 @@
       {
         "player": "Derik Queen",
         "date": 45999,
-        "stats": "33 PTS / 10 AST / 10 REB / 4 BLK / 0 STL",
+        "stats": "33/10/10/4/0",
         "team": "Pelicans",
-        "opponent": "Spurs"
+        "opponent": "Spurs",
+        "season": "2025-26"
       }
     ]
   },
@@ -25481,9 +25691,10 @@
       {
         "player": "Deni Avdija",
         "date": 45991,
-        "stats": "31 PTS / 10 AST / 19 REB / 0 BLK / 1 STL",
+        "stats": "31/10/19/0/1",
         "team": "Trail Blazers",
-        "opponent": "Thunder"
+        "opponent": "Thunder",
+        "season": "2025-26"
       }
     ]
   },
@@ -25509,9 +25720,10 @@
       {
         "player": "Luka Doncic",
         "date": 45998,
-        "stats": "31 PTS / 11 AST / 15 REB / 2 BLK / 0 STL",
+        "stats": "31/11/15/2/0",
         "team": "Lakers",
-        "opponent": "76ers"
+        "opponent": "76ers",
+        "season": "2025-26"
       }
     ]
   },
@@ -25521,9 +25733,10 @@
       {
         "player": "Giannis Antetokounmpo",
         "date": 45956,
-        "stats": "40 PTS / 9 AST / 14 REB / 2 BLK / 2 STL",
+        "stats": "40/9/14/2/2",
         "team": "Bucks",
-        "opponent": "Cavaliers"
+        "opponent": "Cavaliers",
+        "season": "2025-26"
       }
     ]
   },
@@ -25605,9 +25818,10 @@
       {
         "player": "Nikola Jokic",
         "date": 46018,
-        "stats": "34 PTS / 12 AST / 21 REB / 0 BLK / 1 STL",
+        "stats": "34/12/21/0/1",
         "team": "Nuggets",
-        "opponent": "Magic"
+        "opponent": "Magic",
+        "season": "2025-26"
       }
     ]
   },
@@ -25817,9 +26031,10 @@
       {
         "player": "Shai Gilgeous-Alexander",
         "date": 46054,
-        "stats": "34 PTS / 13 AST / 5 REB / 1 BLK / 2 STL",
+        "stats": "34/13/5/1/2",
         "team": "Thunder",
-        "opponent": "Nuggets"
+        "opponent": "Nuggets",
+        "season": "2025-26"
       }
     ]
   },
@@ -25965,9 +26180,10 @@
       {
         "player": "Alperen Sengun",
         "date": 45992,
-        "stats": "31 PTS / 14 AST / 8 REB / 5 BLK / 2 STL",
+        "stats": "31/14/8/5/2",
         "team": "Rockets",
-        "opponent": "Jazz"
+        "opponent": "Jazz",
+        "season": "2025-26"
       }
     ]
   },
@@ -26129,9 +26345,10 @@
       {
         "player": "Nikola Jokic",
         "date": 45969,
-        "stats": "32 PTS / 14 AST / 14 REB / 0 BLK / 1 STL",
+        "stats": "32/14/14/0/1",
         "team": "Nuggets",
-        "opponent": "Pacers"
+        "opponent": "Pacers",
+        "season": "2025-26"
       }
     ]
   },
@@ -26149,9 +26366,10 @@
       {
         "player": "Jalen Johnson",
         "date": 45974,
-        "stats": "31 PTS / 14 AST / 18 REB / 0 BLK / 7 STL",
+        "stats": "31/14/18/0/7",
         "team": "Hawks",
-        "opponent": "Jazz"
+        "opponent": "Jazz",
+        "season": "2025-26"
       }
     ]
   },
@@ -26165,9 +26383,10 @@
       {
         "player": "Nikola Jokic",
         "date": 45978,
-        "stats": "36 PTS / 13 AST / 18 REB / 2 BLK / 1 STL",
+        "stats": "36/13/18/2/1",
         "team": "Nuggets",
-        "opponent": "Bulls"
+        "opponent": "Bulls",
+        "season": "2025-26"
       }
     ]
   },
@@ -27053,9 +27272,10 @@
       {
         "player": "Zach LaVine",
         "date": 45997,
-        "stats": "42 PTS / 1 AST / 5 REB / 0 BLK / 1 STL",
+        "stats": "42/1/5/0/1",
         "team": "Kings",
-        "opponent": "Heat"
+        "opponent": "Heat",
+        "season": "2025-26"
       }
     ]
   },
@@ -27185,9 +27405,10 @@
       {
         "player": "Lauri Markkanen",
         "date": 45977,
-        "stats": "47 PTS / 2 AST / 7 REB / 2 BLK / 2 STL",
+        "stats": "47/2/7/2/2",
         "team": "Jazz",
-        "opponent": "Bulls"
+        "opponent": "Bulls",
+        "season": "2025-26"
       }
     ]
   },
@@ -27677,9 +27898,10 @@
       {
         "player": "Anthony Edwards",
         "date": 45982,
-        "stats": "41 PTS / 4 AST / 5 REB / 1 BLK / 4 STL",
+        "stats": "41/4/5/1/4",
         "team": "Timberwolves",
-        "opponent": "Suns"
+        "opponent": "Suns",
+        "season": "2025-26"
       }
     ]
   },
@@ -27801,9 +28023,10 @@
       {
         "player": "Kawhi Leonard",
         "date": 46023,
-        "stats": "45 PTS / 3 AST / 7 REB / 2 BLK / 2 STL",
+        "stats": "45/3/7/2/2",
         "team": "Clippers",
-        "opponent": "Jazz"
+        "opponent": "Jazz",
+        "season": "2025-26"
       }
     ]
   },
@@ -28309,9 +28532,10 @@
       {
         "player": "Jamal Murray",
         "date": 46039,
-        "stats": "42 PTS / 6 AST / 3 REB / 2 BLK / 2 STL",
+        "stats": "42/6/3/2/2",
         "team": "Nuggets",
-        "opponent": "Wizards"
+        "opponent": "Wizards",
+        "season": "2025-26"
       }
     ]
   },
@@ -28893,9 +29117,10 @@
       {
         "player": "Austin Reaves",
         "date": 45995,
-        "stats": "44 PTS / 10 AST / 5 REB / 0 BLK / 0 STL",
+        "stats": "44/10/5/0/0",
         "team": "Lakers",
-        "opponent": "Raptors"
+        "opponent": "Raptors",
+        "season": "2025-26"
       }
     ]
   },
@@ -29005,9 +29230,10 @@
       {
         "player": "Jalen Brunson",
         "date": 46057,
-        "stats": "42 PTS / 9 AST / 8 REB / 0 BLK / 2 STL",
+        "stats": "42/9/8/0/2",
         "team": "NYK",
-        "opponent": "DEN"
+        "opponent": "DEN",
+        "season": "2025-26"
       }
     ]
   },
@@ -29109,9 +29335,10 @@
       {
         "player": "Jalen Johnson",
         "date": 46009,
-        "stats": "43 PTS / 9 AST / 11 REB / 1 BLK / 1 STL",
+        "stats": "43/9/11/1/1",
         "team": "Hawks",
-        "opponent": "Hornets"
+        "opponent": "Hornets",
+        "season": "2025-26"
       }
     ]
   },
@@ -29121,9 +29348,10 @@
       {
         "player": "Luka Doncic",
         "date": 45951,
-        "stats": "43 PTS / 9 AST / 12 REB / 1 BLK / 2 STL",
+        "stats": "43/9/12/1/2",
         "team": "Lakers",
-        "opponent": "Warriors"
+        "opponent": "Warriors",
+        "season": "2025-26"
       }
     ]
   },
@@ -29153,9 +29381,10 @@
       {
         "player": "Cade Cunningham",
         "date": 45971,
-        "stats": "46 PTS / 11 AST / 12 REB / 2 BLK / 5 STL",
+        "stats": "46/11/12/2/5",
         "team": "Pistons",
-        "opponent": "Wizards"
+        "opponent": "Wizards",
+        "season": "2025-26"
       }
     ]
   },
@@ -29253,9 +29482,10 @@
       {
         "player": "James Harden",
         "date": 45975,
-        "stats": "41 PTS / 11 AST / 14 REB / 2 BLK / 1 STL",
+        "stats": "41/11/14/2/1",
         "team": "Clippers",
-        "opponent": "Mavericks"
+        "opponent": "Mavericks",
+        "season": "2025-26"
       }
     ]
   },
@@ -29265,9 +29495,10 @@
       {
         "player": "Giannis Antetokounmpo",
         "date": 45968,
-        "stats": "41 PTS / 9 AST / 15 REB / 2 BLK / 2 STL",
+        "stats": "41/9/15/2/2",
         "team": "Bucks",
-        "opponent": "Bulls"
+        "opponent": "Bulls",
+        "season": "2025-26"
       }
     ]
   },
@@ -29749,9 +29980,10 @@
       {
         "player": "Luka Doncic",
         "date": 45986,
-        "stats": "43 PTS / 13 AST / 9 REB / 1 BLK / 1 STL",
+        "stats": "43/13/9/1/1",
         "team": "Lakers",
-        "opponent": "Clippers"
+        "opponent": "Clippers",
+        "season": "2025-26"
       }
     ]
   },
@@ -29765,9 +29997,10 @@
       {
         "player": "Luka Doncic",
         "date": 46009,
-        "stats": "45 PTS / 14 AST / 11 REB / 0 BLK / 5 STL",
+        "stats": "45/14/11/0/5",
         "team": "Lakers",
-        "opponent": "Jazz"
+        "opponent": "Jazz",
+        "season": "2025-26"
       }
     ]
   },
@@ -30993,9 +31226,10 @@
       {
         "player": "Kawhi Leonard",
         "date": 46019,
-        "stats": "55 PTS / 2 AST / 11 REB / 3 BLK / 5 STL",
+        "stats": "55/2/11/3/5",
         "team": "Clippers",
-        "opponent": "Pistons"
+        "opponent": "Pistons",
+        "season": "2025-26"
       }
     ]
   },
@@ -31373,9 +31607,10 @@
       {
         "player": "Anthony Edwards",
         "date": 46039,
-        "stats": "55 PTS / 3 AST / 4 REB / 0 BLK / 0 STL",
+        "stats": "55/3/4/0/0",
         "team": "Timberwolves",
-        "opponent": "Spurs"
+        "opponent": "Spurs",
+        "season": "2025-26"
       }
     ]
   },
@@ -31481,9 +31716,10 @@
       {
         "player": "Jamal Murray",
         "date": 45994,
-        "stats": "52 PTS / 4 AST / 6 REB / 0 BLK / 1 STL",
+        "stats": "52/4/6/0/1",
         "team": "Nuggets",
-        "opponent": "Pacers"
+        "opponent": "Pacers",
+        "season": "2025-26"
       }
     ]
   },
@@ -31493,9 +31729,10 @@
       {
         "player": "Shai Gilgeous-Alexander",
         "date": 45953,
-        "stats": "55 PTS / 5 AST / 8 REB / 1 BLK / 2 STL",
+        "stats": "55/5/8/1/2",
         "team": "Thunder",
-        "opponent": "Pacers"
+        "opponent": "Pacers",
+        "season": "2025-26"
       }
     ]
   },
@@ -31697,9 +31934,10 @@
       {
         "player": "Lauri Markkanen",
         "date": 45957,
-        "stats": "51 PTS / 3 AST / 14 REB / 0 BLK / 0 STL",
+        "stats": "51/3/14/0/0",
         "team": "Jazz",
-        "opponent": "Suns"
+        "opponent": "Suns",
+        "season": "2025-26"
       }
     ]
   },
@@ -32005,9 +32243,10 @@
       {
         "player": "James Harden",
         "date": 45983,
-        "stats": "55 PTS / 7 AST / 3 REB / 0 BLK / 1 STL",
+        "stats": "55/7/3/0/1",
         "team": "Clippers",
-        "opponent": "Hornets"
+        "opponent": "Hornets",
+        "season": "2025-26"
       }
     ]
   },
@@ -32213,9 +32452,10 @@
       {
         "player": "Nikola Jokic",
         "date": 45973,
-        "stats": "55 PTS / 6 AST / 12 REB / 1 BLK / 1 STL",
+        "stats": "55/6/12/1/1",
         "team": "Nuggets",
-        "opponent": "Clippers"
+        "opponent": "Clippers",
+        "season": "2025-26"
       }
     ]
   },
@@ -32645,9 +32885,10 @@
       {
         "player": "Tyrese Maxey",
         "date": 45981,
-        "stats": "54 PTS / 9 AST / 5 REB / 3 BLK / 3 STL",
+        "stats": "54/9/5/3/3",
         "team": "76ers",
-        "opponent": "Bucks"
+        "opponent": "Bucks",
+        "season": "2025-26"
       }
     ]
   },
@@ -32833,9 +33074,10 @@
       {
         "player": "Austin Reaves",
         "date": 45956,
-        "stats": "51 PTS / 9 AST / 11 REB / 0 BLK / 2 STL",
+        "stats": "51/9/11/0/2",
         "team": "Lakers",
-        "opponent": "Kings"
+        "opponent": "Kings",
+        "season": "2025-26"
       }
     ]
   },
@@ -33557,9 +33799,10 @@
       {
         "player": "Nikola Jokic",
         "date": 46016,
-        "stats": "56 PTS / 15 AST / 16 REB / 2 BLK / 0 STL",
+        "stats": "56/15/16/2/0",
         "team": "Nuggets",
-        "opponent": "Timberwolves"
+        "opponent": "Timberwolves",
+        "season": "2025-26"
       }
     ]
   },
