@@ -1,15 +1,16 @@
 import Link from 'next/link';
 
-import { getCurrentSeasonLeaders, getRecentUniqornGames, getMostRecentUltimateUniqorn, safeChartFileName } from '@/lib/data';
+import { getCurrentSeasonLeaders, getRecentUniqornGames, getMostRecentUltimateUniqorn, getMostRecentGameDate, safeChartFileName } from '@/lib/data';
 import UltimateChartCard from '@/components/UltimateChartCard';
 import RecentGameCard from '@/components/RecentGameCard';
 import UniqornScore from '@/components/UniqornTooltip';
 
 export default async function Page() {
-  const [leaders, recent, mostRecentUltimate] = await Promise.all([
+  const [leaders, recent, mostRecentUltimate, lastGameDate] = await Promise.all([
     getCurrentSeasonLeaders(),
     getRecentUniqornGames(),
     getMostRecentUltimateUniqorn(),
+    getMostRecentGameDate(),
   ]);
 
   return (
@@ -123,7 +124,7 @@ export default async function Page() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
                 <div className="text-xs md:text-sm text-amber-200">
-                  <span className="font-semibold">Data last updated: February 3, 2026</span>
+                  <span className="font-semibold">Calculated including all games up to {lastGameDate}</span>
                   <span className="text-amber-300/80"> • Updates may be delayed 1-2 days as we rely on external data sources.</span>
                 </div>
               </div>

@@ -49,6 +49,35 @@ async function readWorkbookSheet<T>(absPath: string, sheetName?: string): Promis
   return XLSX.utils.sheet_to_json<T>(ws, { defval: null });
 }
 
+export async function getMostRecentGameDate(): Promise<string> {
+  try {
+    const recentGamesPath = join(process.cwd(), 'public', 'data', 'Most_Recent_Games_Master.xlsx');
+    const rows = await readWorkbookSheet<{ game_date: string }>(recentGamesPath);
+    
+    if (rows.length === 0) return 'Unknown';
+    
+    // Find the most recent date
+    const dates = rows
+      .map(row => row.game_date)
+      .filter(date => date && typeof date === 'string')
+      .sort()
+      .reverse();
+    
+    if (dates.length === 0) return 'Unknown';
+    
+    // Format as "Month Day, Year"
+    const dateObj = new Date(dates[0]);
+    return dateObj.toLocaleDateString('en-US', { 
+      month: 'long', 
+      day: 'numeric', 
+      year: 'numeric' 
+    });
+  } catch (error) {
+    console.error('Error reading most recent game date:', error);
+    return 'Unknown';
+  }
+}
+
 export async function getCurrentSeasonLeaders(limit = 25): Promise<LeaderRow[]> {
   const uniqornXlsx = join(process.cwd(), 'public', 'data', 'Uniqorn_Master.xlsx');
   const wb = await readWorkbook(uniqornXlsx);
