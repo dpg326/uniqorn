@@ -2,6 +2,8 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import GameCard from '@/components/GameCard';
 import UniqornScore from '@/components/UniqornTooltip';
+import { readFile } from 'fs/promises';
+import { join } from 'path';
 
 interface PlayerSeasonData {
   season: string;
@@ -33,22 +35,116 @@ interface PlayerProfileData {
 
 async function getPlayerProfile(name: string): Promise<PlayerProfileData | null> {
   try {
-    // Construct the full URL for server-side fetching
-    const protocol = process.env.NODE_ENV === 'production' ? 'https' : 'http';
-    const host = process.env.VERCEL_URL || 'localhost:3000';
-    const baseUrl = `${protocol}://${host}`;
-    
-    const response = await fetch(`${baseUrl}/api/player/${encodeURIComponent(name)}`, {
-      cache: 'no-store'
-    });
-    
-    if (!response.ok) {
-      console.error(`Failed to fetch player profile: ${response.status} ${response.statusText}`);
+    const nameParts = name.split(' ');
+    if (nameParts.length < 2) {
       return null;
     }
     
-    const data = await response.json();
-    return data;
+    const firstName = nameParts[0];
+    const lastName = nameParts.slice(1).join(' ');
+    
+    // Read Uniqorn Master data directly
+    const masterPath = join(process.cwd(), 'public', 'data', 'Uniqorn_Master.xlsx');
+    const masterBuffer = await readFile(masterPath);
+    const XLSX = await import('xlsx');
+    const masterWorkbook = XLSX.read(masterBuffer, { type: 'buffer' });
+    const masterSheet = masterWorkbook.Sheets['All_Seasons'];
+    const masterRows = XLSX.utils.sheet_to_json(masterSheet) as any[];
+    
+    // Filter for this player
+    const playerSeasons = masterRows.filter(row => 
+      row.firstName?.toLowerCase() === firstName.toLowerCase() && 
+      row.lastName?.toLowerCase() === lastName.toLowerCase()
+    );
+    
+    if (playerSeasons.length === 0) {
+      return null;
+    }
+    
+    // Calculate rankings for each season
+    const seasonRankings: { [season: string]: Map<string, number> } = {};
+    masterRows.forEach(row => {
+      const season = row.season;
+      if (!seasonRankings[season]) {
+        seasonRankings[season] = new Map();
+      }
+      const playerKey = `${row.firstName} ${row.lastName}`;
+      const score = parseFloat(row.avg_weighted_uniqueness) || 0;
+      seasonRankings[season].set(playerKey, score);
+    });
+    
+    const seasonRanks: { [season: string]: { [player: string]: number } } = {};
+    Object.keys(seasonRankings).forEach(season => {
+      const sorted = Array.from(seasonRankings[season].entries())
+        .sort((a, b) => b[1] - a[1]);
+      seasonRanks[season] = {};
+      sorted.forEach((entry, index) => {
+        seasonRanks[season][entry[0]] = index + 1;
+      });
+    });
+    
+    // Build season data with rankings
+    const seasonData: PlayerSeasonData[] = playerSeasons.map(row => ({
+      season: row.season,
+      games: parseInt(row.games) || 0,
+      avg_weighted_uniqueness: parseFloat(row.avg_weighted_uniqueness) || 0,
+      rank: seasonRanks[row.season]?.[`${row.firstName} ${row.lastName}`]
+    })).sort((a, b) => {
+      const aYear = parseInt(a.season.split('-')[0]);
+      const bYear = parseInt(b.season.split('-')[0]);
+      return bYear - aYear;
+    });
+    
+    const totalScore = seasonData.reduce((sum, s) => sum + s.avg_weighted_uniqueness, 0);
+    const careerAverage = seasonData.length > 0 ? totalScore / seasonData.length : 0;
+    const totalGames = seasonData.reduce((sum, s) => sum + s.games, 0);
+    
+    // Read Ultimate Uniqorns data
+    const ultimatePath = join(process.cwd(), 'public', 'data', 'Ultimate_Uniqorn_Games_Master.xlsx');
+    const ultimateBuffer = await readFile(ultimatePath);
+    const ultimateWorkbook = XLSX.read(ultimateBuffer, { type: 'buffer' });
+    const ultimateSheet = ultimateWorkbook.Sheets[ultimateWorkbook.SheetNames[0]];
+    const ultimateRows = XLSX.utils.sheet_to_json(ultimateSheet) as any[];
+    
+    const ultimateUniqorns: UltimateUniqorn[] = ultimateRows
+      .filter(row => 
+        row.firstName?.toLowerCase() === firstName.toLowerCase() && 
+        row.lastName?.toLowerCase() === lastName.toLowerCase()
+      )
+      .map(row => {
+        let formattedDate = '';
+        const gameDate = row.game_date;
+        if (typeof gameDate === 'string') {
+          formattedDate = gameDate.includes('T') ? gameDate.split('T')[0] : gameDate;
+        } else if (typeof gameDate === 'number') {
+          const date = new Date((gameDate - 25569) * 86400 * 1000);
+          formattedDate = date.toISOString().split('T')[0];
+        } else if (gameDate instanceof Date) {
+          formattedDate = gameDate.toISOString().split('T')[0];
+        }
+        
+        return {
+          season: row.season,
+          game_date: formattedDate,
+          points: parseInt(row.points) || 0,
+          assists: parseInt(row.assists) || 0,
+          rebounds: parseInt(row.rebounds) || 0,
+          blocks: parseInt(row.blocks) || 0,
+          steals: parseInt(row.steals) || 0,
+          opponentteamName: row.opponentteamName || ''
+        };
+      })
+      .sort((a, b) => b.game_date.localeCompare(a.game_date));
+    
+    return {
+      firstName,
+      lastName,
+      careerAverage,
+      totalSeasons: seasonData.length,
+      totalGames,
+      seasonData,
+      ultimateUniqorns
+    };
   } catch (error) {
     console.error('Error fetching player profile:', error);
     return null;
