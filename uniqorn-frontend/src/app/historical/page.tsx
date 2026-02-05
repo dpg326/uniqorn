@@ -55,9 +55,12 @@ export default async function Page({
               <tr key={`${row.personId}-${row.season}-${i}`} className="border-t border-zinc-800/70 hover:bg-sky-500/5">
                 <td className="px-4 py-3 text-zinc-300">{i + 1}</td>
                 <td className="px-4 py-3">
-                  <div className="font-medium text-zinc-50">
+                  <Link 
+                    href={`/player/${encodeURIComponent(row.firstName + ' ' + row.lastName)}`}
+                    className="font-medium text-zinc-50 hover:text-sky-300 transition-colors"
+                  >
                     {row.firstName} {row.lastName}
-                  </div>
+                  </Link>
                 </td>
                 <td className="px-4 py-3 text-right text-zinc-300">{row.games}</td>
                 <td className="px-4 py-3 text-right font-semibold text-sky-100">

@@ -162,9 +162,12 @@ export default async function Page() {
                             </span>
                           </td>
                           <td className="px-2 md:px-4 py-3">
-                            <div className="font-medium text-zinc-50">
+                            <Link 
+                              href={`/player/${encodeURIComponent(row.firstName + ' ' + row.lastName)}`}
+                              className="font-medium text-zinc-50 hover:text-sky-300 transition-colors"
+                            >
                               {row.firstName} {row.lastName}
-                            </div>
+                            </Link>
                             <div className="text-xs text-zinc-400 sm:hidden">{row.season}</div>
                           </td>
                           <td className="px-2 md:px-4 py-3 text-zinc-300 hidden sm:table-cell">{row.season}</td>
