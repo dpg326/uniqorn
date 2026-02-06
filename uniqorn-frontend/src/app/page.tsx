@@ -31,7 +31,7 @@ export default async function Page() {
                   fill="none"
                   stroke="currentColor"
                   strokeWidth="1"
-                  className="text-sky-400"
+                  className="text-blue-300"
                 />
               ))}
               {/* Axes */}
@@ -48,7 +48,7 @@ export default async function Page() {
                     y2={y}
                     stroke="currentColor"
                     strokeWidth="1"
-                    className="text-sky-400"
+                    className="text-blue-300"
                   />
                 );
               })}
@@ -59,7 +59,7 @@ export default async function Page() {
                 fillOpacity="0.3"
                 stroke="currentColor"
                 strokeWidth="2"
-                className="text-purple-400"
+                className="text-pink-200"
               />
             </g>
           </svg>
@@ -68,8 +68,8 @@ export default async function Page() {
         {/* Content */}
         <div className="relative z-10 space-y-4">
           <h1 className="text-4xl md:text-6xl font-black tracking-tight">
-            <span className="bg-gradient-to-r from-sky-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
-              The Uniqorn Index
+            <span className="text-blue-300">
+              The UNIQORN Index
             </span>
             <br />
             <span className="text-zinc-50">
@@ -78,7 +78,7 @@ export default async function Page() {
           </h1>
           <p className="text-lg md:text-xl text-zinc-300 max-w-3xl mx-auto">
             A statistical framework for measuring how unusual NBA performances are. 
-            The Uniqorn Index ranks players by how often their stat combinations occur—identifying 
+            The UNIQORN Index ranks players by how often their stat combinations occur—identifying 
             the distinctive profiles that stand out from typical basketball patterns.
           </p>
         </div>
@@ -86,19 +86,19 @@ export default async function Page() {
         <div className="relative z-10 flex flex-wrap justify-center gap-4 pt-4">
           <Link 
             href="/search" 
-            className="px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white font-semibold rounded-lg transition-all shadow-lg hover:shadow-xl"
+            className="px-6 py-3 bg-pink-200 hover:bg-pink-300 text-zinc-900 font-semibold rounded-lg transition-all shadow-lg hover:shadow-xl"
           >
             Search Stat Combinations
           </Link>
           <Link 
             href="/career" 
-            className="px-6 py-3 bg-sky-600 hover:bg-sky-700 text-white font-semibold rounded-lg transition-all shadow-lg"
+            className="px-6 py-3 bg-blue-300 hover:bg-blue-400 text-zinc-900 font-semibold rounded-lg transition-all shadow-lg"
           >
             Top 50 All-Time
           </Link>
           <Link 
             href="/about" 
-            className="px-6 py-3 bg-zinc-800 hover:bg-zinc-700 text-sky-200 font-semibold rounded-lg transition-all border border-sky-400/30"
+            className="px-6 py-3 bg-zinc-800 hover:bg-zinc-700 text-blue-200 font-semibold rounded-lg transition-all border border-blue-300/30"
           >
             How It Works
           </Link>
@@ -107,9 +107,9 @@ export default async function Page() {
 
       {/* Quick Explainer */}
       <div className="max-w-4xl mx-auto">
-        <div className="rounded-xl border border-sky-400/20 bg-zinc-900/60 backdrop-blur-sm p-4 md:p-6">
+        <div className="rounded-xl border border-blue-300/20 bg-zinc-900/60 backdrop-blur-sm p-4 md:p-6">
           <p className="text-sm md:text-base text-zinc-300 text-center">
-            <span className="font-semibold text-sky-300">How it works:</span> We bucket every NBA game by points, assists, rebounds, blocks, and steals—then measure how unique that exact combination is within its season. Higher scores = more unique performances.
+            <span className="font-semibold text-blue-300">How it works:</span> We bucket every NBA game by points, assists, rebounds, blocks, and steals—then measure how unique that exact combination is within its season. Higher scores = more unique performances.
           </p>
         </div>
       </div>
@@ -130,9 +130,9 @@ export default async function Page() {
               </div>
             </div>
 
-            <div className="rounded-2xl border border-sky-400/20 bg-zinc-900/60 backdrop-blur-sm overflow-hidden">
-              <div className="bg-gradient-to-r from-sky-400/20 to-sky-300/20 px-4 md:px-6 py-4">
-                <h2 className="text-lg md:text-xl font-semibold text-sky-200">League Leaders (Season Uniqorn)</h2>
+            <div className="rounded-2xl border border-blue-300/20 bg-zinc-900/60 backdrop-blur-sm overflow-hidden">
+              <div className="bg-blue-300/10 px-4 md:px-6 py-4">
+                <h2 className="text-lg md:text-xl font-semibold text-blue-200">League Leaders (Season UNIQORN)</h2>
                 <p className="text-xs md:text-sm text-zinc-300 mt-1">
                   Players with the most unique statistical profiles this season
                 </p>
@@ -154,17 +154,17 @@ export default async function Page() {
                       {leaders.map((row, i) => (
                         <tr
                           key={`${row.personId}-${row.season}`}
-                          className="hover:bg-sky-400/10 transition-colors"
+                          className="hover:bg-blue-300/10 transition-colors"
                         >
                           <td className="px-2 md:px-4 py-3">
-                            <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-sky-400/20 text-sky-200 text-xs font-medium">
+                            <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-blue-300/20 text-blue-200 text-xs font-medium">
                               {i + 1}
                             </span>
                           </td>
                           <td className="px-2 md:px-4 py-3">
                             <Link 
                               href={`/player/${encodeURIComponent(row.firstName + ' ' + row.lastName)}`}
-                              className="font-medium text-zinc-50 hover:text-sky-300 transition-colors"
+                              className="font-medium text-zinc-50 hover:text-blue-300 transition-colors"
                             >
                               {row.firstName} {row.lastName}
                             </Link>
@@ -188,9 +188,9 @@ export default async function Page() {
           <aside className="space-y-6">
             {/* Most Recent Ultimate Uniqorn */}
             {mostRecentUltimate && (
-              <div className="rounded-2xl border border-sky-400/20 bg-zinc-900/60 backdrop-blur-sm overflow-hidden">
-                <div className="bg-gradient-to-r from-purple-400/20 to-pink-400/20 px-4 md:px-6 py-4">
-                  <h3 className="text-base md:text-lg font-semibold text-purple-200">Most Recent Ultimate Uniqorn</h3>
+              <div className="rounded-2xl border border-blue-300/20 bg-zinc-900/60 backdrop-blur-sm overflow-hidden">
+                <div className="bg-pink-200/10 px-4 md:px-6 py-4">
+                  <h3 className="text-base md:text-lg font-semibold text-pink-200">Most Recent Ultimate UNIQORN</h3>
                   <p className="text-xs text-zinc-300 mt-1">
                     Most unique statistical combination in NBA history
                   </p>
@@ -212,9 +212,9 @@ export default async function Page() {
             )}
 
             {/* Recent Uniqorn Games */}
-            <div className="rounded-2xl border border-sky-400/20 bg-zinc-900/60 backdrop-blur-sm overflow-hidden">
-              <div className="bg-gradient-to-r from-sky-400/20 to-sky-300/20 px-4 md:px-6 py-4">
-                <h3 className="text-base md:text-lg font-semibold text-sky-200">Recent Uniqorn Games</h3>
+            <div className="rounded-2xl border border-blue-300/20 bg-zinc-900/60 backdrop-blur-sm overflow-hidden">
+              <div className="bg-blue-300/10 px-4 md:px-6 py-4">
+                <h3 className="text-base md:text-lg font-semibold text-blue-200">Recent UNIQORN Games</h3>
                 <p className="text-xs text-zinc-300 mt-1">
                   Latest unique statistical performances this season
                 </p>

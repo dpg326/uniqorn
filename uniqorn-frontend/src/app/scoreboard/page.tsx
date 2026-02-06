@@ -84,16 +84,16 @@ export default function Scoreboard() {
   };
 
   const getUniqornColor = (score: number) => {
-    if (score >= 0.9) return 'text-purple-200';
-    if (score >= 0.7) return 'text-sky-200';
+    if (score >= 0.9) return 'text-pink-200';
+    if (score >= 0.7) return 'text-blue-200';
     if (score >= 0.5) return 'text-emerald-200';
     if (score >= 0.3) return 'text-amber-200';
     return 'text-zinc-300';
   };
 
   const getOccurrenceColor = (occurrences: number) => {
-    if (occurrences === 1) return 'bg-purple-400/20 text-purple-200 border border-purple-400/30';
-    if (occurrences === 2) return 'bg-sky-400/20 text-sky-200 border border-sky-400/30';
+    if (occurrences === 1) return 'bg-pink-200/20 text-pink-200 border border-pink-200/30';
+    if (occurrences === 2) return 'bg-blue-300/20 text-blue-200 border border-blue-300/30';
     if (occurrences <= 5) return 'bg-emerald-400/20 text-emerald-200 border border-emerald-400/30';
     if (occurrences <= 10) return 'bg-amber-400/20 text-amber-200 border border-amber-400/30';
     return 'bg-zinc-400/10 text-zinc-200 border border-zinc-400/20';
@@ -122,10 +122,10 @@ export default function Scoreboard() {
   if (loading) {
     return (
       <div className="max-w-7xl mx-auto">
-        <div className="rounded-2xl border border-sky-400/20 bg-zinc-900/60 backdrop-blur-sm p-12">
+        <div className="rounded-2xl border border-blue-300/20 bg-zinc-900/60 backdrop-blur-sm p-12">
           <div className="flex items-center justify-center h-64">
             <div className="text-center">
-              <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-sky-400 mx-auto mb-4"></div>
+              <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-300 mx-auto mb-4"></div>
               <p className="text-zinc-300">Loading recent games...</p>
             </div>
           </div>
@@ -138,14 +138,14 @@ export default function Scoreboard() {
     return (
       <div className="max-w-7xl mx-auto">
         <div className="rounded-2xl border border-red-400/20 bg-zinc-900/60 backdrop-blur-sm overflow-hidden">
-          <div className="bg-gradient-to-r from-red-400/20 to-orange-400/10 px-6 py-4">
+          <div className="bg-red-400/10 px-6 py-4">
             <h1 className="text-3xl font-bold text-zinc-50">Scoreboard</h1>
           </div>
           <div className="p-6">
             <p className="text-red-300">{error}</p>
             <button
               onClick={fetchRecentGames}
-              className="mt-4 inline-flex items-center justify-center px-4 py-2 rounded-xl border border-sky-400/20 bg-sky-400/10 text-sky-200 hover:bg-sky-400/20 transition-colors"
+              className="mt-4 inline-flex items-center justify-center px-4 py-2 rounded-xl border border-blue-300/20 bg-blue-300/10 text-blue-200 hover:bg-blue-300/20 transition-colors"
             >
               Retry
             </button>
@@ -160,12 +160,12 @@ export default function Scoreboard() {
   return (
     <div className="max-w-7xl mx-auto space-y-8">
       {/* Header */}
-      <div className="rounded-2xl border border-sky-400/20 bg-zinc-900/60 backdrop-blur-sm overflow-hidden">
-        <div className="bg-gradient-to-r from-sky-400/20 to-sky-300/20 px-6 py-4">
-          <h1 className="text-3xl font-bold text-sky-200">Daily Scoreboard</h1>
+      <div className="rounded-2xl border border-blue-300/20 bg-zinc-900/60 backdrop-blur-sm overflow-hidden">
+        <div className="bg-blue-300/10 px-6 py-4">
+          <h1 className="text-3xl font-bold text-blue-200">Daily Scoreboard</h1>
           <p className="text-sm text-zinc-300 mt-1">
             {view === 'ranked'
-              ? 'Most recent games ranked by Uniqorn score'
+              ? 'Most recent games ranked by UNIQORN score'
               : 'Traditional scoreboard view by game'
             }
           </p>
@@ -178,12 +178,12 @@ export default function Scoreboard() {
 
         {/* View Toggle and Refresh */}
         <div className="px-6 py-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-          <div className="inline-flex rounded-xl border border-sky-400/20 bg-zinc-950/20 p-1 w-fit">
+          <div className="inline-flex rounded-xl border border-blue-300/20 bg-zinc-950/20 p-1 w-fit">
             <button
               onClick={() => setView('ranked')}
               className={`px-4 py-2 rounded-lg text-sm transition-colors ${
                 view === 'ranked'
-                  ? 'bg-sky-400/20 text-sky-200'
+                  ? 'bg-blue-300/20 text-blue-200'
                   : 'text-zinc-300 hover:text-zinc-50'
               }`}
             >
@@ -193,7 +193,7 @@ export default function Scoreboard() {
               onClick={() => setView('games')}
               className={`px-4 py-2 rounded-lg text-sm transition-colors ${
                 view === 'games'
-                  ? 'bg-sky-400/20 text-sky-200'
+                  ? 'bg-blue-300/20 text-blue-200'
                   : 'text-zinc-300 hover:text-zinc-50'
               }`}
             >
@@ -203,7 +203,7 @@ export default function Scoreboard() {
 
           <button
             onClick={fetchRecentGames}
-            className="inline-flex items-center justify-center px-4 py-2 rounded-xl border border-sky-400/20 bg-sky-400/10 text-sky-200 hover:bg-sky-400/20 transition-colors w-fit"
+            className="inline-flex items-center justify-center px-4 py-2 rounded-xl border border-blue-300/20 bg-blue-300/10 text-blue-200 hover:bg-blue-300/20 transition-colors w-fit"
           >
             Refresh
           </button>
@@ -214,20 +214,20 @@ export default function Scoreboard() {
         {view === 'ranked' && (
           <div className="space-y-4">
             {games.length === 0 ? (
-              <div className="rounded-2xl border border-sky-400/20 bg-zinc-900/60 backdrop-blur-sm p-12 text-center">
+              <div className="rounded-2xl border border-blue-300/20 bg-zinc-900/60 backdrop-blur-sm p-12 text-center">
                 <p className="text-zinc-300">No recent games found</p>
               </div>
             ) : (
               games.map((game, index) => (
                 <div 
                   key={`${game.player}-${game.date}-${index}`}
-                  className="rounded-2xl border border-zinc-700/50 bg-zinc-900/60 backdrop-blur-sm p-6 hover:border-sky-400/40 hover:bg-sky-400/5 transition-all"
+                  className="rounded-2xl border border-zinc-700/50 bg-zinc-900/60 backdrop-blur-sm p-6 hover:border-blue-300/40 hover:bg-blue-300/5 transition-all"
                 >
                   <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6">
                     {/* Game Info */}
                     <div className="flex-1">
                       <div className="flex flex-wrap items-center gap-3 mb-4">
-                        <span className="inline-flex items-center justify-center w-7 h-7 rounded-full bg-sky-400/20 text-sky-200 text-xs font-semibold">
+                        <span className="inline-flex items-center justify-center w-7 h-7 rounded-full bg-blue-300/20 text-blue-200 text-xs font-semibold">
                           {index + 1}
                         </span>
                         <h3 className="text-xl font-semibold text-zinc-50">{game.player}</h3>
@@ -265,15 +265,15 @@ export default function Scoreboard() {
                       </div>
                     </div>
 
-                    {/* Uniqorn Score */}
+                    {/* UNIQORN Score */}
                     <div className="shrink-0">
-                      <div className="rounded-2xl border border-sky-400/20 bg-zinc-950/20 p-4 text-right min-w-[180px]">
-                        <div className="text-xs text-zinc-400 tracking-wide">Uniqorn Score</div>
+                      <div className="rounded-2xl border border-blue-300/20 bg-zinc-950/20 p-4 text-right min-w-[180px]">
+                        <div className="text-xs text-zinc-400 tracking-wide">UNIQORN Score</div>
                         <div className={`text-3xl font-bold mt-1 ${getUniqornColor(game.uniqornScore)}`}>
                           {game.uniqornScore.toFixed(3)}
                         </div>
                         {game.occurrences === 1 && (
-                          <div className="mt-2 inline-flex items-center px-2 py-0.5 rounded-full text-xs font-semibold bg-purple-400/20 text-purple-200 border border-purple-400/30">
+                          <div className="mt-2 inline-flex items-center px-2 py-0.5 rounded-full text-xs font-semibold bg-pink-200/20 text-pink-200 border border-pink-200/30">
                             UNIQORN!
                           </div>
                         )}
@@ -293,14 +293,14 @@ export default function Scoreboard() {
         {view === 'games' && (
           <div className="space-y-8">
             {gameGroups.length === 0 ? (
-              <div className="rounded-2xl border border-sky-400/20 bg-zinc-900/60 backdrop-blur-sm p-12 text-center">
+              <div className="rounded-2xl border border-blue-300/20 bg-zinc-900/60 backdrop-blur-sm p-12 text-center">
                 <p className="text-zinc-300">No recent games found</p>
               </div>
             ) : (
               gameGroups.map((gameGroup) => (
-                <div key={gameGroup.date} className="rounded-2xl border border-sky-400/20 bg-zinc-900/60 backdrop-blur-sm overflow-hidden">
-                  <div className="bg-gradient-to-r from-sky-400/20 to-sky-300/20 px-6 py-4">
-                    <h2 className="text-2xl font-bold text-center text-sky-200">{formatDate(gameGroup.date)}</h2>
+                <div key={gameGroup.date} className="rounded-2xl border border-blue-300/20 bg-zinc-900/60 backdrop-blur-sm overflow-hidden">
+                  <div className="bg-blue-300/10 px-6 py-4">
+                    <h2 className="text-2xl font-bold text-center text-blue-200">{formatDate(gameGroup.date)}</h2>
                   </div>
 
                   <div className="p-6">
@@ -317,12 +317,12 @@ export default function Scoreboard() {
                               </h3>
                             </div>
 
-                            {/* Team Uniqorn Scores Summary */}
+                            {/* Team UNIQORN Scores Summary */}
                             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
                               <div className="text-center p-4 rounded-2xl border border-zinc-700/50 bg-zinc-950/10">
                                 <h4 className="font-semibold text-zinc-50">{game.team1}</h4>
-                                <div className="text-xs text-zinc-400 mt-1">Team Uniqorn Score</div>
-                                <div className="text-2xl font-bold text-sky-200 mt-1">
+                                <div className="text-xs text-zinc-400 mt-1">Team UNIQORN Score</div>
+                                <div className="text-2xl font-bold text-blue-200 mt-1">
                                   {(() => {
                                     const team1Players = game.players.filter(p => p.team === game.team1);
                                     const team1Avg = team1Players.length > 0
@@ -334,8 +334,8 @@ export default function Scoreboard() {
                               </div>
                               <div className="text-center p-4 rounded-2xl border border-zinc-700/50 bg-zinc-950/10">
                                 <h4 className="font-semibold text-zinc-50">{game.team2}</h4>
-                                <div className="text-xs text-zinc-400 mt-1">Team Uniqorn Score</div>
-                                <div className="text-2xl font-bold text-sky-200 mt-1">
+                                <div className="text-xs text-zinc-400 mt-1">Team UNIQORN Score</div>
+                                <div className="text-2xl font-bold text-blue-200 mt-1">
                                   {(() => {
                                     const team2Players = game.players.filter(p => p.team === game.team2);
                                     const team2Avg = team2Players.length > 0
@@ -349,7 +349,7 @@ export default function Scoreboard() {
 
                             {/* Expand Button */}
                             <div
-                              className="group text-center cursor-pointer rounded-xl border border-zinc-700/50 bg-zinc-950/10 hover:border-sky-400/30 hover:bg-sky-400/5 p-3 transition-all"
+                              className="group text-center cursor-pointer rounded-xl border border-zinc-700/50 bg-zinc-950/10 hover:border-blue-300/30 hover:bg-blue-300/5 p-3 transition-all"
                               onClick={() => {
                                 // If this game is already selected, close it. Otherwise, open it.
                                 if (selectedGame && selectedGame.team1 === game.team1 && selectedGame.team2 === game.team2) {
@@ -360,11 +360,11 @@ export default function Scoreboard() {
                               }}
                             >
                               <div className="flex items-center justify-center gap-2">
-                                <span className="text-sm text-zinc-300 group-hover:text-sky-200 transition-colors">
+                                <span className="text-sm text-zinc-300 group-hover:text-blue-200 transition-colors">
                                   {isSelected ? 'Close box score' : 'Expand for box score'}
                                 </span>
                                 <svg
-                                  className={`h-4 w-4 text-sky-300 transition-transform duration-200 ${isSelected ? 'rotate-180' : ''}`}
+                                  className={`h-4 w-4 text-blue-300 transition-transform duration-200 ${isSelected ? 'rotate-180' : ''}`}
                                   fill="none"
                                   viewBox="0 0 24 24"
                                   stroke="currentColor"
@@ -388,7 +388,7 @@ export default function Scoreboard() {
                                         .filter(p => p.team === selectedGame.team1)
                                         .sort((a, b) => b.uniqornScore - a.uniqornScore)
                                         .map((player, playerIndex) => (
-                                          <div key={playerIndex} className="rounded-xl border border-zinc-700/50 bg-zinc-950/20 p-3 hover:bg-sky-400/5 transition-colors">
+                                          <div key={playerIndex} className="rounded-xl border border-zinc-700/50 bg-zinc-950/20 p-3 hover:bg-blue-300/5 transition-colors">
                                             <div className="flex justify-between items-start gap-4">
                                               <div className="flex-1">
                                                 <div className="font-medium text-zinc-50 text-sm">{player.player}</div>
@@ -399,7 +399,7 @@ export default function Scoreboard() {
                                                   {player.uniqornScore.toFixed(3)}
                                                 </div>
                                                 {player.occurrences === 1 && (
-                                                  <div className="mt-1 inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-semibold bg-purple-400/20 text-purple-200 border border-purple-400/30">
+                                                  <div className="mt-1 inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-semibold bg-pink-200/20 text-pink-200 border border-pink-200/30">
                                                     UNIQORN!
                                                   </div>
                                                 )}
@@ -426,7 +426,7 @@ export default function Scoreboard() {
                                         .filter(p => p.team === selectedGame.team2)
                                         .sort((a, b) => b.uniqornScore - a.uniqornScore)
                                         .map((player, playerIndex) => (
-                                          <div key={playerIndex} className="rounded-xl border border-zinc-700/50 bg-zinc-950/20 p-3 hover:bg-sky-400/5 transition-colors">
+                                          <div key={playerIndex} className="rounded-xl border border-zinc-700/50 bg-zinc-950/20 p-3 hover:bg-blue-300/5 transition-colors">
                                             <div className="flex justify-between items-start gap-4">
                                               <div className="flex-1">
                                                 <div className="font-medium text-zinc-50 text-sm">{player.player}</div>
@@ -437,7 +437,7 @@ export default function Scoreboard() {
                                                   {player.uniqornScore.toFixed(3)}
                                                 </div>
                                                 {player.occurrences === 1 && (
-                                                  <div className="mt-1 inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-semibold bg-purple-400/20 text-purple-200 border border-purple-400/30">
+                                                  <div className="mt-1 inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-semibold bg-pink-200/20 text-pink-200 border border-pink-200/30">
                                                     UNIQORN!
                                                   </div>
                                                 )}

@@ -52,25 +52,25 @@ export default function UltimateChartCard({
         </div>
         
         <div className="flex flex-wrap justify-center gap-2">
-          <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-purple-400/20 text-purple-200">
+          <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-pink-200/20 text-pink-200">
             {points} pts
           </span>
-          <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-purple-400/20 text-purple-200">
+          <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-pink-200/20 text-pink-200">
             {assists} ast
           </span>
-          <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-purple-400/20 text-purple-200">
+          <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-pink-200/20 text-pink-200">
             {rebounds} reb
           </span>
-          <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-purple-400/20 text-purple-200">
+          <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-pink-200/20 text-pink-200">
             {blocks} blk
           </span>
-          <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-purple-400/20 text-purple-200">
+          <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-pink-200/20 text-pink-200">
             {steals} stl
           </span>
         </div>
         
         <div className="text-center">
-          <span className="inline-flex items-center text-xs text-purple-300 group-hover:text-purple-200 transition-colors">
+          <span className="inline-flex items-center text-xs text-pink-200 group-hover:text-pink-100 transition-colors">
             View Radar Chart →
           </span>
         </div>

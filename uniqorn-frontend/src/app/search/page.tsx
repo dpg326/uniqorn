@@ -66,7 +66,7 @@ export default function BucketSearch() {
     <div className="space-y-2">
       <div className="flex justify-between items-center">
         <label className="text-sm font-medium text-zinc-300">{label}</label>
-        <span className="text-xs text-sky-300 bg-sky-400/20 px-2 py-1 rounded">
+        <span className="text-xs text-blue-300 bg-blue-300/20 px-2 py-1 rounded">
           {ranges[value]}
         </span>
       </div>
@@ -78,7 +78,7 @@ export default function BucketSearch() {
         onChange={(e) => onChange(parseInt(e.target.value))}
         className="w-full h-2 bg-zinc-700 rounded-lg appearance-none cursor-pointer slider transition-all duration-200"
         style={{
-          background: `linear-gradient(to right, #0ea5e9 0%, #0ea5e9 ${(value / (ranges.length - 1)) * 100}%, #374151 ${(value / (ranges.length - 1)) * 100}%, #374151 100%)`
+          background: `linear-gradient(to right, #93c5fd 0%, #93c5fd ${(value / (ranges.length - 1)) * 100}%, #374151 ${(value / (ranges.length - 1)) * 100}%, #374151 100%)`
         }}
       />
       <div className="flex justify-between text-xs text-zinc-500">
@@ -95,26 +95,26 @@ export default function BucketSearch() {
           appearance: none;
           width: 20px;
           height: 20px;
-          background: #0ea5e9;
+          background: #93c5fd;
           border-radius: 50%;
           cursor: pointer;
           transition: all 0.2s ease;
         }
         .slider::-webkit-slider-thumb:hover {
-          background: #0284c7;
+          background: #60a5fa;
           transform: scale(1.1);
         }
         .slider::-moz-range-thumb {
           width: 20px;
           height: 20px;
-          background: #0ea5e9;
+          background: #93c5fd;
           border-radius: 50%;
           cursor: pointer;
           border: none;
           transition: all 0.2s ease;
         }
         .slider::-moz-range-thumb:hover {
-          background: #0284c7;
+          background: #60a5fa;
           transform: scale(1.1);
         }
       `}</style>
@@ -127,9 +127,9 @@ export default function BucketSearch() {
       </div>
 
       {/* Search Controls */}
-      <div className="rounded-2xl border border-sky-400/20 bg-zinc-900/60 backdrop-blur-sm overflow-hidden">
-        <div className="bg-gradient-to-r from-sky-400/20 to-sky-300/20 px-4 md:px-6 py-4">
-          <h2 className="text-lg md:text-xl font-semibold text-sky-200">Adjust Stat Ranges</h2>
+      <div className="rounded-2xl border border-blue-300/20 bg-zinc-900/60 backdrop-blur-sm overflow-hidden">
+        <div className="bg-blue-300/10 px-4 md:px-6 py-4">
+          <h2 className="text-lg md:text-xl font-semibold text-blue-200">Adjust Stat Ranges</h2>
           <p className="text-xs md:text-sm text-zinc-300 mt-1">Move the sliders to select your bucket</p>
         </div>
         
@@ -168,9 +168,9 @@ export default function BucketSearch() {
       </div>
 
       {/* Results */}
-      <div className="rounded-2xl border border-sky-400/20 bg-zinc-900/60 backdrop-blur-sm overflow-hidden">
-        <div className="bg-gradient-to-r from-sky-400/20 to-sky-300/20 px-4 md:px-6 py-4">
-          <h2 className="text-lg md:text-xl font-semibold text-sky-200">Results</h2>
+      <div className="rounded-2xl border border-blue-300/20 bg-zinc-900/60 backdrop-blur-sm overflow-hidden">
+        <div className="bg-blue-300/10 px-4 md:px-6 py-4">
+          <h2 className="text-lg md:text-xl font-semibold text-blue-200">Results</h2>
           <p className="text-xs md:text-sm text-zinc-300 mt-1 break-words">{bucketDescription}</p>
         </div>
         
@@ -180,7 +180,7 @@ export default function BucketSearch() {
           ) : result ? (
             <div className="space-y-4">
               <div className="text-center">
-                <div className="text-3xl font-bold text-sky-300">
+                <div className="text-3xl font-bold text-blue-300">
                   {result.count >= 10 ? '>10' : result.count}
                 </div>
                 <div className="text-sm text-zinc-400">
@@ -200,7 +200,7 @@ export default function BucketSearch() {
                             <div className="text-sm text-zinc-400">{game.date}</div>
                             <div className="text-sm text-zinc-300 mt-1">{game.team} vs {game.opponent}</div>
                           </div>
-                          <div className="text-lg font-semibold text-sky-300">
+                          <div className="text-lg font-semibold text-blue-300">
                             {game.stats}
                           </div>
                         </div>
