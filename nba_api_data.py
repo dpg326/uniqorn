@@ -12,7 +12,7 @@ import time
 from datetime import datetime, timedelta
 
 # Rate limiting settings
-REQUEST_DELAY = 0.6  # seconds between API calls
+REQUEST_DELAY = 1.5  # seconds between API calls (increased for NBA API compliance)
 
 # Current season
 CURRENT_SEASON = "2025-26"

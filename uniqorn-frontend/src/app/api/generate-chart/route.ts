@@ -1,4 +1,11 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { rateLimit, getClientIp } from '@/lib/rate-limit';
+
+// Rate limit: 20 requests per minute per IP (chart generation is more expensive)
+const limiter = rateLimit({
+  interval: 60 * 1000, // 1 minute
+  maxRequests: 20
+});
 
 interface ChartData {
   firstName: string;
@@ -174,18 +181,51 @@ function generateRadarChartHTML(data: ChartData): string {
 }
 
 export async function GET(request: NextRequest) {
+  // Apply rate limiting
+  const ip = getClientIp(request);
+  const rateLimitResult = limiter.check(ip);
+  
+  if (!rateLimitResult.success) {
+    return NextResponse.json(
+      { error: 'Too many requests. Please try again later.' },
+      { 
+        status: 429,
+        headers: {
+          'X-RateLimit-Limit': '20',
+          'X-RateLimit-Remaining': '0',
+          'X-RateLimit-Reset': new Date(rateLimitResult.resetTime).toISOString()
+        }
+      }
+    );
+  }
+  
   const { searchParams } = request.nextUrl;
   
-  const firstName = searchParams.get('firstName') || '';
-  const lastName = searchParams.get('lastName') || '';
-  const game_date = searchParams.get('game_date') || '';
-  const points = parseInt(searchParams.get('points') || '0');
-  const assists = parseInt(searchParams.get('assists') || '0');
-  const rebounds = parseInt(searchParams.get('rebounds') || '0');
-  const blocks = parseInt(searchParams.get('blocks') || '0');
-  const steals = parseInt(searchParams.get('steals') || '0');
+  // Input validation and sanitization
+  const sanitizeName = (name: string) => name
+    .replace(/[^a-zA-Z\s\-'.]/g, '') // Only allow letters, spaces, hyphens, apostrophes, dots
+    .slice(0, 50)
+    .trim();
+  
+  const sanitizeTeamName = (name: string) => name
+    .replace(/[^a-zA-Z\s]/g, '') // Only allow letters and spaces
+    .slice(0, 30)
+    .trim();
+  
+  const sanitizeDate = (date: string) => date
+    .replace(/[^0-9\-\/]/g, '') // Only allow numbers, hyphens, slashes
+    .slice(0, 20);
+  
+  const firstName = sanitizeName(searchParams.get('firstName') || '');
+  const lastName = sanitizeName(searchParams.get('lastName') || '');
+  const game_date = sanitizeDate(searchParams.get('game_date') || '');
+  const points = Math.max(0, Math.min(200, parseInt(searchParams.get('points') || '0')));
+  const assists = Math.max(0, Math.min(50, parseInt(searchParams.get('assists') || '0')));
+  const rebounds = Math.max(0, Math.min(50, parseInt(searchParams.get('rebounds') || '0')));
+  const blocks = Math.max(0, Math.min(20, parseInt(searchParams.get('blocks') || '0')));
+  const steals = Math.max(0, Math.min(20, parseInt(searchParams.get('steals') || '0')));
   const isUltimate = searchParams.get('isUltimate') === 'true';
-  const opponentteamName = searchParams.get('opponentteamName') || '';
+  const opponentteamName = sanitizeTeamName(searchParams.get('opponentteamName') || '');
 
   if (!firstName || !lastName || !game_date) {
     return NextResponse.json(

@@ -1,12 +1,46 @@
 import { readFile } from 'fs/promises';
 import { join } from 'path';
-import { NextRequest } from 'next/server';
+import { NextRequest, NextResponse } from 'next/server';
+import { rateLimit, getClientIp } from '@/lib/rate-limit';
+
+// Rate limit: 30 requests per minute per IP
+const limiter = rateLimit({
+  interval: 60 * 1000, // 1 minute
+  maxRequests: 30
+});
 
 export async function GET(request: NextRequest) {
   console.log('Player search API route called');
+  
+  // Apply rate limiting
+  const ip = getClientIp(request);
+  const rateLimitResult = limiter.check(ip);
+  
+  if (!rateLimitResult.success) {
+    return NextResponse.json(
+      { error: 'Too many requests. Please try again later.' },
+      { 
+        status: 429,
+        headers: {
+          'X-RateLimit-Limit': '30',
+          'X-RateLimit-Remaining': '0',
+          'X-RateLimit-Reset': new Date(rateLimitResult.resetTime).toISOString()
+        }
+      }
+    );
+  }
+  
   try {
     const { searchParams } = request.nextUrl;
-    const query = searchParams.get('q')?.toLowerCase() || '';
+    const rawQuery = searchParams.get('q') || '';
+    
+    // Input validation and sanitization
+    const query = rawQuery
+      .toLowerCase()
+      .replace(/[^a-z0-9\s\-'.]/gi, '') // Only allow alphanumeric, spaces, hyphens, apostrophes, dots
+      .slice(0, 50) // Limit length to prevent abuse
+      .trim();
+    
     console.log('Search query:', query);
     
     if (query.length < 2) {

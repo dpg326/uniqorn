@@ -1,6 +1,13 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { readFile } from 'fs/promises';
 import { join } from 'path';
+import { rateLimit, getClientIp } from '@/lib/rate-limit';
+
+// Rate limit: 60 requests per minute per IP
+const limiter = rateLimit({
+  interval: 60 * 1000, // 1 minute
+  maxRequests: 60
+});
 
 interface BucketSearchResult {
   bucket: [number, number, number, number, number];
@@ -46,13 +53,38 @@ async function loadBucketData() {
 }
 
 export async function GET(request: NextRequest) {
+  // Apply rate limiting
+  const ip = getClientIp(request);
+  const rateLimitResult = limiter.check(ip);
+  
+  if (!rateLimitResult.success) {
+    return NextResponse.json(
+      { error: 'Too many requests. Please try again later.' },
+      { 
+        status: 429,
+        headers: {
+          'X-RateLimit-Limit': '60',
+          'X-RateLimit-Remaining': '0',
+          'X-RateLimit-Reset': new Date(rateLimitResult.resetTime).toISOString()
+        }
+      }
+    );
+  }
+  
   try {
     const searchParams = request.nextUrl.searchParams;
-    const points_bin = parseInt(searchParams.get('points_bin') || '0');
-    const assists_bin = parseInt(searchParams.get('assists_bin') || '0');
-    const rebounds_bin = parseInt(searchParams.get('rebounds_bin') || '0');
-    const blocks_bin = parseInt(searchParams.get('blocks_bin') || '0');
-    const steals_bin = parseInt(searchParams.get('steals_bin') || '0');
+    
+    // Input validation - ensure bin values are within valid ranges
+    const validateBin = (value: string | null, max: number): number => {
+      const parsed = parseInt(value || '0');
+      return Math.max(0, Math.min(max, isNaN(parsed) ? 0 : parsed));
+    };
+    
+    const points_bin = validateBin(searchParams.get('points_bin'), 8); // 0-8 for points
+    const assists_bin = validateBin(searchParams.get('assists_bin'), 5); // 0-5 for assists
+    const rebounds_bin = validateBin(searchParams.get('rebounds_bin'), 5); // 0-5 for rebounds
+    const blocks_bin = validateBin(searchParams.get('blocks_bin'), 4); // 0-4 for blocks
+    const steals_bin = validateBin(searchParams.get('steals_bin'), 4); // 0-4 for steals
 
     const bucket_key: [number, number, number, number, number] = [
       points_bin, assists_bin, rebounds_bin, blocks_bin, steals_bin
