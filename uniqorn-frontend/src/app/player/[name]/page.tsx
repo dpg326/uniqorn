@@ -5,6 +5,9 @@ import UniqornScore from '@/components/UniqornTooltip';
 import { readFile } from 'fs/promises';
 import { join } from 'path';
 
+// Revalidate every 5 minutes to show new Ultimate UNIQORNs
+export const revalidate = 300;
+
 interface PlayerSeasonData {
   season: string;
   games: number;

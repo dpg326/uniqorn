@@ -89,17 +89,22 @@ copy CurrentSeason_UniqornGames_Master.xlsx uniqorn-frontend\public\data\
 copy Ultimate_Uniqorn_Games_Master.xlsx uniqorn-frontend\public\data\
 copy Uniqorn_Master.xlsx uniqorn-frontend\public\data\
 
-# 3. Generate bucket search database (shortened version for frontend)
-cd uniqorn-frontend
-node scripts/generate-comprehensive-buckets.js
+# 3. Generate bucket search database (shortened version for frontend from master DB)
+python generate_frontend_bucket_db.py
 
-# 4. Restart frontend to see latest data (if running in dev mode)
+# 4. Commit and push changes to GitHub
+git add -A
+git commit -m "Daily update: YYYY-MM-DD"
+git push
+
+# 5. Restart frontend to see latest data (if running in dev mode)
+cd uniqorn-frontend
 npm run dev
 ```
 
 **One-liner for daily update:**
 ```bash
-python fast_daily_pipeline.py && copy *.xlsx uniqorn-frontend\public\data\ && cd uniqorn-frontend && node scripts/generate-comprehensive-buckets.js
+python fast_daily_pipeline.py && copy *.xlsx uniqorn-frontend\public\data\ && python generate_frontend_bucket_db.py && git add -A && git commit -m "Daily update" && git push
 ```
 
 ## 📊 Pipeline Flow

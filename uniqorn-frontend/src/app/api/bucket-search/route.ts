@@ -3,10 +3,10 @@ import { readFile } from 'fs/promises';
 import { join } from 'path';
 import { rateLimit, getClientIp } from '@/lib/rate-limit';
 
-// Rate limit: 60 requests per minute per IP
+// Rate limit: 200 requests per minute per IP (bucket search makes many rapid calls as users move sliders)
 const limiter = rateLimit({
   interval: 60 * 1000, // 1 minute
-  maxRequests: 60
+  maxRequests: 200
 });
 
 interface BucketSearchResult {
@@ -63,7 +63,7 @@ export async function GET(request: NextRequest) {
       { 
         status: 429,
         headers: {
-          'X-RateLimit-Limit': '60',
+          'X-RateLimit-Limit': '200',
           'X-RateLimit-Remaining': '0',
           'X-RateLimit-Reset': new Date(rateLimitResult.resetTime).toISOString()
         }

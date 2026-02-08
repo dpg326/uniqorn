@@ -2,6 +2,9 @@ import Link from 'next/link';
 import { getUltimateData, type PlayerEntry } from '@/lib/ultimate';
 import GameCard from '@/components/GameCard';
 
+// Revalidate every 5 minutes to show new Ultimate UNIQORNs
+export const revalidate = 300;
+
 export default async function Page() {
   const data = await getUltimateData();
 

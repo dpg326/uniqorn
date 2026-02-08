@@ -5,6 +5,9 @@ import UltimateChartCard from '@/components/UltimateChartCard';
 import RecentGameCard from '@/components/RecentGameCard';
 import UniqornScore from '@/components/UniqornTooltip';
 
+// Revalidate every 5 minutes to show new games and Ultimate UNIQORNs
+export const revalidate = 300;
+
 export default async function Page() {
   const [leaders, recent, mostRecentUltimate, lastGameDate] = await Promise.all([
     getCurrentSeasonLeaders(),
