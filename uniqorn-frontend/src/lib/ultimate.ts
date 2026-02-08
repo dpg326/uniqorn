@@ -62,19 +62,28 @@ export async function getUltimateData(): Promise<PlayerEntry[]> {
     };
   });
 
+  // Normalize names to handle special characters (e.g., Jokić vs Jokic)
+  const normalizeName = (name: string) => {
+    return name
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '') // Remove diacritics
+      .toLowerCase();
+  };
+
   const byPlayer = new Map<string, UltimateGame[]>();
   for (const game of games) {
-    const key = `${game.firstName} ${game.lastName}`;
-    if (!byPlayer.has(key)) byPlayer.set(key, []);
-    byPlayer.get(key)!.push(game);
+    const normalizedKey = `${normalizeName(game.firstName)} ${normalizeName(game.lastName)}`;
+    if (!byPlayer.has(normalizedKey)) byPlayer.set(normalizedKey, []);
+    byPlayer.get(normalizedKey)!.push(game);
   }
 
   const playerEntries: PlayerEntry[] = Array.from(byPlayer.entries())
-    .map(([name, games]) => {
-      const [firstName, lastName] = name.split(' ');
+    .map(([normalizedName, games]) => {
+      // Use the most recent game's name as the display name
+      const mostRecent = games.sort((a, b) => b.game_date.localeCompare(a.game_date))[0];
       return {
-        firstName,
-        lastName,
+        firstName: mostRecent.firstName,
+        lastName: mostRecent.lastName,
         uniqorn_games: games.length,
         games: games.sort((a, b) => b.game_date.localeCompare(a.game_date)),
       };
