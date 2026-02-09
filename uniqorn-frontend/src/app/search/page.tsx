@@ -168,58 +168,30 @@ export default function BucketSearch() {
       </div>
 
       {/* Results */}
-      <div className="rounded-2xl border border-blue-300/20 bg-zinc-900/60 backdrop-blur-sm overflow-hidden shadow-lg shadow-blue-300/5">
+      <div className="rounded-2xl border border-blue-300/20 bg-zinc-900/60 backdrop-blur-sm overflow-hidden">
         <div className="bg-blue-300/10 px-4 md:px-6 py-4">
           <h2 className="text-lg md:text-xl font-semibold text-blue-200">Results</h2>
           <p className="text-xs md:text-sm text-zinc-300 mt-1 break-words">{bucketDescription}</p>
         </div>
         
         <div className="p-4 md:p-6">
-          {/* Unconventional Loading Animation - Morphing Hexagons */}
-          {loading && (
-            <div className="flex justify-center items-center py-12">
-              <div className="relative w-16 h-16">
-                <div className="absolute inset-0 bg-blue-300/20 rounded-lg animate-ping" />
-                <div className="absolute inset-0 bg-pink-300/20 rounded-lg animate-pulse" style={{ animationDelay: '150ms' }} />
-                <div className="absolute inset-0 bg-blue-300/30 rounded-lg animate-spin" style={{ animationDuration: '3s' }} />
+          {loading ? (
+            <div className="text-center text-zinc-400">Searching...</div>
+          ) : result ? (
+            <div className="space-y-4">
+              <div className="text-center">
+                <div className="text-3xl font-bold text-blue-300">
+                  {result.count >= 10 ? '>10' : result.count}
+                </div>
+                <div className="text-sm text-zinc-400">
+                  games found in current season
+                </div>
               </div>
-            </div>
-          )}
-          
-          {/* Empty State - Geometric Pattern */}
-          {!loading && result && result.count === 0 && (
-            <div className="text-center py-12">
-              <div className="inline-block mb-6">
-                <svg width="120" height="120" viewBox="0 0 120 120" className="opacity-20">
-                  <polygon points="60,10 100,40 100,80 60,110 20,80 20,40" fill="none" stroke="currentColor" strokeWidth="2" className="text-blue-300" />
-                  <polygon points="60,30 80,45 80,75 60,90 40,75 40,45" fill="none" stroke="currentColor" strokeWidth="2" className="text-pink-300" />
-                  <circle cx="60" cy="60" r="8" fill="currentColor" className="text-blue-300/50" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-bold text-zinc-200 mb-2">
-                No Occurrences Found
-              </h3>
-              <p className="text-sm text-zinc-400 max-w-md mx-auto">
-                This exact stat combination hasn't occurred in the current season. Try adjusting the ranges above to explore similar performances.
-              </p>
-            </div>
-          )}
-          
-          {!loading && result && result.count > 0 && (
-            <div>
-              <div className="mb-4">
-                <p className="text-sm text-zinc-300">
-                  {result.count >= 10 ? (
-                    <><span className="font-semibold text-pink-300">&gt;10</span> occurrences in current season</>
-                  ) : (
-                    <><span className="font-semibold text-pink-300">{result.count}</span> occurrence{result.count !== 1 ? 's' : ''} in current season</>
-                  )}
-                </p>
-              </div>
+
               {result.count < 10 && result.count > 0 && result.games.length > 0 && (
                 <div className="mt-6">
                   <h3 className="text-lg font-semibold text-zinc-200 mb-4">Game Details</h3>
-                    <div className="space-y-3">
+                  <div className="space-y-3">
                     {result.games.map((game, index) => (
                       <div key={index} className="p-4 rounded-lg border border-zinc-700/50 bg-zinc-800/50">
                         <div className="flex justify-between items-start">
@@ -238,6 +210,8 @@ export default function BucketSearch() {
                 </div>
               )}
             </div>
+          ) : (
+            <div className="text-center text-zinc-400">Adjust the sliders to search</div>
           )}
         </div>
       </div>

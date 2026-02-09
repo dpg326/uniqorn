@@ -52,19 +52,19 @@ export default function UltimateChartCard({
         </div>
         
         <div className="flex flex-wrap justify-center gap-2">
-          <span className="inline-flex items-center px-3 py-1.5 rounded-full text-xs font-semibold bg-gradient-to-br from-pink-400/25 to-rose-500/15 text-pink-200 border border-pink-400/40 shadow-sm shadow-pink-400/25 hover:shadow-md hover:shadow-pink-400/35 transition-all">
+          <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-pink-200/20 text-pink-200">
             {points} pts
           </span>
-          <span className="inline-flex items-center px-3 py-1.5 rounded-full text-xs font-semibold bg-gradient-to-br from-pink-400/25 to-rose-500/15 text-pink-200 border border-pink-400/40 shadow-sm shadow-pink-400/25 hover:shadow-md hover:shadow-pink-400/35 transition-all">
+          <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-pink-200/20 text-pink-200">
             {rebounds} reb
           </span>
-          <span className="inline-flex items-center px-3 py-1.5 rounded-full text-xs font-semibold bg-gradient-to-br from-pink-400/25 to-rose-500/15 text-pink-200 border border-pink-400/40 shadow-sm shadow-pink-400/25 hover:shadow-md hover:shadow-pink-400/35 transition-all">
+          <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-pink-200/20 text-pink-200">
             {assists} ast
           </span>
-          <span className="inline-flex items-center px-3 py-1.5 rounded-full text-xs font-semibold bg-gradient-to-br from-pink-400/25 to-rose-500/15 text-pink-200 border border-pink-400/40 shadow-sm shadow-pink-400/25 hover:shadow-md hover:shadow-pink-400/35 transition-all">
+          <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-pink-200/20 text-pink-200">
             {steals} stl
           </span>
-          <span className="inline-flex items-center px-3 py-1.5 rounded-full text-xs font-semibold bg-gradient-to-br from-pink-400/25 to-rose-500/15 text-pink-200 border border-pink-400/40 shadow-sm shadow-pink-400/25 hover:shadow-md hover:shadow-pink-400/35 transition-all">
+          <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-pink-200/20 text-pink-200">
             {blocks} blk
           </span>
         </div>
