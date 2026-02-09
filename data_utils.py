@@ -167,22 +167,22 @@ def create_buckets(df):
     
     # Create buckets
     df["points_bin"] = pd.cut(df["points"], points_bins, labels=False, include_lowest=True)
-    df["assists_bin"] = pd.cut(df["assists"], assists_bins, labels=False, include_lowest=True)
     df["rebounds_bin"] = pd.cut(df["reboundsTotal"], rebounds_bins, labels=False, include_lowest=True)
-    df["blocks_bin"] = pd.cut(df["blocks"], blocks_bins, labels=False, include_lowest=True)
+    df["assists_bin"] = pd.cut(df["assists"], assists_bins, labels=False, include_lowest=True)
     df["steals_bin"] = pd.cut(df["steals"], steals_bins, labels=False, include_lowest=True)
+    df["blocks_bin"] = pd.cut(df["blocks"], blocks_bins, labels=False, include_lowest=True)
     
     # Remove any rows with missing bins
-    df = df.dropna(subset=["points_bin", "assists_bin", "rebounds_bin", "blocks_bin", "steals_bin"])
+    df = df.dropna(subset=["points_bin", "rebounds_bin", "assists_bin", "steals_bin", "blocks_bin"])
     
     # Convert to integers
-    df[["points_bin", "assists_bin", "rebounds_bin", "blocks_bin", "steals_bin"]] = df[
-        ["points_bin", "assists_bin", "rebounds_bin", "blocks_bin", "steals_bin"]
+    df[["points_bin", "rebounds_bin", "assists_bin", "steals_bin", "blocks_bin"]] = df[
+        ["points_bin", "rebounds_bin", "assists_bin", "steals_bin", "blocks_bin"]
     ].astype(int)
     
-    # Create bucket key
+    # Create bucket key - NEW ORDER: (points, rebounds, assists, steals, blocks)
     df["bucket_key"] = list(
-        zip(df["points_bin"], df["assists_bin"], df["rebounds_bin"], df["blocks_bin"], df["steals_bin"])
+        zip(df["points_bin"], df["rebounds_bin"], df["assists_bin"], df["steals_bin"], df["blocks_bin"])
     )
     
     print(f"Created buckets: {len(df)} rows with valid bucket keys")
@@ -205,10 +205,11 @@ def get_bucket_description(bucket_key):
     blocks_ranges = ["0-1", "2-3", "4-5", "6-7", "8+"]
     steals_ranges = ["0-1", "2-3", "4-5", "6-7", "8+"]
     
+    # NEW ORDER: bucket_key is (points, rebounds, assists, steals, blocks)
     points_range = points_ranges[bucket_key[0]] if bucket_key[0] < len(points_ranges) else "50+"
-    assists_range = assists_ranges[bucket_key[1]] if bucket_key[1] < len(assists_ranges) else "20+"
-    rebounds_range = rebounds_ranges[bucket_key[2]] if bucket_key[2] < len(rebounds_ranges) else "20+"
-    blocks_range = blocks_ranges[bucket_key[3]] if bucket_key[3] < len(blocks_ranges) else "7+"
-    steals_range = steals_ranges[bucket_key[4]] if bucket_key[4] < len(steals_ranges) else "7+"
+    rebounds_range = rebounds_ranges[bucket_key[1]] if bucket_key[1] < len(rebounds_ranges) else "20+"
+    assists_range = assists_ranges[bucket_key[2]] if bucket_key[2] < len(assists_ranges) else "20+"
+    steals_range = steals_ranges[bucket_key[3]] if bucket_key[3] < len(steals_ranges) else "7+"
+    blocks_range = blocks_ranges[bucket_key[4]] if bucket_key[4] < len(blocks_ranges) else "7+"
     
-    return f"PTS {points_range} | AST {assists_range} | REB {rebounds_range} | BLK {blocks_range} | STL {steals_range}"
+    return f"PTS {points_range} | REB {rebounds_range} | AST {assists_range} | STL {steals_range} | BLK {blocks_range}"

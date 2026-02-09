@@ -121,7 +121,7 @@ def master_bucket_precompute():
         game_record = {
             "player": player,
             "date": date_str,
-            "stats": f"{int(getattr(row, 'points'))}/{int(getattr(row, 'reboundsTotal'))}/{int(getattr(row, 'assists'))}/{int(getattr(row, 'blocks'))}/{int(getattr(row, 'steals'))}",
+            "stats": f"{int(getattr(row, 'points'))}/{int(getattr(row, 'reboundsTotal'))}/{int(getattr(row, 'assists'))}/{int(getattr(row, 'steals'))}/{int(getattr(row, 'blocks'))}",
             "team": getattr(row, "playerteamName"),
             "opponent": getattr(row, "opponentteamName"),
             "season": getattr(row, "season"),

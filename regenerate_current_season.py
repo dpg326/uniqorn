@@ -75,7 +75,7 @@ def regenerate_current_season():
         game_record = {
             "player": f"{new_game['firstName']} {new_game['lastName']}",
             "date": new_game['gameDateTimeEst'].strftime('%Y-%m-%d'),
-            "stats": f"{int(new_game['points'])}/{int(new_game[rebounds_col])}/{int(new_game['assists'])}/{int(new_game['blocks'])}/{int(new_game['steals'])}",
+            "stats": f"{int(new_game['points'])}/{int(new_game[rebounds_col])}/{int(new_game['assists'])}/{int(new_game['steals'])}/{int(new_game['blocks'])}",
             "team": new_game['playerteamName'],
             "opponent": new_game['opponentteamName'],
             "season": new_game['season'],
