@@ -62,10 +62,10 @@ export default function UltimateChartCard({
             {assists} ast
           </span>
           <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-pink-200/20 text-pink-200">
-            {blocks} blk
+            {steals} stl
           </span>
           <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-pink-200/20 text-pink-200">
-            {steals} stl
+            {blocks} blk
           </span>
         </div>
         

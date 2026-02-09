@@ -86,8 +86,9 @@ export async function GET(request: NextRequest) {
     const blocks_bin = validateBin(searchParams.get('blocks_bin'), 4); // 0-4 for blocks
     const steals_bin = validateBin(searchParams.get('steals_bin'), 4); // 0-4 for steals
 
+    // NEW ORDER: (points, rebounds, assists, steals, blocks)
     const bucket_key: [number, number, number, number, number] = [
-      points_bin, assists_bin, rebounds_bin, blocks_bin, steals_bin
+      points_bin, rebounds_bin, assists_bin, steals_bin, blocks_bin
     ];
 
     // Bucket descriptions
@@ -97,7 +98,7 @@ export async function GET(request: NextRequest) {
     const blocks_ranges = ["0-1", "2-3", "4-5", "6-7", "8+"];
     const steals_ranges = ["0-1", "2-3", "4-5", "6-7", "8+"];
 
-    const description = `PTS ${points_ranges[points_bin]} | REB ${rebounds_ranges[rebounds_bin]} | AST ${assists_ranges[assists_bin]} | BLK ${blocks_ranges[blocks_bin]} | STL ${steals_ranges[steals_bin]}`;
+    const description = `PTS ${points_ranges[points_bin]} | REB ${rebounds_ranges[rebounds_bin]} | AST ${assists_ranges[assists_bin]} | STL ${steals_ranges[steals_bin]} | BLK ${blocks_ranges[blocks_bin]}`;
 
     // Load bucket data
     const data = await loadBucketData();

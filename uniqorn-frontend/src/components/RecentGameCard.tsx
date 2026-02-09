@@ -69,10 +69,10 @@ export default function RecentGameCard({
             {assists} ast
           </span>
           <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-sky-400/20 text-sky-200">
-            {blocks} blk
+            {steals} stl
           </span>
           <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-sky-400/20 text-sky-200">
-            {steals} stl
+            {blocks} blk
           </span>
         </div>
       </div>

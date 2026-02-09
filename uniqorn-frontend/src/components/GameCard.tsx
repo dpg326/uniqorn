@@ -19,7 +19,7 @@ type Game = {
 
 export default function GameCard({ game, isUltimate = false }: { game: Game; isUltimate?: boolean }) {
   const chartFileName = `${game.firstName}_${game.lastName}_${game.game_date}.png`;
-  const statline = `${game.points} PTS / ${game.rebounds} REB / ${game.assists} AST / ${game.blocks} BLK / ${game.steals} STL`;
+  const statline = `${game.points} PTS / ${game.rebounds} REB / ${game.assists} AST / ${game.steals} STL / ${game.blocks} BLK`;
   const [showChart, setShowChart] = useState(false);
   const [imageError, setImageError] = useState(false);
 

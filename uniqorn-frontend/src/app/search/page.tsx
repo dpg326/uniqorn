@@ -153,16 +153,16 @@ export default function BucketSearch() {
             ranges={BUCKET_RANGES.assists}
           />
           <StatSlider 
-            label="Blocks" 
-            value={blocksBin} 
-            onChange={setBlocksBin} 
-            ranges={BUCKET_RANGES.blocks}
-          />
-          <StatSlider 
             label="Steals" 
             value={stealsBin} 
             onChange={setStealsBin} 
             ranges={BUCKET_RANGES.steals}
+          />
+          <StatSlider 
+            label="Blocks" 
+            value={blocksBin} 
+            onChange={setBlocksBin} 
+            ranges={BUCKET_RANGES.blocks}
           />
         </div>
       </div>

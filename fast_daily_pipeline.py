@@ -293,7 +293,8 @@ def generate_master_outputs():
     uniqorn_season_games = [(bk, g) for bk, g in season_games if season_bucket_counts.get(bk, 0) == 1]
     uniqorn_export_rows = []
     for bucket_key, game in uniqorn_season_games:
-        pts, ast, reb, blk, stl = (int(x) for x in str(game.get("stats", "0/0/0/0/0")).split("/"))
+        # Stats format: PTS/REB/AST/STL/BLK
+        pts, reb, ast, stl, blk = (int(x) for x in str(game.get("stats", "0/0/0/0/0")).split("/"))
         fn, ln = _split_player_name(game.get("player", ""))
         dt = pd.to_datetime(game.get("date"))
         uniqorn_export_rows.append({
@@ -326,7 +327,8 @@ def generate_master_outputs():
         if not games:
             continue
         game = games[0]
-        pts, ast, reb, blk, stl = (int(x) for x in str(game.get("stats", "0/0/0/0/0")).split("/"))
+        # Stats format: PTS/REB/AST/STL/BLK
+        pts, reb, ast, stl, blk = (int(x) for x in str(game.get("stats", "0/0/0/0/0")).split("/"))
         fn, ln = _split_player_name(game.get("player", ""))
         dt = pd.to_datetime(game.get("date"))
         ultimate_rows.append({
