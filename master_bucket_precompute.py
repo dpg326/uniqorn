@@ -1,6 +1,7 @@
 import json
 import time
 from datetime import datetime
+import unicodedata
 
 import pandas as pd
 
@@ -116,7 +117,10 @@ def master_bucket_precompute():
 
         fn = getattr(row, "firstName")
         ln = getattr(row, "lastName")
-        player = f"{fn} {ln}".strip()
+        # Normalize names to remove diacritics (Jokić -> Jokic, Dončić -> Doncic)
+        fn_normalized = unicodedata.normalize('NFD', str(fn)).encode('ascii', 'ignore').decode('utf-8')
+        ln_normalized = unicodedata.normalize('NFD', str(ln)).encode('ascii', 'ignore').decode('utf-8')
+        player = f"{fn_normalized} {ln_normalized}".strip()
 
         game_record = {
             "player": player,

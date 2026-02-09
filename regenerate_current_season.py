@@ -5,6 +5,7 @@ Use this when you need to catch up on missed games (e.g., after CSV is outdated)
 """
 import json
 import time
+import unicodedata
 from datetime import datetime, timedelta
 from data_utils import create_buckets
 import nba_api_data
@@ -71,9 +72,11 @@ def regenerate_current_season():
         bucket_key = new_game['bucket_key']
         bucket_str = f"({', '.join(map(str, bucket_key))})"
         
-        # Create game record
+        # Create game record with normalized names
+        fn_normalized = unicodedata.normalize('NFD', str(new_game['firstName'])).encode('ascii', 'ignore').decode('utf-8')
+        ln_normalized = unicodedata.normalize('NFD', str(new_game['lastName'])).encode('ascii', 'ignore').decode('utf-8')
         game_record = {
-            "player": f"{new_game['firstName']} {new_game['lastName']}",
+            "player": f"{fn_normalized} {ln_normalized}",
             "date": new_game['gameDateTimeEst'].strftime('%Y-%m-%d'),
             "stats": f"{int(new_game['points'])}/{int(new_game[rebounds_col])}/{int(new_game['assists'])}/{int(new_game['steals'])}/{int(new_game['blocks'])}",
             "team": new_game['playerteamName'],
