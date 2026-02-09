@@ -68,10 +68,11 @@ def generate_seasonal_uniqorn_index():
         season_df = pd.DataFrame(season_games)
         
         # Parse stats and create bucket keys using the same logic as data_utils.create_buckets
+        # Stats format: PTS/REB/AST/BLK/STL
         stats_split = season_df['stats'].str.split('/', expand=True)
         season_df['points'] = stats_split[0].astype(int)
-        season_df['assists'] = stats_split[1].astype(int)
-        season_df['rebounds'] = stats_split[2].astype(int)
+        season_df['rebounds'] = stats_split[1].astype(int)
+        season_df['assists'] = stats_split[2].astype(int)
         season_df['blocks'] = stats_split[3].astype(int)
         season_df['steals'] = stats_split[4].astype(int)
         

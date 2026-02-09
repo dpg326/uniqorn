@@ -72,9 +72,9 @@ function generateRadarChartHTML(data: ChartData): string {
   const blocks_bin = getBucketIndex(blocks, blocks_bins);
   const steals_bin = getBucketIndex(steals, steals_bins);
   
-  const values = [points_bin, assists_bin, rebounds_bin, blocks_bin, steals_bin];
+  const values = [points_bin, rebounds_bin, assists_bin, blocks_bin, steals_bin];
   const values_closed = [...values, values[0]];
-  const labels = ["PTS", "AST", "REB", "BLK", "STL"];
+  const labels = ["PTS", "REB", "AST", "BLK", "STL"];
   const labels_closed = [...labels, labels[0]];
   
   const max_bucket = Math.max(

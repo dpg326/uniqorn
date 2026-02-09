@@ -33,13 +33,13 @@ export default function Page() {
           <p className="text-sm text-zinc-400 italic">Example: Hakeem Olajuwon's Ultimate Uniqorn (1990-03-26)</p>
           <div className="relative w-full max-w-md aspect-square rounded-lg overflow-hidden border border-sky-400/20">
             <iframe
-              src="/api/generate-chart?firstName=Hakeem&lastName=Olajuwon&game_date=1990-03-26&points=27&assists=3&rebounds=18&blocks=6&steals=4&isUltimate=true"
+              src="/api/generate-chart?firstName=Hakeem&lastName=Olajuwon&game_date=1990-03-26&points=27&rebounds=18&assists=3&blocks=6&steals=4&isUltimate=true"
               title="Hakeem Olajuwon Ultimate Uniqorn radar chart"
               className="w-full h-full border-none"
             />
           </div>
           <p className="text-xs text-zinc-400 text-center">
-            27 PTS / 3 AST / 18 REB / 6 BLK / 4 STL — This bucket has occurred once in NBA history (1973–present)
+            27 PTS / 18 REB / 3 AST / 6 BLK / 4 STL — This bucket has occurred once in NBA history (1973–present)
           </p>
         </section>
 
@@ -51,7 +51,7 @@ export default function Page() {
             <div>
               <h3 className="text-lg font-medium text-sky-300 mb-2">1. Bucketing</h3>
               <p className="text-zinc-300 text-sm leading-relaxed">
-                Stats are grouped into ranges: Points (0-5, 6-10, 11-15...), Assists (0-2, 3-5, 6-8...), Rebounds, Blocks, and Steals. A 23/8/11/2/3 game becomes bucket (21-25, 6-8, 11-15, 2-3, 2-3).
+                Stats are grouped into ranges: Points (0-5, 6-10, 11-15...), Rebounds (0-2, 3-5, 6-10...), Assists (0-2, 3-5, 6-8...), Blocks, and Steals. A 23/11/8/2/3 game becomes bucket (21-25, 11-15, 6-8, 2-3, 2-3).
               </p>
             </div>
             

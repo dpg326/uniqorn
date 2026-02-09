@@ -33,7 +33,7 @@ export default function BucketSearch() {
   const [result, setResult] = useState<BucketSearchResult | null>(null);
   const [loading, setLoading] = useState(false);
 
-  const bucketDescription = `PTS ${BUCKET_RANGES.points[pointsBin]} | AST ${BUCKET_RANGES.assists[assistsBin]} | REB ${BUCKET_RANGES.rebounds[reboundsBin]} | BLK ${BUCKET_RANGES.blocks[blocksBin]} | STL ${BUCKET_RANGES.steals[stealsBin]}`;
+  const bucketDescription = `PTS ${BUCKET_RANGES.points[pointsBin]} | REB ${BUCKET_RANGES.rebounds[reboundsBin]} | AST ${BUCKET_RANGES.assists[assistsBin]} | BLK ${BUCKET_RANGES.blocks[blocksBin]} | STL ${BUCKET_RANGES.steals[stealsBin]}`;
 
   useEffect(() => {
     searchBucket();
@@ -42,7 +42,7 @@ export default function BucketSearch() {
   const searchBucket = async () => {
     setLoading(true);
     try {
-      const response = await fetch(`/api/bucket-search?points_bin=${pointsBin}&assists_bin=${assistsBin}&rebounds_bin=${reboundsBin}&blocks_bin=${blocksBin}&steals_bin=${stealsBin}`);
+      const response = await fetch(`/api/bucket-search?points_bin=${pointsBin}&rebounds_bin=${reboundsBin}&assists_bin=${assistsBin}&blocks_bin=${blocksBin}&steals_bin=${stealsBin}`);
       const data = await response.json();
       setResult(data);
     } catch (error) {
@@ -141,16 +141,16 @@ export default function BucketSearch() {
             ranges={BUCKET_RANGES.points}
           />
           <StatSlider 
-            label="Assists" 
-            value={assistsBin} 
-            onChange={setAssistsBin} 
-            ranges={BUCKET_RANGES.assists}
-          />
-          <StatSlider 
             label="Rebounds" 
             value={reboundsBin} 
             onChange={setReboundsBin} 
             ranges={BUCKET_RANGES.rebounds}
+          />
+          <StatSlider 
+            label="Assists" 
+            value={assistsBin} 
+            onChange={setAssistsBin} 
+            ranges={BUCKET_RANGES.assists}
           />
           <StatSlider 
             label="Blocks" 

@@ -112,7 +112,7 @@ export default async function Page() {
       <div className="max-w-4xl mx-auto">
         <div className="rounded-xl border border-blue-300/20 bg-zinc-900/60 backdrop-blur-sm p-4 md:p-6">
           <p className="text-sm md:text-base text-zinc-300 text-center">
-            <span className="font-semibold text-blue-300">How it works:</span> We bucket every NBA game by points, assists, rebounds, blocks, and steals—then measure how unique that exact combination is within its season. Higher scores = more unique performances.
+            <span className="font-semibold text-blue-300">How it works:</span> We bucket every NBA game by points, rebounds, assists, blocks, and steals—then measure how unique that exact combination is within its season. Higher scores = more unique performances.
           </p>
         </div>
       </div>

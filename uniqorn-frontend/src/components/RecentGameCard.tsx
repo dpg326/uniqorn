@@ -63,10 +63,10 @@ export default function RecentGameCard({
             {points} pts
           </span>
           <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-sky-400/20 text-sky-200">
-            {assists} ast
+            {rebounds} reb
           </span>
           <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-sky-400/20 text-sky-200">
-            {rebounds} reb
+            {assists} ast
           </span>
           <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-sky-400/20 text-sky-200">
             {blocks} blk

@@ -97,7 +97,7 @@ export async function GET(request: NextRequest) {
     const blocks_ranges = ["0-1", "2-3", "4-5", "6-7", "8+"];
     const steals_ranges = ["0-1", "2-3", "4-5", "6-7", "8+"];
 
-    const description = `PTS ${points_ranges[points_bin]} | AST ${assists_ranges[assists_bin]} | REB ${rebounds_ranges[rebounds_bin]} | BLK ${blocks_ranges[blocks_bin]} | STL ${steals_ranges[steals_bin]}`;
+    const description = `PTS ${points_ranges[points_bin]} | REB ${rebounds_ranges[rebounds_bin]} | AST ${assists_ranges[assists_bin]} | BLK ${blocks_ranges[blocks_bin]} | STL ${steals_ranges[steals_bin]}`;
 
     // Load bucket data
     const data = await loadBucketData();
