@@ -1,16 +1,4 @@
 {
-  "new": [
-    {
-      "key": "Nikola_Joki\u0107_2026-02-07_22_17_14_4_1",
-      "firstName": "Nikola",
-      "lastName": "Joki\u0107",
-      "game_date": "2026-02-07",
-      "points": 22,
-      "assists": 17,
-      "rebounds": 14,
-      "blocks": 4,
-      "steals": 1
-    }
-  ],
+  "new": [],
   "broken": []
 }
