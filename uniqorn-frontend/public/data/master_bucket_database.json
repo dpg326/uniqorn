@@ -95,8 +95,17 @@
     ]
   },
   "(4, 3, 0, 0, 0)": {
-    "count": 27,
+    "count": 28,
     "games": [
+      {
+        "player": "Jarrett Allen",
+        "date": "2026-02-09",
+        "stats": "22/13/1/0/0",
+        "team": "CLE",
+        "opponent": "DEN",
+        "season": "2025-26",
+        "personId": 1628386
+      },
       {
         "player": "Karl-Anthony Towns",
         "date": "2026-02-04",
@@ -177,21 +186,21 @@
         "opponent": "Cavaliers",
         "season": "2025-26",
         "personId": 1642851
-      },
-      {
-        "player": "Deandre Ayton",
-        "date": "2026-01-18",
-        "stats": "25/13/1/0/1",
-        "team": "Lakers",
-        "opponent": "Raptors",
-        "season": "2025-26",
-        "personId": 1629028
       }
     ]
   },
   "(4, 0, 1, 0, 0)": {
-    "count": 47,
+    "count": 48,
     "games": [
+      {
+        "player": "Ayo Dosunmu",
+        "date": "2026-02-09",
+        "stats": "21/1/3/1/1",
+        "team": "MIN",
+        "opponent": "ATL",
+        "season": "2025-26",
+        "personId": 1630245
+      },
       {
         "player": "Jrue Holiday",
         "date": "2026-02-07",
@@ -272,15 +281,6 @@
         "opponent": "Lakers",
         "season": "2025-26",
         "personId": 1631108
-      },
-      {
-        "player": "Keldon Johnson",
-        "date": "2026-01-22",
-        "stats": "21/1/5/1/1",
-        "team": "Spurs",
-        "opponent": "Jazz",
-        "season": "2025-26",
-        "personId": 1629640
       }
     ]
   },
@@ -380,103 +380,184 @@
     ]
   },
   "(0, 0, 0, 0, 0)": {
-    "count": 6697,
+    "count": 6728,
     "games": [
       {
-        "player": "Jahmir Young",
-        "date": "2026-02-08",
-        "stats": "2/1/0/0/0",
-        "team": "MIA",
-        "opponent": "WAS",
+        "player": "Jarred Vanderbilt",
+        "date": "2026-02-09",
+        "stats": "2/2/0/1/1",
+        "team": "LAL",
+        "opponent": "OKC",
         "season": "2025-26",
-        "personId": 1642443
+        "personId": 1629020
       },
       {
-        "player": "Keshon Gilbert",
-        "date": "2026-02-08",
-        "stats": "0/1/1/0/1",
-        "team": "WAS",
-        "opponent": "MIA",
-        "season": "2025-26",
-        "personId": 1642933
-      },
-      {
-        "player": "Dru Smith",
-        "date": "2026-02-08",
-        "stats": "0/1/2/1/0",
-        "team": "MIA",
-        "opponent": "WAS",
-        "season": "2025-26",
-        "personId": 1630696
-      },
-      {
-        "player": "Nikola Jovic",
-        "date": "2026-02-08",
-        "stats": "4/1/2/1/0",
-        "team": "MIA",
-        "opponent": "WAS",
-        "season": "2025-26",
-        "personId": 1631107
-      },
-      {
-        "player": "Trey Jemison III",
-        "date": "2026-02-08",
-        "stats": "0/1/0/0/0",
-        "team": "NYK",
-        "opponent": "BOS",
-        "season": "2025-26",
-        "personId": 1641998
-      },
-      {
-        "player": "Pacome Dadiet",
-        "date": "2026-02-08",
-        "stats": "0/2/1/0/0",
-        "team": "NYK",
-        "opponent": "BOS",
-        "season": "2025-26",
-        "personId": 1642359
-      },
-      {
-        "player": "Jordan Clarkson",
-        "date": "2026-02-08",
-        "stats": "0/2/1/0/1",
-        "team": "NYK",
-        "opponent": "BOS",
-        "season": "2025-26",
-        "personId": 203903
-      },
-      {
-        "player": "Kevin McCullar Jr.",
-        "date": "2026-02-08",
+        "player": "Maxi Kleber",
+        "date": "2026-02-09",
         "stats": "0/0/0/0/0",
-        "team": "NYK",
-        "opponent": "BOS",
+        "team": "LAL",
+        "opponent": "OKC",
         "season": "2025-26",
-        "personId": 1641755
+        "personId": 1628467
       },
       {
-        "player": "Hugo Gonzalez",
-        "date": "2026-02-08",
+        "player": "Kenrich Williams",
+        "date": "2026-02-09",
+        "stats": "0/0/0/1/0",
+        "team": "OKC",
+        "opponent": "LAL",
+        "season": "2025-26",
+        "personId": 1629026
+      },
+      {
+        "player": "Quinten Post",
+        "date": "2026-02-09",
+        "stats": "0/0/2/0/0",
+        "team": "GSW",
+        "opponent": "MEM",
+        "season": "2025-26",
+        "personId": 1642366
+      },
+      {
+        "player": "Yang Hansen",
+        "date": "2026-02-09",
         "stats": "2/1/0/0/0",
-        "team": "BOS",
-        "opponent": "NYK",
+        "team": "POR",
+        "opponent": "PHI",
         "season": "2025-26",
-        "personId": 1642864
+        "personId": 1642905
       },
       {
-        "player": "Amari Williams",
-        "date": "2026-02-08",
-        "stats": "0/2/0/0/0",
-        "team": "BOS",
-        "opponent": "NYK",
+        "player": "Rayan Rupert",
+        "date": "2026-02-09",
+        "stats": "3/1/0/0/0",
+        "team": "POR",
+        "opponent": "PHI",
         "season": "2025-26",
-        "personId": 1642873
+        "personId": 1641712
+      },
+      {
+        "player": "Patrick Baldwin Jr.",
+        "date": "2026-02-09",
+        "stats": "0/1/0/0/0",
+        "team": "PHI",
+        "opponent": "POR",
+        "season": "2025-26",
+        "personId": 1631116
+      },
+      {
+        "player": "Johni Broome",
+        "date": "2026-02-09",
+        "stats": "0/2/0/0/1",
+        "team": "PHI",
+        "opponent": "POR",
+        "season": "2025-26",
+        "personId": 1641780
+      },
+      {
+        "player": "Javonte Cooke",
+        "date": "2026-02-09",
+        "stats": "2/2/0/0/0",
+        "team": "POR",
+        "opponent": "PHI",
+        "season": "2025-26",
+        "personId": 1631451
+      },
+      {
+        "player": "Jalen Pickett",
+        "date": "2026-02-09",
+        "stats": "3/0/0/0/0",
+        "team": "DEN",
+        "opponent": "CLE",
+        "season": "2025-26",
+        "personId": 1629618
       }
     ]
   },
   "(1, 0, 0, 0, 0)": {
-    "count": 772,
+    "count": 781,
     "games": [
+      {
+        "player": "Luke Kennard",
+        "date": "2026-02-09",
+        "stats": "7/1/1/1/0",
+        "team": "LAL",
+        "opponent": "OKC",
+        "season": "2025-26",
+        "personId": 1628379
+      },
+      {
+        "player": "Adem Bona",
+        "date": "2026-02-09",
+        "stats": "7/1/0/0/0",
+        "team": "PHI",
+        "opponent": "POR",
+        "season": "2025-26",
+        "personId": 1641737
+      },
+      {
+        "player": "Kyle Lowry",
+        "date": "2026-02-09",
+        "stats": "6/1/1/1/1",
+        "team": "PHI",
+        "opponent": "POR",
+        "season": "2025-26",
+        "personId": 200768
+      },
+      {
+        "player": "Sam Merrill",
+        "date": "2026-02-09",
+        "stats": "9/2/1/1/0",
+        "team": "CLE",
+        "opponent": "DEN",
+        "season": "2025-26",
+        "personId": 1630241
+      },
+      {
+        "player": "Nae'Qwan Tomlin",
+        "date": "2026-02-09",
+        "stats": "6/1/0/0/1",
+        "team": "CLE",
+        "opponent": "DEN",
+        "season": "2025-26",
+        "personId": 1641772
+      },
+      {
+        "player": "Jordan Hawkins",
+        "date": "2026-02-09",
+        "stats": "6/0/1/0/0",
+        "team": "NOP",
+        "opponent": "SAC",
+        "season": "2025-26",
+        "personId": 1641722
+      },
+      {
+        "player": "DeMar DeRozan",
+        "date": "2026-02-09",
+        "stats": "8/1/1/0/0",
+        "team": "SAC",
+        "opponent": "NOP",
+        "season": "2025-26",
+        "personId": 201942
+      },
+      {
+        "player": "Patrick Williams",
+        "date": "2026-02-09",
+        "stats": "7/2/1/0/0",
+        "team": "CHI",
+        "opponent": "BKN",
+        "season": "2025-26",
+        "personId": 1630172
+      },
+      {
+        "player": "Bobby Portis",
+        "date": "2026-02-09",
+        "stats": "10/0/0/0/0",
+        "team": "MIL",
+        "opponent": "ORL",
+        "season": "2025-26",
+        "personId": 1626171
+      },
       {
         "player": "Will Riley",
         "date": "2026-02-08",
@@ -485,93 +566,30 @@
         "opponent": "MIA",
         "season": "2025-26",
         "personId": 1642860
-      },
-      {
-        "player": "Tyler Kolek",
-        "date": "2026-02-08",
-        "stats": "6/0/0/0/0",
-        "team": "NYK",
-        "opponent": "BOS",
-        "season": "2025-26",
-        "personId": 1642278
-      },
-      {
-        "player": "Kam Jones",
-        "date": "2026-02-08",
-        "stats": "7/1/1/0/0",
-        "team": "IND",
-        "opponent": "TOR",
-        "season": "2025-26",
-        "personId": 1642880
-      },
-      {
-        "player": "Jaylen Clark",
-        "date": "2026-02-08",
-        "stats": "8/1/0/1/0",
-        "team": "MIN",
-        "opponent": "LAC",
-        "season": "2025-26",
-        "personId": 1641740
-      },
-      {
-        "player": "Bones Hyland",
-        "date": "2026-02-08",
-        "stats": "10/1/2/0/0",
-        "team": "MIN",
-        "opponent": "LAC",
-        "season": "2025-26",
-        "personId": 1630538
-      },
-      {
-        "player": "Aaron Nesmith",
-        "date": "2026-02-08",
-        "stats": "7/1/1/1/0",
-        "team": "IND",
-        "opponent": "TOR",
-        "season": "2025-26",
-        "personId": 1630174
-      },
-      {
-        "player": "Blake Wesley",
-        "date": "2026-02-07",
-        "stats": "10/1/0/0/0",
-        "team": "POR",
-        "opponent": "MEM",
-        "season": "2025-26",
-        "personId": 1631104
-      },
-      {
-        "player": "Taylor Hendricks",
-        "date": "2026-02-07",
-        "stats": "6/1/2/0/0",
-        "team": "MEM",
-        "opponent": "POR",
-        "season": "2025-26",
-        "personId": 1641707
-      },
-      {
-        "player": "Luke Kennard",
-        "date": "2026-02-07",
-        "stats": "10/2/2/1/0",
-        "team": "LAL",
-        "opponent": "GSW",
-        "season": "2025-26",
-        "personId": 1628379
-      },
-      {
-        "player": "Patrick Williams",
-        "date": "2026-02-07",
-        "stats": "8/2/2/1/0",
-        "team": "CHI",
-        "opponent": "DEN",
-        "season": "2025-26",
-        "personId": 1630172
       }
     ]
   },
   "(1, 1, 2, 0, 0)": {
-    "count": 56,
+    "count": 58,
     "games": [
+      {
+        "player": "Herbert Jones",
+        "date": "2026-02-09",
+        "stats": "8/4/6/0/1",
+        "team": "NOP",
+        "opponent": "SAC",
+        "season": "2025-26",
+        "personId": 1630529
+      },
+      {
+        "player": "Nique Clifford",
+        "date": "2026-02-09",
+        "stats": "10/5/6/1/0",
+        "team": "SAC",
+        "opponent": "NOP",
+        "season": "2025-26",
+        "personId": 1642363
+      },
       {
         "player": "Kris Dunn",
         "date": "2026-02-08",
@@ -643,24 +661,6 @@
         "opponent": "Heat",
         "season": "2025-26",
         "personId": 1631207
-      },
-      {
-        "player": "Ausar Thompson",
-        "date": "2026-01-29",
-        "stats": "6/4/6/0/0",
-        "team": "Pistons",
-        "opponent": "Suns",
-        "season": "2025-26",
-        "personId": 1641709
-      },
-      {
-        "player": "Kyle Anderson",
-        "date": "2026-01-28",
-        "stats": "6/5/6/0/1",
-        "team": "Jazz",
-        "opponent": "Warriors",
-        "season": "2025-26",
-        "personId": 203937
       }
     ]
   },
@@ -932,8 +932,35 @@
     ]
   },
   "(1, 0, 1, 0, 0)": {
-    "count": 227,
+    "count": 230,
     "games": [
+      {
+        "player": "Bryce McGowens",
+        "date": "2026-02-09",
+        "stats": "8/1/3/1/0",
+        "team": "NOP",
+        "opponent": "SAC",
+        "season": "2025-26",
+        "personId": 1631121
+      },
+      {
+        "player": "Terance Mann",
+        "date": "2026-02-09",
+        "stats": "9/1/3/1/1",
+        "team": "BKN",
+        "opponent": "CHI",
+        "season": "2025-26",
+        "personId": 1629611
+      },
+      {
+        "player": "Sion James",
+        "date": "2026-02-09",
+        "stats": "6/2/3/0/0",
+        "team": "CHA",
+        "opponent": "DET",
+        "season": "2025-26",
+        "personId": 1642883
+      },
       {
         "player": "Sharife Cooper",
         "date": "2026-02-08",
@@ -996,39 +1023,21 @@
         "opponent": "WAS",
         "season": "2025-26",
         "personId": 1627747
-      },
-      {
-        "player": "Jamal Shead",
-        "date": "2026-02-04",
-        "stats": "7/2/4/1/1",
-        "team": "TOR",
-        "opponent": "MIN",
-        "season": "2025-26",
-        "personId": 1642347
-      },
-      {
-        "player": "Blake Wesley",
-        "date": "2026-02-03",
-        "stats": "10/1/4/0/0",
-        "team": "Trail Blazers",
-        "opponent": "Suns",
-        "season": "2025-26",
-        "personId": 1631104
-      },
-      {
-        "player": "Alex Caruso",
-        "date": "2026-02-03",
-        "stats": "6/0/3/1/0",
-        "team": "Thunder",
-        "opponent": "Magic",
-        "season": "2025-26",
-        "personId": 1627936
       }
     ]
   },
   "(2, 2, 0, 1, 0)": {
-    "count": 81,
+    "count": 82,
     "games": [
+      {
+        "player": "Taylor Hendricks",
+        "date": "2026-02-09",
+        "stats": "15/10/2/3/0",
+        "team": "MEM",
+        "opponent": "GSW",
+        "season": "2025-26",
+        "personId": 1641707
+      },
       {
         "player": "Andrew Wiggins",
         "date": "2026-02-08",
@@ -1109,116 +1118,125 @@
         "opponent": "Clippers",
         "season": "2025-26",
         "personId": 1630692
-      },
-      {
-        "player": "Skal Labissiere",
-        "date": "2026-02-01",
-        "stats": "13/7/2/2/1",
-        "team": "Wizards",
-        "opponent": "Kings",
-        "season": "2025-26",
-        "personId": 1627746
       }
     ]
   },
   "(2, 1, 0, 0, 0)": {
-    "count": 405,
+    "count": 416,
     "games": [
       {
-        "player": "Tristan Vukcevic",
-        "date": "2026-02-08",
-        "stats": "14/5/2/0/0",
-        "team": "WAS",
+        "player": "Jaxson Hayes",
+        "date": "2026-02-09",
+        "stats": "12/4/1/0/0",
+        "team": "LAL",
+        "opponent": "OKC",
+        "season": "2025-26",
+        "personId": 1629637
+      },
+      {
+        "player": "Jake LaRavia",
+        "date": "2026-02-09",
+        "stats": "14/4/1/1/1",
+        "team": "LAL",
+        "opponent": "OKC",
+        "season": "2025-26",
+        "personId": 1631222
+      },
+      {
+        "player": "Jaylin Williams",
+        "date": "2026-02-09",
+        "stats": "11/3/2/0/0",
+        "team": "OKC",
+        "opponent": "LAL",
+        "season": "2025-26",
+        "personId": 1631119
+      },
+      {
+        "player": "Rui Hachimura",
+        "date": "2026-02-09",
+        "stats": "12/5/2/0/0",
+        "team": "LAL",
+        "opponent": "OKC",
+        "season": "2025-26",
+        "personId": 1629060
+      },
+      {
+        "player": "Jerami Grant",
+        "date": "2026-02-09",
+        "stats": "15/4/2/1/0",
+        "team": "POR",
+        "opponent": "PHI",
+        "season": "2025-26",
+        "personId": 203924
+      },
+      {
+        "player": "Jonas Valanciunas",
+        "date": "2026-02-09",
+        "stats": "12/4/0/0/0",
+        "team": "DEN",
+        "opponent": "CLE",
+        "season": "2025-26",
+        "personId": 202685
+      },
+      {
+        "player": "Brice Sensabaugh",
+        "date": "2026-02-09",
+        "stats": "14/4/2/0/0",
+        "team": "UTA",
         "opponent": "MIA",
         "season": "2025-26",
-        "personId": 1641774
+        "personId": 1641729
       },
       {
-        "player": "Mikal Bridges",
-        "date": "2026-02-08",
-        "stats": "14/4/1/0/1",
-        "team": "NYK",
-        "opponent": "BOS",
+        "player": "Saddiq Bey",
+        "date": "2026-02-09",
+        "stats": "12/4/1/0/0",
+        "team": "NOP",
+        "opponent": "SAC",
         "season": "2025-26",
-        "personId": 1628969
+        "personId": 1630180
       },
       {
-        "player": "John Collins",
-        "date": "2026-02-08",
-        "stats": "15/4/0/1/1",
-        "team": "LAC",
-        "opponent": "MIN",
-        "season": "2025-26",
-        "personId": 1628381
-      },
-      {
-        "player": "Kentavious Caldwell-Pope",
-        "date": "2026-02-07",
-        "stats": "11/4/0/1/0",
-        "team": "MEM",
-        "opponent": "POR",
-        "season": "2025-26",
-        "personId": 203484
-      },
-      {
-        "player": "Cameron Johnson",
-        "date": "2026-02-07",
-        "stats": "14/4/1/0/0",
-        "team": "DEN",
+        "player": "Drake Powell",
+        "date": "2026-02-09",
+        "stats": "14/5/0/0/0",
+        "team": "BKN",
         "opponent": "CHI",
         "season": "2025-26",
-        "personId": 1629661
+        "personId": 1642962
       },
       {
-        "player": "Grant Williams",
-        "date": "2026-02-07",
-        "stats": "11/3/1/0/0",
-        "team": "CHA",
-        "opponent": "ATL",
-        "season": "2025-26",
-        "personId": 1629684
-      },
-      {
-        "player": "Caleb Martin",
-        "date": "2026-02-07",
-        "stats": "11/5/2/0/0",
-        "team": "DAL",
-        "opponent": "SAS",
-        "season": "2025-26",
-        "personId": 1628997
-      },
-      {
-        "player": "GG Jackson",
-        "date": "2026-02-06",
-        "stats": "15/3/2/1/1",
-        "team": "MEM",
-        "opponent": "POR",
-        "season": "2025-26",
-        "personId": 1641713
-      },
-      {
-        "player": "AJ Green",
-        "date": "2026-02-06",
-        "stats": "14/3/2/0/0",
-        "team": "MIL",
-        "opponent": "IND",
-        "season": "2025-26",
-        "personId": 1631260
-      },
-      {
-        "player": "Isaiah Stewart",
-        "date": "2026-02-06",
-        "stats": "15/3/0/1/0",
+        "player": "Jalen Duren",
+        "date": "2026-02-09",
+        "stats": "15/5/2/1/0",
         "team": "DET",
-        "opponent": "NYK",
+        "opponent": "CHA",
         "season": "2025-26",
-        "personId": 1630191
+        "personId": 1631105
       }
     ]
   },
   "(3, 0, 0, 0, 0)": {
-    "count": 126,
+    "count": 128,
     "games": [
+      {
+        "player": "Alex Caruso",
+        "date": "2026-02-09",
+        "stats": "17/1/2/1/0",
+        "team": "OKC",
+        "opponent": "LAL",
+        "season": "2025-26",
+        "personId": 1627936
+      },
+      {
+        "player": "Russell Westbrook",
+        "date": "2026-02-09",
+        "stats": "17/2/2/0/0",
+        "team": "SAC",
+        "opponent": "NOP",
+        "season": "2025-26",
+        "personId": 201566
+      },
       {
         "player": "Rui Hachimura",
         "date": "2026-02-07",
@@ -1290,30 +1308,30 @@
         "opponent": "Hornets",
         "season": "2025-26",
         "personId": 1642844
-      },
-      {
-        "player": "Anfernee Simons",
-        "date": "2026-01-30",
-        "stats": "16/2/1/0/0",
-        "team": "Celtics",
-        "opponent": "Kings",
-        "season": "2025-26",
-        "personId": 1629014
-      },
-      {
-        "player": "Malaki Branham",
-        "date": "2026-01-30",
-        "stats": "17/1/0/0/0",
-        "team": "Wizards",
-        "opponent": "Lakers",
-        "season": "2025-26",
-        "personId": 1631103
       }
     ]
   },
   "(2, 2, 1, 0, 1)": {
-    "count": 32,
+    "count": 34,
     "games": [
+      {
+        "player": "VJ Edgecombe",
+        "date": "2026-02-09",
+        "stats": "11/6/3/0/2",
+        "team": "PHI",
+        "opponent": "POR",
+        "season": "2025-26",
+        "personId": 1642845
+      },
+      {
+        "player": "Andre Drummond",
+        "date": "2026-02-09",
+        "stats": "11/7/5/0/2",
+        "team": "PHI",
+        "opponent": "POR",
+        "season": "2025-26",
+        "personId": 203083
+      },
       {
         "player": "Nickeil Alexander-Walker",
         "date": "2025-11-12",
@@ -1385,30 +1403,30 @@
         "opponent": "Heat",
         "season": "2025-26",
         "personId": 1642366
-      },
-      {
-        "player": "Collin Murray-Boyles",
-        "date": "2026-01-18",
-        "stats": "11/7/5/0/3",
-        "team": "Raptors",
-        "opponent": "Lakers",
-        "season": "2025-26",
-        "personId": 1642867
-      },
-      {
-        "player": "CJ McCollum",
-        "date": "2026-01-17",
-        "stats": "11/7/4/0/2",
-        "team": "Hawks",
-        "opponent": "Celtics",
-        "season": "2025-26",
-        "personId": 203468
       }
     ]
   },
   "(0, 0, 0, 1, 0)": {
-    "count": 141,
+    "count": 143,
     "games": [
+      {
+        "player": "Tristan da Silva",
+        "date": "2026-02-09",
+        "stats": "3/1/1/2/0",
+        "team": "ORL",
+        "opponent": "MIL",
+        "season": "2025-26",
+        "personId": 1641783
+      },
+      {
+        "player": "Caris LeVert",
+        "date": "2026-02-09",
+        "stats": "5/2/1/2/1",
+        "team": "DET",
+        "opponent": "CHA",
+        "season": "2025-26",
+        "personId": 1627747
+      },
       {
         "player": "TyTy Washington Jr.",
         "date": "2026-02-08",
@@ -1480,24 +1498,6 @@
         "opponent": "Suns",
         "season": "2025-26",
         "personId": 1630249
-      },
-      {
-        "player": "Gabe Vincent",
-        "date": "2026-02-03",
-        "stats": "0/1/1/2/0",
-        "team": "Lakers",
-        "opponent": "Nets",
-        "season": "2025-26",
-        "personId": 1629216
-      },
-      {
-        "player": "Anthony Gill",
-        "date": "2026-02-03",
-        "stats": "0/0/0/2/0",
-        "team": "Wizards",
-        "opponent": "Knicks",
-        "season": "2025-26",
-        "personId": 1630264
       }
     ]
   },
@@ -1932,8 +1932,35 @@
     ]
   },
   "(2, 2, 0, 0, 0)": {
-    "count": 281,
+    "count": 284,
     "games": [
+      {
+        "player": "Jock Landale",
+        "date": "2026-02-09",
+        "stats": "12/6/0/0/0",
+        "team": "ATL",
+        "opponent": "MIN",
+        "season": "2025-26",
+        "personId": 1629111
+      },
+      {
+        "player": "Karlo Matkovic",
+        "date": "2026-02-09",
+        "stats": "12/9/1/0/0",
+        "team": "NOP",
+        "opponent": "SAC",
+        "season": "2025-26",
+        "personId": 1631255
+      },
+      {
+        "player": "AJ Green",
+        "date": "2026-02-09",
+        "stats": "15/6/1/0/0",
+        "team": "MIL",
+        "opponent": "ORL",
+        "season": "2025-26",
+        "personId": 1631260
+      },
       {
         "player": "Justin Champagnie",
         "date": "2026-02-08",
@@ -1996,39 +2023,57 @@
         "opponent": "UTA",
         "season": "2025-26",
         "personId": 1629021
-      },
-      {
-        "player": "Kevin Love",
-        "date": "2026-02-07",
-        "stats": "13/6/0/0/0",
-        "team": "UTA",
-        "opponent": "ORL",
-        "season": "2025-26",
-        "personId": 201567
-      },
-      {
-        "player": "Olivier-Maxence Prosper",
-        "date": "2026-02-06",
-        "stats": "13/6/2/0/0",
-        "team": "MEM",
-        "opponent": "POR",
-        "season": "2025-26",
-        "personId": 1641765
-      },
-      {
-        "player": "Jarace Walker",
-        "date": "2026-02-06",
-        "stats": "15/9/1/1/1",
-        "team": "IND",
-        "opponent": "MIL",
-        "season": "2025-26",
-        "personId": 1641716
       }
     ]
   },
   "(1, 2, 0, 0, 0)": {
-    "count": 359,
+    "count": 364,
     "games": [
+      {
+        "player": "Deandre Ayton",
+        "date": "2026-02-09",
+        "stats": "6/10/0/0/0",
+        "team": "LAL",
+        "opponent": "OKC",
+        "season": "2025-26",
+        "personId": 1629028
+      },
+      {
+        "player": "Robert Williams III",
+        "date": "2026-02-09",
+        "stats": "8/6/2/0/1",
+        "team": "POR",
+        "opponent": "PHI",
+        "season": "2025-26",
+        "personId": 1629057
+      },
+      {
+        "player": "Day'Ron Sharpe",
+        "date": "2026-02-09",
+        "stats": "6/7/0/0/0",
+        "team": "BKN",
+        "opponent": "CHI",
+        "season": "2025-26",
+        "personId": 1630549
+      },
+      {
+        "player": "Mouhamed Gueye",
+        "date": "2026-02-09",
+        "stats": "10/7/0/0/0",
+        "team": "ATL",
+        "opponent": "MIN",
+        "season": "2025-26",
+        "personId": 1631243
+      },
+      {
+        "player": "Kel'el Ware",
+        "date": "2026-02-09",
+        "stats": "8/6/0/1/0",
+        "team": "MIA",
+        "opponent": "UTA",
+        "season": "2025-26",
+        "personId": 1642276
+      },
       {
         "player": "Micah Potter",
         "date": "2026-02-08",
@@ -2073,57 +2118,30 @@
         "opponent": "SAC",
         "season": "2025-26",
         "personId": 1642281
-      },
-      {
-        "player": "Wendell Carter Jr.",
-        "date": "2026-02-07",
-        "stats": "8/6/1/1/1",
-        "team": "ORL",
-        "opponent": "UTA",
-        "season": "2025-26",
-        "personId": 1628976
-      },
-      {
-        "player": "Myles Turner",
-        "date": "2026-02-06",
-        "stats": "9/10/2/0/0",
-        "team": "MIL",
-        "opponent": "IND",
-        "season": "2025-26",
-        "personId": 1626167
-      },
-      {
-        "player": "Ariel Hukporti",
-        "date": "2026-02-06",
-        "stats": "6/7/1/0/0",
-        "team": "NYK",
-        "opponent": "DET",
-        "season": "2025-26",
-        "personId": 1630574
-      },
-      {
-        "player": "Moses Moody",
-        "date": "2026-02-05",
-        "stats": "6/8/1/0/1",
-        "team": "GSW",
-        "opponent": "PHX",
-        "season": "2025-26",
-        "personId": 1630541
-      },
-      {
-        "player": "Mitchell Robinson",
-        "date": "2026-02-04",
-        "stats": "10/8/0/1/1",
-        "team": "NYK",
-        "opponent": "DEN",
-        "season": "2025-26",
-        "personId": 1629011
       }
     ]
   },
   "(2, 2, 1, 0, 0)": {
-    "count": 225,
+    "count": 227,
     "games": [
+      {
+        "player": "Corey Kispert",
+        "date": "2026-02-09",
+        "stats": "12/7/4/0/1",
+        "team": "ATL",
+        "opponent": "MIN",
+        "season": "2025-26",
+        "personId": 1630557
+      },
+      {
+        "player": "Paolo Banchero",
+        "date": "2026-02-09",
+        "stats": "11/9/3/0/0",
+        "team": "ORL",
+        "opponent": "MIL",
+        "season": "2025-26",
+        "personId": 1631094
+      },
       {
         "player": "Gui Santos",
         "date": "2026-02-07",
@@ -2195,24 +2213,6 @@
         "opponent": "TOR",
         "season": "2025-26",
         "personId": 1628978
-      },
-      {
-        "player": "Rayan Rupert",
-        "date": "2025-12-11",
-        "stats": "14/6/3/1/0",
-        "team": "POR",
-        "opponent": "NOP",
-        "season": "2025-26",
-        "personId": 1641712
-      },
-      {
-        "player": "Kelly Oubre Jr.",
-        "date": "2026-02-03",
-        "stats": "15/6/3/1/0",
-        "team": "76ers",
-        "opponent": "Warriors",
-        "season": "2025-26",
-        "personId": 1626162
       }
     ]
   },
@@ -2312,8 +2312,17 @@
     ]
   },
   "(1, 1, 1, 1, 0)": {
-    "count": 89,
+    "count": 90,
     "games": [
+      {
+        "player": "MarJon Beauchamp",
+        "date": "2026-02-09",
+        "stats": "10/4/4/3/0",
+        "team": "PHI",
+        "opponent": "POR",
+        "season": "2025-26",
+        "personId": 1630699
+      },
       {
         "player": "Keon Ellis",
         "date": "2026-02-07",
@@ -2394,21 +2403,30 @@
         "opponent": "Thunder",
         "season": "2025-26",
         "personId": 1631124
-      },
-      {
-        "player": "Jaylin Williams",
-        "date": "2026-02-01",
-        "stats": "8/5/4/3/1",
-        "team": "Thunder",
-        "opponent": "Nuggets",
-        "season": "2025-26",
-        "personId": 1631119
       }
     ]
   },
   "(2, 1, 1, 0, 0)": {
-    "count": 285,
+    "count": 287,
     "games": [
+      {
+        "player": "Onyeka Okongwu",
+        "date": "2026-02-09",
+        "stats": "14/5/3/1/0",
+        "team": "ATL",
+        "opponent": "MIN",
+        "season": "2025-26",
+        "personId": 1630168
+      },
+      {
+        "player": "Devin Carter",
+        "date": "2026-02-09",
+        "stats": "12/3/4/1/0",
+        "team": "SAC",
+        "opponent": "NOP",
+        "season": "2025-26",
+        "personId": 1642269
+      },
       {
         "player": "Brandon Ingram",
         "date": "2026-02-08",
@@ -2480,30 +2498,30 @@
         "opponent": "LAC",
         "season": "2025-26",
         "personId": 1642269
-      },
-      {
-        "player": "Javon Small",
-        "date": "2026-02-06",
-        "stats": "11/5/3/0/0",
-        "team": "MEM",
-        "opponent": "POR",
-        "season": "2025-26",
-        "personId": 1642914
-      },
-      {
-        "player": "Toumani Camara",
-        "date": "2026-02-06",
-        "stats": "15/4/3/1/0",
-        "team": "POR",
-        "opponent": "MEM",
-        "season": "2025-26",
-        "personId": 1641739
       }
     ]
   },
   "(2, 0, 0, 0, 0)": {
-    "count": 300,
+    "count": 302,
     "games": [
+      {
+        "player": "Kentavious Caldwell-Pope",
+        "date": "2026-02-09",
+        "stats": "15/1/2/1/0",
+        "team": "MEM",
+        "opponent": "GSW",
+        "season": "2025-26",
+        "personId": 203484
+      },
+      {
+        "player": "Tim Hardaway Jr.",
+        "date": "2026-02-09",
+        "stats": "12/1/0/1/0",
+        "team": "DEN",
+        "opponent": "CLE",
+        "season": "2025-26",
+        "personId": 203501
+      },
       {
         "player": "Ty Jerome",
         "date": "2026-02-07",
@@ -2575,24 +2593,6 @@
         "opponent": "DEN",
         "season": "2025-26",
         "personId": 203903
-      },
-      {
-        "player": "Moses Moody",
-        "date": "2026-02-03",
-        "stats": "12/2/0/1/0",
-        "team": "Warriors",
-        "opponent": "76ers",
-        "season": "2025-26",
-        "personId": 1630541
-      },
-      {
-        "player": "Gary Trent Jr.",
-        "date": "2026-02-03",
-        "stats": "15/1/0/0/0",
-        "team": "Bucks",
-        "opponent": "Bulls",
-        "season": "2025-26",
-        "personId": 1629018
       }
     ]
   },
@@ -3009,8 +3009,89 @@
     ]
   },
   "(1, 1, 0, 0, 0)": {
-    "count": 713,
+    "count": 722,
     "games": [
+      {
+        "player": "Luguentz Dort",
+        "date": "2026-02-09",
+        "stats": "7/5/1/1/1",
+        "team": "OKC",
+        "opponent": "LAL",
+        "season": "2025-26",
+        "personId": 1629652
+      },
+      {
+        "player": "Jared McCain",
+        "date": "2026-02-09",
+        "stats": "7/3/0/0/0",
+        "team": "OKC",
+        "opponent": "LAL",
+        "season": "2025-26",
+        "personId": 1642272
+      },
+      {
+        "player": "GG Jackson",
+        "date": "2026-02-09",
+        "stats": "6/4/2/1/0",
+        "team": "MEM",
+        "opponent": "GSW",
+        "season": "2025-26",
+        "personId": 1641713
+      },
+      {
+        "player": "De'Anthony Melton",
+        "date": "2026-02-09",
+        "stats": "10/3/2/0/0",
+        "team": "GSW",
+        "opponent": "MEM",
+        "season": "2025-26",
+        "personId": 1629001
+      },
+      {
+        "player": "Jaylen Wells",
+        "date": "2026-02-09",
+        "stats": "10/3/0/0/0",
+        "team": "MEM",
+        "opponent": "GSW",
+        "season": "2025-26",
+        "personId": 1642377
+      },
+      {
+        "player": "Miles Bridges",
+        "date": "2026-02-09",
+        "stats": "6/4/1/0/0",
+        "team": "CHA",
+        "opponent": "DET",
+        "season": "2025-26",
+        "personId": 1628970
+      },
+      {
+        "player": "Yves Missi",
+        "date": "2026-02-09",
+        "stats": "7/5/1/0/1",
+        "team": "NOP",
+        "opponent": "SAC",
+        "season": "2025-26",
+        "personId": 1642274
+      },
+      {
+        "player": "Simone Fontecchio",
+        "date": "2026-02-09",
+        "stats": "9/5/2/1/0",
+        "team": "MIA",
+        "opponent": "UTA",
+        "season": "2025-26",
+        "personId": 1631323
+      },
+      {
+        "player": "Ryan Kalkbrenner",
+        "date": "2026-02-09",
+        "stats": "6/4/0/0/0",
+        "team": "CHA",
+        "opponent": "DET",
+        "season": "2025-26",
+        "personId": 1641750
+      },
       {
         "player": "Bilal Coulibaly",
         "date": "2026-02-08",
@@ -3019,93 +3100,21 @@
         "opponent": "MIA",
         "season": "2025-26",
         "personId": 1641731
-      },
-      {
-        "player": "Mohamed Diawara",
-        "date": "2026-02-08",
-        "stats": "10/3/1/1/0",
-        "team": "NYK",
-        "opponent": "BOS",
-        "season": "2025-26",
-        "personId": 1642885
-      },
-      {
-        "player": "Luka Garza",
-        "date": "2026-02-08",
-        "stats": "6/3/0/0/0",
-        "team": "BOS",
-        "opponent": "NYK",
-        "season": "2025-26",
-        "personId": 1630568
-      },
-      {
-        "player": "Kobe Sanders",
-        "date": "2026-02-08",
-        "stats": "10/4/2/0/0",
-        "team": "LAC",
-        "opponent": "MIN",
-        "season": "2025-26",
-        "personId": 1642920
-      },
-      {
-        "player": "Thomas Bryant",
-        "date": "2026-02-07",
-        "stats": "10/3/2/1/0",
-        "team": "CLE",
-        "opponent": "SAC",
-        "season": "2025-26",
-        "personId": 1628418
-      },
-      {
-        "player": "Nae'Qwan Tomlin",
-        "date": "2026-02-07",
-        "stats": "6/5/2/0/0",
-        "team": "CLE",
-        "opponent": "SAC",
-        "season": "2025-26",
-        "personId": 1641772
-      },
-      {
-        "player": "Jordan Goodwin",
-        "date": "2026-02-07",
-        "stats": "7/3/0/1/0",
-        "team": "PHX",
-        "opponent": "PHI",
-        "season": "2025-26",
-        "personId": 1630692
-      },
-      {
-        "player": "Dominick Barlow",
-        "date": "2026-02-07",
-        "stats": "6/4/0/0/0",
-        "team": "PHI",
-        "opponent": "PHX",
-        "season": "2025-26",
-        "personId": 1631230
-      },
-      {
-        "player": "Jaxson Hayes",
-        "date": "2026-02-07",
-        "stats": "6/4/1/1/1",
-        "team": "LAL",
-        "opponent": "GSW",
-        "season": "2025-26",
-        "personId": 1629637
-      },
-      {
-        "player": "Christian Braun",
-        "date": "2026-02-07",
-        "stats": "10/4/2/1/1",
-        "team": "DEN",
-        "opponent": "CHI",
-        "season": "2025-26",
-        "personId": 1631128
       }
     ]
   },
   "(3, 1, 0, 1, 0)": {
-    "count": 64,
+    "count": 65,
     "games": [
+      {
+        "player": "Isaiah Joe",
+        "date": "2026-02-09",
+        "stats": "19/3/2/2/0",
+        "team": "OKC",
+        "opponent": "LAL",
+        "season": "2025-26",
+        "personId": 1630198
+      },
       {
         "player": "Julian Strawther",
         "date": "2026-02-07",
@@ -3186,21 +3195,30 @@
         "opponent": "Lakers",
         "season": "2025-26",
         "personId": 1630245
-      },
-      {
-        "player": "John Collins",
-        "date": "2026-01-25",
-        "stats": "18/5/1/3/0",
-        "team": "Clippers",
-        "opponent": "Nets",
-        "season": "2025-26",
-        "personId": 1628381
       }
     ]
   },
   "(0, 2, 0, 0, 0)": {
-    "count": 224,
+    "count": 226,
     "games": [
+      {
+        "player": "Moussa Diabate",
+        "date": "2026-02-09",
+        "stats": "0/6/0/0/0",
+        "team": "CHA",
+        "opponent": "DET",
+        "season": "2025-26",
+        "personId": 1631217
+      },
+      {
+        "player": "Noah Penda",
+        "date": "2026-02-09",
+        "stats": "5/6/2/1/0",
+        "team": "ORL",
+        "opponent": "MIL",
+        "season": "2025-26",
+        "personId": 1642869
+      },
       {
         "player": "Mitchell Robinson",
         "date": "2026-02-08",
@@ -3272,24 +3290,6 @@
         "opponent": "SAC",
         "season": "2025-26",
         "personId": 1642914
-      },
-      {
-        "player": "Jaylin Williams",
-        "date": "2026-02-03",
-        "stats": "5/9/2/0/0",
-        "team": "Thunder",
-        "opponent": "Magic",
-        "season": "2025-26",
-        "personId": 1631119
-      },
-      {
-        "player": "Lachlan Olbrich",
-        "date": "2026-02-03",
-        "stats": "2/7/0/1/0",
-        "team": "Bulls",
-        "opponent": "Bucks",
-        "season": "2025-26",
-        "personId": 1642950
       }
     ]
   },
@@ -3389,8 +3389,17 @@
     ]
   },
   "(3, 1, 2, 0, 0)": {
-    "count": 61,
+    "count": 62,
     "games": [
+      {
+        "player": "Zion Williamson",
+        "date": "2026-02-09",
+        "stats": "18/5/6/1/0",
+        "team": "NOP",
+        "opponent": "SAC",
+        "season": "2025-26",
+        "personId": 1629627
+      },
       {
         "player": "Devin Vassell",
         "date": "2026-02-07",
@@ -3471,21 +3480,48 @@
         "opponent": "Rockets",
         "season": "2025-26",
         "personId": 1628368
-      },
-      {
-        "player": "Grayson Allen",
-        "date": "2026-01-27",
-        "stats": "18/3/6/1/0",
-        "team": "Suns",
-        "opponent": "Nets",
-        "season": "2025-26",
-        "personId": 1628960
       }
     ]
   },
   "(3, 1, 1, 0, 0)": {
-    "count": 202,
+    "count": 206,
     "games": [
+      {
+        "player": "Brandin Podziemski",
+        "date": "2026-02-09",
+        "stats": "16/4/5/1/0",
+        "team": "GSW",
+        "opponent": "MEM",
+        "season": "2025-26",
+        "personId": 1641764
+      },
+      {
+        "player": "Duncan Robinson",
+        "date": "2026-02-09",
+        "stats": "18/3/4/0/0",
+        "team": "DET",
+        "opponent": "CHA",
+        "season": "2025-26",
+        "personId": 1629130
+      },
+      {
+        "player": "Kon Knueppel",
+        "date": "2026-02-09",
+        "stats": "20/5/3/0/1",
+        "team": "CHA",
+        "opponent": "DET",
+        "season": "2025-26",
+        "personId": 1642851
+      },
+      {
+        "player": "LaMelo Ball",
+        "date": "2026-02-09",
+        "stats": "20/4/4/0/0",
+        "team": "CHA",
+        "opponent": "DET",
+        "season": "2025-26",
+        "personId": 1630163
+      },
       {
         "player": "Devin Carter",
         "date": "2026-02-07",
@@ -3539,48 +3575,57 @@
         "opponent": "SAS",
         "season": "2025-26",
         "personId": 1631108
-      },
-      {
-        "player": "Sharife Cooper",
-        "date": "2026-02-05",
-        "stats": "18/3/5/0/0",
-        "team": "WAS",
-        "opponent": "DET",
-        "season": "2025-26",
-        "personId": 1630536
-      },
-      {
-        "player": "Cam Spencer",
-        "date": "2026-02-04",
-        "stats": "20/3/5/0/0",
-        "team": "MEM",
-        "opponent": "SAC",
-        "season": "2025-26",
-        "personId": 1642285
-      },
-      {
-        "player": "DeMar DeRozan",
-        "date": "2026-02-04",
-        "stats": "20/3/5/0/0",
-        "team": "SAC",
-        "opponent": "MEM",
-        "season": "2025-26",
-        "personId": 201942
-      },
-      {
-        "player": "Pete Nance",
-        "date": "2026-02-04",
-        "stats": "16/3/3/0/0",
-        "team": "MIL",
-        "opponent": "NOP",
-        "season": "2025-26",
-        "personId": 1631250
       }
     ]
   },
   "(3, 2, 0, 0, 0)": {
-    "count": 157,
+    "count": 162,
     "games": [
+      {
+        "player": "Gui Santos",
+        "date": "2026-02-09",
+        "stats": "16/8/2/1/0",
+        "team": "GSW",
+        "opponent": "MEM",
+        "season": "2025-26",
+        "personId": 1630611
+      },
+      {
+        "player": "Julian Strawther",
+        "date": "2026-02-09",
+        "stats": "20/6/0/0/0",
+        "team": "DEN",
+        "opponent": "CLE",
+        "season": "2025-26",
+        "personId": 1631124
+      },
+      {
+        "player": "Ace Bailey",
+        "date": "2026-02-09",
+        "stats": "16/8/2/1/0",
+        "team": "UTA",
+        "opponent": "MIA",
+        "season": "2025-26",
+        "personId": 1642846
+      },
+      {
+        "player": "Rudy Gobert",
+        "date": "2026-02-09",
+        "stats": "18/6/1/0/1",
+        "team": "MIN",
+        "opponent": "ATL",
+        "season": "2025-26",
+        "personId": 203497
+      },
+      {
+        "player": "Lauri Markkanen",
+        "date": "2026-02-09",
+        "stats": "17/8/1/0/0",
+        "team": "UTA",
+        "opponent": "MIA",
+        "season": "2025-26",
+        "personId": 1628374
+      },
       {
         "player": "Julius Randle",
         "date": "2026-02-08",
@@ -3625,51 +3670,6 @@
         "opponent": "NYK",
         "season": "2025-26",
         "personId": 203501
-      },
-      {
-        "player": "Chet Holmgren",
-        "date": "2026-02-03",
-        "stats": "16/10/1/0/0",
-        "team": "Thunder",
-        "opponent": "Magic",
-        "season": "2025-26",
-        "personId": 1631096
-      },
-      {
-        "player": "Simone Fontecchio",
-        "date": "2026-02-03",
-        "stats": "18/6/2/0/1",
-        "team": "Heat",
-        "opponent": "Hawks",
-        "season": "2025-26",
-        "personId": 1631323
-      },
-      {
-        "player": "Will Riley",
-        "date": "2026-02-03",
-        "stats": "17/6/1/0/0",
-        "team": "Wizards",
-        "opponent": "Knicks",
-        "season": "2025-26",
-        "personId": 1642860
-      },
-      {
-        "player": "Aaron Nesmith",
-        "date": "2026-02-02",
-        "stats": "17/6/2/0/1",
-        "team": "Pacers",
-        "opponent": "Rockets",
-        "season": "2025-26",
-        "personId": 1630174
-      },
-      {
-        "player": "Kon Knueppel",
-        "date": "2026-02-02",
-        "stats": "17/9/2/0/0",
-        "team": "Hornets",
-        "opponent": "Pelicans",
-        "season": "2025-26",
-        "personId": 1642851
       }
     ]
   },
@@ -3914,8 +3914,17 @@
     ]
   },
   "(1, 1, 0, 1, 1)": {
-    "count": 13,
+    "count": 14,
     "games": [
+      {
+        "player": "Kyle Anderson",
+        "date": "2026-02-09",
+        "stats": "8/4/0/2/2",
+        "team": "MEM",
+        "opponent": "GSW",
+        "season": "2025-26",
+        "personId": 203937
+      },
       {
         "player": "Dalen Terry",
         "date": "2026-02-03",
@@ -3996,15 +4005,6 @@
         "opponent": "Pelicans",
         "season": "2025-26",
         "personId": 1631222
-      },
-      {
-        "player": "Mark Williams",
-        "date": "2025-11-12",
-        "stats": "10/4/2/2/2",
-        "team": "Suns",
-        "opponent": "Mavericks",
-        "season": "2025-26",
-        "personId": 1631109
       }
     ]
   },
@@ -4023,103 +4023,130 @@
     ]
   },
   "(0, 1, 0, 0, 0)": {
-    "count": 977,
+    "count": 990,
     "games": [
       {
-        "player": "Neemias Queta",
-        "date": "2026-02-08",
-        "stats": "4/5/1/0/0",
-        "team": "BOS",
-        "opponent": "NYK",
+        "player": "Aaron Wiggins",
+        "date": "2026-02-09",
+        "stats": "0/4/1/0/0",
+        "team": "OKC",
+        "opponent": "LAL",
         "season": "2025-26",
-        "personId": 1629674
+        "personId": 1630598
       },
       {
-        "player": "Ron Harper Jr.",
-        "date": "2026-02-08",
-        "stats": "3/3/0/0/1",
-        "team": "BOS",
-        "opponent": "NYK",
-        "season": "2025-26",
-        "personId": 1631199
-      },
-      {
-        "player": "Nicolas Batum",
-        "date": "2026-02-08",
-        "stats": "3/3/0/0/0",
-        "team": "LAC",
-        "opponent": "MIN",
-        "season": "2025-26",
-        "personId": 201587
-      },
-      {
-        "player": "Donte DiVincenzo",
-        "date": "2026-02-08",
-        "stats": "1/4/2/1/0",
-        "team": "MIN",
-        "opponent": "LAC",
-        "season": "2025-26",
-        "personId": 1628978
-      },
-      {
-        "player": "Adem Bona",
-        "date": "2026-02-07",
-        "stats": "4/5/0/1/1",
-        "team": "PHI",
-        "opponent": "PHX",
-        "season": "2025-26",
-        "personId": 1641737
-      },
-      {
-        "player": "Oso Ighodaro",
-        "date": "2026-02-07",
-        "stats": "3/3/1/0/0",
-        "team": "PHX",
+        "player": "Sidy Cissoko",
+        "date": "2026-02-09",
+        "stats": "0/5/0/0/1",
+        "team": "POR",
         "opponent": "PHI",
         "season": "2025-26",
-        "personId": 1642345
+        "personId": 1631321
       },
       {
-        "player": "Brice Sensabaugh",
-        "date": "2026-02-07",
-        "stats": "4/3/2/1/0",
-        "team": "UTA",
+        "player": "Will Richard",
+        "date": "2026-02-09",
+        "stats": "3/4/0/0/0",
+        "team": "GSW",
+        "opponent": "MEM",
+        "season": "2025-26",
+        "personId": 1642954
+      },
+      {
+        "player": "Thomas Bryant",
+        "date": "2026-02-09",
+        "stats": "5/3/1/0/0",
+        "team": "CLE",
+        "opponent": "DEN",
+        "season": "2025-26",
+        "personId": 1628418
+      },
+      {
+        "player": "Keon Ellis",
+        "date": "2026-02-09",
+        "stats": "2/3/1/1/1",
+        "team": "CLE",
+        "opponent": "DEN",
+        "season": "2025-26",
+        "personId": 1631165
+      },
+      {
+        "player": "Kyle Kuzma",
+        "date": "2026-02-09",
+        "stats": "3/5/0/1/0",
+        "team": "MIL",
         "opponent": "ORL",
         "season": "2025-26",
-        "personId": 1641729
+        "personId": 1628398
       },
       {
-        "player": "Nicolas Batum",
-        "date": "2026-02-06",
-        "stats": "3/3/2/0/0",
-        "team": "LAC",
-        "opponent": "SAC",
+        "player": "Asa Newell",
+        "date": "2026-02-09",
+        "stats": "2/4/1/0/0",
+        "team": "ATL",
+        "opponent": "MIN",
         "season": "2025-26",
-        "personId": 201587
+        "personId": 1642854
       },
       {
-        "player": "Taylor Hendricks",
-        "date": "2026-02-06",
-        "stats": "5/5/0/1/0",
-        "team": "MEM",
-        "opponent": "POR",
-        "season": "2025-26",
-        "personId": 1641707
-      },
-      {
-        "player": "Jaylen Clark",
-        "date": "2026-02-06",
-        "stats": "0/5/0/0/0",
-        "team": "MIN",
+        "player": "Daeqwon Plowden",
+        "date": "2026-02-09",
+        "stats": "5/3/2/0/0",
+        "team": "SAC",
         "opponent": "NOP",
         "season": "2025-26",
-        "personId": 1641740
+        "personId": 1631342
+      },
+      {
+        "player": "Jase Richardson",
+        "date": "2026-02-09",
+        "stats": "5/3/0/0/0",
+        "team": "ORL",
+        "opponent": "MIL",
+        "season": "2025-26",
+        "personId": 1642859
+      },
+      {
+        "player": "Nikola Jovic",
+        "date": "2026-02-09",
+        "stats": "0/4/0/0/0",
+        "team": "MIA",
+        "opponent": "UTA",
+        "season": "2025-26",
+        "personId": 1631107
       }
     ]
   },
   "(0, 0, 1, 0, 0)": {
-    "count": 280,
+    "count": 283,
     "games": [
+      {
+        "player": "Vit Krejci",
+        "date": "2026-02-09",
+        "stats": "5/2/3/0/0",
+        "team": "POR",
+        "opponent": "PHI",
+        "season": "2025-26",
+        "personId": 1630249
+      },
+      {
+        "player": "Blake Wesley",
+        "date": "2026-02-09",
+        "stats": "4/1/3/0/0",
+        "team": "POR",
+        "opponent": "PHI",
+        "season": "2025-26",
+        "personId": 1631104
+      },
+      {
+        "player": "Ben Saraf",
+        "date": "2026-02-09",
+        "stats": "3/0/3/1/0",
+        "team": "BKN",
+        "opponent": "CHI",
+        "season": "2025-26",
+        "personId": 1642879
+      },
       {
         "player": "Davion Mitchell",
         "date": "2026-02-08",
@@ -4182,39 +4209,48 @@
         "opponent": "DET",
         "season": "2025-26",
         "personId": 1629013
-      },
-      {
-        "player": "JD Davison",
-        "date": "2026-02-05",
-        "stats": "4/1/3/0/0",
-        "team": "HOU",
-        "opponent": "CHA",
-        "season": "2025-26",
-        "personId": 1631120
-      },
-      {
-        "player": "Ben Saraf",
-        "date": "2026-02-05",
-        "stats": "4/1/4/0/0",
-        "team": "BKN",
-        "opponent": "ORL",
-        "season": "2025-26",
-        "personId": 1642879
-      },
-      {
-        "player": "TyTy Washington Jr.",
-        "date": "2026-02-04",
-        "stats": "0/0/3/0/0",
-        "team": "LAC",
-        "opponent": "CLE",
-        "season": "2025-26",
-        "personId": 1631102
       }
     ]
   },
   "(2, 1, 0, 1, 0)": {
-    "count": 115,
+    "count": 119,
     "games": [
+      {
+        "player": "Draymond Green",
+        "date": "2026-02-09",
+        "stats": "14/4/2/2/0",
+        "team": "GSW",
+        "opponent": "MEM",
+        "season": "2025-26",
+        "personId": 203110
+      },
+      {
+        "player": "Justin Edwards",
+        "date": "2026-02-09",
+        "stats": "12/4/2/3/0",
+        "team": "PHI",
+        "opponent": "POR",
+        "season": "2025-26",
+        "personId": 1642348
+      },
+      {
+        "player": "Paul Reed",
+        "date": "2026-02-09",
+        "stats": "12/3/1/2/1",
+        "team": "DET",
+        "opponent": "CHA",
+        "season": "2025-26",
+        "personId": 1630194
+      },
+      {
+        "player": "Ziaire Williams",
+        "date": "2026-02-09",
+        "stats": "11/5/2/2/0",
+        "team": "BKN",
+        "opponent": "CHI",
+        "season": "2025-26",
+        "personId": 1630533
+      },
       {
         "player": "Gary Payton II",
         "date": "2026-02-07",
@@ -4268,48 +4304,21 @@
         "opponent": "CHI",
         "season": "2025-26",
         "personId": 1642266
-      },
-      {
-        "player": "Anthony Gill",
-        "date": "2026-02-05",
-        "stats": "11/3/2/3/0",
-        "team": "WAS",
-        "opponent": "DET",
-        "season": "2025-26",
-        "personId": 1630264
-      },
-      {
-        "player": "Carter Bryant",
-        "date": "2026-02-04",
-        "stats": "11/5/1/2/0",
-        "team": "SAS",
-        "opponent": "OKC",
-        "season": "2025-26",
-        "personId": 1642868
-      },
-      {
-        "player": "Kevin Durant",
-        "date": "2026-02-04",
-        "stats": "15/5/1/2/1",
-        "team": "HOU",
-        "opponent": "BOS",
-        "season": "2025-26",
-        "personId": 201142
-      },
-      {
-        "player": "Tari Eason",
-        "date": "2025-11-07",
-        "stats": "11/3/2/2/0",
-        "team": "HOU",
-        "opponent": "SAS",
-        "season": "2025-26",
-        "personId": 1631106
       }
     ]
   },
   "(6, 2, 2, 0, 0)": {
-    "count": 21,
+    "count": 22,
     "games": [
+      {
+        "player": "Cade Cunningham",
+        "date": "2026-02-09",
+        "stats": "33/9/7/1/0",
+        "team": "DET",
+        "opponent": "CHA",
+        "season": "2025-26",
+        "personId": 1630595
+      },
       {
         "player": "Brandon Ingram",
         "date": "2026-02-05",
@@ -4390,15 +4399,6 @@
         "opponent": "Cavaliers",
         "season": "2025-26",
         "personId": 1627750
-      },
-      {
-        "player": "Keyonte George",
-        "date": "2025-12-30",
-        "stats": "37/6/7/1/0",
-        "team": "Jazz",
-        "opponent": "Celtics",
-        "season": "2025-26",
-        "personId": 1641718
       }
     ]
   },
@@ -4652,8 +4652,26 @@
     ]
   },
   "(0, 1, 1, 0, 0)": {
-    "count": 174,
+    "count": 176,
     "games": [
+      {
+        "player": "Cam Spencer",
+        "date": "2026-02-09",
+        "stats": "2/4/4/0/0",
+        "team": "MEM",
+        "opponent": "GSW",
+        "season": "2025-26",
+        "personId": 1642285
+      },
+      {
+        "player": "Cedric Coward",
+        "date": "2026-02-09",
+        "stats": "2/3/3/0/0",
+        "team": "MEM",
+        "opponent": "GSW",
+        "season": "2025-26",
+        "personId": 1642907
+      },
       {
         "player": "Landry Shamet",
         "date": "2026-02-08",
@@ -4725,30 +4743,39 @@
         "opponent": "DEN",
         "season": "2025-26",
         "personId": 1628969
-      },
-      {
-        "player": "Cole Anthony",
-        "date": "2026-02-03",
-        "stats": "4/3/5/0/1",
-        "team": "Bucks",
-        "opponent": "Bulls",
-        "season": "2025-26",
-        "personId": 1630175
-      },
-      {
-        "player": "Kentavious Caldwell-Pope",
-        "date": "2026-02-02",
-        "stats": "4/3/3/0/0",
-        "team": "Grizzlies",
-        "opponent": "Timberwolves",
-        "season": "2025-26",
-        "personId": 203484
       }
     ]
   },
   "(3, 1, 0, 0, 0)": {
-    "count": 216,
+    "count": 219,
     "games": [
+      {
+        "player": "Jaylon Tyson",
+        "date": "2026-02-09",
+        "stats": "16/3/1/0/0",
+        "team": "CLE",
+        "opponent": "DEN",
+        "season": "2025-26",
+        "personId": 1642281
+      },
+      {
+        "player": "Christian Braun",
+        "date": "2026-02-09",
+        "stats": "20/5/2/0/0",
+        "team": "DEN",
+        "opponent": "CLE",
+        "season": "2025-26",
+        "personId": 1631128
+      },
+      {
+        "player": "Kasparas Jakucionis",
+        "date": "2026-02-09",
+        "stats": "20/3/1/0/0",
+        "team": "MIA",
+        "opponent": "UTA",
+        "season": "2025-26",
+        "personId": 1642857
+      },
       {
         "player": "Pascal Siakam",
         "date": "2026-02-08",
@@ -4811,39 +4838,30 @@
         "opponent": "LAC",
         "season": "2025-26",
         "personId": 1642281
-      },
-      {
-        "player": "Jaylen Wells",
-        "date": "2026-02-04",
-        "stats": "18/3/1/0/0",
-        "team": "MEM",
-        "opponent": "SAC",
-        "season": "2025-26",
-        "personId": 1642377
-      },
-      {
-        "player": "Amir Coffey",
-        "date": "2026-02-04",
-        "stats": "16/5/1/0/1",
-        "team": "MIL",
-        "opponent": "NOP",
-        "season": "2025-26",
-        "personId": 1629599
-      },
-      {
-        "player": "AJ Green",
-        "date": "2026-02-04",
-        "stats": "20/3/2/0/0",
-        "team": "MIL",
-        "opponent": "NOP",
-        "season": "2025-26",
-        "personId": 1631260
       }
     ]
   },
   "(3, 1, 2, 1, 0)": {
-    "count": 33,
+    "count": 35,
     "games": [
+      {
+        "player": "Ty Jerome",
+        "date": "2026-02-09",
+        "stats": "19/3/7/2/0",
+        "team": "MEM",
+        "opponent": "GSW",
+        "season": "2025-26",
+        "personId": 1629660
+      },
+      {
+        "player": "Pat Spencer",
+        "date": "2026-02-09",
+        "stats": "17/3/7/2/0",
+        "team": "GSW",
+        "opponent": "MEM",
+        "season": "2025-26",
+        "personId": 1630311
+      },
       {
         "player": "Austin Reaves",
         "date": "2026-02-07",
@@ -4915,30 +4933,21 @@
         "opponent": "Rockets",
         "season": "2025-26",
         "personId": 1642264
-      },
-      {
-        "player": "Caleb Love",
-        "date": "2026-01-13",
-        "stats": "17/3/7/2/1",
-        "team": "Trail Blazers",
-        "opponent": "Warriors",
-        "season": "2025-26",
-        "personId": 1631126
-      },
-      {
-        "player": "Josh Hart",
-        "date": "2026-01-11",
-        "stats": "18/3/6/2/1",
-        "team": "Knicks",
-        "opponent": "Trail Blazers",
-        "season": "2025-26",
-        "personId": 1628404
       }
     ]
   },
   "(4, 2, 3, 0, 0)": {
-    "count": 26,
+    "count": 27,
     "games": [
+      {
+        "player": "LeBron James",
+        "date": "2026-02-09",
+        "stats": "22/6/10/1/0",
+        "team": "LAL",
+        "opponent": "OKC",
+        "season": "2025-26",
+        "personId": 2544
+      },
       {
         "player": "Russell Westbrook",
         "date": "2025-11-07",
@@ -5019,15 +5028,6 @@
         "opponent": "Rockets",
         "season": "2025-26",
         "personId": 203471
-      },
-      {
-        "player": "Deni Avdija",
-        "date": "2025-12-20",
-        "stats": "24/7/11/1/0",
-        "team": "Trail Blazers",
-        "opponent": "Kings",
-        "season": "2025-26",
-        "personId": 1630166
       }
     ]
   },
@@ -5186,8 +5186,17 @@
     ]
   },
   "(5, 1, 2, 0, 0)": {
-    "count": 27,
+    "count": 28,
     "games": [
+      {
+        "player": "Kevin Porter Jr.",
+        "date": "2026-02-09",
+        "stats": "28/4/7/1/0",
+        "team": "MIL",
+        "opponent": "ORL",
+        "season": "2025-26",
+        "personId": 1629645
+      },
       {
         "player": "Payton Pritchard",
         "date": "2026-02-04",
@@ -5268,15 +5277,6 @@
         "opponent": "Raptors",
         "season": "2025-26",
         "personId": 1630202
-      },
-      {
-        "player": "Jalen Brunson",
-        "date": "2026-01-07",
-        "stats": "26/3/7/0/1",
-        "team": "Knicks",
-        "opponent": "Clippers",
-        "season": "2025-26",
-        "personId": 1628973
       }
     ]
   },
@@ -5376,8 +5376,17 @@
     ]
   },
   "(2, 0, 2, 0, 0)": {
-    "count": 34,
+    "count": 35,
     "games": [
+      {
+        "player": "Scoot Henderson",
+        "date": "2026-02-09",
+        "stats": "12/2/7/1/0",
+        "team": "POR",
+        "opponent": "PHI",
+        "season": "2025-26",
+        "personId": 1630703
+      },
       {
         "player": "Davion Mitchell",
         "date": "2026-02-06",
@@ -5458,15 +5467,6 @@
         "opponent": "Raptors",
         "season": "2025-26",
         "personId": 1629614
-      },
-      {
-        "player": "VJ Edgecombe",
-        "date": "2026-01-12",
-        "stats": "15/2/8/1/0",
-        "team": "76ers",
-        "opponent": "Raptors",
-        "season": "2025-26",
-        "personId": 1642845
       }
     ]
   },
@@ -5566,8 +5566,35 @@
     ]
   },
   "(1, 2, 0, 1, 0)": {
-    "count": 93,
+    "count": 96,
     "games": [
+      {
+        "player": "Naz Reid",
+        "date": "2026-02-09",
+        "stats": "7/6/2/2/1",
+        "team": "MIN",
+        "opponent": "ATL",
+        "season": "2025-26",
+        "personId": 1629675
+      },
+      {
+        "player": "Rob Dillingham",
+        "date": "2026-02-09",
+        "stats": "8/7/1/2/0",
+        "team": "CHI",
+        "opponent": "BKN",
+        "season": "2025-26",
+        "personId": 1642265
+      },
+      {
+        "player": "Ausar Thompson",
+        "date": "2026-02-09",
+        "stats": "6/8/2/2/0",
+        "team": "DET",
+        "opponent": "CHA",
+        "season": "2025-26",
+        "personId": 1641709
+      },
       {
         "player": "Jarred Vanderbilt",
         "date": "2026-02-05",
@@ -5630,39 +5657,48 @@
         "opponent": "Spurs",
         "season": "2025-26",
         "personId": 1631106
-      },
-      {
-        "player": "Jay Huff",
-        "date": "2026-01-28",
-        "stats": "10/7/1/3/1",
-        "team": "Pacers",
-        "opponent": "Bulls",
-        "season": "2025-26",
-        "personId": 1630643
-      },
-      {
-        "player": "Day'Ron Sharpe",
-        "date": "2026-01-27",
-        "stats": "7/7/2/3/0",
-        "team": "Nets",
-        "opponent": "Suns",
-        "season": "2025-26",
-        "personId": 1630549
-      },
-      {
-        "player": "Derik Queen",
-        "date": "2026-01-27",
-        "stats": "9/7/1/2/1",
-        "team": "Pelicans",
-        "opponent": "Thunder",
-        "season": "2025-26",
-        "personId": 1642852
       }
     ]
   },
   "(0, 1, 0, 1, 0)": {
-    "count": 97,
+    "count": 101,
     "games": [
+      {
+        "player": "Bruce Brown",
+        "date": "2026-02-09",
+        "stats": "1/4/0/2/0",
+        "team": "DEN",
+        "opponent": "CLE",
+        "season": "2025-26",
+        "personId": 1628971
+      },
+      {
+        "player": "Zaccharie Risacher",
+        "date": "2026-02-09",
+        "stats": "3/4/1/2/0",
+        "team": "ATL",
+        "opponent": "MIN",
+        "season": "2025-26",
+        "personId": 1642258
+      },
+      {
+        "player": "Jalen Wilson",
+        "date": "2026-02-09",
+        "stats": "4/4/1/2/0",
+        "team": "BKN",
+        "opponent": "CHI",
+        "season": "2025-26",
+        "personId": 1630592
+      },
+      {
+        "player": "Daniss Jenkins",
+        "date": "2026-02-09",
+        "stats": "4/3/1/2/0",
+        "team": "DET",
+        "opponent": "CHA",
+        "season": "2025-26",
+        "personId": 1642450
+      },
       {
         "player": "DeMar DeRozan",
         "date": "2026-02-06",
@@ -5716,48 +5752,21 @@
         "opponent": "Nuggets",
         "season": "2025-26",
         "personId": 201572
-      },
-      {
-        "player": "Karlo Matkovic",
-        "date": "2026-01-30",
-        "stats": "5/4/1/2/1",
-        "team": "Pelicans",
-        "opponent": "Grizzlies",
-        "season": "2025-26",
-        "personId": 1631255
-      },
-      {
-        "player": "Guerschon Yabusele",
-        "date": "2026-01-28",
-        "stats": "4/5/0/2/0",
-        "team": "Knicks",
-        "opponent": "Raptors",
-        "season": "2025-26",
-        "personId": 1627824
-      },
-      {
-        "player": "Jaylen Clark",
-        "date": "2026-01-26",
-        "stats": "4/3/2/2/0",
-        "team": "Timberwolves",
-        "opponent": "Warriors",
-        "season": "2025-26",
-        "personId": 1641740
-      },
-      {
-        "player": "John Konchar",
-        "date": "2026-01-26",
-        "stats": "0/3/1/2/0",
-        "team": "Grizzlies",
-        "opponent": "Rockets",
-        "season": "2025-26",
-        "personId": 1629723
       }
     ]
   },
   "(5, 1, 0, 0, 0)": {
-    "count": 44,
+    "count": 45,
     "games": [
+      {
+        "player": "Andrew Wiggins",
+        "date": "2026-02-09",
+        "stats": "26/5/2/0/1",
+        "team": "MIA",
+        "opponent": "UTA",
+        "season": "2025-26",
+        "personId": 203952
+      },
       {
         "player": "Zion Williamson",
         "date": "2026-02-06",
@@ -5838,15 +5847,6 @@
         "opponent": "Nets",
         "season": "2025-26",
         "personId": 1628415
-      },
-      {
-        "player": "Brice Sensabaugh",
-        "date": "2026-01-15",
-        "stats": "27/5/1/0/0",
-        "team": "Jazz",
-        "opponent": "Mavericks",
-        "season": "2025-26",
-        "personId": 1641729
       }
     ]
   },
@@ -6376,8 +6376,17 @@
     ]
   },
   "(2, 2, 2, 0, 0)": {
-    "count": 60,
+    "count": 61,
     "games": [
+      {
+        "player": "Jrue Holiday",
+        "date": "2026-02-09",
+        "stats": "13/7/7/1/0",
+        "team": "POR",
+        "opponent": "PHI",
+        "season": "2025-26",
+        "personId": 201950
+      },
       {
         "player": "Jaime Jaquez Jr.",
         "date": "2026-02-06",
@@ -6458,15 +6467,6 @@
         "opponent": "Hawks",
         "season": "2025-26",
         "personId": 1630568
-      },
-      {
-        "player": "Derrick White",
-        "date": "2026-01-24",
-        "stats": "15/7/7/1/1",
-        "team": "Celtics",
-        "opponent": "Bulls",
-        "season": "2025-26",
-        "personId": 1628401
       }
     ]
   },
@@ -6757,8 +6757,26 @@
     ]
   },
   "(2, 2, 1, 1, 0)": {
-    "count": 67,
+    "count": 69,
     "games": [
+      {
+        "player": "Ryan Rollins",
+        "date": "2026-02-09",
+        "stats": "14/6/3/2/0",
+        "team": "MIL",
+        "opponent": "ORL",
+        "season": "2025-26",
+        "personId": 1631157
+      },
+      {
+        "player": "Jaden Ivey",
+        "date": "2026-02-09",
+        "stats": "13/6/3/3/1",
+        "team": "CHI",
+        "opponent": "BKN",
+        "season": "2025-26",
+        "personId": 1631093
+      },
       {
         "player": "Brandin Podziemski",
         "date": "2026-02-07",
@@ -6830,24 +6848,6 @@
         "opponent": "Magic",
         "season": "2025-26",
         "personId": 1642867
-      },
-      {
-        "player": "Pelle Larsson",
-        "date": "2026-01-29",
-        "stats": "15/6/3/2/0",
-        "team": "Heat",
-        "opponent": "Bulls",
-        "season": "2025-26",
-        "personId": 1641796
-      },
-      {
-        "player": "Naz Reid",
-        "date": "2026-01-26",
-        "stats": "15/7/3/3/1",
-        "team": "Timberwolves",
-        "opponent": "Warriors",
-        "season": "2025-26",
-        "personId": 1629675
       }
     ]
   },
@@ -7042,8 +7042,17 @@
     ]
   },
   "(2, 2, 0, 0, 1)": {
-    "count": 53,
+    "count": 54,
     "games": [
+      {
+        "player": "Chet Holmgren",
+        "date": "2026-02-09",
+        "stats": "13/10/2/1/2",
+        "team": "OKC",
+        "opponent": "LAL",
+        "season": "2025-26",
+        "personId": 1631096
+      },
       {
         "player": "Jamir Watkins",
         "date": "2026-02-08",
@@ -7124,15 +7133,6 @@
         "opponent": "Clippers",
         "season": "2025-26",
         "personId": 202685
-      },
-      {
-        "player": "Jarrett Allen",
-        "date": "2026-01-21",
-        "stats": "13/9/0/0/2",
-        "team": "Cavaliers",
-        "opponent": "Hornets",
-        "season": "2025-26",
-        "personId": 1628386
       }
     ]
   },
@@ -7504,8 +7504,53 @@
     ]
   },
   "(2, 0, 1, 0, 0)": {
-    "count": 153,
+    "count": 158,
     "games": [
+      {
+        "player": "Trendon Watford",
+        "date": "2026-02-09",
+        "stats": "12/2/3/0/0",
+        "team": "PHI",
+        "opponent": "POR",
+        "season": "2025-26",
+        "personId": 1630570
+      },
+      {
+        "player": "Bones Hyland",
+        "date": "2026-02-09",
+        "stats": "13/1/5/0/0",
+        "team": "MIN",
+        "opponent": "ATL",
+        "season": "2025-26",
+        "personId": 1630538
+      },
+      {
+        "player": "Grant Williams",
+        "date": "2026-02-09",
+        "stats": "12/2/5/1/1",
+        "team": "CHA",
+        "opponent": "DET",
+        "season": "2025-26",
+        "personId": 1629684
+      },
+      {
+        "player": "Davion Mitchell",
+        "date": "2026-02-09",
+        "stats": "12/2/5/0/0",
+        "team": "MIA",
+        "opponent": "UTA",
+        "season": "2025-26",
+        "personId": 1630558
+      },
+      {
+        "player": "Franz Wagner",
+        "date": "2026-02-09",
+        "stats": "14/2/5/0/0",
+        "team": "ORL",
+        "opponent": "MIL",
+        "season": "2025-26",
+        "personId": 1630532
+      },
       {
         "player": "Kyshawn George",
         "date": "2026-02-08",
@@ -7550,57 +7595,21 @@
         "opponent": "CHA",
         "season": "2025-26",
         "personId": 203468
-      },
-      {
-        "player": "De'Aaron Fox",
-        "date": "2026-02-07",
-        "stats": "15/2/5/0/0",
-        "team": "SAS",
-        "opponent": "DAL",
-        "season": "2025-26",
-        "personId": 1628368
-      },
-      {
-        "player": "Bub Carrington",
-        "date": "2026-02-07",
-        "stats": "11/2/4/0/0",
-        "team": "WAS",
-        "opponent": "BKN",
-        "season": "2025-26",
-        "personId": 1642267
-      },
-      {
-        "player": "Kris Dunn",
-        "date": "2026-02-06",
-        "stats": "15/1/5/0/0",
-        "team": "LAC",
-        "opponent": "SAC",
-        "season": "2025-26",
-        "personId": 1627739
-      },
-      {
-        "player": "Bryce McGowens",
-        "date": "2026-02-06",
-        "stats": "11/1/4/0/1",
-        "team": "NOP",
-        "opponent": "MIN",
-        "season": "2025-26",
-        "personId": 1631121
-      },
-      {
-        "player": "Bub Carrington",
-        "date": "2026-02-05",
-        "stats": "12/0/4/1/0",
-        "team": "WAS",
-        "opponent": "DET",
-        "season": "2025-26",
-        "personId": 1642267
       }
     ]
   },
   "(4, 3, 1, 1, 0)": {
-    "count": 6,
+    "count": 7,
     "games": [
+      {
+        "player": "Nickeil Alexander-Walker",
+        "date": "2026-02-09",
+        "stats": "23/12/5/2/0",
+        "team": "ATL",
+        "opponent": "MIN",
+        "season": "2025-26",
+        "personId": 1629638
+      },
       {
         "player": "Nikola Jokic",
         "date": "2026-02-03",
@@ -7848,8 +7857,35 @@
     ]
   },
   "(4, 1, 0, 0, 0)": {
-    "count": 76,
+    "count": 79,
     "games": [
+      {
+        "player": "Jalen Williams",
+        "date": "2026-02-09",
+        "stats": "23/3/1/1/0",
+        "team": "OKC",
+        "opponent": "LAL",
+        "season": "2025-26",
+        "personId": 1631114
+      },
+      {
+        "player": "Collin Sexton",
+        "date": "2026-02-09",
+        "stats": "21/5/1/1/0",
+        "team": "CHI",
+        "opponent": "BKN",
+        "season": "2025-26",
+        "personId": 1629012
+      },
+      {
+        "player": "Desmond Bane",
+        "date": "2026-02-09",
+        "stats": "25/3/1/0/0",
+        "team": "ORL",
+        "opponent": "MIL",
+        "season": "2025-26",
+        "personId": 1630217
+      },
       {
         "player": "Norman Powell",
         "date": "2026-02-08",
@@ -7912,33 +7948,6 @@
         "opponent": "CHA",
         "season": "2025-26",
         "personId": 1629060
-      },
-      {
-        "player": "Jordan Miller",
-        "date": "2026-02-02",
-        "stats": "21/4/2/1/0",
-        "team": "Clippers",
-        "opponent": "76ers",
-        "season": "2025-26",
-        "personId": 1641757
-      },
-      {
-        "player": "Dillon Brooks",
-        "date": "2026-02-01",
-        "stats": "22/5/1/0/0",
-        "team": "Suns",
-        "opponent": "Clippers",
-        "season": "2025-26",
-        "personId": 1628415
-      },
-      {
-        "player": "Landry Shamet",
-        "date": "2026-02-01",
-        "stats": "23/3/1/0/0",
-        "team": "Knicks",
-        "opponent": "Lakers",
-        "season": "2025-26",
-        "personId": 1629013
       }
     ]
   },
@@ -8337,8 +8346,17 @@
     ]
   },
   "(3, 2, 2, 0, 0)": {
-    "count": 68,
+    "count": 69,
     "games": [
+      {
+        "player": "Al Horford",
+        "date": "2026-02-09",
+        "stats": "16/9/6/1/0",
+        "team": "GSW",
+        "opponent": "MEM",
+        "season": "2025-26",
+        "personId": 201143
+      },
       {
         "player": "Danny Wolf",
         "date": "2026-02-07",
@@ -8419,15 +8437,6 @@
         "opponent": "Lakers",
         "season": "2025-26",
         "personId": 1642281
-      },
-      {
-        "player": "Josh Giddey",
-        "date": "2026-01-26",
-        "stats": "19/6/7/0/0",
-        "team": "Bulls",
-        "opponent": "Lakers",
-        "season": "2025-26",
-        "personId": 1630581
       }
     ]
   },
@@ -8812,8 +8821,26 @@
     ]
   },
   "(4, 1, 1, 1, 0)": {
-    "count": 52,
+    "count": 54,
     "games": [
+      {
+        "player": "Jaren Jackson Jr.",
+        "date": "2026-02-09",
+        "stats": "22/5/3/2/0",
+        "team": "UTA",
+        "opponent": "MIA",
+        "season": "2025-26",
+        "personId": 1628991
+      },
+      {
+        "player": "Brandon Miller",
+        "date": "2026-02-09",
+        "stats": "24/3/3/2/1",
+        "team": "CHA",
+        "opponent": "DET",
+        "season": "2025-26",
+        "personId": 1641706
+      },
       {
         "player": "Jaren Jackson Jr.",
         "date": "2026-02-07",
@@ -8885,30 +8912,21 @@
         "opponent": "Wizards",
         "season": "2025-26",
         "personId": 1627750
-      },
-      {
-        "player": "Russell Westbrook",
-        "date": "2026-01-21",
-        "stats": "23/3/3/3/0",
-        "team": "Kings",
-        "opponent": "Raptors",
-        "season": "2025-26",
-        "personId": 201566
-      },
-      {
-        "player": "Coby White",
-        "date": "2026-01-18",
-        "stats": "24/4/3/2/0",
-        "team": "Bulls",
-        "opponent": "Nets",
-        "season": "2025-26",
-        "personId": 1629632
       }
     ]
   },
   "(2, 0, 1, 1, 0)": {
-    "count": 52,
+    "count": 53,
     "games": [
+      {
+        "player": "Moses Moody",
+        "date": "2026-02-09",
+        "stats": "15/1/3/2/0",
+        "team": "GSW",
+        "opponent": "MEM",
+        "season": "2025-26",
+        "personId": 1630541
+      },
       {
         "player": "Reed Sheppard",
         "date": "2026-02-02",
@@ -8989,15 +9007,6 @@
         "opponent": "Hornets",
         "season": "2025-26",
         "personId": 1642869
-      },
-      {
-        "player": "Walter Clayton Jr.",
-        "date": "2026-01-08",
-        "stats": "12/0/3/2/0",
-        "team": "Jazz",
-        "opponent": "Mavericks",
-        "season": "2025-26",
-        "personId": 1642383
       }
     ]
   },
@@ -9279,8 +9288,17 @@
     ]
   },
   "(5, 0, 1, 0, 0)": {
-    "count": 14,
+    "count": 15,
     "games": [
+      {
+        "player": "Tyrese Maxey",
+        "date": "2026-02-09",
+        "stats": "30/1/4/1/0",
+        "team": "PHI",
+        "opponent": "POR",
+        "season": "2025-26",
+        "personId": 1630178
+      },
       {
         "player": "Jaylen Brown",
         "date": "2026-02-08",
@@ -9361,15 +9379,6 @@
         "opponent": "Hawks",
         "season": "2025-26",
         "personId": 203468
-      },
-      {
-        "player": "Norman Powell",
-        "date": "2025-11-29",
-        "stats": "28/2/3/1/0",
-        "team": "Heat",
-        "opponent": "Pistons",
-        "season": "2025-26",
-        "personId": 1626181
       }
     ]
   },
@@ -9659,8 +9668,26 @@
     ]
   },
   "(0, 2, 0, 1, 0)": {
-    "count": 43,
+    "count": 45,
     "games": [
+      {
+        "player": "Jericho Sims",
+        "date": "2026-02-09",
+        "stats": "5/6/1/2/0",
+        "team": "MIL",
+        "opponent": "ORL",
+        "season": "2025-26",
+        "personId": 1630579
+      },
+      {
+        "player": "Wendell Carter Jr.",
+        "date": "2026-02-09",
+        "stats": "4/8/2/2/0",
+        "team": "ORL",
+        "opponent": "MIL",
+        "season": "2025-26",
+        "personId": 1628976
+      },
       {
         "player": "Tim Hardaway Jr.",
         "date": "2026-02-01",
@@ -9732,24 +9759,6 @@
         "opponent": "Pistons",
         "season": "2025-26",
         "personId": 1641854
-      },
-      {
-        "player": "Keldon Johnson",
-        "date": "2026-01-03",
-        "stats": "5/8/1/2/0",
-        "team": "Spurs",
-        "opponent": "Trail Blazers",
-        "season": "2025-26",
-        "personId": 1629640
-      },
-      {
-        "player": "Kristaps Porzingis",
-        "date": "2026-01-02",
-        "stats": "4/8/2/2/0",
-        "team": "Hawks",
-        "opponent": "Knicks",
-        "season": "2025-26",
-        "personId": 204001
       }
     ]
   },
@@ -10053,8 +10062,53 @@
     ]
   },
   "(1, 1, 0, 1, 0)": {
-    "count": 130,
+    "count": 135,
     "games": [
+      {
+        "player": "Javon Small",
+        "date": "2026-02-09",
+        "stats": "8/3/1/2/0",
+        "team": "MEM",
+        "opponent": "GSW",
+        "season": "2025-26",
+        "personId": 1642914
+      },
+      {
+        "player": "Gary Payton II",
+        "date": "2026-02-09",
+        "stats": "7/4/2/3/1",
+        "team": "GSW",
+        "opponent": "MEM",
+        "season": "2025-26",
+        "personId": 1627780
+      },
+      {
+        "player": "Cameron Johnson",
+        "date": "2026-02-09",
+        "stats": "10/4/1/3/0",
+        "team": "DEN",
+        "opponent": "CLE",
+        "season": "2025-26",
+        "personId": 1629661
+      },
+      {
+        "player": "Derik Queen",
+        "date": "2026-02-09",
+        "stats": "8/5/1/3/1",
+        "team": "NOP",
+        "opponent": "SAC",
+        "season": "2025-26",
+        "personId": 1642852
+      },
+      {
+        "player": "Precious Achiuwa",
+        "date": "2026-02-09",
+        "stats": "8/3/0/3/1",
+        "team": "SAC",
+        "opponent": "NOP",
+        "season": "2025-26",
+        "personId": 1630173
+      },
       {
         "player": "Ja'Kobe Walter",
         "date": "2026-02-08",
@@ -10099,51 +10153,6 @@
         "opponent": "GSW",
         "season": "2025-26",
         "personId": 1642345
-      },
-      {
-        "player": "Caleb Martin",
-        "date": "2026-02-05",
-        "stats": "8/4/1/2/0",
-        "team": "DAL",
-        "opponent": "SAS",
-        "season": "2025-26",
-        "personId": 1628997
-      },
-      {
-        "player": "Clint Capela",
-        "date": "2026-02-05",
-        "stats": "6/5/0/2/0",
-        "team": "HOU",
-        "opponent": "CHA",
-        "season": "2025-26",
-        "personId": 203991
-      },
-      {
-        "player": "Javonte Green",
-        "date": "2026-02-05",
-        "stats": "8/3/0/3/0",
-        "team": "DET",
-        "opponent": "WAS",
-        "season": "2025-26",
-        "personId": 1629750
-      },
-      {
-        "player": "Keon Ellis",
-        "date": "2026-02-04",
-        "stats": "6/3/0/2/0",
-        "team": "CLE",
-        "opponent": "LAC",
-        "season": "2025-26",
-        "personId": 1631165
-      },
-      {
-        "player": "Bruce Brown",
-        "date": "2026-02-04",
-        "stats": "10/5/0/3/1",
-        "team": "DEN",
-        "opponent": "NYK",
-        "season": "2025-26",
-        "personId": 1628971
       }
     ]
   },
@@ -10231,8 +10240,17 @@
     ]
   },
   "(0, 1, 1, 1, 0)": {
-    "count": 48,
+    "count": 49,
     "games": [
+      {
+        "player": "Dru Smith",
+        "date": "2026-02-09",
+        "stats": "4/3/3/2/0",
+        "team": "MIA",
+        "opponent": "UTA",
+        "season": "2025-26",
+        "personId": 1630696
+      },
       {
         "player": "Derrick Jones Jr.",
         "date": "2026-02-08",
@@ -10313,15 +10331,6 @@
         "opponent": "Rockets",
         "season": "2025-26",
         "personId": 1628997
-      },
-      {
-        "player": "Cam Spencer",
-        "date": "2026-01-31",
-        "stats": "5/3/5/2/0",
-        "team": "Grizzlies",
-        "opponent": "Timberwolves",
-        "season": "2025-26",
-        "personId": 1642285
       }
     ]
   },
@@ -10349,8 +10358,17 @@
     ]
   },
   "(2, 0, 0, 1, 0)": {
-    "count": 83,
+    "count": 84,
     "games": [
+      {
+        "player": "Moritz Wagner",
+        "date": "2026-02-09",
+        "stats": "14/2/0/2/0",
+        "team": "ORL",
+        "opponent": "MIL",
+        "season": "2025-26",
+        "personId": 1629021
+      },
       {
         "player": "Jose Alvarado",
         "date": "2026-02-08",
@@ -10431,15 +10449,6 @@
         "opponent": "Trail Blazers",
         "season": "2025-26",
         "personId": 1642267
-      },
-      {
-        "player": "Anfernee Simons",
-        "date": "2026-01-26",
-        "stats": "12/1/1/2/1",
-        "team": "Celtics",
-        "opponent": "Trail Blazers",
-        "season": "2025-26",
-        "personId": 1629014
       }
     ]
   },
@@ -10625,8 +10634,17 @@
     ]
   },
   "(4, 1, 2, 0, 0)": {
-    "count": 48,
+    "count": 49,
     "games": [
+      {
+        "player": "Anfernee Simons",
+        "date": "2026-02-09",
+        "stats": "23/3/7/0/1",
+        "team": "CHI",
+        "opponent": "BKN",
+        "season": "2025-26",
+        "personId": 1629014
+      },
       {
         "player": "Nolan Traore",
         "date": "2026-02-05",
@@ -10707,15 +10725,6 @@
         "opponent": "Warriors",
         "season": "2025-26",
         "personId": 1630540
-      },
-      {
-        "player": "James Harden",
-        "date": "2026-01-14",
-        "stats": "22/5/8/0/0",
-        "team": "Clippers",
-        "opponent": "Wizards",
-        "season": "2025-26",
-        "personId": 201935
       }
     ]
   },
@@ -11536,8 +11545,17 @@
     ]
   },
   "(1, 1, 2, 1, 0)": {
-    "count": 22,
+    "count": 23,
     "games": [
+      {
+        "player": "Donte DiVincenzo",
+        "date": "2026-02-09",
+        "stats": "10/4/6/2/0",
+        "team": "MIN",
+        "opponent": "ATL",
+        "season": "2025-26",
+        "personId": 1628978
+      },
       {
         "player": "Walter Clayton Jr.",
         "date": "2026-02-07",
@@ -11618,15 +11636,6 @@
         "opponent": "Nuggets",
         "season": "2025-26",
         "personId": 1629611
-      },
-      {
-        "player": "Isaiah Collier",
-        "date": "2026-01-03",
-        "stats": "8/5/7/3/1",
-        "team": "Jazz",
-        "opponent": "Warriors",
-        "season": "2025-26",
-        "personId": 1642268
       }
     ]
   },
@@ -11726,8 +11735,26 @@
     ]
   },
   "(0, 0, 1, 1, 0)": {
-    "count": 33,
+    "count": 35,
     "games": [
+      {
+        "player": "Dennis Schroder",
+        "date": "2026-02-09",
+        "stats": "5/2/3/2/0",
+        "team": "CLE",
+        "opponent": "DEN",
+        "season": "2025-26",
+        "personId": 203471
+      },
+      {
+        "player": "Gabe Vincent",
+        "date": "2026-02-09",
+        "stats": "2/1/4/3/0",
+        "team": "ATL",
+        "opponent": "MIN",
+        "season": "2025-26",
+        "personId": 1629216
+      },
       {
         "player": "Ben Saraf",
         "date": "2026-02-01",
@@ -11799,24 +11826,6 @@
         "opponent": "Pacers",
         "season": "2025-26",
         "personId": 1642450
-      },
-      {
-        "player": "Kris Dunn",
-        "date": "2026-01-14",
-        "stats": "4/2/3/3/0",
-        "team": "Clippers",
-        "opponent": "Wizards",
-        "season": "2025-26",
-        "personId": 1627739
-      },
-      {
-        "player": "Tyus Jones",
-        "date": "2026-01-07",
-        "stats": "3/1/5/2/0",
-        "team": "Magic",
-        "opponent": "Nets",
-        "season": "2025-26",
-        "personId": 1626145
       }
     ]
   },
@@ -12391,8 +12400,17 @@
     ]
   },
   "(2, 1, 2, 1, 0)": {
-    "count": 34,
+    "count": 35,
     "games": [
+      {
+        "player": "Cason Wallace",
+        "date": "2026-02-09",
+        "stats": "12/4/6/2/1",
+        "team": "OKC",
+        "opponent": "LAL",
+        "season": "2025-26",
+        "personId": 1641717
+      },
       {
         "player": "Jaden Ivey",
         "date": "2026-02-05",
@@ -12473,15 +12491,6 @@
         "opponent": "Timberwolves",
         "season": "2025-26",
         "personId": 1629645
-      },
-      {
-        "player": "Kevin Huerter",
-        "date": "2026-01-10",
-        "stats": "13/3/6/3/0",
-        "team": "Bulls",
-        "opponent": "Mavericks",
-        "season": "2025-26",
-        "personId": 1628989
       }
     ]
   },
@@ -12676,8 +12685,17 @@
     ]
   },
   "(3, 0, 2, 0, 0)": {
-    "count": 34,
+    "count": 35,
     "games": [
+      {
+        "player": "Austin Reaves",
+        "date": "2026-02-09",
+        "stats": "16/2/7/1/0",
+        "team": "LAL",
+        "opponent": "OKC",
+        "season": "2025-26",
+        "personId": 1630559
+      },
       {
         "player": "Caleb Love",
         "date": "2026-02-07",
@@ -12758,15 +12776,6 @@
         "opponent": "Bucks",
         "season": "2025-26",
         "personId": 1629012
-      },
-      {
-        "player": "Jordan Poole",
-        "date": "2026-01-02",
-        "stats": "16/1/6/0/0",
-        "team": "Pelicans",
-        "opponent": "Trail Blazers",
-        "season": "2025-26",
-        "personId": 1629673
       }
     ]
   },
@@ -12966,8 +12975,17 @@
     ]
   },
   "(3, 0, 0, 1, 0)": {
-    "count": 32,
+    "count": 33,
     "games": [
+      {
+        "player": "Jahmai Mashack",
+        "date": "2026-02-09",
+        "stats": "17/2/1/2/0",
+        "team": "MEM",
+        "opponent": "GSW",
+        "season": "2025-26",
+        "personId": 1642942
+      },
       {
         "player": "Klay Thompson",
         "date": "2026-02-07",
@@ -13048,15 +13066,6 @@
         "opponent": "Suns",
         "season": "2025-26",
         "personId": 1630540
-      },
-      {
-        "player": "Quentin Grimes",
-        "date": "2026-01-07",
-        "stats": "16/1/1/2/0",
-        "team": "76ers",
-        "opponent": "Wizards",
-        "season": "2025-26",
-        "personId": 1629656
       }
     ]
   },
@@ -13546,8 +13555,17 @@
     ]
   },
   "(1, 2, 2, 1, 0)": {
-    "count": 15,
+    "count": 16,
     "games": [
+      {
+        "player": "Isaiah Hartenstein",
+        "date": "2026-02-09",
+        "stats": "10/9/6/3/0",
+        "team": "OKC",
+        "opponent": "LAL",
+        "season": "2025-26",
+        "personId": 1628392
+      },
       {
         "player": "Myron Gardner",
         "date": "2026-02-08",
@@ -13628,15 +13646,6 @@
         "opponent": "Mavericks",
         "season": "2025-26",
         "personId": 1641708
-      },
-      {
-        "player": "Russell Westbrook",
-        "date": "2025-11-24",
-        "stats": "7/7/7/2/0",
-        "team": "Kings",
-        "opponent": "Timberwolves",
-        "season": "2025-26",
-        "personId": 201566
       }
     ]
   },
@@ -14162,8 +14171,17 @@
     ]
   },
   "(3, 1, 1, 1, 0)": {
-    "count": 61,
+    "count": 62,
     "games": [
+      {
+        "player": "Marcus Smart",
+        "date": "2026-02-09",
+        "stats": "19/3/3/2/0",
+        "team": "LAL",
+        "opponent": "OKC",
+        "season": "2025-26",
+        "personId": 203935
+      },
       {
         "player": "De'Anthony Melton",
         "date": "2026-01-30",
@@ -14244,15 +14262,6 @@
         "opponent": "Thunder",
         "season": "2025-26",
         "personId": 1626181
-      },
-      {
-        "player": "Coby White",
-        "date": "2026-01-16",
-        "stats": "17/4/4/2/0",
-        "team": "Bulls",
-        "opponent": "Nets",
-        "season": "2025-26",
-        "personId": 1629632
       }
     ]
   },
@@ -14352,8 +14361,17 @@
     ]
   },
   "(4, 3, 1, 0, 0)": {
-    "count": 17,
+    "count": 18,
     "games": [
+      {
+        "player": "Bam Adebayo",
+        "date": "2026-02-09",
+        "stats": "23/11/5/0/0",
+        "team": "MIA",
+        "opponent": "UTA",
+        "season": "2025-26",
+        "personId": 1628389
+      },
       {
         "player": "Domantas Sabonis",
         "date": "2026-02-04",
@@ -14434,15 +14452,6 @@
         "opponent": "Raptors",
         "season": "2025-26",
         "personId": 1629008
-      },
-      {
-        "player": "Cedric Coward",
-        "date": "2025-12-05",
-        "stats": "23/14/5/1/0",
-        "team": "Grizzlies",
-        "opponent": "Clippers",
-        "season": "2025-26",
-        "personId": 1642907
       }
     ]
   },
@@ -14964,8 +14973,17 @@
     ]
   },
   "(4, 2, 2, 0, 1)": {
-    "count": 4,
+    "count": 5,
     "games": [
+      {
+        "player": "James Harden",
+        "date": "2026-02-09",
+        "stats": "22/10/7/0/3",
+        "team": "CLE",
+        "opponent": "DEN",
+        "season": "2025-26",
+        "personId": 201935
+      },
       {
         "player": "Derik Queen",
         "date": "2026-01-30",
@@ -15572,8 +15590,17 @@
     ]
   },
   "(2, 0, 1, 2, 0)": {
-    "count": 3,
+    "count": 4,
     "games": [
+      {
+        "player": "Scotty Pippen Jr.",
+        "date": "2026-02-09",
+        "stats": "11/0/4/4/1",
+        "team": "MEM",
+        "opponent": "GSW",
+        "season": "2025-26",
+        "personId": 1630590
+      },
       {
         "player": "Will Riley",
         "date": "2026-01-30",
@@ -16243,8 +16270,17 @@
     ]
   },
   "(4, 2, 0, 0, 0)": {
-    "count": 57,
+    "count": 58,
     "games": [
+      {
+        "player": "Noah Clowney",
+        "date": "2026-02-09",
+        "stats": "22/6/0/0/1",
+        "team": "BKN",
+        "opponent": "CHI",
+        "season": "2025-26",
+        "personId": 1641730
+      },
       {
         "player": "Jabari Smith Jr.",
         "date": "2026-02-07",
@@ -16325,15 +16361,6 @@
         "opponent": "Mavericks",
         "season": "2025-26",
         "personId": 1641729
-      },
-      {
-        "player": "Cedric Coward",
-        "date": "2026-01-11",
-        "stats": "21/8/1/1/0",
-        "team": "Grizzlies",
-        "opponent": "Nets",
-        "season": "2025-26",
-        "personId": 1642907
       }
     ]
   },
@@ -17068,8 +17095,17 @@
     ]
   },
   "(4, 0, 2, 0, 0)": {
-    "count": 26,
+    "count": 27,
     "games": [
+      {
+        "player": "Trey Murphy III",
+        "date": "2026-02-09",
+        "stats": "21/2/7/1/0",
+        "team": "NOP",
+        "opponent": "SAC",
+        "season": "2025-26",
+        "personId": 1630530
+      },
       {
         "player": "James Harden",
         "date": "2026-02-07",
@@ -17150,15 +17186,6 @@
         "opponent": "Rockets",
         "season": "2025-26",
         "personId": 201942
-      },
-      {
-        "player": "Jamal Shead",
-        "date": "2026-01-11",
-        "stats": "22/1/6/0/0",
-        "team": "Raptors",
-        "opponent": "76ers",
-        "season": "2025-26",
-        "personId": 1642347
       }
     ]
   },
@@ -17404,8 +17431,26 @@
     ]
   },
   "(5, 1, 0, 1, 0)": {
-    "count": 11,
+    "count": 13,
     "games": [
+      {
+        "player": "Toumani Camara",
+        "date": "2026-02-09",
+        "stats": "30/3/1/3/0",
+        "team": "POR",
+        "opponent": "PHI",
+        "season": "2025-26",
+        "personId": 1641739
+      },
+      {
+        "player": "Anthony Black",
+        "date": "2026-02-09",
+        "stats": "26/5/2/2/1",
+        "team": "ORL",
+        "opponent": "MIL",
+        "season": "2025-26",
+        "personId": 1641710
+      },
       {
         "player": "Will Riley",
         "date": "2026-02-07",
@@ -17477,24 +17522,6 @@
         "opponent": "Pelicans",
         "season": "2025-26",
         "personId": 1628991
-      },
-      {
-        "player": "Naz Reid",
-        "date": "2025-11-19",
-        "stats": "28/5/1/2/1",
-        "team": "Timberwolves",
-        "opponent": "Wizards",
-        "season": "2025-26",
-        "personId": 1629675
-      },
-      {
-        "player": "Kevin Durant",
-        "date": "2025-11-01",
-        "stats": "26/4/1/2/1",
-        "team": "Rockets",
-        "opponent": "Celtics",
-        "season": "2025-26",
-        "personId": 201142
       }
     ]
   },
@@ -17653,8 +17680,17 @@
     ]
   },
   "(0, 0, 2, 0, 0)": {
-    "count": 25,
+    "count": 26,
     "games": [
+      {
+        "player": "Vince Williams Jr.",
+        "date": "2026-02-09",
+        "stats": "5/2/7/1/0",
+        "team": "UTA",
+        "opponent": "MIA",
+        "season": "2025-26",
+        "personId": 1631246
+      },
       {
         "player": "Tyus Jones",
         "date": "2026-02-07",
@@ -17735,15 +17771,6 @@
         "opponent": "Trail Blazers",
         "season": "2025-26",
         "personId": 1642948
-      },
-      {
-        "player": "Tyus Jones",
-        "date": "2025-12-27",
-        "stats": "0/1/6/0/0",
-        "team": "Magic",
-        "opponent": "Nuggets",
-        "season": "2025-26",
-        "personId": 1626145
       }
     ]
   },
@@ -18027,8 +18054,17 @@
     ]
   },
   "(3, 2, 3, 0, 0)": {
-    "count": 19,
+    "count": 20,
     "games": [
+      {
+        "player": "Jamal Murray",
+        "date": "2026-02-09",
+        "stats": "17/8/11/1/0",
+        "team": "DEN",
+        "opponent": "CLE",
+        "season": "2025-26",
+        "personId": 1627750
+      },
       {
         "player": "LeBron James",
         "date": "2026-02-07",
@@ -18109,15 +18145,6 @@
         "opponent": "Hawks",
         "season": "2025-26",
         "personId": 1630567
-      },
-      {
-        "player": "Isaiah Collier",
-        "date": "2026-01-01",
-        "stats": "16/6/10/0/1",
-        "team": "Jazz",
-        "opponent": "Clippers",
-        "season": "2025-26",
-        "personId": 1642268
       }
     ]
   },
@@ -18403,8 +18430,17 @@
     ]
   },
   "(5, 2, 1, 0, 0)": {
-    "count": 60,
+    "count": 61,
     "games": [
+      {
+        "player": "Nic Claxton",
+        "date": "2026-02-09",
+        "stats": "28/10/4/1/0",
+        "team": "BKN",
+        "opponent": "CHI",
+        "season": "2025-26",
+        "personId": 1629651
+      },
       {
         "player": "Miles Bridges",
         "date": "2026-02-07",
@@ -18485,15 +18521,6 @@
         "opponent": "Hawks",
         "season": "2025-26",
         "personId": 1630573
-      },
-      {
-        "player": "Pascal Siakam",
-        "date": "2026-01-16",
-        "stats": "27/6/5/0/1",
-        "team": "Pacers",
-        "opponent": "Pelicans",
-        "season": "2025-26",
-        "personId": 1627783
       }
     ]
   },
@@ -18576,8 +18603,17 @@
     ]
   },
   "(1, 1, 1, 1, 1)": {
-    "count": 7,
+    "count": 8,
     "games": [
+      {
+        "player": "Jaime Jaquez Jr.",
+        "date": "2026-02-09",
+        "stats": "9/4/5/2/2",
+        "team": "MIA",
+        "opponent": "UTA",
+        "season": "2025-26",
+        "personId": 1631170
+      },
       {
         "player": "Herbert Jones",
         "date": "2026-01-27",
@@ -24452,8 +24488,17 @@
     ]
   },
   "(1, 3, 0, 1, 1)": {
-    "count": 3,
+    "count": 4,
     "games": [
+      {
+        "player": "Dylan Cardwell",
+        "date": "2026-02-09",
+        "stats": "6/11/1/2/2",
+        "team": "SAC",
+        "opponent": "NOP",
+        "season": "2025-26",
+        "personId": 1642928
+      },
       {
         "player": "Rudy Gobert",
         "date": "2026-01-16",
@@ -24498,8 +24543,26 @@
     ]
   },
   "(2, 2, 1, 0, 2)": {
-    "count": 3,
+    "count": 5,
     "games": [
+      {
+        "player": "Donovan Clingan",
+        "date": "2026-02-09",
+        "stats": "15/7/3/0/4",
+        "team": "POR",
+        "opponent": "PHI",
+        "season": "2025-26",
+        "personId": 1642270
+      },
+      {
+        "player": "Myles Turner",
+        "date": "2026-02-09",
+        "stats": "13/6/3/0/5",
+        "team": "MIL",
+        "opponent": "ORL",
+        "season": "2025-26",
+        "personId": 1626167
+      },
       {
         "player": "Matas Buzelis",
         "date": "2026-01-16",
@@ -24530,8 +24593,17 @@
     ]
   },
   "(2, 1, 4, 0, 0)": {
-    "count": 6,
+    "count": 7,
     "games": [
+      {
+        "player": "Nolan Traore",
+        "date": "2026-02-09",
+        "stats": "13/3/13/1/1",
+        "team": "BKN",
+        "opponent": "CHI",
+        "season": "2025-26",
+        "personId": 1642849
+      },
       {
         "player": "Jamal Shead",
         "date": "2026-01-16",
@@ -24894,8 +24966,26 @@
     ]
   },
   "(5, 2, 2, 1, 0)": {
-    "count": 17,
+    "count": 19,
     "games": [
+      {
+        "player": "Deni Avdija",
+        "date": "2026-02-09",
+        "stats": "26/10/8/2/1",
+        "team": "POR",
+        "opponent": "PHI",
+        "season": "2025-26",
+        "personId": 1630166
+      },
+      {
+        "player": "Anthony Edwards",
+        "date": "2026-02-09",
+        "stats": "30/6/6/2/1",
+        "team": "MIN",
+        "opponent": "ATL",
+        "season": "2025-26",
+        "personId": 1630162
+      },
       {
         "player": "Nikola Jovic",
         "date": "2025-11-08",
@@ -24967,24 +25057,6 @@
         "opponent": "Trail Blazers",
         "season": "2025-26",
         "personId": 202695
-      },
-      {
-        "player": "Keyonte George",
-        "date": "2025-11-24",
-        "stats": "28/6/7/2/0",
-        "team": "Jazz",
-        "opponent": "Warriors",
-        "season": "2025-26",
-        "personId": 1641718
-      },
-      {
-        "player": "Julius Randle",
-        "date": "2025-11-15",
-        "stats": "26/6/8/2/0",
-        "team": "Timberwolves",
-        "opponent": "Nuggets",
-        "season": "2025-26",
-        "personId": 203944
       }
     ]
   },
@@ -26229,8 +26301,17 @@
     ]
   },
   "(3, 3, 0, 1, 0)": {
-    "count": 8,
+    "count": 9,
     "games": [
+      {
+        "player": "Kyle Filipowski",
+        "date": "2026-02-09",
+        "stats": "16/11/2/2/0",
+        "team": "UTA",
+        "opponent": "MIA",
+        "season": "2025-26",
+        "personId": 1642271
+      },
       {
         "player": "Naz Reid",
         "date": "2026-01-11",
@@ -26777,8 +26858,26 @@
     ]
   },
   "(2, 2, 0, 1, 1)": {
-    "count": 15,
+    "count": 17,
     "games": [
+      {
+        "player": "Nick Richards",
+        "date": "2026-02-09",
+        "stats": "12/6/1/2/2",
+        "team": "CHI",
+        "opponent": "BKN",
+        "season": "2025-26",
+        "personId": 1630208
+      },
+      {
+        "player": "Danny Wolf",
+        "date": "2026-02-09",
+        "stats": "13/6/2/2/3",
+        "team": "BKN",
+        "opponent": "CHI",
+        "season": "2025-26",
+        "personId": 1642874
+      },
       {
         "player": "Jay Huff",
         "date": "2026-02-08",
@@ -26850,24 +26949,6 @@
         "opponent": "Hawks",
         "season": "2025-26",
         "personId": 1641709
-      },
-      {
-        "player": "Keegan Murray",
-        "date": "2025-12-11",
-        "stats": "15/6/1/2/2",
-        "team": "Kings",
-        "opponent": "Nuggets",
-        "season": "2025-26",
-        "personId": 1631099
-      },
-      {
-        "player": "OG Anunoby",
-        "date": "2025-12-09",
-        "stats": "13/6/1/2/2",
-        "team": "Knicks",
-        "opponent": "Raptors",
-        "season": "2025-26",
-        "personId": 1628384
       }
     ]
   },
@@ -27348,8 +27429,17 @@
     ]
   },
   "(3, 1, 0, 0, 2)": {
-    "count": 4,
+    "count": 5,
     "games": [
+      {
+        "player": "Matas Buzelis",
+        "date": "2026-02-09",
+        "stats": "18/4/1/0/4",
+        "team": "CHI",
+        "opponent": "BKN",
+        "season": "2025-26",
+        "personId": 1641824
+      },
       {
         "player": "Matas Buzelis",
         "date": "2026-01-07",
@@ -27426,8 +27516,17 @@
     ]
   },
   "(1, 4, 0, 0, 0)": {
-    "count": 2,
+    "count": 3,
     "games": [
+      {
+        "player": "Jusuf Nurkic",
+        "date": "2026-02-09",
+        "stats": "10/16/1/0/1",
+        "team": "UTA",
+        "opponent": "MIA",
+        "season": "2025-26",
+        "personId": 203994
+      },
       {
         "player": "Neemias Queta",
         "date": "2026-01-07",
@@ -28249,8 +28348,17 @@
     ]
   },
   "(3, 1, 1, 0, 2)": {
-    "count": 2,
+    "count": 3,
     "games": [
+      {
+        "player": "Jaden McDaniels",
+        "date": "2026-02-09",
+        "stats": "18/5/3/1/4",
+        "team": "MIN",
+        "opponent": "ATL",
+        "season": "2025-26",
+        "personId": 1630183
+      },
       {
         "player": "Alex Sarr",
         "date": "2026-01-02",
@@ -28753,8 +28861,17 @@
     ]
   },
   "(3, 1, 1, 1, 1)": {
-    "count": 5,
+    "count": 6,
     "games": [
+      {
+        "player": "Jeremiah Fears",
+        "date": "2026-02-09",
+        "stats": "20/4/3/2/2",
+        "team": "NOP",
+        "opponent": "SAC",
+        "season": "2025-26",
+        "personId": 1642847
+      },
       {
         "player": "CJ McCollum",
         "date": "2025-12-29",
@@ -28803,8 +28920,17 @@
     ]
   },
   "(2, 1, 3, 1, 0)": {
-    "count": 6,
+    "count": 7,
     "games": [
+      {
+        "player": "Isaiah Collier",
+        "date": "2026-02-09",
+        "stats": "13/3/9/2/0",
+        "team": "UTA",
+        "opponent": "MIA",
+        "season": "2025-26",
+        "personId": 1642268
+      },
       {
         "player": "De'Aaron Fox",
         "date": "2026-02-04",
@@ -29316,8 +29442,17 @@
     ]
   },
   "(6, 0, 0, 2, 0)": {
-    "count": 1,
+    "count": 2,
     "games": [
+      {
+        "player": "CJ McCollum",
+        "date": "2026-02-09",
+        "stats": "38/1/2/4/0",
+        "team": "ATL",
+        "opponent": "MIN",
+        "season": "2025-26",
+        "personId": 203468
+      },
       {
         "player": "Anthony Edwards",
         "date": "2025-12-23",
@@ -29385,8 +29520,17 @@
     ]
   },
   "(3, 1, 0, 2, 1)": {
-    "count": 1,
+    "count": 2,
     "games": [
+      {
+        "player": "Kelly Oubre Jr.",
+        "date": "2026-02-09",
+        "stats": "19/4/1/4/2",
+        "team": "PHI",
+        "opponent": "POR",
+        "season": "2025-26",
+        "personId": 1626162
+      },
       {
         "player": "Paul George",
         "date": "2025-12-23",
@@ -29399,8 +29543,17 @@
     ]
   },
   "(1, 1, 1, 2, 0)": {
-    "count": 10,
+    "count": 11,
     "games": [
+      {
+        "player": "Isaac Okoro",
+        "date": "2026-02-09",
+        "stats": "10/4/4/4/0",
+        "team": "CHI",
+        "opponent": "BKN",
+        "season": "2025-26",
+        "personId": 1630171
+      },
       {
         "player": "Tyus Jones",
         "date": "2025-12-22",
@@ -29481,15 +29634,6 @@
         "opponent": "Clippers",
         "season": "2025-26",
         "personId": 1642349
-      },
-      {
-        "player": "Quentin Grimes",
-        "date": "2025-11-04",
-        "stats": "10/3/4/4/1",
-        "team": "76ers",
-        "opponent": "Bulls",
-        "season": "2025-26",
-        "personId": 1629656
       }
     ]
   },
@@ -30159,8 +30303,17 @@
     ]
   },
   "(4, 3, 3, 1, 0)": {
-    "count": 4,
+    "count": 5,
     "games": [
+      {
+        "player": "Nikola Jokic",
+        "date": "2026-02-09",
+        "stats": "22/14/11/2/1",
+        "team": "DEN",
+        "opponent": "CLE",
+        "season": "2025-26",
+        "personId": 203999
+      },
       {
         "player": "Josh Giddey",
         "date": "2025-11-02",
@@ -30467,8 +30620,17 @@
     ]
   },
   "(3, 3, 3, 1, 0)": {
-    "count": 3,
+    "count": 4,
     "games": [
+      {
+        "player": "Julius Randle",
+        "date": "2026-02-09",
+        "stats": "18/12/10/2/1",
+        "team": "MIN",
+        "opponent": "ATL",
+        "season": "2025-26",
+        "personId": 203944
+      },
       {
         "player": "Jalen Johnson",
         "date": "2025-12-12",
@@ -32939,8 +33101,18 @@
     "games": []
   },
   "(4, 4, 0, 0, 0)": {
-    "count": 0,
-    "games": []
+    "count": 1,
+    "games": [
+      {
+        "player": "Maxime Raynaud",
+        "date": "2026-02-09",
+        "stats": "21/19/1/1/0",
+        "team": "SAC",
+        "opponent": "NOP",
+        "season": "2025-26",
+        "personId": 1642875
+      }
+    ]
   },
   "(3, 5, 0, 0, 0)": {
     "count": 0,
@@ -33379,8 +33551,18 @@
     ]
   },
   "(1, 1, 3, 2, 0)": {
-    "count": 0,
-    "games": []
+    "count": 1,
+    "games": [
+      {
+        "player": "Jalen Suggs",
+        "date": "2026-02-09",
+        "stats": "7/3/10/5/1",
+        "team": "ORL",
+        "opponent": "MIL",
+        "season": "2025-26",
+        "personId": 1630591
+      }
+    ]
   },
   "(5, 3, 3, 1, 1)": {
     "count": 0,
@@ -36527,8 +36709,18 @@
     "games": []
   },
   "(6, 0, 3, 1, 1)": {
-    "count": 0,
-    "games": []
+    "count": 1,
+    "games": [
+      {
+        "player": "Donovan Mitchell",
+        "date": "2026-02-09",
+        "stats": "32/1/10/2/2",
+        "team": "CLE",
+        "opponent": "DEN",
+        "season": "2025-26",
+        "personId": 1628378
+      }
+    ]
   },
   "(1, 3, 4, 0, 1)": {
     "count": 0,

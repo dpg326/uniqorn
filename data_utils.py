@@ -3,7 +3,7 @@ import numpy as np
 
 # Flag to control data source for incremental updates
 # Historical data always comes from CSV, this only affects incremental updates
-USE_NBA_API = False  # Set to False to use CSV for master precompute, True for incremental updates
+USE_NBA_API = True # Set to False to use CSV for master precompute, True for incremental updates
 
 def standardize_deduplication(df, source="unknown"):
     """
